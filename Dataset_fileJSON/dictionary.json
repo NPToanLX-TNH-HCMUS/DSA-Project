@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "404",
         "term": "404",
         "definition": "an error message when what was requested cannot be found; often because the link that was requested is broken.",
@@ -2131,6 +2130,13 @@
         "id": "rss",
         "term": "RSS ",
         "definition": "Really simple syndication this is a XML format which is used for the distribution of news headlines.",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hcmus",
+        "term": "HCMUS",
+        "definition": "Best IT - educating unniversity in HCM City",
         "in_roadmap": false,
         "related_terms": []
     }

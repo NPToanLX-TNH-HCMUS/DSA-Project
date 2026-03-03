@@ -2139,5 +2139,874 @@
         "definition": "Best IT - educating unniversity in HCM City",
         "in_roadmap": false,
         "related_terms": []
+    },
+    {
+        "id": "ung-dung-cua-luong-tren-mang",
+        "term": "Ứng dụng của luồng trên mạng",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/flow-application",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "pham-vu-phuong-bai-viet-moi-bao-ham-loai-tru",
+        "term": "Phạm Vũ Phương · Bài viết mới Bao hàm loại trừ",
+        "definition": "https://wiki.vnoi.info/algo/algebra/pie",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "ky-thuat-sinh-test-va-tu-kiem-tra-code",
+        "term": "Kỹ thuật sinh test và tự kiểm tra code",
+        "definition": "https://wiki.vnoi.info/algo/skill/sinh-test-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sap-xep",
+        "term": "Sắp xếp",
+        "definition": "https://wiki.vnoi.info/algo/basic/sorting-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tham-lam",
+        "term": "Tham lam",
+        "definition": "https://wiki.vnoi.info/algo/greedy-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tam-quan-trong-cua-thuat-toan",
+        "term": "Tầm quan trọng của Thuật Toán",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/The-Importance-of-Algorithm",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mot-so-tai-lieu-hay-ve-thuat-toan",
+        "term": "Một số tài liệu hay về Thuật Toán",
+        "definition": "https://wiki.vnoi.info/algo/basic/Tai-Lieu-Thuat-Toan",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nghe-thuat-giai-bai",
+        "term": "Nghệ thuật giải bài",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/How-to-Find-a-Solution",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhung-cach-tiep-can-bai-toan",
+        "term": "Những cách tiếp cận bài toán",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/Planning-an-Approach-to-a-Topcoder-Problem-Part-1",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tim-kiem-nhi-phan",
+        "term": "Tìm kiếm nhị phân",
+        "definition": "https://wiki.vnoi.info/algo/basic/Binary-Search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hai-con-tro",
+        "term": "Hai con trỏ",
+        "definition": "https://wiki.vnoi.info/algo/basic/two-pointers",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "fun-with-bits",
+        "term": "Fun with bits",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/fun-with-bits",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "roi-rac-hoa-nen-so",
+        "term": "Rời rạc hoá (nén số)",
+        "definition": "https://wiki.vnoi.info/algo/trick/Roi-rac-hoa-va-ung-dung",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tong-quan-ve-cau-truc-du-lieu",
+        "term": "Tổng quan về cấu trúc dữ liệu",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/data-structures-overview",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mang-va-danh-sach-lien-ket",
+        "term": "Mảng và danh sách liên kết",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/array-vs-linked-lists",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "ngan-xep-stack",
+        "term": "Ngăn xếp (stack)",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/Stack",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "deque-va-tim-min-max-tren-oan-tinh-tien",
+        "term": "Deque và tìm min max trên đoạn tịnh tiến",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/deque-min-max",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "binary-heap",
+        "term": "Binary Heap",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Binary-Heap",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bang-bam-hash-table",
+        "term": "Bảng băm (Hash table)",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/hash-table",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sparse-table-va-bai-toan-rmq",
+        "term": "Sparse Table và bài toán RMQ",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/rmq",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "persistent-data-structures",
+        "term": "Persistent Data Structures",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/persistent-data-structures",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "persistent-data-structures-2",
+        "term": "Persistent Data Structures",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/persistent-data-structures-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "skip-list",
+        "term": "Skip List",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/Skip-Lists",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhay-nhi-phan-voi-bo-nho-o-n-mathcal-on-o-n-",
+        "term": "\"Nhảy nhị phân\" với bộ nhớ O ( n ) \\mathcal O(n) O ( n )",
+        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/binary-lifting",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "cay-phan-oan-segment-tree-part-2",
+        "term": "Cây Phân Đoạn - Segment Tree - Part 2",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/segment-tree-extend",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "fenwick-tree-binary-indexed-tree",
+        "term": "Fenwick Tree (Binary Indexed Tree)",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/fenwick",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "fenwick-tree-binary-indexed-tree-2d",
+        "term": "Fenwick Tree (Binary Indexed Tree) 2D",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/fenwick-2d",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "interval-tree-tren-tap-oan-thang",
+        "term": "Interval Tree trên tập đoạn thẳng",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/interval-tree-tap-doan-thang",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "li-chao-tree-cay-phan-oan-tren-tap-uong-thang",
+        "term": "Li-chao Tree (Cây phân đoạn trên tập đường thẳng)",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/lichao-tree",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-can-part-1",
+        "term": "Chia căn - Part 1",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-can-part-2",
+        "term": "Chia căn - Part 2",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/mo-algorithm",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-can-phan-i",
+        "term": "Chia căn - - Phần I",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition-I-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-can-phan-ii",
+        "term": "Chia căn - - Phần II",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition-II-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tong-quan",
+        "term": "Tổng quan",
+        "definition": "https://wiki.vnoi.info/algo/string/basic",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "kmp",
+        "term": "KMP",
+        "definition": "https://wiki.vnoi.info/algo/string/kmp",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "trie",
+        "term": "Trie",
+        "definition": "https://wiki.vnoi.info/algo/string/trie",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hash",
+        "term": "Hash",
+        "definition": "https://wiki.vnoi.info/algo/string/hash",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "manacher",
+        "term": "Manacher",
+        "definition": "https://wiki.vnoi.info/algo/string/manacher",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "z-function",
+        "term": "Z-function",
+        "definition": "https://wiki.vnoi.info/algo/string/z-algo",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "aho-corasick",
+        "term": "Aho-Corasick",
+        "definition": "https://wiki.vnoi.info/algo/string/aho-corasick",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "suffix-array",
+        "term": "Suffix Array",
+        "definition": "https://wiki.vnoi.info/algo/string/suffix-array",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "suffix-automaton",
+        "term": "Suffix Automaton",
+        "definition": "https://wiki.vnoi.info/algo/string/suffix-automaton",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "palindrome-tree",
+        "term": "Palindrome Tree",
+        "definition": "https://wiki.vnoi.info/translate/codeforces/palindrome-tree",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhap-mon-quy-hoach-ong",
+        "term": "Nhập môn Quy hoạch động",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/dynamic-programming",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-cai-tui-dp-knapsack-phan-1",
+        "term": "Quy hoạch động cái túi (DP Knapsack), phần 1",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-knapsack-1",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-cai-tui-dp-knapsack-phan-2",
+        "term": "Quy hoạch động cái túi (DP Knapsack), phần 2",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-knapsack-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mot-vai-bai-tap-ve-palindrome",
+        "term": "Một vài bài tập về Palindrome",
+        "definition": "https://wiki.vnoi.info/algo/dp/palindrome-problems",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mot-so-bai-toan-qh-ien-hinh",
+        "term": "Một số bài toán QHĐ điển hình",
+        "definition": "https://wiki.vnoi.info/algo/dp/basic-problems",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phan-tich-ve-qh-thay-le-minh-hoang",
+        "term": "Phân tích về QHĐ - Thầy Lê Minh Hoàng",
+        "definition": "https://wiki.vnoi.info/algo/dp/thac-mac-ve-qhd",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-bitmask",
+        "term": "Quy hoạch động Bitmask",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-bitmask",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-chu-so",
+        "term": "Quy hoạch động chữ số",
+        "definition": "https://wiki.vnoi.info/algo/dp/digit-dp",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-tren-dag",
+        "term": "Quy hoạch động trên DAG",
+        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/shortest-path-dag",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-chia-e-tri",
+        "term": "Quy hoạch động Chia để trị",
+        "definition": "https://wiki.vnoi.info/algo/dp/dpdnc",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mot-so-ki-thuat-toi-uu-hoa-qh",
+        "term": "Một số kĩ thuật tối ưu hoá QHĐ",
+        "definition": "https://wiki.vnoi.info/algo/dp/Mot-so-ky-thuat-toi-uu-hoa-thuat-toan-Quy-Hoach-Dong",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "toi-uu-quy-hoach-ong-1-chieu-1d1d",
+        "term": "Tối ưu quy hoạch động 1 chiều (1D1D)",
+        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/1d1d-dp-optimization",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "ki-thuat-bao-loi-trong-qh",
+        "term": "Kĩ thuật Bao lồi trong QHĐ",
+        "definition": "https://wiki.vnoi.info/algo/dp/cht",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-tren-cay",
+        "term": "Quy hoạch động trên cây",
+        "definition": "https://wiki.vnoi.info/algo/dp/treedp",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-sos-phan-1",
+        "term": "Quy hoạch động SOS - Phần 1",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-sos-1",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "quy-hoach-ong-sos-phan-2",
+        "term": "Quy hoạch động SOS - Phần 2",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-sos-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tong-quan-ve-ly-thuyet-o-thi",
+        "term": "Tổng quan về lý thuyết đồ thị",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/graph",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "cac-chu-e-co-ban-ve-o-thi",
+        "term": "Các chủ đề cơ bản về đồ thị",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/everything",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "disjoint-set-union-dsu",
+        "term": "Disjoint Set Union (DSU)",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/disjoint-set-union",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "thuat-toan-bfs-0-1",
+        "term": "Thuật toán BFS 0-1",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/bfs-01",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phan-1-dfs-tren-dag-thuat-toan-dijkstra",
+        "term": "Phần 1: DFS trên DAG; thuật toán Dijkstra",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/shortest-path",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phan-2-xu-ly-chu-trinh-am",
+        "term": "Phần 2: Xử lý chu trình âm",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/shortest-path-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phan-3-thuat-toan-spfa",
+        "term": "Phần 3: Thuật toán SPFA",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/spfa",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "disjoint-set-union-dsu-rollback",
+        "term": "Disjoint Set Union (DSU) Rollback",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/dsu-rollback",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bai-toan-2-sat",
+        "term": "Bài toán 2-SAT",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/2-SAT",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bai-toan-luong-cuc-ai-tren-mang",
+        "term": "Bài toán Luồng cực đại trên mạng",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bai-toan-luong-cuc-ai-wcipeg",
+        "term": "Bài toán luồng cực đại - WCIPEG",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Flows",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "luong-voi-chi-phi-cuc-tieu",
+        "term": "Luồng với chi phí cực tiểu",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/min-cost-flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "cap-ghep-cuc-ai",
+        "term": "Cặp ghép cực đại",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/max-matching",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bai-toan-rmq-bai-toan-lca-dich",
+        "term": "Bài toán RMQ & Bài toán LCA (Dịch)",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bai-toan-lubenica-rmq-tren-cay",
+        "term": "Bài toán Lubenica - RMQ trên cây",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/lubenica-vnoj",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "heavy-light-decomposition",
+        "term": "Heavy Light Decomposition",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/heavy-light-decomposition",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "cac-phuong-phap-giai-bai-toan-lca",
+        "term": "Các phương pháp giải bài toán LCA",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/lca",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "matroid",
+        "term": "Matroid",
+        "definition": "https://wiki.vnoi.info/algo/math/matroid",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "modulo-co-ban",
+        "term": "Modulo cơ bản",
+        "definition": "https://wiki.vnoi.info/algo/math/modulo",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "uoc-chung-lon-nhat-thuat-toan-euclid",
+        "term": "Ước chung lớn nhất & Thuật toán Euclid",
+        "definition": "https://wiki.vnoi.info/algo/algebra/euclid",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nghich-ao-modulo",
+        "term": "Nghịch đảo modulo",
+        "definition": "https://wiki.vnoi.info/algo/math/modular-inverse",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phan-tich-thua-so-nguyen-to",
+        "term": "Phân tích thừa số nguyên tố",
+        "definition": "https://wiki.vnoi.info/algo/math/integer-factorization",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "inh-ly-wilson",
+        "term": "Định lý Wilson",
+        "definition": "https://wiki.vnoi.info/translate/he/Wilsons-theorem",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "inh-ly-lucas",
+        "term": "Định lý Lucas",
+        "definition": "https://wiki.vnoi.info/translate/he/Lucas-theorem",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "inh-ly-thang-du-trung-hoa-crt",
+        "term": "Định lý Thặng dư Trung Hoa (CRT)",
+        "definition": "https://wiki.vnoi.info/algo/math/crt",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "so-cac-uoc-va-tong-cac-uoc",
+        "term": "Số các ước và Tổng các ước",
+        "definition": "https://wiki.vnoi.info/algo/math/divisors",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phi-ham-euler",
+        "term": "Phi hàm Euler",
+        "definition": "https://wiki.vnoi.info/algo/algebra/phi-ham-euler",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "ham-nhan-tinh-multiplicative-function",
+        "term": "Hàm nhân tính (Multiplicative Function)",
+        "definition": "https://wiki.vnoi.info/algo/math/multiplicative-function",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tinh-to-hop-nck",
+        "term": "Tính tổ hợp nCk",
+        "definition": "https://wiki.vnoi.info/algo/algebra/nCk",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "giai-thua-modulo-nguyen-to",
+        "term": "Giai thừa modulo nguyên tố",
+        "definition": "https://wiki.vnoi.info/algo/math/factorial-modulo-prime",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "can-bac-hai-modulo",
+        "term": "Căn bậc hai modulo",
+        "definition": "https://wiki.vnoi.info/algo/math/sqrt-mod-p",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "logarit-roi-rac",
+        "term": "Logarit rời rạc",
+        "definition": "https://wiki.vnoi.info/algo/math/discrete-log",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "cac-kien-thuc-co-ban-ve-to-hop-combinatorics",
+        "term": "Các kiến thức cơ bản về Tổ hợp (Combinatorics)",
+        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-5",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "xac-suat",
+        "term": "Xác suất",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/Hieu-ve-xac-suat",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "xac-suat-probabilities",
+        "term": "Xác suất (Probabilities)",
+        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-6",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hinh-hoc-tinh-toan-phan-1-khai-niem",
+        "term": "Hình học tính toán phần 1: Khái niệm",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-1",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hinh-hoc-tinh-toan-phan-2-giao-iem",
+        "term": "Hình học tính toán phần 2: Giao điểm",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hinh-hoc-tinh-toan-phan-3-a-giac",
+        "term": "Hình học tính toán phần 3: Đa giác",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-3",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "bao-loi",
+        "term": "Bao lồi",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Convex-Hull",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sum-constrained-convex-optimization",
+        "term": "Sum-constrained convex optimization",
+        "definition": "https://wiki.vnoi.info/algo/trick/convex_greedy",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tong-minkowski",
+        "term": "Tổng Minkowski",
+        "definition": "https://wiki.vnoi.info/algo/trick/minkowski-sum",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhan-ma-tran",
+        "term": "Nhân ma trận",
+        "definition": "https://wiki.vnoi.info/algo/trick/matrix-multiplication",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "khu-nhan-ma-tran",
+        "term": "Khử nhân ma trận",
+        "definition": "https://wiki.vnoi.info/algo/trick/counting-without-matrix-multiplication",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "ap-dung-bat-ngo-cua-ao-ham",
+        "term": "Áp dụng bất ngờ của đạo hàm",
+        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/derivative-application",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhan-nhanh-a-thuc-fft",
+        "term": "Nhân nhanh đa thức - FFT",
+        "definition": "https://wiki.vnoi.info/algo/trick/FFT",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "giai-thuat-cat-tia-alpha-beta",
+        "term": "Giải thuật cắt tỉa Alpha-Beta",
+        "definition": "https://wiki.vnoi.info/algo/games/Giai-Thuat-Cat-Tia-Alpha-beta",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-e-tri",
+        "term": "Chia để trị",
+        "definition": "https://wiki.vnoi.info/algo/basic/divide-and-conquer",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chia-e-tri-chen-danqi",
+        "term": "Chia để trị Chen Danqi",
+        "definition": "https://wiki.vnoi.info/algo/basic/chen-danqi-dnc",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chat-nhi-phan-song-song",
+        "term": "Chặt nhị phân song song",
+        "definition": "https://wiki.vnoi.info/algo/search/parallel-binary-search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tim-kiem-tam-phan-ternary-search",
+        "term": "Tìm kiếm tam phân - Ternary Search",
+        "definition": "https://wiki.vnoi.info/translate/emaxx/Tim-kiem-tam-phan-Ternary-Search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "local-search",
+        "term": "Local Search",
+        "definition": "https://wiki.vnoi.info/algo/search/Local-Search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "toi-a-hoc-tin-nhu-the-nao-phan-1",
+        "term": "Tôi đã học Tin như thế nào - phần 1",
+        "definition": "https://wiki.vnoi.info/algo/basic/hoc-tin-the-nao-1",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "toi-a-hoc-tin-nhu-the-nao-phan-2",
+        "term": "Tôi đã học Tin như thế nào - phần 2",
+        "definition": "https://wiki.vnoi.info/algo/basic/hoc-tin-the-nao-2",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "viet-trinh-cham",
+        "term": "Viết trình chấm",
+        "definition": "https://wiki.vnoi.info/algo/skill/viet-trinh-cham",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "tong-hop-loi-khuyen-cho-cac-ky-thi",
+        "term": "Tổng hợp lời khuyên cho các kỳ thi",
+        "definition": "https://wiki.vnoi.info/algo/skill/Ki-nang-thi-cu",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "kinh-nghiem-thi-voi",
+        "term": "Kinh nghiệm thi VOI",
+        "definition": "https://wiki.vnoi.info/algo/skill/Kinh-nghiem-thi-VOI",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhung-kinh-nghiem-chung-khi-phong-van",
+        "term": "Những kinh nghiệm chung khi phỏng vấn",
+        "definition": "https://wiki.vnoi.info/interview/general-experience",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "kinh-nghiem-phong-van-goc-nhin-tu-nguoi-phong-van",
+        "term": "Kinh nghiệm phỏng vấn - Góc nhìn từ người phỏng vấn",
+        "definition": "https://wiki.vnoi.info/interview/experience-from-interviewer",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "nhung-lan-phong-van-va-nhung-kinh-nghiem-rut-ra",
+        "term": "Những lần phỏng vấn và những kinh nghiệm rút ra",
+        "definition": "https://wiki.vnoi.info/interview/Nhung-lan-phong-van-trong-thuc-te-va-bai-hoc-rut-ra",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phong-van-le-yen-thanh",
+        "term": "Phỏng vấn Lê Yên Thanh",
+        "definition": "https://wiki.vnoi.info/vnoi-interview/yen-thanh",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phong-van-nguyen-xuan-khanh",
+        "term": "Phỏng vấn Nguyễn Xuân Khánh",
+        "definition": "https://wiki.vnoi.info/vnoi-interview/xuan-khanh",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phong-van-team-ioi-viet-nam-2017",
+        "term": "Phỏng vấn Team IOI Việt Nam 2017",
+        "definition": "https://wiki.vnoi.info/vnoi-interview/Phong-van-team-IOI-VN-2017",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "phong-van-team-ioi-viet-nam-2018",
+        "term": "Phỏng vấn Team IOI Việt Nam 2018",
+        "definition": "https://wiki.vnoi.info/vnoi-interview/Phong-van-team-IOI-Viet-Nam-2018",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "hoai-niem-ve-pascal-thay-le-minh-hoang",
+        "term": "Hoài niệm về Pascal - thầy Lê Minh Hoàng",
+        "definition": "https://wiki.vnoi.info/others/Pascal-Vi-sao",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "viet-nam-tai-acm-icpc-world-final",
+        "term": "Việt Nam tại ACM ICPC World Final",
+        "definition": "https://wiki.vnoi.info/Cac-doi-Viet-Nam-tai-ACM-ICPC-World-Final",
+        "in_roadmap": false,
+        "related_terms": []
     }
+
 ]

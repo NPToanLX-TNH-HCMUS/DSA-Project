@@ -119,7 +119,7 @@ void Search(string prefix) {
 
 void solve() {
     root = newNode();
-    ifstream f("D:\\PL\\C++\\HCMUS\\DSA\\PROJECT_DSA\\Dataset_fileJSON\\dictionary.json");
+    ifstream f("D:\\PL\\C++\\HCMUS\\DSA\\PROJECT_DSA\\Dataset_fileJSON\\cp-dictionary.json");
     f >> dt;
     // INPUT
     for (auto &item: dt) add(lower(item["id"].get<string>()));

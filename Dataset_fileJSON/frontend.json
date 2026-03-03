@@ -1,0 +1,83 @@
+[{
+        "id": "html",
+        "term": "HTML",
+        "next_nodes": [
+            "css"
+        ]
+    },
+    {
+        "id": "css",
+        "term": "CSS",
+        "next_nodes": [
+            "javascript"
+        ]
+    },
+    {
+        "id": "javascript",
+        "term": "JavaScript",
+        "next_nodes": [
+            "git",
+            "github"
+        ]
+    },
+    {
+        "id": "git",
+        "term": "Git",
+        "next_nodes": [
+            "npm"
+        ]
+    },
+    {
+        "id": "github",
+        "term": "GitHub",
+        "next_nodes": [
+            "npm"
+        ]
+    },
+    {
+        "id": "npm",
+        "term": "npm",
+        "next_nodes": [
+            "react"
+        ]
+    },
+    {
+        "id": "react",
+        "term": "React",
+        "next_nodes": [
+            "tailwind"
+        ]
+    },
+    {
+        "id": "tailwind",
+        "term": "Tailwind",
+        "next_nodes": [
+            "vitest"
+        ]
+    },
+    {
+        "id": "vitest",
+        "term": "Vitest",
+        "next_nodes": ["web-apis"]
+    },
+    {
+        "id": "web-apis",
+        "term": "Web APIs",
+        "next_nodes": ["web-security"]
+    },
+    {
+        "id": "web-security",
+        "term": "Web Security",
+        "next_nodes": ["type-checker"]
+    },
+    {
+        "id": "type-checker",
+        "term": "Type Checker",
+        "next_nodes": ["real-web-dev-projects"]
+    },
+    {
+        "id": "real-web-dev-projects",
+        "term": "Real Web Dev Projects.....",
+        "next_nodes": []
+    }
+]

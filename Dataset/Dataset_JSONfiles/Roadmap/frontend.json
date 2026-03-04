@@ -1,0 +1,217 @@
+[{
+        "id": "internet",
+        "term": "Internet",
+        "next_nodes": [
+            "html"
+        ],
+        "Details": [
+            "How does the internet work?",
+            "What is HTTP?",
+            "What is Domain Name?",
+            "What is hosting?",
+            "DNS and how it works?",
+            "Browsers and how they work?"
+        ]
+    },
+    {
+        "id": "html",
+        "term": "HTML",
+        "next_nodes": [
+            "css"
+        ],
+        "Details": [
+            "Learn the basics",
+            "Writing Semantic HTML",
+            "Forms and Validations",
+            "Conventions and Best Practices",
+            "Accessibility",
+            "SEO Basics"
+        ]
+    },
+    {
+        "id": "css",
+        "term": "CSS",
+        "next_nodes": [
+            "javascript"
+        ],
+        "Details": [
+            "Learn the basics",
+            "Making Layouts",
+            "Responsive design",
+            "Flexbox",
+            "CSS Grid"
+        ]
+    },
+    {
+        "id": "javascript",
+        "term": "JavaScript",
+        "next_nodes": [
+            "vcs"
+        ],
+        "Details": [
+            "Syntax and Basic Constructs",
+            "Learn DOM Manipulation",
+            "Fetch API / Ajax (XHR)",
+            "ES6+ and modular JavaScript",
+            "Concepts (Hoisting, Event Bubbling, Scope, Prototype, etc.)"
+        ]
+    },
+    {
+        "id": "vcs",
+        "term": "Version Control Systems",
+        "next_nodes": [
+            "package-managers"
+        ],
+        "Details": [
+            "Basic Terminal Usage",
+            "Git",
+            "GitHub",
+            "GitLab"
+        ]
+    },
+    {
+        "id": "package-managers",
+        "term": "Package Managers",
+        "next_nodes": [
+            "frontend-frameworks"
+        ],
+        "Details": [
+            "npm",
+            "pnpm",
+            "yarn"
+        ]
+    },
+    {
+        "id": "frontend-frameworks",
+        "term": "Frontend Frameworks",
+        "next_nodes": [
+            "css-frameworks"
+        ],
+        "Details": [
+            "React",
+            "Vue.js",
+            "Angular",
+            "Svelte",
+            "Solid JS"
+        ]
+    },
+    {
+        "id": "css-frameworks",
+        "term": "CSS Frameworks",
+        "next_nodes": [
+            "build-tools"
+        ],
+        "Details": [
+            "Tailwind CSS"
+        ]
+    },
+    {
+        "id": "build-tools",
+        "term": "Build Tools",
+        "next_nodes": [
+            "testing"
+        ],
+        "Details": [
+            "Linters & Formatters (Prettier, ESLint, Biome)",
+            "Module Bundlers (Vite, esbuild, Rollup, Parcel)"
+        ]
+    },
+    {
+        "id": "testing",
+        "term": "Testing",
+        "next_nodes": [
+            "web-security"
+        ],
+        "Details": [
+            "Vitest",
+            "Jest",
+            "Playwright",
+            "Cypress"
+        ]
+    },
+    {
+        "id": "web-security",
+        "term": "Web Security",
+        "next_nodes": [
+            "type-checkers"
+        ],
+        "Details": [
+            "CORS",
+            "HTTPS",
+            "CSP",
+            "OWASP Risks"
+        ]
+    },
+    {
+        "id": "type-checkers",
+        "term": "Type Checkers",
+        "next_nodes": [
+            "ssr"
+        ],
+        "Details": [
+            "TypeScript"
+        ]
+    },
+    {
+        "id": "ssr",
+        "term": "Server Side Rendering (SSR)",
+        "next_nodes": [
+            "ssg"
+        ],
+        "Details": [
+            "Next.js",
+            "Nuxt.js",
+            "Svelte Kit",
+            "Angular Universal",
+            "react-router"
+        ]
+    },
+    {
+        "id": "ssg",
+        "term": "Modern SSG",
+        "next_nodes": [
+            "pwa"
+        ],
+        "Details": [
+            "Next.js",
+            "Astro",
+            "Eleventy",
+            "Vuepress"
+        ]
+    },
+    {
+        "id": "pwa",
+        "term": "Progressive Web Apps (PWAs)",
+        "next_nodes": [
+            "mobile-apps"
+        ],
+        "Details": [
+            "Service Workers",
+            "Storage",
+            "Web Sockets",
+            "Performance (Lighthouse, Core Web Vitals)"
+        ]
+    },
+    {
+        "id": "mobile-apps",
+        "term": "Mobile Apps",
+        "next_nodes": [
+            "desktop-apps"
+        ],
+        "Details": [
+            "React Native",
+            "Flutter",
+            "Ionic"
+        ]
+    },
+    {
+        "id": "desktop-apps",
+        "term": "Desktop Apps",
+        "next_nodes": [],
+        "Details": [
+            "Electron",
+            "Tauri",
+            "Flutter"
+        ]
+    }
+]

@@ -1,0 +1,206 @@
+[{
+        "id": "blockchain-introduction",
+        "term": "Blockchain Introduction",
+        "next_nodes": [
+            "blockchain-networks"
+        ],
+        "Details": [
+            "What is Blockchain",
+            "Decentralization (Why it matters?, Decentralization vs Trust)",
+            "Mining & Incentive Models",
+            "Blockchain Forking",
+            "Cryptography & Hashing",
+            "Cryptocurrencies & Cryptowallets",
+            "Blockchain Interoperability",
+            "Consensus Protocols (PoW, PoS, BFT, PoH)"
+        ]
+    },
+    {
+        "id": "blockchain-networks",
+        "term": "Blockchain Networks",
+        "next_nodes": [
+            "smart-contracts"
+        ],
+        "Details": [
+            "UTXO-Based (Bitcoin, Cardano)",
+            "EVM-Based (Ethereum, Polygon, BNB Chain, Avalanche, Fantom, etc.)",
+            "TVM-Based (TON, Venom, Everscale)",
+            "L2 Blockchains (Arbitrum, Optimism, Base, Starknet)",
+            "Solana"
+        ]
+    },
+    {
+        "id": "smart-contracts",
+        "term": "Smart Contracts",
+        "next_nodes": [
+            "smart-contract-frameworks"
+        ],
+        "Details": [
+            "Programming Languages (Solidity, Vyper, Rust)",
+            "IDEs (Remix, VS Code)",
+            "Oracles (Chainlink Oracle Networks, Hybrid Smart Contracts)",
+            "Environmental Considerations"
+        ]
+    },
+    {
+        "id": "smart-contract-frameworks",
+        "term": "Smart Contract Frameworks",
+        "next_nodes": [
+            "management-platform"
+        ],
+        "Details": [
+            "Hardhat",
+            "Brownie",
+            "Truffle",
+            "Foundry"
+        ]
+    },
+    {
+        "id": "management-platform",
+        "term": "Management Platform",
+        "next_nodes": [
+            "testing"
+        ],
+        "Details": [
+            "Deployment",
+            "Monitoring",
+            "Upgrades",
+            "ERC Tokens",
+            "Crypto Faucets"
+        ]
+    },
+    {
+        "id": "testing",
+        "term": "Testing",
+        "next_nodes": [
+            "smart-contract-security"
+        ],
+        "Details": [
+            "Unit Tests",
+            "Integration Tests",
+            "Code Coverage"
+        ]
+    },
+    {
+        "id": "smart-contract-security",
+        "term": "Security",
+        "next_nodes": [
+            "vcs"
+        ],
+        "Details": [
+            "Security Practices",
+            "Fuzz Testing & Static Analysis",
+            "Common Threat Vectors",
+            "Source of Randomness Attacks",
+            "Tools (Slither, Echidna, OpenZeppelin)"
+        ]
+    },
+    {
+        "id": "vcs",
+        "term": "Version Control",
+        "next_nodes": [
+            "decentralized-applications"
+        ],
+        "Details": [
+            "Git",
+            "Repo Hosting Services (GitHub, GitLab, Bitbucket)"
+        ]
+    },
+    {
+        "id": "decentralized-applications",
+        "term": "Decentralized Applications",
+        "next_nodes": [
+            "node-as-a-service"
+        ],
+        "Details": [
+            "Applicability (Defi, DAOs, NFTs, Payments, Insurance)",
+            "Architecture"
+        ]
+    },
+    {
+        "id": "node-as-a-service",
+        "term": "Node as a Service",
+        "next_nodes": [
+            "programming-language"
+        ],
+        "Details": [
+            "Alchemy",
+            "Infura",
+            "Pokt Network",
+            "Quicknode"
+        ]
+    },
+    {
+        "id": "programming-language",
+        "term": "Supporting Languages",
+        "next_nodes": [
+            "frontend-frameworks"
+        ],
+        "Details": [
+            "JavaScript",
+            "Python",
+            "Go"
+        ]
+    },
+    {
+        "id": "frontend-frameworks",
+        "term": "Frontend Frameworks",
+        "next_nodes": [
+            "client-libraries"
+        ],
+        "Details": [
+            "React",
+            "Angular",
+            "Vue"
+        ]
+    },
+    {
+        "id": "client-libraries",
+        "term": "Client Libraries",
+        "next_nodes": [
+            "client-nodes"
+        ],
+        "Details": [
+            "ethers.js",
+            "web3.js",
+            "Moralis"
+        ]
+    },
+    {
+        "id": "client-nodes",
+        "term": "Client Nodes",
+        "next_nodes": [
+            "decentralized-storage"
+        ],
+        "Details": [
+            "Geth",
+            "Besu",
+            "Nethermind",
+            "Substrate"
+        ]
+    },
+    {
+        "id": "decentralized-storage",
+        "term": "Decentralized Storage",
+        "next_nodes": [
+            "building-for-scale"
+        ],
+        "Details": [
+            "Storage Solutions"
+        ]
+    },
+    {
+        "id": "building-for-scale",
+        "term": "Building for Scale",
+        "next_nodes": [],
+        "Details": [
+            "On-Chain Scaling (Ethereum 2.0)",
+            "State & Payment Channels",
+            "Optimistic Rollups & Fraud Proofs",
+            "Zk Rollups & Zero Knowledge Proof",
+            "Validium",
+            "Plasma",
+            "Sidechains"
+        ]
+    }
+]

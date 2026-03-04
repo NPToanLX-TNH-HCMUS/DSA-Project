@@ -1,0 +1,260 @@
+[{
+        "id": "programming-language",
+        "term": "Learn a Programming Language",
+        "next_nodes": [
+            "operating-system"
+        ],
+        "Details": [
+            "Python",
+            "Go",
+            "Rust",
+            "Ruby",
+            "JavaScript / Node.js"
+        ]
+    },
+    {
+        "id": "operating-system",
+        "term": "Operating System",
+        "next_nodes": [
+            "terminal-knowledge"
+        ],
+        "Details": [
+            "Linux (Ubuntu / Debian, RHEL / Derivatives, SUSE Linux)",
+            "Unix (FreeBSD, OpenBSD, NetBSD)",
+            "Windows"
+        ]
+    },
+    {
+        "id": "terminal-knowledge",
+        "term": "Terminal Knowledge",
+        "next_nodes": [
+            "vcs"
+        ],
+        "Details": [
+            "Process Monitoring",
+            "Performance Monitoring",
+            "Networking Tools",
+            "Text Manipulation",
+            "Editors (Vim / Nano / Emacs)",
+            "Scripting (Bash, Power Shell)"
+        ]
+    },
+    {
+        "id": "vcs",
+        "term": "Version Control Systems",
+        "next_nodes": [
+            "networking-and-protocols"
+        ],
+        "Details": [
+            "Git",
+            "VCS Hosting (GitHub, GitLab, Bitbucket)"
+        ]
+    },
+    {
+        "id": "networking-and-protocols",
+        "term": "Networking & Protocols",
+        "next_nodes": [
+            "web-servers"
+        ],
+        "Details": [
+            "OSI Model",
+            "DNS",
+            "HTTP / HTTPS",
+            "FTP / SFTP",
+            "SSL / TLS",
+            "SSH",
+            "Email Protocols (SMTP, IMAP, POP3S, DMARC, SPF, Domain Keys, White / Grey Listing)"
+        ]
+    },
+    {
+        "id": "web-servers",
+        "term": "Web Server",
+        "next_nodes": [
+            "containers"
+        ],
+        "Details": [
+            "What is and how to setup X ?",
+            "Nginx",
+            "Apache",
+            "Caddy",
+            "Tomcat",
+            "IIS",
+            "Reverse Proxy",
+            "Forward Proxy",
+            "Caching Server",
+            "Load Balancer",
+            "Firewall"
+        ]
+    },
+    {
+        "id": "containers",
+        "term": "Containers",
+        "next_nodes": [
+            "cloud-providers"
+        ],
+        "Details": [
+            "Docker",
+            "LXC"
+        ]
+    },
+    {
+        "id": "cloud-providers",
+        "term": "Cloud Providers",
+        "next_nodes": [
+            "serverless"
+        ],
+        "Details": [
+            "AWS",
+            "Azure",
+            "Google Cloud",
+            "Digital Ocean",
+            "Alibaba Cloud",
+            "Hetzner",
+            "Heroku",
+            "Contabo"
+        ]
+    },
+    {
+        "id": "serverless",
+        "term": "Serverless",
+        "next_nodes": [
+            "provisioning"
+        ],
+        "Details": [
+            "AWS Lambda",
+            "Azure Functions",
+            "GCP Functions",
+            "Cloudflare",
+            "Vercel",
+            "Netlify"
+        ]
+    },
+    {
+        "id": "provisioning",
+        "term": "Infrastructure Provisioning",
+        "next_nodes": [
+            "configuration-management"
+        ],
+        "Details": [
+            "Terraform",
+            "AWS CDK",
+            "CloudFormation",
+            "Pulumi"
+        ]
+    },
+    {
+        "id": "configuration-management",
+        "term": "Configuration Management",
+        "next_nodes": [
+            "ci-cd"
+        ],
+        "Details": [
+            "Ansible",
+            "Chef",
+            "Puppet",
+            "Salt"
+        ]
+    },
+    {
+        "id": "ci-cd",
+        "term": "CI / CD Tools",
+        "next_nodes": [
+            "secret-management"
+        ],
+        "Details": [
+            "GitHub Actions",
+            "GitLab CI",
+            "Jenkins",
+            "Circle CI",
+            "Octopus Deploy",
+            "TeamCity"
+        ]
+    },
+    {
+        "id": "secret-management",
+        "term": "Secret Management",
+        "next_nodes": [
+            "container-orchestration"
+        ],
+        "Details": [
+            "Vault",
+            "Sealed Secrets",
+            "SOPs",
+            "ESO",
+            "Cloud Specific Tools"
+        ]
+    },
+    {
+        "id": "container-orchestration",
+        "term": "Container Orchestration",
+        "next_nodes": [
+            "artifact-management"
+        ],
+        "Details": [
+            "Kubernetes",
+            "GKE / EKS / AKS",
+            "AWS ECS / Fargate",
+            "Docker Swarm",
+            "OpenShift"
+        ]
+    },
+    {
+        "id": "artifact-management",
+        "term": "Artifact Management",
+        "next_nodes": [
+            "observability"
+        ],
+        "Details": [
+            "Artifactory",
+            "Nexus",
+            "Cloud Smith"
+        ]
+    },
+    {
+        "id": "observability",
+        "term": "Observability",
+        "next_nodes": [
+            "gitops"
+        ],
+        "Details": [
+            "Infrastructure Monitoring (Prometheus, Datadog, Zabbix, Grafana)",
+            "Logs Management (Elastic Stack, Graylog, Splunk, Papertrail, Loki)",
+            "Application Monitoring (Jaeger, New Relic, OpenTelemetry, Dynatrace)"
+        ]
+    },
+    {
+        "id": "gitops",
+        "term": "GitOps",
+        "next_nodes": [
+            "service-mesh"
+        ],
+        "Details": [
+            "ArgoCD",
+            "FluxCD"
+        ]
+    },
+    {
+        "id": "service-mesh",
+        "term": "Service Mesh",
+        "next_nodes": [
+            "cloud-design-patterns"
+        ],
+        "Details": [
+            "Istio",
+            "Consul",
+            "Linkerd",
+            "Envoy"
+        ]
+    },
+    {
+        "id": "cloud-design-patterns",
+        "term": "Cloud Design Patterns",
+        "next_nodes": [],
+        "Details": [
+            "Availability",
+            "Data Management",
+            "Design and Implementation",
+            "Management and Monitoring"
+        ]
+    }
+]

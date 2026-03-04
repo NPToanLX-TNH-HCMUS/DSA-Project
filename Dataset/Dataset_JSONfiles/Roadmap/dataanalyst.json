@@ -1,0 +1,154 @@
+[{
+        "id": "data-analyst-introduction",
+        "term": "Data Analyst Introduction",
+        "next_nodes": [
+            "analysis-reporting-with-excel"
+        ],
+        "Details": [
+            "What is Data Analytics",
+            "Types of Data Analytics",
+            "Descriptive Analytics",
+            "Diagnostic Analytics",
+            "Predictive Analytics",
+            "Prescriptive Analytics",
+            "Key Concepts (Collection, Cleanup, Exploration, Visualisation, Statistical Analysis, Machine Learning)"
+        ]
+    },
+    {
+        "id": "analysis-reporting-with-excel",
+        "term": "Analysis / Reporting with Excel",
+        "next_nodes": [
+            "programming-language"
+        ],
+        "Details": [
+            "Learn Common Functions (IF, DATEDIF, VLOOKUP / HLOOKUP, CONCAT, TRIM, etc.)",
+            "Charting",
+            "Pivot Tables"
+        ]
+    },
+    {
+        "id": "programming-language",
+        "term": "Learn a Programming Lang.",
+        "next_nodes": [
+            "sql"
+        ],
+        "Details": [
+            "Python",
+            "R"
+        ]
+    },
+    {
+        "id": "sql",
+        "term": "Learn SQL",
+        "next_nodes": [
+            "data-collection"
+        ],
+        "Details": [
+            "Data Storage Solutions"
+        ]
+    },
+    {
+        "id": "data-collection",
+        "term": "Data Collection",
+        "next_nodes": [
+            "data-cleanup"
+        ],
+        "Details": [
+            "Databases",
+            "CSV Files",
+            "APIs",
+            "Web Scraping"
+        ]
+    },
+    {
+        "id": "data-cleanup",
+        "term": "Data Cleanup",
+        "next_nodes": [
+            "data-analysis-techniques"
+        ],
+        "Details": [
+            "Handling Missing Data",
+            "Removing Duplicates",
+            "Finding Outliers",
+            "Data Transformation",
+            "Using Libraries for Cleanup (Pandas, Dplyr)"
+        ]
+    },
+    {
+        "id": "data-analysis-techniques",
+        "term": "Data Analysis Techniques",
+        "next_nodes": [
+            "data-visualisation"
+        ],
+        "Details": [
+            "Descriptive Analysis",
+            "Dispersion (Range, Variance, Standard Deviation)",
+            "Distribution Shape (Skewness, Kurtosis)",
+            "Central Tendency (Mean, Median, Mode)",
+            "Generating Statistics"
+        ]
+    },
+    {
+        "id": "data-visualisation",
+        "term": "Data Visualisation",
+        "next_nodes": [
+            "statistical-analysis"
+        ],
+        "Details": [
+            "Tools (Tableau, Power BI)",
+            "Libraries (Matplotlib, Seaborn, ggplot2)",
+            "Charting (Bar, Line, Scatter Plot, Funnel, Histograms, Stacked, Heatmap, Pie)"
+        ]
+    },
+    {
+        "id": "statistical-analysis",
+        "term": "Statistical Analysis",
+        "next_nodes": [
+            "machine-learning"
+        ],
+        "Details": [
+            "Hypothesis Testing",
+            "Correlation Analysis",
+            "Regression",
+            "Visualizing Distributions",
+            "Learn Different Techniques"
+        ]
+    },
+    {
+        "id": "machine-learning",
+        "term": "Machine Learning",
+        "next_nodes": [
+            "big-data-technologies"
+        ],
+        "Details": [
+            "Machine Learning Types (Supervised, Unsupervised, Reinforcement)",
+            "Popular ML Algorithms (Decision Trees, Naive Bayes, K-Means Clustering, KNN, Logistic Regression)",
+            "Model Evaluation Techniques"
+        ]
+    },
+    {
+        "id": "big-data-technologies",
+        "term": "Big Data Technologies",
+        "next_nodes": [
+            "deep-learning"
+        ],
+        "Details": [
+            "Big Data Concepts",
+            "Parallel Processing",
+            "Data Processing Frameworks (Hadoop, Spark)",
+            "Data Processing Techniques (MPI, MapReduce)"
+        ]
+    },
+    {
+        "id": "deep-learning",
+        "term": "Deep Learning (Optional)",
+        "next_nodes": [],
+        "Details": [
+            "Learn the Basics",
+            "Neural Networks",
+            "CNNs",
+            "RNN",
+            "Frameworks (Tensorflow, Pytorch)"
+        ]
+    }
+]

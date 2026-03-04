@@ -1,0 +1,172 @@
+[{
+        "id": "programming-language",
+        "term": "Programming Languages",
+        "next_nodes": [
+            "game-engine"
+        ],
+        "Details": [
+            "C/C++",
+            "C#",
+            "GDScript",
+            "Rust",
+            "Python"
+        ]
+    },
+    {
+        "id": "game-engine",
+        "term": "Game Engine",
+        "next_nodes": [
+            "game-mathematics"
+        ],
+        "Details": [
+            "Godot",
+            "Unreal Engine",
+            "Unity 3D",
+            "Native"
+        ]
+    },
+    {
+        "id": "game-mathematics",
+        "term": "Game Mathematics",
+        "next_nodes": [
+            "game-physics"
+        ],
+        "Details": [
+            "Linear Algebra (Vector, Matrix, Geometry)",
+            "Linear Transformation (Affine Space, Orientation, Quaternion, Euler Angle)",
+            "Curve (Spline, Hermite, Bezier, Catmull-Rom)",
+            "Projection (Perspective, Orthogonal)"
+        ]
+    },
+    {
+        "id": "game-physics",
+        "term": "Game Physics",
+        "next_nodes": [
+            "computer-graphics"
+        ],
+        "Details": [
+            "Dynamics (Center of Mass, Moment of Inertia, Force, Restitution, Velocity, Friction, Buoyancy)",
+            "Collision Detection (Narrow Phase, Broad Phase)",
+            "Convexity (Convex, Concave, Convex Hull, Convex Decomposition)",
+            "Intersection (SAT, GJK, EPA)",
+            "Bounding Volume (AABB, OBB)",
+            "Spatial Partitioning (Sort & Sweep, BVH, DBVT, CCD)"
+        ]
+    },
+    {
+        "id": "computer-graphics",
+        "term": "Computer Graphics",
+        "next_nodes": [
+            "color"
+        ],
+        "Details": [
+            "Ray Tracing",
+            "Rasterization",
+            "Graphics Pipeline",
+            "Sampling",
+            "Shader",
+            "Rendering Equation",
+            "Reflection (Diffuse, Specular)",
+            "Mapping (Texture, Bump, Parallax, Horizon)"
+        ]
+    },
+    {
+        "id": "color",
+        "term": "Color",
+        "next_nodes": [
+            "computer-animation"
+        ],
+        "Details": [
+            "Visual Perception",
+            "Tone Reproduction"
+        ]
+    },
+    {
+        "id": "computer-animation",
+        "term": "Computer Animation",
+        "next_nodes": [
+            "visibility-and-occlusion"
+        ],
+        "Details": [
+            "Animation Techniques"
+        ]
+    },
+    {
+        "id": "visibility-and-occlusion",
+        "term": "Visibility and Occlusion",
+        "next_nodes": [
+            "lighting-and-shadow"
+        ],
+        "Details": [
+            "Occluder",
+            "Culling",
+            "Clipping",
+            "Fog",
+            "Frustum",
+            "Polygon & Polyhedron",
+            "Stencil Shadow"
+        ]
+    },
+    {
+        "id": "lighting-and-shadow",
+        "term": "Lighting and Shadow",
+        "next_nodes": [
+            "graphics-api"
+        ],
+        "Details": [
+            "Shadow Map (2D, Cube, Cascaded)",
+            "Light Source (Directional, Point, Spot, Infinite)"
+        ]
+    },
+    {
+        "id": "graphics-api",
+        "term": "Graphics API",
+        "next_nodes": [
+            "game-ai"
+        ],
+        "Details": [
+            "DirectX",
+            "OpenGL / OpenGL ES",
+            "WebGL",
+            "HLSL / GLSL",
+            "Metal",
+            "Vulkan",
+            "SPIR-V"
+        ]
+    },
+    {
+        "id": "game-ai",
+        "term": "Game AI",
+        "next_nodes": [
+            "decision-learning"
+        ],
+        "Details": [
+            "Decision Making (Decision Tree, State Machine, Behavior Tree, Fuzzy Logic, Markov System, Goal Oriented Behavior)",
+            "Movement",
+            "Board Game (Minimax, AB Pruning, MCTS)"
+        ]
+    },
+    {
+        "id": "decision-learning",
+        "term": "Decision Learning",
+        "next_nodes": [
+            "advanced-rendering"
+        ],
+        "Details": [
+            "Naive Bayes Classifier",
+            "Decision Tree Learning",
+            "Deep Learning",
+            "Artificial Neural Network",
+            "Reinforcements Learning"
+        ]
+    },
+    {
+        "id": "advanced-rendering",
+        "term": "Advanced Rendering",
+        "next_nodes": [],
+        "Details": [
+            "Real-time Ray Tracing (DirectX Ray Tracing, Vulkan Ray Tracing, OptiX)",
+            "Physically-Based Rendering (Translucency & Transparency, Conservation of Energy, Metallicity, Microsurface, Scattering)"
+        ]
+    }
+]

@@ -335,7 +335,7 @@
         "related_terms": []
     },
     {
-        "id": "css-cascading-style-sheets",
+        "id": "css",
         "term": "CSS (Cascading Style Sheets)",
         "definition": "CSS is the code that tells the browser how to display the content of a web page for the end user by formatting fonts, colors, backgrounds, and other visual elements.",
         "in_roadmap": false,
@@ -2351,13 +2351,6 @@
         "related_terms": []
     },
     {
-        "id": "viewuspsharingresourcekey0-jxqvgb488l3bvguxg4vu2q",
-        "term": "Viewuspsharingresourcekey0 jxqvgb488l3bvguxg4vu2q",
-        "definition": "https://wiki.vnoi.info/https://drive.google.com/file/d/0BwcTB8a10LBwbjB2elVmdzg1XzQ/view?usp=sharing&resourcekey=0-JxqVgB488l3bVgUXg4VU2Q",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
         "id": "sqrt-decomposition",
         "term": "Sqrt decomposition",
         "definition": "https://wiki.vnoi.info//algo/data-structures/sqrt-decomposition",
@@ -2456,13 +2449,6 @@
         "related_terms": []
     },
     {
-        "id": "viewuspsharingresourcekey0-tyqk7ksozjw-fvphquw6nq",
-        "term": "Viewuspsharingresourcekey0 tyqk7ksozjw fvphquw6nq",
-        "definition": "https://wiki.vnoi.info/https://drive.google.com/file/d/0BwcTB8a10LBwYUwwNVYzbmZiZnM/view?usp=sharing&resourcekey=0-TyQK7KSoZJW-fVpHquw6NQ",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
         "id": "dynamic-programming",
         "term": "Dynamic programming",
         "definition": "https://wiki.vnoi.info//translate/topcoder/dynamic-programming",
@@ -2485,56 +2471,42 @@
     },
     {
         "id": "dp-knapsack-1",
-        "term": "Dp knapsack 1",
+        "term": "DP knapsack 1",
         "definition": "https://wiki.vnoi.info//algo/dp/dp-knapsack-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "dp-knapsack-2",
-        "term": "Dp knapsack 2",
+        "term": "DP knapsack 2",
         "definition": "https://wiki.vnoi.info//algo/dp/dp-knapsack-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "palindrome-problems",
-        "term": "Palindrome problems",
+        "id": "dp-palindrome-problems",
+        "term": "DP palindrome problems",
         "definition": "https://wiki.vnoi.info//algo/dp/palindrome-problems",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "basic-problems",
-        "term": "Basic problems",
-        "definition": "https://wiki.vnoi.info//algo/dp/basic-problems",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "thac-mac-ve-qhd",
-        "term": "Thac mac ve qhd",
-        "definition": "https://wiki.vnoi.info//algo/dp/thac-mac-ve-qhd",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
         "id": "dp-bitmask",
-        "term": "Dp bitmask",
+        "term": "DP bitmask",
         "definition": "https://wiki.vnoi.info//algo/dp/dp-bitmask",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "digit-dp",
-        "term": "Digit dp",
+        "term": "Digit DP",
         "definition": "https://wiki.vnoi.info//algo/dp/digit-dp",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "shortest-path-dag",
-        "term": "Shortest path dag",
+        "term": "Shortest path DAG",
         "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/shortest-path-dag",
         "in_roadmap": false,
         "related_terms": []
@@ -2562,28 +2534,28 @@
     },
     {
         "id": "cht",
-        "term": "Cht",
+        "term": "CHT",
         "definition": "https://wiki.vnoi.info//algo/dp/cht",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "treedp",
-        "term": "Treedp",
+        "id": "tree-dp",
+        "term": "Tree DP",
         "definition": "https://wiki.vnoi.info//algo/dp/treedp",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "dp-sos-1",
-        "term": "Dp sos 1",
+        "term": "Dp SOS 1",
         "definition": "https://wiki.vnoi.info//algo/dp/dp-sos-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "dp-sos-2",
-        "term": "Dp sos 2",
+        "term": "Dp SOS 2",
         "definition": "https://wiki.vnoi.info//algo/dp/dp-sos-2",
         "in_roadmap": false,
         "related_terms": []
@@ -2596,8 +2568,8 @@
         "related_terms": []
     },
     {
-        "id": "everything",
-        "term": "Everything",
+        "id": "everything-about-graph",
+        "term": "Everything about graph",
         "definition": "https://wiki.vnoi.info//algo/graph-theory/everything",
         "in_roadmap": false,
         "related_terms": []
@@ -2606,34 +2578,6 @@
         "id": "disjoint-set-union",
         "term": "Disjoint set union",
         "definition": "https://wiki.vnoi.info//algo/data-structures/disjoint-set-union",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "breadth-first-search",
-        "term": "Breadth first search",
-        "definition": "https://wiki.vnoi.info//algo/graph-theory/breadth-first-search.md",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "bfs-01",
-        "term": "Bfs 01",
-        "definition": "https://wiki.vnoi.info//algo/graph-theory/bfs-01",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "depth-first-search-tree",
-        "term": "Depth first search tree",
-        "definition": "https://wiki.vnoi.info//algo/graph-theory/Depth-First-Search-Tree.md",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "topological-sort",
-        "term": "Topological sort",
-        "definition": "https://wiki.vnoi.info//algo/graph-theory/topological-sort.md",
         "in_roadmap": false,
         "related_terms": []
     },

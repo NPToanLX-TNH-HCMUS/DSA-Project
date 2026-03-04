@@ -1,0 +1,203 @@
+[{
+        "id": "introduction",
+        "term": "Introduction",
+        "next_nodes": [
+            "mathematical-foundations"
+        ],
+        "Details": [
+            "What is an ML Engineer?",
+            "ML Engineer vs AI Engineer",
+            "Skills and Responsibilities"
+        ]
+    },
+    {
+        "id": "mathematical-foundations",
+        "term": "Mathematical Foundations",
+        "next_nodes": [
+            "python"
+        ],
+        "Details": [
+            "Linear Algebra",
+            "Calculus (Derivatives, Partial Derivatives, Chain rule)",
+            "Matrix & Matrix Operations (Scalars, Vectors, Tensors)",
+            "Statistics (Descriptive, Inferential)",
+            "Probability (Bayes Theorem, PDFs)",
+            "Discrete Mathematics"
+        ]
+    },
+    {
+        "id": "python",
+        "term": "Python",
+        "next_nodes": [
+            "data-collection"
+        ],
+        "Details": [
+            "Basic Syntax & Data Structures",
+            "Object Oriented Programming",
+            "Essential libraries (Numpy, Pandas, Matplotlib, Seaborn)"
+        ]
+    },
+    {
+        "id": "data-collection",
+        "term": "Data Collection",
+        "next_nodes": [
+            "data-cleaning"
+        ],
+        "Details": [
+            "Data Sources",
+            "Databases (SQL, No-SQL)",
+            "Internet APIs",
+            "IoT",
+            "Data Formats (JSON, Parquet, CSV, Excel)"
+        ]
+    },
+    {
+        "id": "data-cleaning",
+        "term": "Data Cleaning",
+        "next_nodes": [
+            "data-preparation"
+        ],
+        "Details": [
+            "Preprocessing Techniques",
+            "Dimensionality Reduction",
+            "Feature Engineering",
+            "Feature Selection",
+            "Feature Scaling & Normalization"
+        ]
+    },
+    {
+        "id": "data-preparation",
+        "term": "Data Preparation",
+        "next_nodes": [
+            "machine-learning"
+        ],
+        "Details": [
+            "Train - Test Data",
+            "Data Loading",
+            "Tuning",
+            "Prediction",
+            "Model Selection"
+        ]
+    },
+    {
+        "id": "machine-learning",
+        "term": "Machine Learning",
+        "next_nodes": [
+            "supervised-learning"
+        ],
+        "Details": [
+            "What is Machine Learning?",
+            "Types of Machine Learning",
+            "Self-supervised Learning",
+            "Semi-supervised Learning"
+        ]
+    },
+    {
+        "id": "supervised-learning",
+        "term": "Supervised Learning",
+        "next_nodes": [
+            "unsupervised-learning"
+        ],
+        "Details": [
+            "Classification",
+            "Logistic Regression",
+            "Support Vector Machines (SVM)",
+            "K-Nearest Neighbors (KNN)",
+            "Decision Trees, Random Forest",
+            "Regression (Linear, Polynomial)"
+        ]
+    },
+    {
+        "id": "unsupervised-learning",
+        "term": "Unsupervised Learning",
+        "next_nodes": [
+            "reinforcement-learning"
+        ],
+        "Details": [
+            "Clustering (Overlapping, Hierarchical, Exclusive)",
+            "Dimensionality Reduction",
+            "Autoencoders",
+            "Principal Component Analysis (PCA)"
+        ]
+    },
+    {
+        "id": "reinforcement-learning",
+        "term": "Reinforcement Learning",
+        "next_nodes": [
+            "model-evaluation"
+        ],
+        "Details": [
+            "What is Reinforcement Learning?",
+            "Policy Gradient",
+            "Actor-Critic Methods",
+            "Deep-Q Networks",
+            "Q-Learning"
+        ]
+    },
+    {
+        "id": "model-evaluation",
+        "term": "Model Evaluation",
+        "next_nodes": [
+            "deep-learning"
+        ],
+        "Details": [
+            "Metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC, Log Loss)",
+            "Confusion Matrix",
+            "Validation Techniques (K-Fold Cross Validation, LOOCV)",
+            "Regularization (Ridge, Lasso, ElasticNet)"
+        ]
+    },
+    {
+        "id": "deep-learning",
+        "term": "Deep Learning",
+        "next_nodes": [
+            "deep-learning-architectures"
+        ],
+        "Details": [
+            "Forward propagation & Back Propagation",
+            "Perceptron, Multi-layer Perceptrons",
+            "Activation Functions",
+            "Neural Network (NN) Basics",
+            "Loss Functions"
+        ]
+    },
+    {
+        "id": "deep-learning-architectures",
+        "term": "Deep Learning Architectures",
+        "next_nodes": [
+            "ml-libraries"
+        ],
+        "Details": [
+            "Convolutional Neural Network (CNN) & Applications",
+            "Recurrent Neural Networks (RNN, GRU, LSTM)",
+            "Attention Mechanisms",
+            "Transformers (Multi-head Attention, Self-Attention)",
+            "Generative Adversarial Networks (GANs)"
+        ]
+    },
+    {
+        "id": "ml-libraries",
+        "term": "Deep Learning Libraries",
+        "next_nodes": [
+            "natural-language-processing"
+        ],
+        "Details": [
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "Scikit-learn"
+        ]
+    },
+    {
+        "id": "natural-language-processing",
+        "term": "Natural Language Processing",
+        "next_nodes": [],
+        "Details": [
+            "Tokenization",
+            "Lemmatization",
+            "Stemming",
+            "Embeddings",
+            "Attention Models"
+        ]
+    }
+]

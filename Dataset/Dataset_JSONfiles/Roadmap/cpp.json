@@ -1,0 +1,246 @@
+[{
+        "id": "introduction",
+        "term": "Introduction to Language",
+        "next_nodes": [
+            "environment"
+        ],
+        "Details": [
+            "What is C++?",
+            "Why use C++",
+            "C vs C++"
+        ]
+    },
+    {
+        "id": "environment",
+        "term": "Setting up your Environment",
+        "next_nodes": [
+            "basic-operations"
+        ],
+        "Details": [
+            "Installing C++",
+            "Code Editors / IDEs",
+            "Running your First Program"
+        ]
+    },
+    {
+        "id": "basic-operations",
+        "term": "Basic Operations",
+        "next_nodes": [
+            "functions"
+        ],
+        "Details": [
+            "Arithmetic Operators",
+            "Logical Operators",
+            "Bitwise Operators",
+            "Control Flow & Statements (for / while / do while, if else / switch / goto)"
+        ]
+    },
+    {
+        "id": "functions",
+        "term": "Functions",
+        "next_nodes": [
+            "data-types"
+        ],
+        "Details": [
+            "Static Polymorphism",
+            "Function Overloading",
+            "Operator Overloading",
+            "Lambdas"
+        ]
+    },
+    {
+        "id": "data-types",
+        "term": "Data Types",
+        "next_nodes": [
+            "memory-model"
+        ],
+        "Details": [
+            "Static Typing",
+            "Dynamic Typing",
+            "RTTI",
+            "Pointers and References"
+        ]
+    },
+    {
+        "id": "memory-model",
+        "term": "Memory Model",
+        "next_nodes": [
+            "structuring-codebase"
+        ],
+        "Details": [
+            "Lifetime of Objects",
+            "Smart Pointers (weak_ptr, shared_ptr, unique_ptr)",
+            "Raw Pointers",
+            "New / Delete Operators",
+            "Memory Leakage"
+        ]
+    },
+    {
+        "id": "structuring-codebase",
+        "term": "Structuring Codebase",
+        "next_nodes": [
+            "object-oriented-programming"
+        ],
+        "Details": [
+            "Scope",
+            "Namespaces",
+            "Headers / CPP Files",
+            "Structures and Classes",
+            "Rule of Zero, Five, Three"
+        ]
+    },
+    {
+        "id": "object-oriented-programming",
+        "term": "Object Oriented Programming",
+        "next_nodes": [
+            "exception-handling"
+        ],
+        "Details": [
+            "Multiple Inheritance",
+            "Diamond Inheritance",
+            "Virtual Methods",
+            "Virtual Tables",
+            "Dynamic Polymorphism"
+        ]
+    },
+    {
+        "id": "exception-handling",
+        "term": "Exception Handling",
+        "next_nodes": [
+            "language-concepts"
+        ],
+        "Details": [
+            "Exit Codes",
+            "Exceptions",
+            "Access Violations"
+        ]
+    },
+    {
+        "id": "language-concepts",
+        "term": "Language Concepts",
+        "next_nodes": [
+            "standard-library"
+        ],
+        "Details": [
+            "auto (Automatic Type Deduction)",
+            "Type Casting (static_cast, const_cast, dynamic_cast, reinterpret_cast)",
+            "Undefined Behavior (UB)",
+            "Argument Dependent Lookup (ADL)",
+            "Name Mangling",
+            "Macros",
+            "Forward Declaration"
+        ]
+    },
+    {
+        "id": "standard-library",
+        "term": "Standard Library + STL",
+        "next_nodes": [
+            "templates"
+        ],
+        "Details": [
+            "Iterators",
+            "iostream",
+            "Algorithms",
+            "Date / Time",
+            "Multithreading",
+            "Containers"
+        ]
+    },
+    {
+        "id": "templates",
+        "term": "Templates",
+        "next_nodes": [
+            "idioms"
+        ],
+        "Details": [
+            "Variadic Templates",
+            "Template Specialization (Full, Partial)",
+            "Type Traits",
+            "SFINAE"
+        ]
+    },
+    {
+        "id": "idioms",
+        "term": "Idioms",
+        "next_nodes": [
+            "standards"
+        ],
+        "Details": [
+            "Non-Copyable / Non-Moveable",
+            "Erase-Remove",
+            "Copy and Swap",
+            "Copy on Write",
+            "RAII",
+            "Pimpl",
+            "CRTP"
+        ]
+    },
+    {
+        "id": "standards",
+        "term": "Standards",
+        "next_nodes": [
+            "language-tools"
+        ],
+        "Details": [
+            "C++ 11 / 14",
+            "C++ 17",
+            "C++ 20",
+            "C++ 23",
+            "C++ 0x"
+        ]
+    },
+    {
+        "id": "language-tools",
+        "term": "Language Tools",
+        "next_nodes": [
+            "build-systems"
+        ],
+        "Details": [
+            "Debuggers (Understanding Messages, Symbols, WinDBg, GDB)",
+            "Compilers (Compiler Stages, C/lang++ / LLVM, Intel C++, MSVS C++, GCC, MinGW)"
+        ]
+    },
+    {
+        "id": "build-systems",
+        "term": "Build Systems",
+        "next_nodes": [
+            "package-managers"
+        ],
+        "Details": [
+            "CMAKE",
+            "Makefile",
+            "Ninja"
+        ]
+    },
+    {
+        "id": "package-managers",
+        "term": "Package Managers",
+        "next_nodes": [
+            "libraries"
+        ],
+        "Details": [
+            "vcpkg",
+            "NuGet",
+            "Conan",
+            "Spack"
+        ]
+    },
+    {
+        "id": "libraries",
+        "term": "Libraries and Frameworks",
+        "next_nodes": [],
+        "Details": [
+            "Working with Libraries (Inclusion, Licensing)",
+            "Boost",
+            "OpenCV",
+            "POCO",
+            "protobuf",
+            "gRPC",
+            "Tensorflow / PyTorch / pybind11",
+            "spdlog / fmt / ranges_v3",
+            "Testing (gtest / gmock, Catch2)",
+            "Qt",
+            "Orbit Profiler"
+        ]
+    }
+]

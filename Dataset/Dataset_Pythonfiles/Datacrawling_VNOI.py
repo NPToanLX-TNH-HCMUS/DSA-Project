@@ -47,6 +47,7 @@ if __name__ == "__main__":
                             "in_roadmap": False,
                             "related_terms": []
                         })
+                        existing_ids.add(id_value)
 
         with open("Main/DSA-Project/Dataset/Dataset_Pythonfiles/output.json", "w", encoding="utf-8") as json_file:
             json.dump(data, json_file, ensure_ascii=False, indent=4)

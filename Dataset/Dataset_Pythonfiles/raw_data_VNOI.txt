@@ -1,0 +1,376 @@
+<!DOCTYPE html><html lang="vi"><head><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta charset="UTF-8"><meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1, maximum-scale=5"><meta name="theme-color" content="#1976d2"><meta name="msapplication-TileColor" content="#1976d2"><meta name="msapplication-TileImage" content="/_assets/favicons/mstile-150x150.png"><title>VNOI Wiki | VNOI Wiki</title><meta name="description" content=""><meta property="og:title" content="VNOI Wiki"><meta property="og:type" content="website"><meta property="og:description" content=""><meta property="og:image"><meta property="og:url" content="wiki.vnoi.info/"><meta property="og:site_name" content="VNOI Wiki"><link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="/_assets/favicons/android-chrome-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/_assets/favicons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/_assets/favicons/favicon-16x16.png"><link rel="mask-icon" href="/_assets/favicons/safari-pinned-tab.svg" color="#1976d2"><link rel="manifest" href="/_assets/manifest.json"><script>var siteConfig = {"title":"VNOI Wiki","theme":"default","darkMode":false,"tocPosition":"right","lang":"vi","rtl":false,"company":"VNOI","contentLicense":"","footerOverride":"","logoUrl":"/uploads/vnoi.svg"}
+var siteLangs = []
+</script><link type="text/css" rel="stylesheet" href="/_assets/css/app.efede72e687929d204e9.css"><script type="text/javascript" src="/_assets/js/runtime.js?1767168621"></script><script type="text/javascript" src="/_assets/js/app.js?1767168621"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-49HNXZF980"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-49HNXZF980');
+</script>
+<style type="text/css">.page-col-content{max-width:1012px!important;margin-left:auto;margin-right:auto;text-align:justify}.v-main a{text-decoration:none}</style></head><body><div id="root"><page locale="vi" path="Home" title="VNOI Wiki" description="" :tags="[]" created-at="2023-12-25T10:57:53.828Z" updated-at="2026-02-28T08:00:51.983Z" author-name="Tấn Minh" :author-id="11" editor="markdown" :is-published="true" toc="W3sidGl0bGUiOiJHaeG7m2kgdGhp4buHdSBWTk9JIFdpa2kiLCJhbmNob3IiOiIjZ2nhu5tpLXRoaeG7h3Utdm5vaS13aWtpIiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiQ8OhYyBiw6BpIHZp4bq/dCBt4bubaSIsImFuY2hvciI6IiNjw6FjLWLDoGktdmnhur90LW3hu5tpIiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiVk5PSSBSb2FkbWFwIiwiYW5jaG9yIjoiI3Zub2ktcm9hZG1hcCIsImNoaWxkcmVuIjpbXX0seyJ0aXRsZSI6IlRodeG6rXQgdG/DoW4iLCJhbmNob3IiOiIjdGh14bqtdC10b8OhbiIsImNoaWxkcmVuIjpbeyJ0aXRsZSI6Ik5o4bqtcCBtw7RuIiwiYW5jaG9yIjoiI25o4bqtcC1tw7RuIiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiQ8OhYyBr4bu5IHRodeG6rXQgY8ahIGLhuqNuIiwiYW5jaG9yIjoiI2PDoWMta+G7uS10aHXhuq10LWPGoS1i4bqjbiIsImNoaWxkcmVuIjpbXX0seyJ0aXRsZSI6IkPhuqV1IHRyw7pjIGThu68gbGnhu4d1IiwiYW5jaG9yIjoiI2PhuqV1LXRyw7pjLWThu68tbGnhu4d1IiwiY2hpbGRyZW4iOlt7InRpdGxlIjoiQ+G6pXUgdHLDumMgZOG7ryBsaeG7h3UgZOG6oW5nIGPDonkiLCJhbmNob3IiOiIjY+G6pXUtdHLDumMtZOG7ry1saeG7h3UtZOG6oW5nLWPDonkiLCJjaGlsZHJlbiI6W119XX0seyJ0aXRsZSI6IkNoaWEgY8SDbiIsImFuY2hvciI6IiNjaGlhLWPEg24iLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJY4butIGzDvSB4w6J1IiwiYW5jaG9yIjoiI3jhu60tbMO9LXjDonUiLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJRdXkgaG/huqFjaCDEkeG7mW5nIiwiYW5jaG9yIjoiI3F1eS1ob+G6oWNoLcSR4buZbmciLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJMw70gdGh1eeG6v3QgxJHhu5MgdGjhu4siLCJhbmNob3IiOiIjbMO9LXRodXnhur90LcSR4buTLXRo4buLIiwiY2hpbGRyZW4iOlt7InRpdGxlIjoixJDhu5MgdGjhu4sgY2h1bmciLCJhbmNob3IiOiIjxJHhu5MtdGjhu4stY2h1bmciLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiLEkOG7kyB0aOG7iyBk4bqhbmcgY8OieSIsImFuY2hvciI6IiPEkeG7ky10aOG7iy1k4bqhbmctY8OieSIsImNoaWxkcmVuIjpbXX1dfSx7InRpdGxlIjoiVGhhbSBsYW0iLCJhbmNob3IiOiIjdGhhbS1sYW0iLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJUb8OhbiBo4buNYyIsImFuY2hvciI6IiN0b8Ohbi1o4buNYyIsImNoaWxkcmVuIjpbeyJ0aXRsZSI6IlPhu5EgaOG7jWMiLCJhbmNob3IiOiIjc+G7kS1o4buNYyIsImNoaWxkcmVuIjpbXX0seyJ0aXRsZSI6IlThu5UgaOG7o3AgdsOgIFjDoWMgc3XhuqV0IiwiYW5jaG9yIjoiI3Thu5UtaOG7o3AtdsOgLXjDoWMtc3XhuqV0IiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiSMOsbmggaOG7jWMiLCJhbmNob3IiOiIjaMOsbmgtaOG7jWMiLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiLEkOG6oWkgc+G7kSAtIEdp4bqjaSB0w61jaCIsImFuY2hvciI6IiPEkeG6oWktc+G7kS1naeG6o2ktdMOtY2giLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJMw70gdGh1eeG6v3QgdHLDsiBjaMahaSIsImFuY2hvciI6IiNsw70tdGh1eeG6v3QtdHLDsi1jaMahaSIsImNoaWxkcmVuIjpbXX1dfSx7InRpdGxlIjoiVOG7kWkgxrB1IGhvw6EiLCJhbmNob3IiOiIjdOG7kWktxrB1LWhvw6EiLCJjaGlsZHJlbiI6W119XX0seyJ0aXRsZSI6IkNoaWEgc+G6uyBraW5oIG5naGnhu4dtIiwiYW5jaG9yIjoiI2NoaWEtc+G6uy1raW5oLW5naGnhu4dtIiwiY2hpbGRyZW4iOlt7InRpdGxlIjoiVuG7gSBjw6FjaCBo4buNYyBUaW4gaOG7jWMiLCJhbmNob3IiOiIjduG7gS1jw6FjaC1o4buNYy10aW4taOG7jWMiLCJjaGlsZHJlbiI6W119LHsidGl0bGUiOiJLxKkgbsSDbmcgdGhpIGPhu60iLCJhbmNob3IiOiIja8SpLW7Eg25nLXRoaS1j4butIiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiS2luaCBuZ2hp4buHbSBwaOG7j25nIHbhuqVuIiwiYW5jaG9yIjoiI2tpbmgtbmdoaeG7h20tcGjhu49uZy124bqlbiIsImNoaWxkcmVuIjpbXX0seyJ0aXRsZSI6IlZOT0kgSW50ZXJ2aWV3IiwiYW5jaG9yIjoiI3Zub2ktaW50ZXJ2aWV3IiwiY2hpbGRyZW4iOltdfSx7InRpdGxlIjoiS2jDoWMiLCJhbmNob3IiOiIja2jDoWMiLCJjaGlsZHJlbiI6W119XX0seyJ0aXRsZSI6IkPDoWMga+G7syB0aGkiLCJhbmNob3IiOiIjY8OhYy1r4buzLXRoaSIsImNoaWxkcmVuIjpbXX1d" :page-id="21" sidebar="W10=" nav-mode="NONE" comments-enabled effective-permissions="eyJjb21tZW50cyI6eyJyZWFkIjp0cnVlLCJ3cml0ZSI6ZmFsc2UsIm1hbmFnZSI6ZmFsc2V9LCJoaXN0b3J5Ijp7InJlYWQiOmZhbHNlfSwic291cmNlIjp7InJlYWQiOmZhbHNlfSwicGFnZXMiOnsicmVhZCI6dHJ1ZSwid3JpdGUiOmZhbHNlLCJtYW5hZ2UiOmZhbHNlLCJkZWxldGUiOmZhbHNlLCJzY3JpcHQiOmZhbHNlLCJzdHlsZSI6ZmFsc2V9LCJzeXN0ZW0iOnsibWFuYWdlIjpmYWxzZX19" edit-shortcuts="eyJlZGl0RmFiIjpmYWxzZSwiZWRpdE1lbnVCYXIiOmZhbHNlLCJlZGl0TWVudUJ0biI6ZmFsc2UsImVkaXRNZW51RXh0ZXJuYWxCdG4iOmZhbHNlLCJlZGl0TWVudUV4dGVybmFsTmFtZSI6IiIsImVkaXRNZW51RXh0ZXJuYWxJY29uIjoiIiwiZWRpdE1lbnVFeHRlcm5hbFVybCI6IiJ9" filename="Home.md"><template slot="contents"><div><h1 id="giới-thiệu-vnoi-wiki" class="toc-header"><a class="toc-anchor" href="#giới-thiệu-vnoi-wiki">¶</a> Giới thiệu VNOI Wiki</h1>
+<p>Thư viện VNOI được xây dựng với mục đích chia sẻ kiến thức Tin học đến với tất cả mọi người. Bạn có thể đọc bài giới thiệu của bọn mình <a href="/about" class="is-internal-link is-valid-page">ở đây</a>.</p>
+<p>Bạn đọc bài viết nhưng không hiểu? Hãy hỏi ở <a href="https://www.facebook.com/groups/163215593699283/" class="is-external-link">Group Facebook</a> hoặc <a href="https://discord.gg/m5rVAz7DXx" class="is-external-link">Discord From VNOI with love</a>.</p>
+<p>Ở trang chủ này, các bài viết về thuật toán được đánh dấu về độ khó từ (1⭐) đến (5⭐) với ý nghĩa:</p>
+<div class="table-container"><table>
+<thead>
+<tr>
+<th>Độ khó</th>
+<th>Mô tả</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>⭐</td>
+<td>Cơ bản</td>
+</tr>
+<tr>
+<td>⭐⭐</td>
+<td>Kiến thức cần biết để thi HSG QG, ACM ICPC</td>
+</tr>
+<tr>
+<td>⭐⭐⭐</td>
+<td>Kiến thức nâng cao, dành cho các bạn có mục tiêu đạt giải cao trong HSG QG</td>
+</tr>
+<tr>
+<td>⭐⭐⭐⭐</td>
+<td>Kiến thức rất khó</td>
+</tr>
+<tr>
+<td>⭐⭐⭐⭐⭐</td>
+<td>Kiến thức rất chuyên sâu về một vấn đề nào đó, chỉ áp dụng được với rất ít bài khó</td>
+</tr>
+</tbody>
+</table></div>
+<h1 id="các-bài-viết-mới" class="toc-header"><a class="toc-anchor" href="#các-bài-viết-mới">¶</a> Các bài viết mới</h1>
+<a href="/algo/graph-theory/flow-application" style="text-decoration: none; color: inherit; display: block;" class="is-internal-link is-valid-page">
+<div style="border: 1px solid #adb5bd; padding: 16px; border-radius: 8px; margin: 12px 0px 0px 0px; background: transparent; transition: 0.3s;" onmouseover="this.style.borderColor='#343a40'; this.style.backgroundColor='#e9ecef';" onmouseout="this.style.borderColor='#adb5bd'; this.style.backgroundColor='transparent';">
+  <div style="font-size: 70%; opacity: 0.5; margin: 0">Võ Đức Đoàn · <strong>Bài viết mới</strong></div>
+	<strong>Ứng dụng của luồng trên mạng</strong> ⭐⭐⭐
+</div>
+</a>
+<a href="/algo/algebra/pie" style="text-decoration: none; color: inherit; display: block;" class="is-internal-link is-valid-page">
+<div style="border: 1px solid #adb5bd; padding: 16px; border-radius: 8px; margin: 12px 0px 0px 0px; background: transparent; transition: 0.3s;" onmouseover="this.style.borderColor='#343a40'; this.style.backgroundColor='#e9ecef';" onmouseout="this.style.borderColor='#adb5bd'; this.style.backgroundColor='transparent';">
+  <div style="font-size: 70%; opacity: 0.5; margin: 0">Phạm Vũ Phương · <strong>Bài viết mới</strong></div>
+	<strong>Bao hàm loại trừ</strong> ⭐⭐
+</div>
+</a>
+<a href="/algo/skill/sinh-test-new" style="text-decoration: none; color: inherit; display: block;" class="is-internal-link is-valid-page">
+<div style="border: 1px solid #adb5bd; padding: 16px; border-radius: 8px; margin: 12px 0px 0px 0px; background: transparent; transition: 0.3s;" onmouseover="this.style.borderColor='#343a40'; this.style.backgroundColor='#e9ecef';" onmouseout="this.style.borderColor='#adb5bd'; this.style.backgroundColor='transparent';">
+  <div style="font-size: 70%; opacity: 0.5; margin: 0">Nguyễn Quang Minh · <strong>Bài viết mới</strong></div>
+	<strong>Kỹ thuật sinh test, tự kiểm tra code</strong>
+</div>
+</a>
+<a href="/algo/basic/sorting-new" style="text-decoration: none; color: inherit; display: block;" class="is-internal-link is-valid-page">
+<div style="border: 1px solid #adb5bd; padding: 16px; border-radius: 8px; margin: 12px 0px 0px 0px; background: transparent; transition: 0.3s;" onmouseover="this.style.borderColor='#343a40'; this.style.backgroundColor='#e9ecef';" onmouseout="this.style.borderColor='#adb5bd'; this.style.backgroundColor='transparent';">
+  <div style="font-size: 70%; opacity: 0.5; margin: 0">Đoàn Quang Huy · <strong>Bài viết mới</strong></div>
+	<strong>Sắp xếp</strong> ⭐
+</div>
+</a>
+<a href="/algo/greedy-new" style="text-decoration: none; color: inherit; display: block;" class="is-internal-link is-valid-page">
+<div style="border: 1px solid #adb5bd; padding: 16px; border-radius: 8px; margin: 12px 0px 0px 0px; background: transparent; transition: 0.3s;" onmouseover="this.style.borderColor='#343a40'; this.style.backgroundColor='#e9ecef';" onmouseout="this.style.borderColor='#adb5bd'; this.style.backgroundColor='transparent';">
+  <div style="font-size: 70%; opacity: 0.5; margin: 0">Nguyễn Hoàng Dương · <strong>Bài viết mới</strong></div>
+	<strong>Tham lam</strong> ⭐⭐
+</div>
+</a>
+<h1 id="vnoi-roadmap" class="toc-header"><a class="toc-anchor" href="#vnoi-roadmap">¶</a> VNOI Roadmap</h1>
+<p>🔥VNOI Roadmap là một lộ trình hoàn chỉnh bao gồm các chủ đề được đánh giá độ khó từ 1 đến 5 sao, dành cho mọi đối tượng từ học sinh đến sinh viên, đặc biệt là các bạn mới bắt đầu tiếp xúc với Tin học.<br>
+❤️‍🔥 Được đúc kết từ kinh nghiệm của các thế hệ đi trước đã vượt qua nhiều cuộc thi, đóng góp cho nền Tin học Việt Nam trong suốt những năm vừa qua, chúng mình tin rằng VNOI Roadmap sẽ là một hành trang bổ ích trên con đường chinh phục Tin học của các bạn đấy!<br>
+🔗 Link roadmap: <a href="https://roadmap.sh/r/vnoi-roadmap" class="is-external-link">https://roadmap.sh/r/vnoi-roadmap</a></p>
+<h1 id="thuật-toán" class="toc-header"><a class="toc-anchor" href="#thuật-toán">¶</a> Thuật toán</h1>
+<h2 id="nhập-môn" class="toc-header"><a class="toc-anchor" href="#nhập-môn">¶</a> Nhập môn</h2>
+<ul>
+<li><a href="/translate/topcoder/The-Importance-of-Algorithm" class="is-internal-link is-valid-page">Tầm quan trọng của Thuật Toán - ⭐</a></li>
+<li><a href="/algo/basic/Tai-Lieu-Thuat-Toan" class="is-internal-link is-valid-page">Một số tài liệu hay về Thuật Toán - ⭐</a></li>
+<li><a href="/translate/topcoder/How-to-Find-a-Solution" class="is-internal-link is-valid-page">Nghệ thuật giải bài - ⭐</a></li>
+<li><a href="/translate/topcoder/Planning-an-Approach-to-a-Topcoder-Problem-Part-1" class="is-internal-link is-valid-page">Những cách tiếp cận bài toán - ⭐</a></li>
+<li><a href="/algo/basic/computational-complexity.md" class="is-asset-link">Độ phức tạp thời gian - ⭐</a></li>
+</ul>
+<h2 id="các-kỹ-thuật-cơ-bản" class="toc-header"><a class="toc-anchor" href="#các-kỹ-thuật-cơ-bản">¶</a> Các kỹ thuật cơ bản</h2>
+<ul>
+<li><a href="/algo/basic/sorting-new" class="is-internal-link is-valid-page">Sắp xếp - ⭐</a></li>
+<li><a href="/algo/basic/Binary-Search" class="is-internal-link is-valid-page">Tìm kiếm nhị phân - ⭐</a></li>
+<li><a href="/algo/basic/two-pointers" class="is-internal-link is-valid-page">Hai con trỏ - ⭐</a></li>
+<li><a href="/algo/basic/bitwise-operators.md" class="is-asset-link">Phép toán bit - ⭐</a></li>
+<li><a href="/translate/topcoder/fun-with-bits" class="is-internal-link is-valid-page">Fun with bits - ⭐</a></li>
+<li><a href="/algo/basic/backtracking.md" class="is-asset-link">Đệ quy và quay lui - ⭐</a></li>
+<li><a href="/algo/basic/meet-in-the-middle.md" class="is-asset-link">Chia đôi tập (Meet in the middle) - ⭐</a></li>
+<li><a href="/algo/trick/Roi-rac-hoa-va-ung-dung" class="is-internal-link is-valid-page">Rời rạc hoá (nén số) - ⭐</a></li>
+</ul>
+<h2 id="cấu-trúc-dữ-liệu" class="toc-header"><a class="toc-anchor" href="#cấu-trúc-dữ-liệu">¶</a> Cấu trúc dữ liệu</h2>
+<ul>
+<li><a href="/algo/data-structures/data-structures-overview" class="is-internal-link is-valid-page">Tổng quan về cấu trúc dữ liệu - ⭐</a></li>
+<li><a href="/algo/data-structures/array-vs-linked-lists" class="is-internal-link is-valid-page">Mảng và danh sách liên kết - ⭐</a></li>
+<li><a href="/algo/data-structures/Stack" class="is-internal-link is-valid-page">Ngăn xếp (stack) - ⭐</a></li>
+<li><a href="/algo/data-structures/prefix-sum-and-difference-array.md" class="is-asset-link">Mảng cộng dồn và mảng hiệu - ⭐</a></li>
+<li><a href="/algo/data-structures/deque-min-max" class="is-internal-link is-valid-page">Deque và tìm min max trên đoạn tịnh tiến - ⭐⭐</a></li>
+<li><a href="/translate/wcipeg/Binary-Heap" class="is-internal-link is-valid-page">Binary Heap - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/hash-table" class="is-internal-link is-valid-page">Bảng băm (Hash table) - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/rmq" class="is-internal-link is-valid-page">Sparse Table và bài toán RMQ - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/persistent-data-structures" class="is-internal-link is-valid-page">Persistent Data Structures - ⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/persistent-data-structures-2" class="is-internal-link is-valid-page">Persistent Data Structures - <big><img class="emoji" draggable="false" alt="🆕" src="/_assets/svg/twemoji/1f195.svg"></big> - ⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/Skip-Lists" class="is-internal-link is-valid-page">Skip List - ⭐⭐⭐</a></li>
+<li><a href="/vnoi-magazine/2023/binary-lifting" class="is-internal-link is-valid-page">"Nhảy nhị phân" với bộ nhớ <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="script">O</mi><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">\mathcal O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathcal" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathnormal">n</span><span class="mclose">)</span></span></span></span> - ⭐⭐⭐</a></li>
+</ul>
+<h3 id="cấu-trúc-dữ-liệu-dạng-cây" class="toc-header"><a class="toc-anchor" href="#cấu-trúc-dữ-liệu-dạng-cây">¶</a> Cấu trúc dữ liệu dạng cây</h3>
+<ul>
+<li><a href="/algo/data-structures/segment-tree-basic.md" class="is-asset-link">Cây Phân Đoạn - Segment Tree - Part 1 - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/segment-tree-extend" class="is-internal-link is-valid-page">Cây Phân Đoạn - Segment Tree - Part 2 - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/fenwick" class="is-internal-link is-valid-page">Fenwick Tree (Binary Indexed Tree) - ⭐⭐</a></li>
+<li><a href="/translate/codeforces/Efficient-and-easy-segment-trees.md" class="is-asset-link">Cải tiến Segment Tree - ⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/fenwick-2d" class="is-internal-link is-valid-page">Fenwick Tree (Binary Indexed Tree) 2D - ⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/interval-tree-tap-doan-thang" class="is-internal-link is-valid-page">Interval Tree trên tập đoạn thẳng - ⭐⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/lichao-tree" class="is-internal-link is-valid-page">Li-chao Tree (Cây phân đoạn trên tập đường thẳng) - ⭐⭐⭐⭐</a></li>
+<li><a href="https://drive.google.com/file/d/0BwcTB8a10LBwbjB2elVmdzg1XzQ/view?usp=sharing&amp;resourcekey=0-JxqVgB488l3bVgUXg4VU2Q" class="is-external-link">Range Tree - thầy Lê Minh Hoàng - ⭐⭐⭐</a></li>
+</ul>
+<h2 id="chia-căn" class="toc-header"><a class="toc-anchor" href="#chia-căn">¶</a> Chia căn</h2>
+<ul>
+<li><a href="/algo/data-structures/sqrt-decomposition" class="is-internal-link is-valid-page">Chia căn - Part 1 - ⭐</a></li>
+<li><a href="/algo/data-structures/mo-algorithm" class="is-internal-link is-valid-page">Chia căn - Part 2 - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/sqrt-decomposition-I-new" class="is-internal-link is-valid-page">Chia căn - <big><img class="emoji" draggable="false" alt="🆕" src="/_assets/svg/twemoji/1f195.svg"></big> - Phần I - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/sqrt-decomposition-II-new" class="is-internal-link is-valid-page">Chia căn - <big><img class="emoji" draggable="false" alt="🆕" src="/_assets/svg/twemoji/1f195.svg"></big> - Phần II - ⭐⭐⭐</a></li>
+</ul>
+<h2 id="xử-lý-xâu" class="toc-header"><a class="toc-anchor" href="#xử-lý-xâu">¶</a> Xử lý xâu</h2>
+<ul>
+<li><a href="/algo/string/basic" class="is-internal-link is-valid-page">Tổng quan - ⭐⭐</a></li>
+<li><a href="/algo/string/kmp" class="is-internal-link is-valid-page">KMP - ⭐⭐</a></li>
+<li><a href="/algo/string/trie" class="is-internal-link is-valid-page">Trie - ⭐⭐</a></li>
+<li><a href="/algo/string/hash" class="is-internal-link is-valid-page">Hash - ⭐⭐</a></li>
+<li><a href="/algo/string/manacher" class="is-internal-link is-valid-page">Manacher - ⭐⭐</a></li>
+<li><a href="/algo/string/z-algo" class="is-internal-link is-valid-page">Z-function - ⭐⭐⭐</a></li>
+<li><a href="/algo/string/aho-corasick" class="is-internal-link is-valid-page">Aho-Corasick - ⭐⭐⭐</a></li>
+<li><a href="/algo/string/suffix-array" class="is-internal-link is-valid-page">Suffix Array - ⭐⭐⭐⭐</a></li>
+<li><a href="/algo/string/suffix-automaton" class="is-internal-link is-valid-page">Suffix Automaton - ⭐⭐⭐⭐</a></li>
+<li><a href="/translate/codeforces/palindrome-tree" class="is-internal-link is-valid-page">Palindrome Tree - ⭐⭐⭐⭐</a></li>
+<li><a href="https://drive.google.com/file/d/0BwcTB8a10LBwYUwwNVYzbmZiZnM/view?usp=sharing&amp;resourcekey=0-TyQK7KSoZJW-fVpHquw6NQ" class="is-external-link">Suffix Tree - ⭐⭐⭐⭐</a></li>
+</ul>
+<h2 id="quy-hoạch-động" class="toc-header"><a class="toc-anchor" href="#quy-hoạch-động">¶</a> Quy hoạch động</h2>
+<ul>
+<li><a href="/translate/topcoder/dynamic-programming" class="is-internal-link is-valid-page">Nhập môn Quy hoạch động ⭐⭐</a></li>
+<li><a href="/algo/dp/basic-dynamic-programming-1.md" class="is-asset-link">Quy hoạch động cơ bản (Phần 1) - ⭐⭐</a></li>
+<li><a href="/algo/dp/basic-dynamic-programming-2.md" class="is-asset-link">Quy hoạch động cơ bản (Phần 2) - ⭐⭐</a></li>
+<li><a href="/algo/dp/dp-knapsack-1" class="is-internal-link is-valid-page">Quy hoạch động cái túi (DP Knapsack), phần 1 - ⭐⭐</a></li>
+<li><a href="/algo/dp/dp-knapsack-2" class="is-internal-link is-valid-page">Quy hoạch động cái túi (DP Knapsack), phần 2 - ⭐⭐⭐⭐</a></li>
+<li><a href="/algo/dp/palindrome-problems" class="is-internal-link is-valid-page">Một vài bài tập về Palindrome - ⭐⭐</a></li>
+<li><a href="/algo/dp/basic-problems" class="is-internal-link is-valid-page">Một số bài toán QHĐ điển hình - ⭐⭐</a></li>
+<li><a href="/algo/dp/thac-mac-ve-qhd" class="is-internal-link is-valid-page">Phân tích về QHĐ - Thầy Lê Minh Hoàng - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/dp-bitmask" class="is-internal-link is-valid-page">Quy hoạch động Bitmask - ⭐⭐</a></li>
+<li><a href="/algo/dp/digit-dp" class="is-internal-link is-valid-page">Quy hoạch động chữ số - ⭐⭐</a></li>
+<li><a href="/vnoi-magazine/2023/shortest-path-dag" class="is-internal-link is-valid-page">Quy hoạch động trên DAG - ⭐⭐</a></li>
+<li><a href="/algo/dp/dpdnc" class="is-internal-link is-valid-page">Quy hoạch động Chia để trị - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/Mot-so-ky-thuat-toi-uu-hoa-thuat-toan-Quy-Hoach-Dong" class="is-internal-link is-valid-page">Một số kĩ thuật tối ưu hoá QHĐ - ⭐⭐⭐</a></li>
+<li><a href="/vnoi-magazine/2023/1d1d-dp-optimization" class="is-internal-link is-valid-page">Tối ưu quy hoạch động 1 chiều (1D1D) - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/cht" class="is-internal-link is-valid-page">Kĩ thuật Bao lồi trong QHĐ - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/treedp" class="is-internal-link is-valid-page">Quy hoạch động trên cây - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/dp-sos-1" class="is-internal-link is-valid-page">Quy hoạch động SOS - Phần 1 - ⭐⭐⭐</a></li>
+<li><a href="/algo/dp/dp-sos-2" class="is-internal-link is-valid-page">Quy hoạch động SOS - Phần 2 - ⭐⭐⭐⭐</a></li>
+</ul>
+<h2 id="lý-thuyết-đồ-thị" class="toc-header"><a class="toc-anchor" href="#lý-thuyết-đồ-thị">¶</a> Lý thuyết đồ thị</h2>
+<h3 id="đồ-thị-chung" class="toc-header"><a class="toc-anchor" href="#đồ-thị-chung">¶</a> Đồ thị chung</h3>
+<ul>
+<li><a href="/algo/graph-theory/graph" class="is-internal-link is-valid-page">Tổng quan về lý thuyết đồ thị - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/everything" class="is-internal-link is-valid-page">Các chủ đề cơ bản về đồ thị - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/disjoint-set-union" class="is-internal-link is-valid-page">Disjoint Set Union (DSU) - ⭐⭐</a><br>
+<br></li>
+<li><strong>Các thuật toán duyệt đồ thị và ứng dụng:</strong>
+<ul>
+<li><a href="/algo/graph-theory/breadth-first-search.md" class="is-asset-link">Thuật toán duyệt đồ thị theo chiều rộng (BFS) - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/bfs-01" class="is-internal-link is-valid-page">Thuật toán BFS 0-1  - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/Depth-First-Search-Tree.md" class="is-asset-link">Thuật toán duyệt đồ thị theo chiều sâu (DFS) - ⭐⭐</a> (Khớp cầu, thành phần liên thông)</li>
+<li><a href="/algo/graph-theory/topological-sort.md" class="is-asset-link">Sắp xếp Tô-pô - ⭐⭐</a></li>
+</ul>
+</li>
+<li><a href="/algo/graph-theory/euler-cycle.md" class="is-asset-link">Đường đi - Chu trình Euler - ⭐⭐</a><br>
+<br></li>
+<li><strong>Các thuật toán tìm đường đi ngắn nhất</strong>:
+<ul>
+<li><a href="/algo/graph-theory/shortest-path" class="is-internal-link is-valid-page">Phần 1: DFS trên DAG; thuật toán Dijkstra - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/shortest-path-2" class="is-internal-link is-valid-page">Phần 2: Xử lý chu trình âm - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/spfa" class="is-internal-link is-valid-page">Phần 3: Thuật toán SPFA - ⭐⭐</a><br>
+<br></li>
+</ul>
+</li>
+<li><a href="/algo/graph-theory/minimum-spanning-tree.md" class="is-asset-link">Cây khung nhỏ nhất trên đồ thị vô hướng - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/dsu-rollback" class="is-internal-link is-valid-page">Disjoint Set Union (DSU) Rollback - ⭐⭐⭐</a></li>
+<li><a href="/algo/graph-theory/2-SAT" class="is-internal-link is-valid-page">Bài toán 2-SAT - ⭐⭐⭐</a><br>
+<br></li>
+<li><strong>Luồng cực đại và Cặp ghép cực đại:</strong>
+<ul>
+<li><a href="/algo/graph-theory/flow" class="is-internal-link is-valid-page">Bài toán Luồng cực đại trên mạng - ⭐⭐⭐</a></li>
+<li><a href="/translate/topcoder/max-flow-1-luong-cuc-dai-tren-mang-1.md" class="is-asset-link">Luồng cực đại trên mạng - Translate - ⭐⭐⭐</a></li>
+<li><a href="/translate/wcipeg/Flows" class="is-internal-link is-valid-page">Bài toán luồng cực đại - WCIPEG - ⭐⭐⭐</a></li>
+<li><a href="/algo/graph-theory/min-cost-flow" class="is-internal-link is-valid-page">Luồng với chi phí cực tiểu - ⭐⭐⭐</a></li>
+<li><a href="/algo/graph-theory/max-matching" class="is-internal-link is-valid-page">Cặp ghép cực đại - ⭐⭐⭐</a></li>
+<li><a href="/algo/graph-theory/flow-application" class="is-internal-link is-valid-page">Ứng dụng của luồng trên mạng - ⭐⭐⭐</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="đồ-thị-dạng-cây" class="toc-header"><a class="toc-anchor" href="#đồ-thị-dạng-cây">¶</a> Đồ thị dạng cây</h3>
+<ul>
+<li><a href="/algo/graph-theory/euler-tour-on-tree.md" class="is-asset-link">Đường đi Euler trên cây - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/lca-binlift.md" class="is-asset-link">Lowest Common Ancestor (LCA) - ⭐⭐</a></li>
+<li><a href="/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor" class="is-internal-link is-valid-page">Bài toán RMQ &amp; Bài toán LCA (Dịch) - ⭐⭐</a></li>
+<li><a href="/algo/graph-theory/lubenica-vnoj" class="is-internal-link is-valid-page">Bài toán Lubenica - RMQ trên cây - ⭐⭐</a></li>
+<li><a href="/algo/data-structures/heavy-light-decomposition" class="is-internal-link is-valid-page">Heavy Light Decomposition - ⭐⭐⭐</a></li>
+<li><a href="/algo/data-structures/lca" class="is-internal-link is-valid-page">Các phương pháp giải bài toán LCA - ⭐⭐⭐</a></li>
+<li><a href="/algo/graph-theory/centroid-decomposition.md" class="is-asset-link">Thuật toán phân tách trọng tâm - ⭐⭐⭐</a></li>
+</ul>
+<h2 id="tham-lam" class="toc-header"><a class="toc-anchor" href="#tham-lam">¶</a> Tham lam</h2>
+<ul>
+<li><a href="/algo/greedy-new" class="is-internal-link is-valid-page">Tham lam - ⭐⭐</a></li>
+</ul>
+<!--- [Tham lam - ⭐⭐](/translate/topcoder/Greedy-is-Good)-->
+<ul>
+<li><a href="/algo/math/matroid" class="is-internal-link is-valid-page">Matroid - ⭐⭐⭐⭐</a></li>
+</ul>
+<h2 id="toán-học" class="toc-header"><a class="toc-anchor" href="#toán-học">¶</a> Toán học</h2>
+<!-- - [Toán học trong Tin học - ⭐⭐](/translate/topcoder/Mathematics-for-Topcoders) -->
+<h3 id="số-học" class="toc-header"><a class="toc-anchor" href="#số-học">¶</a> Số học</h3>
+<ul>
+<li><strong>Số học cơ bản:</strong>
+<ul>
+<li><a href="/algo/math/modulo" class="is-internal-link is-valid-page">Modulo cơ bản - ⭐</a></li>
+<li><a href="/algo/algebra/euclid" class="is-internal-link is-valid-page">Ước chung lớn nhất &amp; Thuật toán Euclid - ⭐</a></li>
+<li><a href="/algo/algebra/binary_exponentation.md" class="is-asset-link"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>a</mi><mi>b</mi></msup><mtext> </mtext><mo lspace="0.22em" rspace="0.22em"><mrow><mi mathvariant="normal">m</mi><mi mathvariant="normal">o</mi><mi mathvariant="normal">d</mi></mrow></mo><mtext> </mtext><mi>c</mi></mrow><annotation encoding="application/x-tex">a^b \bmod c</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8491em;"></span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">b</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.0556em;"></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin"><span class="mord"><span class="mord mathrm">mod</span></span></span><span class="mspace" style="margin-right:0.0556em;"></span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">c</span></span></span></span> -  Lũy thừa nhị phân - ⭐</a></li>
+<li><a href="/algo/algebra/prime_sieve.md" class="is-asset-link">Sàng nguyên tố - ⭐</a></li>
+<li><a href="/algo/math/modular-inverse" class="is-internal-link is-valid-page">Nghịch đảo modulo - ⭐⭐</a></li>
+<li><a href="/algo/algebra/primality_check.md" class="is-asset-link">Kiểm tra số nguyên tố - ⭐⭐</a></li>
+<li><a href="/algo/math/integer-factorization" class="is-internal-link is-valid-page">Phân tích thừa số nguyên tố - ⭐⭐</a><br>
+<br></li>
+</ul>
+</li>
+<li><strong>Định lý số học:</strong>
+<ul>
+<li><a href="/translate/he/Wilsons-theorem" class="is-internal-link is-valid-page">Định lý Wilson - ⭐⭐</a></li>
+<li><a href="/translate/he/Lucas-theorem" class="is-internal-link is-valid-page">Định lý Lucas - ⭐⭐</a></li>
+<li><a href="/algo/math/crt" class="is-internal-link is-valid-page">Định lý Thặng dư Trung Hoa (CRT) - ⭐⭐</a><br>
+<br></li>
+</ul>
+</li>
+<li><strong>Hàm số số học:</strong>
+<ul>
+<li><a href="/algo/math/divisors" class="is-internal-link is-valid-page">Số các ước và Tổng các ước - ⭐</a></li>
+<li><a href="/algo/algebra/phi-ham-euler" class="is-internal-link is-valid-page">Phi hàm Euler - ⭐⭐</a></li>
+<li><a href="/translate/quora/mobius-function.md" class="is-asset-link">Hàm Mobius - ⭐⭐⭐⭐</a></li>
+<li><a href="/algo/math/multiplicative-function" class="is-internal-link is-valid-page">Hàm nhân tính (Multiplicative Function) - ⭐⭐⭐⭐</a><br>
+<br></li>
+</ul>
+</li>
+<li><strong>Bài toán đặc biệt:</strong>
+<ul>
+<li><a href="/algo/algebra/nCk" class="is-internal-link is-valid-page">Tính tổ hợp nCk - ⭐⭐</a></li>
+<li><a href="/algo/math/factorial-modulo-prime" class="is-internal-link is-valid-page">Giai thừa modulo nguyên tố - ⭐⭐⭐</a></li>
+<li><a href="/algo/math/sqrt-mod-p" class="is-internal-link is-valid-page">Căn bậc hai modulo - ⭐⭐⭐</a></li>
+<li><a href="/algo/math/discrete-log" class="is-internal-link is-valid-page">Logarit rời rạc - ⭐⭐⭐</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="tổ-hợp-và-xác-suất" class="toc-header"><a class="toc-anchor" href="#tổ-hợp-và-xác-suất">¶</a> Tổ hợp và Xác suất</h3>
+<ul>
+<li><a href="/translate/he/Number-Theory-5" class="is-internal-link is-valid-page">Các kiến thức cơ bản về Tổ hợp (Combinatorics) - ⭐⭐</a></li>
+<li><a href="/translate/topcoder/Hieu-ve-xac-suat" class="is-internal-link is-valid-page">Xác suất - ⭐⭐</a></li>
+<li><a href="/translate/he/Number-Theory-6" class="is-internal-link is-valid-page">Xác suất (Probabilities) - ⭐⭐</a></li>
+<li><a href="/algo/algebra/pie" class="is-internal-link is-valid-page">Bao hàm - Loại trừ (Principle of Inclusion-Exclusion) - ⭐⭐</a></li>
+</ul>
+<!--- [Bao hàm - Loại trừ (Inclusion-Exclusion) - ⭐⭐](/translate/he/Number-Theory-7)-->
+<h3 id="hình-học" class="toc-header"><a class="toc-anchor" href="#hình-học">¶</a> Hình học</h3>
+<ul>
+<li><a href="/algo/geometry/basic-geometry-1" class="is-internal-link is-valid-page">Hình học tính toán phần 1: Khái niệm - ⭐</a></li>
+<li><a href="/algo/geometry/basic-geometry-2" class="is-internal-link is-valid-page">Hình học tính toán phần 2: Giao điểm - ⭐</a></li>
+<li><a href="/algo/geometry/basic-geometry-3" class="is-internal-link is-valid-page">Hình học tính toán phần 3: Đa giác - ⭐</a></li>
+<li><a href="/algo/geometry/Sweep-Line.md" class="is-asset-link">Thuật toán đường quét (sweep line) - ⭐⭐</a></li>
+<li><a href="/translate/wcipeg/Convex-Hull" class="is-internal-link is-valid-page">Bao lồi - ⭐⭐⭐</a></li>
+<li><a href="/algo/trick/convex_greedy" class="is-internal-link is-valid-page">Sum-constrained convex optimization - ⭐⭐⭐⭐⭐</a></li>
+<li><a href="/algo/trick/minkowski-sum" class="is-internal-link is-valid-page">Tổng Minkowski - ⭐⭐⭐⭐⭐</a></li>
+</ul>
+<h3 id="đại-số-giải-tích" class="toc-header"><a class="toc-anchor" href="#đại-số-giải-tích">¶</a> Đại số - Giải tích</h3>
+<ul>
+<li><a href="/algo/trick/matrix-multiplication" class="is-internal-link is-valid-page">Nhân ma trận - ⭐⭐⭐</a></li>
+<li><a href="/algo/trick/counting-without-matrix-multiplication" class="is-internal-link is-valid-page">Khử nhân ma trận - ⭐⭐⭐</a></li>
+<li><a href="/vnoi-magazine/2023/derivative-application" class="is-internal-link is-valid-page">Áp dụng bất ngờ của đạo hàm - ⭐⭐⭐</a></li>
+<li><a href="/algo/trick/FFT" class="is-internal-link is-valid-page">Nhân nhanh đa thức - FFT - ⭐⭐⭐⭐</a></li>
+</ul>
+<h3 id="lý-thuyết-trò-chơi" class="toc-header"><a class="toc-anchor" href="#lý-thuyết-trò-chơi">¶</a> Lý thuyết trò chơi</h3>
+<ul>
+<li><a href="/algo/math/game-theory.md" class="is-asset-link">Trò chơi Nim &amp; Định lý Sprague-Grundy - ⭐⭐⭐</a></li>
+<li><a href="/algo/games/Giai-Thuat-Cat-Tia-Alpha-beta" class="is-internal-link is-valid-page">Giải thuật cắt tỉa Alpha-Beta - ⭐⭐⭐</a></li>
+</ul>
+<h2 id="tối-ưu-hoá" class="toc-header"><a class="toc-anchor" href="#tối-ưu-hoá">¶</a> Tối ưu hoá</h2>
+<ul>
+<li><a href="/algo/basic/divide-and-conquer" class="is-internal-link is-valid-page">Chia để trị - ⭐⭐</a></li>
+<li><a href="/algo/basic/chen-danqi-dnc" class="is-internal-link is-valid-page">Chia để trị Chen Danqi - ⭐⭐</a></li>
+<li><a href="/algo/search/parallel-binary-search" class="is-internal-link is-valid-page">Chặt nhị phân song song - ⭐⭐⭐</a></li>
+<li><a href="/translate/emaxx/Tim-kiem-tam-phan-Ternary-Search" class="is-internal-link is-valid-page">Tìm kiếm tam phân - Ternary Search - ⭐⭐⭐</a></li>
+<li><a href="/algo/search/Local-Search" class="is-internal-link is-valid-page">Local Search - ⭐⭐⭐</a></li>
+</ul>
+<h1 id="chia-sẻ-kinh-nghiệm" class="toc-header"><a class="toc-anchor" href="#chia-sẻ-kinh-nghiệm">¶</a> Chia sẻ kinh nghiệm</h1>
+<h2 id="về-cách-học-tin-học" class="toc-header"><a class="toc-anchor" href="#về-cách-học-tin-học">¶</a> Về cách học Tin học</h2>
+<ul>
+<li><a href="/algo/basic/hoc-tin-the-nao-1" class="is-internal-link is-valid-page">Tôi đã học Tin như thế nào - phần 1</a></li>
+<li><a href="/algo/basic/hoc-tin-the-nao-2" class="is-internal-link is-valid-page">Tôi đã học Tin như thế nào - phần 2</a></li>
+</ul>
+<h2 id="kĩ-năng-thi-cử" class="toc-header"><a class="toc-anchor" href="#kĩ-năng-thi-cử">¶</a> Kĩ năng thi cử</h2>
+<ul>
+<li><a href="/algo/skill/sinh-test-new" class="is-internal-link is-valid-page">Kỹ thuật sinh test và tự kiểm tra code</a></li>
+<li><a href="/algo/skill/viet-trinh-cham" class="is-internal-link is-valid-page">Viết trình chấm</a></li>
+<li><a href="/algo/skill/Ki-nang-thi-cu" class="is-internal-link is-valid-page">Tổng hợp lời khuyên cho các kỳ thi</a></li>
+<li><a href="/algo/skill/Kinh-nghiem-thi-VOI" class="is-internal-link is-valid-page">Kinh nghiệm thi VOI</a></li>
+</ul>
+<h2 id="kinh-nghiệm-phỏng-vấn" class="toc-header"><a class="toc-anchor" href="#kinh-nghiệm-phỏng-vấn">¶</a> Kinh nghiệm phỏng vấn</h2>
+<ul>
+<li><a href="/interview/general-experience" class="is-internal-link is-valid-page">Những kinh nghiệm chung khi phỏng vấn</a></li>
+<li><a href="/interview/experience-from-interviewer" class="is-internal-link is-valid-page">Kinh nghiệm phỏng vấn - Góc nhìn từ người phỏng vấn</a></li>
+<li><a href="/interview/Nhung-lan-phong-van-trong-thuc-te-va-bai-hoc-rut-ra" class="is-internal-link is-valid-page">Những lần phỏng vấn và những kinh nghiệm rút ra</a></li>
+</ul>
+<h2 id="vnoi-interview" class="toc-header"><a class="toc-anchor" href="#vnoi-interview">¶</a> VNOI Interview</h2>
+<ul>
+<li><a href="/vnoi-interview/yen-thanh" class="is-internal-link is-valid-page">Phỏng vấn Lê Yên Thanh</a></li>
+<li><a href="/vnoi-interview/xuan-khanh" class="is-internal-link is-valid-page">Phỏng vấn Nguyễn Xuân Khánh</a></li>
+<li><a href="/vnoi-interview/Phong-van-team-IOI-VN-2017" class="is-internal-link is-valid-page">Phỏng vấn Team IOI Việt Nam 2017</a></li>
+<li><a href="/vnoi-interview/Phong-van-team-IOI-Viet-Nam-2018" class="is-internal-link is-valid-page">Phỏng vấn Team IOI Việt Nam 2018</a></li>
+</ul>
+<h2 id="khác" class="toc-header"><a class="toc-anchor" href="#khác">¶</a> Khác</h2>
+<ul>
+<li><a href="/others/Pascal-Vi-sao" class="is-internal-link is-valid-page">Hoài niệm về Pascal - thầy Lê Minh Hoàng</a></li>
+</ul>
+<h1 id="các-kỳ-thi" class="toc-header"><a class="toc-anchor" href="#các-kỳ-thi">¶</a> Các kỳ thi</h1>
+<ul>
+<li><a href="https://acm-icpc.olp.vn/" class="is-external-link">ACM ICPC Regional Vietnam</a></li>
+<li><a href="/Cac-doi-Viet-Nam-tai-ACM-ICPC-World-Final" class="is-internal-link is-valid-page">Việt Nam tại ACM ICPC World Final</a></li>
+<li><a href="https://icpcvn.github.io/" class="is-external-link">Tổng hợp đề thi ICPC Việt Nam</a></li>
+</ul>
+<!--
+# Các chủ đề trong Khoa học máy tính
+
+## Ngôn ngữ lập trình
+
+- [Xử lý xâu trong C++](/languages/cpp/string)
+- [Sử dụng regex](/translate/topcoder/Using-Regular-Expression)
+- [C++ STL](https://drive.google.com/file/d/1iqlQ1TmgGy_CKwZ0_9KPfu_ZHsnrT3Tu/view?usp=sharing)
+- [Con trỏ trong C++](/languages/cpp/pointers)
+
+## Machine Learning
+
+- [Machine Learning 101: Làm quen](/comp-sci/ml/machine-learning-101)
+- [Classification - Phần 1](/translate/ml/Machine-Learning-Classification-phan-1)
+- [Classification - Phần 2](/translate/ml/Machine-Learning-Classification-phan-2)
+- [Classification - Phần 3](/translate/ml/Machine-Learning-Classification-phan-3)
+- [PyTorch là gì?](/translate/PyTorch-la-gi)
+
+## Các chủ đề khác:
+
+- Xử lý ảnh
+    - [Seam Carving](/comp-sci/imageprocessing/Seam-Carving)
+- Cryptography
+    - [Public Key Cryptography và RSA](/comp-sci/crypto/Public-Key-Cryptography)
+- [Trang Web VNOI phiên bản đầu tiên](https://v0.vnoi.info)
+- [Trang Web IOICAMP phiên bản đầu tiên](https://v0.vnoi.info/ioicamp)
+
+## [Trò chơi giải trí với AI hay](https://play.google.com/store/apps/dev?id=8454869713871668206)
+
+-   [Cờ Carô với AI hay](http://play.google.com/store/apps/details?id=com.popoko.gomokuvn)
+-   [Cờ Vua với AI hay](http://play.google.com/store/apps/details?id=com.popoko.chessru)
+-   [Cờ Gomoku với AI hay](http://play.google.com/store/apps/details?id=com.popoko.gomokukr)
+-   [Trò chơi Dò Mìn](http://play.google.com/store/apps/details?id=com.popoko.minesweeper)
+--></div></template><template slot="comments"><div><comments></comments></div></template></page></div><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d6d2afa2f6aff8b',t:'MTc3MjU4ODM3NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body></html>

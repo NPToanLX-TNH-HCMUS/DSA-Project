@@ -1,6 +1,6 @@
 [{
-        "id": "data-analyst-introduction",
-        "term": "Data Analyst Introduction",
+        "id": "data-analyst",
+        "term": "Data Analyst",
         "next_nodes": [
             "analysis-reporting-with-excel"
         ],

@@ -1,4 +1,10 @@
 [{
+        "id": "game-developer",
+        "term": "Game Developer",
+        "next_nodes": ["programming-language"],
+        "Details": []
+    },
+    {
         "id": "programming-language",
         "term": "Programming Languages",
         "next_nodes": [

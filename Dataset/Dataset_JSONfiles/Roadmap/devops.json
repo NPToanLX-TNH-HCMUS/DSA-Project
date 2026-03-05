@@ -1,4 +1,10 @@
 [{
+        "id": "devops",
+        "term": "Devops",
+        "next_nodes": ["programming-language"],
+        "Details": []
+    },
+    {
         "id": "programming-language",
         "term": "Learn a Programming Language",
         "next_nodes": [

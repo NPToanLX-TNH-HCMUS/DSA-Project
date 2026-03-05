@@ -1,4 +1,10 @@
 [{
+        "id": "back-end",
+        "term": "Back end",
+        "next_nodes": ["internet"],
+        "Details": []
+    },
+    {
         "id": "internet",
         "term": "Internet",
         "next_nodes": [
@@ -39,8 +45,8 @@
         ]
     },
     {
-        "id": "os-general-knowledge",
-        "term": "OS General Knowledge",
+        "id": "operating-system",
+        "term": "operating system",
         "next_nodes": [
             "backend-language"
         ],
@@ -50,8 +56,8 @@
         ]
     },
     {
-        "id": "backend-language",
-        "term": "Backend Language",
+        "id": "backend-programming-language",
+        "term": "Backend Programming Language",
         "next_nodes": [
             "relational-databases"
         ],
@@ -173,7 +179,7 @@
         ]
     },
     {
-        "id": "ci-cd",
+        "id": "cicd",
         "term": "CI / CD",
         "next_nodes": [
             "design-and-architecture"

@@ -16,12 +16,13 @@ class SEARCH_DICTIONARY {
 private:
     vector<string> word;
     unordered_map<string, string> dict;
+    unordered_map<string, string> term;
     struct Node {
-        Node *child[26];
+        Node *child[256];
         int cnt;
         int exist;
         Node () {
-            for (int i = 0; i < 26; i++) child[i] = nullptr;
+            for (int i = 0; i < 256; i++) child[i] = nullptr;
             cnt = 0;
             exist = 0;
         }
@@ -45,8 +46,8 @@ private:
     void add(string s) {
         Node *p = root;
         for (char c: s) {
-            if (p->child[c - 'a'] == nullptr) p->child[c - 'a'] = newNode();
-            p = p->child[c - 'a'];
+            if (p->child[c] == nullptr) p->child[c] = newNode();
+            p = p->child[c];
             p->cnt++;
         }
         p->exist++;
@@ -56,9 +57,9 @@ private:
         if (p->exist) {
             word.push_back(cur);
         }
-        for (int i = 0; i < 26; i++) {
+        for (int i = 0; i < 256; i++) {
             if (p->child[i]) {
-                cur.push_back(char(i + 'a'));
+                cur.push_back(char(i));
                 dfs(p->child[i], cur);
                 cur.pop_back();
             }
@@ -70,13 +71,13 @@ public:
     void load_dictionary(string filename) {
         ifstream f(filename);
         f >> dt;
-
-        
         // input data to search dictionary
         for (auto &item: dt) {
             string id = lower(item["id"].get<string>());
             string def = item["definition"].get<string>();
+            string term_val = item["term"].get<string>();
             dict[id] = def;
+            term[id] = term_val;
             add(id);
         }   
     }
@@ -97,7 +98,7 @@ public:
             dfs(p, prefix);
             if (word.size() == 1) return;
             cout << "=====OTHER WORDS=====\n";
-            for (string s: word) if (s != W) cout << s << '\n';
+            for (string s: word) if (s != W) cout << term[s] << '\n';
             return;
         }
 
@@ -105,7 +106,7 @@ public:
 
         if (word.size() == 0) cout << "NOT FOUND!!!";
         else {
-            for (string s: word) cout << s << '\n';
+            for (string s: word) cout << term[s] << '\n';
         }
         if (word.size() == 1) {
             cout << "=====DEFINITION=====\n";

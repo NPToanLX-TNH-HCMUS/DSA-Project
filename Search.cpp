@@ -119,22 +119,26 @@ void Search(string prefix) {
 
 void solve() {
     root = newNode();
-    ifstream f("D:\\PL\\C++\\HCMUS\\DSA\\PROJECT_DSA\\Dataset_fileJSON\\cp-dictionary.json");
+    ifstream f("cp-dictionary.json");
     f >> dt;
     // INPUT
     for (auto &item: dt) add(lower(item["id"].get<string>()));
 
     // Seach
     string prefix;
-    while (true) {
-        cout << "Search: ";
-        cin >> prefix;
-        prefix = lower(prefix);
-        if (prefix == "end") break;
-        Search(prefix);
-    }
+    cin >> prefix;
+    prefix = lower(prefix);
+    Search(prefix);
+
+    // while (true) {
+    //     cout << "Search: ";
+    //     cin >> prefix;
+    //     prefix = lower(prefix);
+    //     if (prefix == "end") break;
+    //     Search(prefix);
+    // }
     
-    system("pause");
+    // system("pause");
 }
 
 int main()

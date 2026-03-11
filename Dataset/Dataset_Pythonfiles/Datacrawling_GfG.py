@@ -12,7 +12,7 @@ def slugify(text):
     pattern1 = r"[^\w\s-]"
     pattern2 = r"[-\s]+"
     text = re.sub(pattern1, "", text)
-    text = re.sub(pattern2, "-", text)
+    text = re.sub(pattern2, "", text)
     return text
 
 

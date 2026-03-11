@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
-#include <Windows.h>
+#include <iostream>
+#include <windows.h>
 #include "json.hpp"
 
 using namespace std;
@@ -14,26 +15,26 @@ using json = nlohmann::json;
 #define all(x) (x).begin(), (x).end()
 #define meme(a, n) memset((a), (n), sizeof(a))
 
-template <typename T1, typename T2>
-bool minimize(T1 &a, T2 b)
-{
-    if (a > b)
-    {
-        a = b;
-        return true;
-    }
-    return false;
-}
-template <typename T1, typename T2>
-bool maximize(T1 &a, T2 b)
-{
-    if (a < b)
-    {
-        a = b;
-        return true;
-    }
-    return false;
-}
+// template <typename T1, typename T2>
+// bool minimize(T1 &a, T2 b)
+// {
+//     if (a > b)
+//     {
+//         a = b;
+//         return true;
+//     }
+//     return false;
+// }
+// template <typename T1, typename T2>
+// bool maximize(T1 &a, T2 b)
+// {
+//     if (a < b)
+//     {
+//         a = b;
+//         return true;
+//     }
+//     return false;
+// }
 
 const int maxn = 2e4 + 7;
 const int inf = 1e9 + 7;
@@ -122,6 +123,7 @@ void Search(string prefix)
             if (W == lower(item["id"].get<string>()))
             {
                 cout << item["definition"].get<string>() << '\n';
+                cout << item["definition_vi"].get<string>() << '\n';
             }
         dfs(p, prefix);
         if (word.size() == 1)
@@ -155,7 +157,8 @@ void Search(string prefix)
         for (auto &item : dt)
             if (W == lower(item["id"].get<string>()))
             {
-                cout << item["definition"].get<string>() << '\n';
+                cout << "Definition: " << item["definition"].get<string>() << '\n';
+                cout << "Definition in Vienamese: " << item["definition_vi"].get<string>() << '\n';
             }
         cout << "====================\n\n";
     }
@@ -166,7 +169,8 @@ void solve()
     root = newNode();
     // "D:\\PL\\C++\\HCMUS\\DSA\\PROJECT_DSA\\Dataset_fileJSON\\cp-dictionary.json"
     ifstream f("C:\\Users\\lenovo\\.vscode\\NPToan\\InClass\\DSA's Project\\Main\\DSA-Project\\Dataset\\Dataset_JSONfiles\\dictionary_Eng_Vie.json");
-    if (!f.is_open()){
+    if (!f.is_open())
+    {
         cerr << "Cannot open the file" << "\n";
         return;
     }
@@ -195,6 +199,7 @@ int main()
     // freopen("dataset.txt", "r", stdin);
     // freopen("output.txt", "w", stdout);
     // cin.tie(0)->sync_with_stdio(false);
+    SetConsoleOutputCP(CP_UTF8);
     solve();
     return 0;
 }

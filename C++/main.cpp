@@ -22,6 +22,16 @@ map<string, string> terms;
 map<string, vector<string>> parents;
 vector<Node> node_list;
 
+string lower(string s)
+{
+    for (char &c : s)
+    {
+        if ('A' <= c && c <= 'Z')
+            c = c - 'A' + 'a';
+    }
+    return s;
+}
+
 void add_node(Node new_node)
 {
     for (auto v : new_node.next_nodes)
@@ -31,22 +41,20 @@ void add_node(Node new_node)
     }
 }
 
-void load_data()
+void load_data(string roadmap)
 {
-    // open file
-    ifstream file("frontend.json");
+    // Open file
+    string file_input = roadmap;
+    ifstream file(file_input);
     if (!file.is_open())
     {
-        cout << "Khong mo duoc file!";
-        cout << endl;
-        return;
+        cout << "Cannot open the file" << "\n";
+        abort();
     }
-
-    // read file
+    // Read file
     json j_data;
     file >> j_data;
-
-    // create graph
+    // Create graph
     for (auto &item : j_data)
     {
         Node n;
@@ -58,20 +66,10 @@ void load_data()
         terms[n.id] = n.term;
         node_list.push_back(n);
     }
-
-    // debug
-    /* for (const auto &n : node_list)
-    {
-        std::cout << "ID: " << n.id << " - Term: " << n.term << " - Next: ";
-        for (auto next : n.next_nodes)
-            std::cout << next << " ";
-        std::cout << std::endl;
-    } */
-
     file.close();
 }
 
-// bfs to retrieval
+// BFS: 
 vector<string> get_RoadMap(string knowledge)
 {
     map<string, bool> check;
@@ -104,7 +102,9 @@ vector<string> get_RoadMap(string knowledge)
 
 int main()
 {
-    load_data();
+    string user_input; cin >> user_input;
+    user_input = "../Dataset/Dataset_JSONfiles/Roadmap/" + user_input + ".json";
+    load_data(user_input);
     string knowledge;
     cout << "Enter the knowledge you want to learn: ";
     cin >> knowledge;

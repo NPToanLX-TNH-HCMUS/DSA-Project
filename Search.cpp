@@ -47,7 +47,7 @@ private:
             }
         }
     }
-public:
+
     void add(string s) {
         Node *p = root;
         for (char c: s) {
@@ -64,6 +64,7 @@ public:
         }
         return s;
     }
+public:
 
     void load_dictionary(string filename) {
         ifstream f(filename);
@@ -115,14 +116,16 @@ public:
     SEARCH_DICTIONARY() {
         root = newNode();
     }
-} search_dictionary;
+};
+
+SEARCH_DICTIONARY search_dictionary;
 
 int main()
 {
     cin.tie(0)->sync_with_stdio(false);
 
     // Load dictionary
-    search_dictionary.load_dictionary("cp-dictionary.json");
+    search_dictionary.load_dictionary("Dataset_fileJSON\\cp-dictionary.json");
     // Search
     string prefix;
     cin >> prefix;

@@ -1,84 +1,24 @@
-#include <bits/stdc++.h>
 #include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <algorithm>
 #include <windows.h>
+#include <unordered_map>
 #include "json.hpp"
 
 using namespace std;
 using json = nlohmann::json;
 
-#define fi first
-#define se second
-#define ll long long
-#define pii pair<int, int>
-#define MASK(x) (1 << (x))
-#define BIT(x, i) (((x) >> (i)) & 1)
-#define all(x) (x).begin(), (x).end()
-#define meme(a, n) memset((a), (n), sizeof(a))
-
-// template <typename T1, typename T2>
-// bool minimize(T1 &a, T2 b)
-// {
-//     if (a > b)
-//     {
-//         a = b;
-//         return true;
-//     }
-//     return false;
-// }
-// template <typename T1, typename T2>
-// bool maximize(T1 &a, T2 b)
-// {
-//     if (a < b)
-//     {
-//         a = b;
-//         return true;
-//     }
-//     return false;
-// }
-
-const int maxn = 2e4 + 7;
-const int inf = 1e9 + 7;
-const int logn = 20;
-
-int n;
-vector<string> word;
+#define maxn 200007
 json dt;
 
-struct Node
+struct WordData
 {
-    Node *child[256];
-    int cnt, exist;
-    Node()
-    {
-        for (int i = 0; i < 256; i++)
-            child[i] = nullptr;
-        cnt = 0;
-        exist = 0;
-    }
+    string definition;
+    string definition_vi;
+    bool in_roadmap;
 };
-
-Node node[maxn];
-Node *root;
-int cur = 0;
-
-Node *newNode()
-{
-    return &node[cur++];
-}
-
-// Trie
-void add(string s)
-{
-    Node *p = root;
-    for (char c : s)
-    {
-        if (p->child[(unsigned char)c] == nullptr)
-            p->child[(unsigned char)c] = newNode();
-        p = p->child[(unsigned char)c];
-        p->cnt++;
-    }
-    p->exist++;
-}
 
 string lower(string s)
 {
@@ -90,116 +30,161 @@ string lower(string s)
     return s;
 }
 
-void dfs(Node *p, string cur)
+class SEARCH_DICTIONARY
 {
-    if (p->exist)
+private:
+    vector<string> word;
+    unordered_map<string, WordData> dict;
+    unordered_map<string, string> term;
+    struct Node
     {
-        word.push_back(cur);
-    }
-    for (int i = 0; i < 256; i++)
-    {
-        if (p->child[i])
-            dfs(p->child[i], cur + char(i));
-    }
-}
-
-void Search(string prefix)
-{
-    word.clear();
-    prefix = lower(prefix);
-    Node *p = root;
-    for (char c : prefix)
-    {
-        if (p->child[(unsigned char)c] == nullptr)
-            return;
-        p = p->child[(unsigned char)c];
-    }
-
-    if (p->exist)
-    {
-        cout << "=====DEFINITION=====\n";
-        string W = prefix;
-        for (auto &item : dt)
-            if (W == lower(item["id"].get<string>()))
-            {
-                cout << item["definition"].get<string>() << '\n';
-                cout << item["definition_vi"].get<string>() << '\n';
-            }
-        dfs(p, prefix);
-        if (word.size() == 1)
+        Node *child[256];
+        int cnt;
+        int exist;
+        Node()
         {
-            cout << "====================\n\n";
+            for (int i = 0; i < 256; i++)
+                child[i] = nullptr;
+            cnt = 0;
+            exist = 0;
+        }
+    };
+    Node node[maxn];
+    Node *root;
+    int cur = 0;
+
+    Node *newNode()
+    {
+        return &node[cur++];
+    }
+
+    void dfs(Node *p, string &cur)
+    {
+        if (p->exist)
+        {
+            word.push_back(cur);
+        }
+        for (int i = 0; i < 256; i++)
+        {
+            if (p->child[i])
+            {
+                cur.push_back(char(i));
+                dfs(p->child[i], cur);
+                cur.pop_back();
+            }
+        }
+    }
+
+    void add(string s)
+    {
+        Node *p = root;
+        for (char c : s)
+        {
+            if (p->child[c] == nullptr)
+                p->child[c] = newNode();
+            p = p->child[c];
+            p->cnt++;
+        }
+        p->exist++;
+    }
+
+public:
+    void load_dictionary(string filename)
+    {
+        ifstream f(filename);
+        if (!f.is_open())
+        {
+            cerr << "Cannot open the input file" << "\n";
             return;
         }
-        cout << "=====OTHER WORDS=====\n";
-        for (string s : word)
-            if (s != W)
-                cout << s << '\n';
-        cout << "=====================\n\n";
-        return;
-    }
-
-    dfs(p, prefix);
-
-    if (word.size() == 0)
-        cout << "NOT FOUND!!!";
-    else
-    {
-        cout << "====================\n";
-        for (string s : word)
-            cout << s << '\n';
-        cout << "====================\n\n";
-    }
-    if (word.size() == 1)
-    {
-        cout << "=====DEFINITION=====\n";
-        string W = word[0];
+        f >> dt;
+        // input data to search dictionary:
         for (auto &item : dt)
-            if (W == lower(item["id"].get<string>()))
-            {
-                cout << "Definition: " << item["definition"].get<string>() << '\n';
-                cout << "Definition in Vienamese: " << item["definition_vi"].get<string>() << '\n';
-            }
-        cout << "====================\n\n";
+        {
+            string id = lower(item["id"].get<string>());
+            string def = item["definition"].get<string>();
+            string def_vie = item["definition_vi"].get<string>();
+            bool in_rmap = item["in_roadmap"].get<bool>();
+            string term_val = item["term"].get<string>();
+            dict[id].definition = def;
+            dict[id].definition_vi = def_vie;
+            dict[id].in_roadmap = in_rmap;
+            term[id] = term_val;
+            add(id);
+        }
     }
-}
 
-void solve()
-{
-    root = newNode();
-    // "D:\\PL\\C++\\HCMUS\\DSA\\PROJECT_DSA\\Dataset_fileJSON\\cp-dictionary.json"
-    ifstream f("C:\\Users\\lenovo\\.vscode\\NPToan\\InClass\\DSA's Project\\Main\\DSA-Project\\Dataset\\Dataset_JSONfiles\\dictionary_Eng_Vie.json");
-    if (!f.is_open())
+    void Search(string prefix)
     {
-        cerr << "Cannot open the file" << "\n";
-        return;
-    }
-    f >> dt;
-    // INPUT
-    for (auto &item : dt)
-        add(lower(item["id"].get<string>()));
-
-    // Seach
-    string prefix;
-    while (true)
-    {
-        cout << "Search: ";
-        cin >> prefix;
+        word.clear();
         prefix = lower(prefix);
-        if (prefix == "end")
-            break;
-        Search(prefix);
+        Node *p = root;
+        for (char c : prefix)
+        {
+            if (p->child[c] == nullptr)
+                return;
+            p = p->child[c];
+        }
+        if (p->exist)
+        {
+            string W = prefix;
+            cout << "=====DEFINITION_ENG=====\n";
+            cout << dict[W].definition << '\n';
+            cout << "=====DEFINITION_VIE=====\n";
+            cout << dict[W].definition_vi << '\n';
+            dfs(p, prefix);
+            if (word.size() == 1)
+                return;
+            cout << "=====OTHER WORDS=====\n";
+            for (string s : word)
+                if (s != W)
+                    cout << term[s] << '\n';
+            return;
+        }
+        dfs(p, prefix);
+        if (word.size() == 0)
+            cout << "NOT FOUND!!!";
+        else
+        {
+            for (string s : word)
+                cout << term[s] << '\n';
+        }
+        if (word.size() == 1)
+        {
+            string W = word[0];
+            cout << "=====DEFINITION_ENG=====\n";
+            cout << dict[W].definition << '\n';
+            cout << "=====DEFINITION_VIE=====\n";
+            cout << dict[W].definition_vi << '\n';
+        }
     }
+    SEARCH_DICTIONARY()
+    {
+        root = newNode();
+    }
+};
 
-    system("pause");
-}
+SEARCH_DICTIONARY search_dictionary;
 
 int main()
 {
-    // freopen("dataset.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // cin.tie(0)->sync_with_stdio(false);
     SetConsoleOutputCP(CP_UTF8);
-    solve();
-    return 0;
+    cin.tie(0)->sync_with_stdio(false);
+
+    // Load dictionary:
+    search_dictionary.load_dictionary("C:\\Users\\lenovo\\.vscode\\NPToan\\InClass\\DSA's Project\\Main\\DSA-Project\\Dataset\\Dataset_JSONfiles\\dictionary_Eng_Vie.json");
+    // Search:
+    string prefix;
+    cin >> prefix;
+    search_dictionary.Search(prefix);
 }
+
+/* SUGGESTED TABLE OF FEATURES:
+1. ADDING NEW TERMS
+2. FIND DEF ENG - VIE
+3. ROADMAP:
+    3.1. FULL MAP --> TOPO SORT.
+    3.2. SHORT MAP --> BFD/DFS.
+
+
+*/

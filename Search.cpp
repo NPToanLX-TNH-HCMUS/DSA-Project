@@ -125,7 +125,7 @@ int main()
     cin.tie(0)->sync_with_stdio(false);
 
     // Load dictionary
-    search_dictionary.load_dictionary("Dataset_fileJSON\\cp-dictionary.json");
+    search_dictionary.load_dictionary("Dataset_fileJSON\\dictionary.json");
     // Search
     string prefix;
     cin >> prefix;

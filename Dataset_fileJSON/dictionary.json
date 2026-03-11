@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "404",
         "term": "404",
         "definition": "an error message when what was requested cannot be found; often because the link that was requested is broken.",
@@ -13,14 +14,14 @@
         "related_terms": []
     },
     {
-        "id": "active-learning",
+        "id": "activelearning",
         "term": "active learning",
         "definition": "A training approach in which the algorithm chooses some of the data it learns from.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "adaptive-design",
+        "id": "adaptivedesign",
         "term": "adaptive design",
         "definition": "The way in which a website is built determines how it appears on different devices. Adaptive design creates a website in several different layouts, each suited for different screen sizes. Depending on what device is being used to access the website, the website will adapt and deliver the appropriate layout. See also: responsive design and mobile-first.",
         "in_roadmap": false,
@@ -34,7 +35,7 @@
         "related_terms": []
     },
     {
-        "id": "agile-software-development",
+        "id": "agilesoftwaredevelopment",
         "term": "Agile software development",
         "definition": "software development methodologies that focus on iterative development.",
         "in_roadmap": false,
@@ -48,21 +49,21 @@
         "related_terms": []
     },
     {
-        "id": "application-software",
+        "id": "applicationsoftware",
         "term": "application (software)",
         "definition": "a program or group of programs designed for end users.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "api-application-programming-interface",
+        "id": "apiapplicationprogramminginterface",
         "term": "API (application programming interface)",
         "definition": "an intermediary software that allows two or more applications to talk to each other.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "application-security",
+        "id": "applicationsecurity",
         "term": "Application Security",
         "definition": "Application security is the process of making apps more secure by finding, fixing, and enhancing the security of apps. Application security encompasses measures taken to improve the security of an application often by finding, fixing and preventing security vulnerabilities. Much of this happens during the development phase, but it includes tools and methods to protect apps once they are deployed.",
         "in_roadmap": false,
@@ -83,14 +84,14 @@
         "related_terms": []
     },
     {
-        "id": "artificial-general-intelligence",
+        "id": "artificialgeneralintelligence",
         "term": "artificial general intelligence",
         "definition": "a non-human mechanism that demonstrates a broad range of problem solving, creativity, and adaptability. For example, a program demonstrating artificial general intelligence could translate text, compose symphonies, and excel at games that have not yet been invented.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "artificial-intelligence",
+        "id": "artificialintelligence",
         "term": "artificial intelligence",
         "definition": "a non-human program or model that can solve sophisticated tasks.",
         "in_roadmap": false,
@@ -104,7 +105,7 @@
         "related_terms": []
     },
     {
-        "id": "augmented-reality",
+        "id": "augmentedreality",
         "term": "augmented reality",
         "definition": "A technology that superimposes a computer-generated image on a user's view of the real world, thus providing a composite view.",
         "in_roadmap": false,
@@ -125,14 +126,14 @@
         "related_terms": []
     },
     {
-        "id": "back-end",
+        "id": "backend",
         "term": "back end",
         "definition": "All of the behind-the-scenes digital operations that it takes to keep the front end of a website running, such as the coding, style, and plugins.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "binary-operator",
+        "id": "binaryoperator",
         "term": "binary operator",
         "definition": "an operator that takes two arguments.",
         "in_roadmap": false,
@@ -188,7 +189,7 @@
         "related_terms": []
     },
     {
-        "id": "buffer-overflow",
+        "id": "bufferoverflow",
         "term": "buffer overflow",
         "definition": "a condition that exists when a program attempts to put more data in a buffer than it can hold.",
         "in_roadmap": false,
@@ -209,7 +210,7 @@
         "related_terms": []
     },
     {
-        "id": "cdn-content-delivery-network",
+        "id": "cdncontentdeliverynetwork",
         "term": "CDN (Content Delivery Network)",
         "definition": "A content delivery network (CDN) is a geographically distributed network of servers whose goal is to provide high availability and performance of the service served, to users.",
         "in_roadmap": false,
@@ -223,7 +224,7 @@
         "related_terms": []
     },
     {
-        "id": "cli-command-line-interface",
+        "id": "clicommandlineinterface",
         "term": "CLI (Command Line Interface)",
         "definition": "the terminal version of an application.",
         "in_roadmap": false,
@@ -244,14 +245,14 @@
         "related_terms": []
     },
     {
-        "id": "cloud-computing",
+        "id": "cloudcomputing",
         "term": "Cloud computing",
         "definition": "Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. The term is generally used to describe data centers available to many users over the Internet.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cms-content-management-system",
+        "id": "cmscontentmanagementsystem",
         "term": "CMS (Content Management System)",
         "definition": "The program that you use to create and maintain your website’s content.",
         "in_roadmap": false,
@@ -272,7 +273,7 @@
         "related_terms": []
     },
     {
-        "id": "commit-vcs",
+        "id": "commitvcs",
         "term": "commit (VCS)",
         "definition": "an operation which groups a set of changes behind a name and a number, making these changes part of the head revision of the repository. _See [VCS](#V)_",
         "in_roadmap": false,
@@ -307,7 +308,7 @@
         "related_terms": []
     },
     {
-        "id": "control-flow",
+        "id": "controlflow",
         "term": "control flow",
         "definition": "the order in which individual statements, instructions, or function calls of an imperative program are executed.",
         "in_roadmap": false,
@@ -328,14 +329,14 @@
         "related_terms": []
     },
     {
-        "id": "crm-customer-relationship-management",
+        "id": "crmcustomerrelationshipmanagement",
         "term": "CRM (Customer Relationship Management)",
         "definition": "In website development, this refers to the software and applications used to gather, analyze, and maintain information on customers, donors, and prospects.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "css-cascading-style-sheets",
+        "id": "css",
         "term": "CSS (Cascading Style Sheets)",
         "definition": "CSS is the code that tells the browser how to display the content of a web page for the end user by formatting fonts, colors, backgrounds, and other visual elements.",
         "in_roadmap": false,
@@ -349,7 +350,7 @@
         "related_terms": []
     },
     {
-        "id": "cyber-security",
+        "id": "cybersecurity",
         "term": "cyber security",
         "definition": "Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.",
         "in_roadmap": false,
@@ -370,21 +371,21 @@
         "related_terms": []
     },
     {
-        "id": "data-driven-programming",
+        "id": "datadrivenprogramming",
         "term": "Data-driven Programming",
         "definition": "a programming paradigm in which the program statements describe the data to be matched and the processing required rather than defining a sequence of steps to be taken.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "data-lake",
+        "id": "datalake",
         "term": "data lake",
         "definition": "A data lake is a system or storage repository that holds a vast amount of raw data in its native format usually object blobs or files until it is needed. While a hierarchical data warehouse stores data in files or folders, a data lake uses a flat architecture to store data.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "data-structure",
+        "id": "datastructure",
         "term": "data structure",
         "definition": "a data structure is a data organization, management, and storage format that enables efficient access and modification.",
         "in_roadmap": false,
@@ -398,14 +399,14 @@
         "related_terms": []
     },
     {
-        "id": "data-warehouse",
+        "id": "datawarehouse",
         "term": "data warehouse",
         "definition": "A data warehouse is a large collection of business data used to help an organization make decisions. Data Warehouses are central repositories of integrated data from one or more disparate sources. It is a system used for reporting and data analysis, and is considered a core component of business intelligence. The concept of the data warehouse has existed since the 1980s, when it was developed to help transition data from merely powering operations to fueling decision support systems that reveal business intelligence.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "deep-learning",
+        "id": "deeplearning",
         "term": "deep learning",
         "definition": "a broader family of machine learning methods based on artificial neural networks with representation learning. Deep-learning architectures such as deep neural networks, deep belief networks, deep reinforcement learning, recurrent neural networks and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, machine translation, bioinformatics, drug design, medical image analysis, material inspection and board game programs, where they have produced results comparable to and in some cases surpassing human expert performance.",
         "in_roadmap": false,
@@ -419,7 +420,7 @@
         "related_terms": []
     },
     {
-        "id": "design-patterns",
+        "id": "designpatterns",
         "term": "design patterns",
         "definition": "In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code.",
         "in_roadmap": false,
@@ -433,21 +434,21 @@
         "related_terms": []
     },
     {
-        "id": "devops-development-operations",
+        "id": "devopsdevelopmentoperations",
         "term": "DevOps (Development Operations)",
         "definition": "System of working that helps to keep development, IT operations, and quality assurance departments on the same page to make for better end-products and collaborations.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "dhcp-dynamic-host-configuration-protocol",
+        "id": "dhcpdynamichostconfigurationprotocol",
         "term": "DHCP (Dynamic Host Configuration Protocol)",
         "definition": "A protocol that provides new devices on a network the information they need to communicate with other devices.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "documentation-docs",
+        "id": "documentationdocs",
         "term": "documentation (docs)",
         "definition": "written text or illustrations that accompany software and either explain how the software operates or how to use it.",
         "in_roadmap": false,
@@ -461,21 +462,21 @@
         "related_terms": []
     },
     {
-        "id": "dom-document-object-model",
+        "id": "domdocumentobjectmodel",
         "term": "DOM (Document Object Model)",
         "definition": "The Document Object Model (DOM) is a programming API for HTML and XML documents. It defines the logical structure of documents and the way a document is accessed and manipulated.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "dry-dont-repeat-yourself",
+        "id": "drydontrepeatyourself",
         "term": "DRY (Don't Repeat Yourself)",
         "definition": "Used to describe concise code that is not long and/or repetitive. Example use: \"This code is not DRY.\"",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "eai-enterprise-application-integration",
+        "id": "eaienterpriseapplicationintegration",
         "term": "EAI (Enterprise application integration)",
         "definition": "Enterprise application integration is an integration framework composed of a collection of technologies and services which form a middleware or \"middleware framework\" to enable integration of systems and applications across an enterprise. Enterprise application integration is the process of linking multiple applications within a single organization together in order to simplify and automate business processes to the greatest extent possible, while at the same time avoiding having to make sweeping changes to the existing applications or data structures. Applications can be linked either at the back-end via APIs or (seldomly) the front-end (GUI). In the words of research firm Gartner: EAI is the unrestricted sharing of data and business processes among any connected application or data sources in the enterprise.",
         "in_roadmap": false,
@@ -510,21 +511,21 @@
         "related_terms": []
     },
     {
-        "id": "es6-es2015",
+        "id": "es6es2015",
         "term": "ES6 (ES2015)",
         "definition": "version 6 of the ECMA Script programming language and adds many more features intended to make large-scale software development easier.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "environment-variables",
+        "id": "environmentvariables",
         "term": "environment variables",
         "definition": "a variable whose value is set outside the program, typically through functionality built into the operating system, and can be accessed inside the program.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "erp-enterprise-resource-planning",
+        "id": "erpenterpriseresourceplanning",
         "term": "ERP (Enterprise Resource Planning)",
         "definition": "Refers to software and systems used to plan and manage all the core supply chain, manufacturing, services, financial and other processes of an organization.",
         "in_roadmap": false,
@@ -538,7 +539,7 @@
         "related_terms": []
     },
     {
-        "id": "event-handler",
+        "id": "eventhandler",
         "term": "event handler",
         "definition": "a function containing program statements that are executed in response to an event.",
         "in_roadmap": false,
@@ -559,7 +560,7 @@
         "related_terms": []
     },
     {
-        "id": "extension-file",
+        "id": "extensionfile",
         "term": "extension (file)",
         "definition": "an abbreviation that signifies file type. Eg: `.js .tsx`",
         "in_roadmap": false,
@@ -594,14 +595,14 @@
         "related_terms": []
     },
     {
-        "id": "front-end",
+        "id": "frontend",
         "term": "front end",
         "definition": "The part of the website or app that the user sees. If the back end of your website is everything behind-the-scenes, this is what happens onstage.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ftp-file-transfer-protocol",
+        "id": "ftpfiletransferprotocol",
         "term": "FTP (File Transfer Protocol)",
         "definition": "Method of exchanging files from one computer to another. This is also how websites are uploaded to the Internet.",
         "in_roadmap": false,
@@ -615,14 +616,14 @@
         "related_terms": []
     },
     {
-        "id": "functional-programming",
+        "id": "functionalprogramming",
         "term": "functional programming",
         "definition": "a programming paradigm that builds software by composing pure functions and avoiding shared state, mutable data, and side-effects.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "full-stack",
+        "id": "fullstack",
         "term": "full-stack",
         "definition": "Full-stack developers work across all three layers: the frontend, the backend, and the database layer. Because of the sheer depth of their knowledge across the entire tech stack, this kind of developer tends to have years of industry experience and gets paid well for it.",
         "in_roadmap": false,
@@ -643,7 +644,7 @@
         "related_terms": []
     },
     {
-        "id": "gui-graphical-user-interface",
+        "id": "guigraphicaluserinterface",
         "term": "GUI (Graphical User Interface)",
         "definition": "type of user interface where users can interact with electronic devices via visual indicator representations such as buttons, scroll bars, cursors, etc.",
         "in_roadmap": false,
@@ -664,49 +665,49 @@
         "related_terms": []
     },
     {
-        "id": "high-order-function",
+        "id": "highorderfunction",
         "term": "high-order function",
         "definition": "a function that takes a function as an argument and returns a function.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "html-hyper-text-markup-language",
+        "id": "htmlhypertextmarkuplanguage",
         "term": "HTML (Hyper Text Markup Language)",
         "definition": "standard markup language used to create Web pages.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "http-hypertext-transfer-protocol",
+        "id": "httphypertexttransferprotocol",
         "term": "HTTP (Hypertext Transfer Protocol)",
         "definition": "an application-layer protocol for transmitting hypermedia documents, such as HTML.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "http-request-methods",
+        "id": "httprequestmethods",
         "term": "HTTP request methods",
         "definition": "Some methods which indicate desired action on a resource. They include GET, PUT, POST etc.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "iaas-infrastructure-as-a-service",
+        "id": "iaasinfrastructureasaservice",
         "term": "IaaS (Infrastructure as a Service)",
         "definition": "Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources like compute, network, and storage to consumers on-demand, over the internet, and on a pay-as-you-go basis.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ide-integrated-development-environment",
+        "id": "ideintegrateddevelopmentenvironment",
         "term": "IDE (Integrated Development Environment)",
         "definition": "a software application that combines all of the features and tools needed by a software developer.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "immutable-object",
+        "id": "immutableobject",
         "term": "immutable object",
         "definition": "an object which cannot change after creation.",
         "in_roadmap": false,
@@ -720,7 +721,7 @@
         "related_terms": []
     },
     {
-        "id": "integer-int",
+        "id": "integerint",
         "term": "integer (int)",
         "definition": "a data type that represents some range of mathematical integers.",
         "in_roadmap": false,
@@ -741,7 +742,7 @@
         "related_terms": []
     },
     {
-        "id": "information-architecture",
+        "id": "informationarchitecture",
         "term": "information architecture",
         "definition": "Information architecture is the practice of organizing complex information in a clear and logical way. In terms of websites and apps, this means creating a user-friendly structure that makes it easy for the user to find their way around.",
         "in_roadmap": false,
@@ -769,7 +770,7 @@
         "related_terms": []
     },
     {
-        "id": "java-ee",
+        "id": "javaee",
         "term": "Java EE",
         "definition": "Java EE stands for Java Enterprise Edition, which was earlier known as J2EE and is currently known as Jakarta EE. It is a set of specifications wrapping around Java SE (Standard Edition). The Java EE provides a platform for developers with enterprise features such as distributed computing and web services. Java EE applications are usually run on reference run times such as microservers or application servers. Examples of some contexts where Java EE is used are e-commerce, accounting, banking information systems.",
         "in_roadmap": false,
@@ -783,7 +784,7 @@
         "related_terms": []
     },
     {
-        "id": "json-javascript-object-notation",
+        "id": "jsonjavascriptobjectnotation",
         "term": "JSON (JavaScript Object Notation)",
         "definition": "a syntax for storing and exchanging data compactible with most programming languages.",
         "in_roadmap": false,
@@ -804,7 +805,7 @@
         "related_terms": []
     },
     {
-        "id": "jwt-json-web-token",
+        "id": "jwtjsonwebtoken",
         "term": "JWT (JSON Web Token)",
         "definition": "JWT or JSON Web Token is a standard used to create access tokens for an application.",
         "in_roadmap": false,
@@ -839,7 +840,7 @@
         "related_terms": []
     },
     {
-        "id": "linked-list",
+        "id": "linkedlist",
         "term": "linked list",
         "definition": "In computer science, a linked list is a linear collection of data elements whose order is not given by their physical placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of nodes which together represent a sequence.",
         "in_roadmap": false,
@@ -853,21 +854,21 @@
         "related_terms": []
     },
     {
-        "id": "load-testing",
+        "id": "loadtesting",
         "term": "load testing",
         "definition": "Load testing is a type of non-functional testing. A load test is type of software testing which is conducted to understand the behavior of the application under a specific expected load. Load testing is performed to determine a system's behavior under both normal and at peak conditions.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "log-file",
+        "id": "logfile",
         "term": "log file",
         "definition": "In computing, a log file is a file that records either events that occur in an operating system or other software runs, or messages between different users of a communication software. Logging is the act of keeping a log. In the simplest case, messages are written to a single log file.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "logical-error",
+        "id": "logicalerror",
         "term": "logical error",
         "definition": "a logic error is a bug in a program that causes it to operate incorrectly, but not to terminate abnormally (or crash).",
         "in_roadmap": false,
@@ -881,28 +882,28 @@
         "related_terms": []
     },
     {
-        "id": "machine-language",
+        "id": "machinelanguage",
         "term": "Machine Language",
         "definition": "is the language understood by a computer.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "markup-language",
+        "id": "markuplanguage",
         "term": "Markup Language",
         "definition": "a computer language that uses tags to define elements within a document.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "merge-sort",
+        "id": "mergesort",
         "term": "Merge Sort",
         "definition": "a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "meta-tag",
+        "id": "metatag",
         "term": "meta tag",
         "definition": "Additional information on web pages or elements, such as the way a piece of content should display in Google search results, the photo credit for an image, or the main keywords associated with a plugin.",
         "in_roadmap": false,
@@ -937,7 +938,7 @@
         "related_terms": []
     },
     {
-        "id": "mutable-object",
+        "id": "mutableobject",
         "term": "mutable object",
         "definition": "an object which can change after creation.",
         "in_roadmap": false,
@@ -958,21 +959,21 @@
         "related_terms": []
     },
     {
-        "id": "nat-network-address-translation",
+        "id": "natnetworkaddresstranslation",
         "term": "NAT (Network Address Translation)",
         "definition": "a method of remapping an IP address space into another",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "natural-language-understanding",
+        "id": "naturallanguageunderstanding",
         "term": "natural language understanding",
         "definition": "determining a user's intentions based on what the user typed or said. For example, a search engine uses natural language understanding to determine what the user is searching for based on what the user typed or said.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "neural-network",
+        "id": "neuralnetwork",
         "term": "neural network",
         "definition": "a model that, taking inspiration from the brain, is composed of layers (at least one of which is hidden) consisting of simple connected units or neurons followed by nonlinearities.",
         "in_roadmap": false,
@@ -993,7 +994,7 @@
         "related_terms": []
     },
     {
-        "id": "nosql-or-nosql-databases",
+        "id": "nosqlornosqldatabases",
         "term": "NoSQL or NoSQL Databases",
         "definition": "NoSQL databases (aka \"not only SQL\") are non tabular, and store data differently than relational tables. A NoSQL database provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases. NoSQL databases come in a variety of types based on their data model. The main types are document, key-value, wide-column, and graph.",
         "in_roadmap": false,
@@ -1021,7 +1022,7 @@
         "related_terms": []
     },
     {
-        "id": "object-oriented-programming",
+        "id": "objectorientedprogramming",
         "term": "Object-Oriented Programming",
         "definition": "A programming paradigm that organizes software design around data, or objects, rather than functions and logic.",
         "in_roadmap": false,
@@ -1035,7 +1036,7 @@
         "related_terms": []
     },
     {
-        "id": "on-premises",
+        "id": "onpremises",
         "term": "On-Premises",
         "definition": "On-premises is the software and technology that is located within the physical confines of an enterprise – often in the company's data center (installing and running software on hardware located within the premises of the company) – as opposed to running remotely on hosted servers or in the cloud.",
         "in_roadmap": false,
@@ -1049,14 +1050,14 @@
         "related_terms": []
     },
     {
-        "id": "operating-system",
+        "id": "operatingsystem",
         "term": "operating system",
         "definition": "An operating system, or OS, is a type of software that enables the user to run applications on a device.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "open-source-software",
+        "id": "opensourcesoftware",
         "term": "open source software",
         "definition": "Open source software (OSS) is software that is distributed with its source code, making it available for use, modification, and distribution with its original rights. OSS typically includes a license that allows programmers to modify the software to best fit their needs and control how the software can be distributed.",
         "in_roadmap": false,
@@ -1070,7 +1071,7 @@
         "related_terms": []
     },
     {
-        "id": "paas-platform-as-a-service",
+        "id": "paasplatformasaservice",
         "term": "PaaS (Platform as a Service)",
         "definition": "Platform-as-a-service (PaaS) is a type of cloud computing offering in which a service provider delivers a platform to clients, enabling them to develop, run, and manage business applications without the need to build and maintain the infrastructure such software development processes typically require.",
         "in_roadmap": false,
@@ -1084,14 +1085,14 @@
         "related_terms": []
     },
     {
-        "id": "page-template",
+        "id": "pagetemplate",
         "term": "page template",
         "definition": "The layout for a webpage — pages that have similar structures share the same template (such as event detail pages for a variety of events on the same website). Pages that are radically different use separate templates.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "package-manager",
+        "id": "packagemanager",
         "term": "package manager",
         "definition": "a programming language's tool to create project environments and easily import external dependencies.",
         "in_roadmap": false,
@@ -1112,7 +1113,7 @@
         "related_terms": []
     },
     {
-        "id": "performance-testing",
+        "id": "performancetesting",
         "term": "performance testing",
         "definition": "Performance testing is the process of determining the speed, responsiveness and stability of a computer, network, software program or device under a workload. Performance testing can involve quantitative tests done in a lab, or occur in the production environment in limited scenarios.",
         "in_roadmap": false,
@@ -1140,7 +1141,7 @@
         "related_terms": []
     },
     {
-        "id": "png-portable-network-graphics",
+        "id": "pngportablenetworkgraphics",
         "term": "PNG (Portable Network Graphics)",
         "definition": "an image type that's commonly used in web design to provide a transparent background and/or a semi-transparent image.",
         "in_roadmap": false,
@@ -1161,14 +1162,14 @@
         "related_terms": []
     },
     {
-        "id": "procedural-programming",
+        "id": "proceduralprogramming",
         "term": "procedural programming",
         "definition": "a programming paradigm based upon the concept of procedure calls, in which statements are structured into procedures (also known as subroutines or functions).",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "process-control-block",
+        "id": "processcontrolblock",
         "term": "Process Control Block",
         "definition": "aka PCB, a data structure used by computer operating systems to store all the information about a process.",
         "in_roadmap": false,
@@ -1182,14 +1183,14 @@
         "related_terms": []
     },
     {
-        "id": "programming-language",
+        "id": "programminglanguage",
         "term": "programming language",
         "definition": "a vocabulary and set of grammatical rule for instructing a computer or computing device to perform specific tasks. _Eg. JavaScript, Python._",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "programming-paradigm",
+        "id": "programmingparadigm",
         "term": "programming paradigm",
         "definition": "a style or \"way\" of programming.",
         "in_roadmap": false,
@@ -1210,7 +1211,7 @@
         "related_terms": []
     },
     {
-        "id": "prototype-javascript",
+        "id": "prototypejavascript",
         "term": "prototype (JavaScript)",
         "definition": "an internal property in a JavaScript object.",
         "in_roadmap": false,
@@ -1238,7 +1239,7 @@
         "related_terms": []
     },
     {
-        "id": "query-language",
+        "id": "querylanguage",
         "term": "query language",
         "definition": "a computer programming language that requests and retrieves data from database and information systems by sending queries.",
         "in_roadmap": false,
@@ -1252,7 +1253,7 @@
         "related_terms": []
     },
     {
-        "id": "raml-restful-api-modeling-language",
+        "id": "ramlrestfulapimodelinglanguage",
         "term": "RAML (RESTful API Modeling Language)",
         "definition": "RESTful API Modeling Language is a YAML-based language for describing RESTful APIs. It provides all the information necessary to describe RESTful or practically RESTful APIs. RAML lets you see what your API looks like as you design it, using easy to read plain text. RESTful API Modeling Language (RAML) makes it easy to manage the whole API lifecycle from design to sharing. It's concise - you only write what you need to define - and reusable. It is machine readable API design that is actually human friendly.",
         "in_roadmap": false,
@@ -1273,7 +1274,7 @@
         "related_terms": []
     },
     {
-        "id": "ruby-on-rails",
+        "id": "rubyonrails",
         "term": "ruby on rails",
         "definition": "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.",
         "in_roadmap": false,
@@ -1287,14 +1288,14 @@
         "related_terms": []
     },
     {
-        "id": "regression-testing",
+        "id": "regressiontesting",
         "term": "regression testing",
         "definition": "Regression testing is re-running functional and non-functional tests to ensure that previously developed and tested software still performs after a change.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "regular-expression",
+        "id": "regularexpression",
         "term": "regular expression",
         "definition": "a sequence of symbols and characters expressing a string or pattern to be searched for within a longer piece of text.",
         "in_roadmap": false,
@@ -1308,21 +1309,21 @@
         "related_terms": []
     },
     {
-        "id": "repl-read-eval-print-loop",
+        "id": "replreadevalprintloop",
         "term": "REPL (Read-Eval-Print Loop)",
         "definition": "an interactive interpreter to a programming language.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "rest-representational-state-transfer",
+        "id": "restrepresentationalstatetransfer",
         "term": "REST (Representational State Transfer)",
         "definition": "Representational state transfer (REST) is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, called RESTful Web services, provide interoperability between computer systems on the internet. RESTful Web services allow the requesting systems to access and manipulate textual representations of Web resources by using a uniform and predefined set of stateless operations, in the form of an HTTP method, or verb (GET, POST, PUT, DELETE etc.). By using a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "restful-web-services",
+        "id": "restfulwebservices",
         "term": "RESTful Web Services",
         "definition": "web services that conform to the REST architectural style.",
         "in_roadmap": false,
@@ -1336,14 +1337,14 @@
         "related_terms": []
     },
     {
-        "id": "saas-software-as-a-service",
+        "id": "saassoftwareasaservice",
         "term": "SaaS (Software as a Service)",
         "definition": "Software as a service (SaaS) is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. It is sometimes referred to as \"on-demand software\".",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "saml-security-assertion-markup-language",
+        "id": "samlsecurityassertionmarkuplanguage",
         "term": "SAML (Security Assertion Markup Language)",
         "definition": "Security Assertion Markup Language is an open standard for exchanging authentication and authorization data between parties, in particular, between an identity provider and a service provider. What that jargon means is that you can use one set of credentials to log into many different websites. SAML is an XML-based markup language for security assertions.",
         "in_roadmap": false,
@@ -1357,7 +1358,7 @@
         "related_terms": []
     },
     {
-        "id": "sdlc-software-development-life-cycle",
+        "id": "sdlcsoftwaredevelopmentlifecycle",
         "term": "SDLC (Software Development Life Cycle)",
         "definition": "Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates. It is also referred to as the application development life-cycle.",
         "in_roadmap": false,
@@ -1371,7 +1372,7 @@
         "related_terms": []
     },
     {
-        "id": "sequence-model",
+        "id": "sequencemodel",
         "term": "sequence model",
         "definition": "a model whose inputs have a sequential dependence. For example, predicting the next video watched from a sequence of previously watched videos.",
         "in_roadmap": false,
@@ -1392,14 +1393,14 @@
         "related_terms": []
     },
     {
-        "id": "soa-service-oriented-architecture",
+        "id": "soaserviceorientedarchitecture",
         "term": "SOA (Service Oriented Architecture)",
         "definition": "Service-oriented architecture (SOA) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "soap-simple-object-access-protocol",
+        "id": "soapsimpleobjectaccessprotocol",
         "term": "SOAP (Simple Object Access Protocol)",
         "definition": "SOAP is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. Its purpose is to provide extensibility, neutrality, verbosity and independence. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP), although some legacy systems communicate over Simple Mail Transfer Protocol (SMTP), for message negotiation and transmission.",
         "in_roadmap": false,
@@ -1413,35 +1414,35 @@
         "related_terms": []
     },
     {
-        "id": "software-architecture",
+        "id": "softwarearchitecture",
         "term": "Software architecture",
         "definition": "Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "software-engineering",
+        "id": "softwareengineering",
         "term": "Software Engineering",
         "definition": "is the process of analyzing user needs and designing, constructing, and testing end-user applications that will satisfy these needs through the use of software programming languages.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "software-integration",
+        "id": "softwareintegration",
         "term": "Software integration",
         "definition": "Software integration is the process of bringing together various types of software sub-systems so that they create a unified single system. Software integration can be required for a number of reasons, such as: Migrating from a legacy system to a new database system, including cloud-based data storage.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "source-code",
+        "id": "sourcecode",
         "term": "Source Code",
         "definition": "is any collection of code, with or without comments, written using a human-readable programming language, usually as plain text.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "sql-structured-query-language",
+        "id": "sqlstructuredquerylanguage",
         "term": "SQL (Structured Query Language)",
         "definition": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems.",
         "in_roadmap": false,
@@ -1469,7 +1470,7 @@
         "related_terms": []
     },
     {
-        "id": "stress-testing",
+        "id": "stresstesting",
         "term": "stress testing",
         "definition": "Stress Testing is a type of software testing that verifies stability & reliability of software application. Stress testing is a software testing activity that determines the robustness of software by testing beyond the limits of normal operation. Stress testing is particularly important for \"mission critical\" software, but is used for all types of software. The goal of Stress testing is measuring software on its robustness and error handling capabilities under extremely heavy load conditions and ensuring that software doesn't crash under crunch situations.",
         "in_roadmap": false,
@@ -1483,7 +1484,7 @@
         "related_terms": []
     },
     {
-        "id": "string-concatenation",
+        "id": "stringconcatenation",
         "term": "string concatenation",
         "definition": "is the operation of joining character strings end-to-end.",
         "in_roadmap": false,
@@ -1497,14 +1498,14 @@
         "related_terms": []
     },
     {
-        "id": "subnet-mask",
+        "id": "subnetmask",
         "term": "subnet mask",
         "definition": "a 32-bit number that separates an IP address into the network and host addresses.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "svg-scalable-vector-graphics",
+        "id": "svgscalablevectorgraphics",
         "term": "SVG (Scalable Vector Graphics)",
         "definition": "a vector graphics file format that enables two-dimensional images to be displayed in XML pages on the Web.",
         "in_roadmap": false,
@@ -1518,7 +1519,7 @@
         "related_terms": []
     },
     {
-        "id": "system-testing",
+        "id": "systemtesting",
         "term": "system testing",
         "definition": "System testing is testing conducted on a complete integrated system to evaluate the system's compliance with its specified requirements. System testing takes, as its input, all of the integrated components that have passed integration testing. The purpose of a system test is to evaluate the end-to-end system specifications. Usually, the software is only one element of a larger computer-based system.",
         "in_roadmap": false,
@@ -1532,7 +1533,7 @@
         "related_terms": []
     },
     {
-        "id": "tcp-transmission-control-protocol",
+        "id": "tcptransmissioncontrolprotocol",
         "term": "TCP (Transmission Control Protocol)",
         "definition": "a communication protocol used most often on networks that use Internet Protocol (IP)",
         "in_roadmap": false,
@@ -1546,7 +1547,7 @@
         "related_terms": []
     },
     {
-        "id": "tenary-operator",
+        "id": "tenaryoperator",
         "term": "tenary operator",
         "definition": "an operator that takes three arguments.",
         "in_roadmap": false,
@@ -1560,14 +1561,14 @@
         "related_terms": []
     },
     {
-        "id": "testing-framework",
+        "id": "testingframework",
         "term": "testing framework",
         "definition": "a set of guidelines or rules used for creating and designing test cases.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "text-editor",
+        "id": "texteditor",
         "term": "text editor",
         "definition": "A text editor is just a type of software used to write plain, unformatted text. You’ll use a text editor such as SublimeText, TextEdit or TextWrangler to write your initial code. Then, later on, it will be formatted to make it computer-readable.",
         "in_roadmap": false,
@@ -1581,7 +1582,7 @@
         "related_terms": []
     },
     {
-        "id": "thread-pool",
+        "id": "threadpool",
         "term": "thread pool",
         "definition": "a defined number of pre-initialized threads which stand by, ready to be given work",
         "in_roadmap": false,
@@ -1602,28 +1603,28 @@
         "related_terms": []
     },
     {
-        "id": "type-data-type",
+        "id": "typedatatype",
         "term": "type (data type)",
         "definition": "an attribute of data which tells the compiler or interpreter how the programmer intends to use the data.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "uat-user-acceptance-testing",
+        "id": "uatuseracceptancetesting",
         "term": "UAT (User Acceptance Testing)",
         "definition": "User Acceptance Testing (UAT) is one of the last stages of the software development life cycle. It is performed after the software has been thoroughly tested. It is sometimes known as End User Testing. UAT is a type of testing performed by the end user or the client to verify/accept the software system before moving the software application to the production environment. UAT is done in the final phase of testing after functional, integration and system testing is done.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ui-user-interface",
+        "id": "uiuserinterface",
         "term": "UI (User Interface)",
         "definition": "the point of human-computer interaction and communication in a device.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "unit-testing",
+        "id": "unittesting",
         "term": "unit testing",
         "definition": "In computer programming, unit testing is a software testing method by which individual units of source code—sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures—are tested to determine whether they are fit for use. Unit tests are typically automated tests written and run by software developers to ensure that a section of an application (known as the \"unit\") meets its design and behaves as intended. In procedural programming, a unit could be an entire module, but it is more commonly an individual function or procedure.",
         "in_roadmap": false,
@@ -1637,28 +1638,28 @@
         "related_terms": []
     },
     {
-        "id": "ux-user-experience",
+        "id": "uxuserexperience",
         "term": "UX (User Experience)",
         "definition": "is what a user of a particular product experiences when using that product.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "unary-operator",
+        "id": "unaryoperator",
         "term": "unary operator",
         "definition": "an operator that takes a single operand and performs an operation.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "uri-uniform-resource-identifier",
+        "id": "uriuniformresourceidentifier",
         "term": "URI (Uniform Resource Identifier)",
         "definition": "A Uniform Resource Identifier is a string of characters that unambiguously identifies a particular resource. To guarantee uniformity, all URIs follow a predefined set of syntax rules, but also maintain extensibility through a separately defined hierarchical naming scheme.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "url-uniform-resource-locator",
+        "id": "urluniformresourcelocator",
         "term": "URL (Uniform Resource Locator)",
         "definition": "the address of a given unique resource on the Web.",
         "in_roadmap": false,
@@ -1672,35 +1673,35 @@
         "related_terms": []
     },
     {
-        "id": "version-control-system-vcs",
+        "id": "versioncontrolsystemvcs",
         "term": "Version Control System (VCS)",
         "definition": "a system that records changes to a file or set of files over time so that you can recall specific versions later.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "visual-basic-vb",
+        "id": "visualbasicvb",
         "term": "Visual Basic (VB)",
         "definition": "The original Visual Basic is a third-generation event-driven programming language from Microsoft known for its Component Object Model programming model first released in 1991 and declared legacy during 2008. Microsoft intended Visual Basic to be relatively easy to learn and use.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "vm-virtual-machine",
+        "id": "vmvirtualmachine",
         "term": "VM (Virtual Machine)",
         "definition": "A virtual machine (VM) is a virtual environment that functions as a virtual computer system with its own CPU, memory, network interface, and storage, created on a physical hardware system (located off- or on-premises). Software called a hypervisor separates the machine’s resources from the hardware and provisions them appropriately so they can be used by the VM.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "web-browser",
+        "id": "webbrowser",
         "term": "web browser",
         "definition": "A web browser, or simply 'browser', is an application used to access and view websites. Common web browsers include Microsoft Edge, Internet Explorer, Google Chrome, Mozilla Firefox, and Apple Safari.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "web-components",
+        "id": "webcomponents",
         "term": "web components",
         "definition": "a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps.",
         "in_roadmap": false,
@@ -1721,14 +1722,14 @@
         "related_terms": []
     },
     {
-        "id": "web-server",
+        "id": "webserver",
         "term": "web server",
         "definition": "A web server is computer software and underlying hardware that accepts requests via HTTP, the network protocol created to distribute web pages, or its secure variant HTTPS.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "web-service",
+        "id": "webservice",
         "term": "web service",
         "definition": "A web service is a piece of software that makes itself available over the internet.Web services are self-contained, modular, distributed, dynamic applications that can be described, published, located, or invoked over the network. These applications can be local, distributed, or web-based. Web services are built on top of open standards such as TCP/IP, HTTP, Java, HTML, and XML.",
         "in_roadmap": false,
@@ -1749,7 +1750,7 @@
         "related_terms": []
     },
     {
-        "id": "yaml-yaml-aint-markup-language",
+        "id": "yamlyamlaintmarkuplanguage",
         "term": "YAML (YAML Ain't Markup Language)",
         "definition": "a markup language similar to XML using minimal syntax, natively using lists, scalars and associative arrays. YAML is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted. YAML targets many of the same communications applications as Extensible Markup Language but has a minimal syntax which intentionally differs from SGML.",
         "in_roadmap": false,
@@ -1763,7 +1764,7 @@
         "related_terms": []
     },
     {
-        "id": "access-point",
+        "id": "accesspoint",
         "term": "Access Point",
         "definition": "This is wireless hardware connection in which networking devices are used which also known as base station which create a wireless operation through a line for broadband network the access is at the local area network LAN.",
         "in_roadmap": false,
@@ -1833,14 +1834,14 @@
         "related_terms": []
     },
     {
-        "id": "cable-modem",
+        "id": "cablemodem",
         "term": "Cable Modem ",
         "definition": "Cable modem is a type cable modem is a type of internet connection which is telecast through a cable throw broadband connection we got the high speed network.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cd-rom",
+        "id": "cdrom",
         "term": "CD-ROM",
         "definition": "This is cheap round storage device which is permanent in this the data can be stored in a bulk.",
         "in_roadmap": false,
@@ -1896,21 +1897,21 @@
         "related_terms": []
     },
     {
-        "id": "desktop-window-manager",
+        "id": "desktopwindowmanager",
         "term": "Desktop Window Manager ",
         "definition": "Visual style window has a new Windows Vista this style is known as Arrow glass for saying this we need a video card which is longhorn Display Drive model.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "dial-up-line",
+        "id": "dialupline",
         "term": "Dial-Up Line ",
         "definition": "Any telephone line which is joined to a server is known as dial up line.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "dial-up-networking",
+        "id": "dialupnetworking",
         "term": "Dial Up Networking ",
         "definition": "This is generally used and window 95, 98 and Unix operating system through this various computers are joined through a telephone line which is again connected to the internet through a modem.",
         "in_roadmap": false,
@@ -1938,7 +1939,7 @@
         "related_terms": []
     },
     {
-        "id": "domain-name",
+        "id": "domainname",
         "term": "Domain Name ",
         "definition": "This is the special and entity of the company e which is connected to the internet this is also the remembering structure of IP address.",
         "in_roadmap": false,
@@ -1959,28 +1960,28 @@
         "related_terms": []
     },
     {
-        "id": "executable-file",
+        "id": "executablefile",
         "term": "Executable File ",
         "definition": "This is the exe this is a binary file which is used to do work through a computer system this cannot be opened by a human this is made for understanding things just like a program.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "expanded-memory",
+        "id": "expandedmemory",
         "term": "Expanded Memory ",
         "definition": "This is the expanded memory specification for EMS in a dos based system the one megabyte address place is present in a main memory for increasing the memory capability this technique is used 384 K is the high memory and 640K is the normal memory.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "expansion-card",
+        "id": "expansioncard",
         "term": "Expansion Card ",
         "definition": "This is a circuit card which is used in motherboard for the extension slot.",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "external-modem",
+        "id": "externalmodem",
         "term": "External Modem ",
         "definition": "This is different in real computer system this can easily be removed from one computer to another.",
         "in_roadmap": false,
@@ -2015,7 +2016,7 @@
         "related_terms": []
     },
     {
-        "id": "integrated-circuit",
+        "id": "integratedcircuit",
         "term": "Integrated Circuit ",
         "definition": "The other name of a microchip is the other name of a microchip is integrated circuit this is a small electronic device which is used as a semiconductor.",
         "in_roadmap": false,
@@ -2141,872 +2142,1130 @@
         "related_terms": []
     },
     {
-        "id": "ung-dung-cua-luong-tren-mang",
-        "term": "Ứng dụng của luồng trên mạng",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/flow-application",
+        "id": "theimportanceofalgorithm",
+        "term": "The importance of algorithm",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/The-Importance-of-Algorithm",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "pham-vu-phuong-bai-viet-moi-bao-ham-loai-tru",
-        "term": "Phạm Vũ Phương · Bài viết mới Bao hàm loại trừ",
-        "definition": "https://wiki.vnoi.info/algo/algebra/pie",
+        "id": "planninganapproachtoatopcoderproblempart1",
+        "term": "Planning an approach to a topcoder problem part 1",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/Planning-an-Approach-to-a-Topcoder-Problem-Part-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ky-thuat-sinh-test-va-tu-kiem-tra-code",
-        "term": "Kỹ thuật sinh test và tự kiểm tra code",
-        "definition": "https://wiki.vnoi.info/algo/skill/sinh-test-new",
+        "id": "computationalcomplexity",
+        "term": "Computational complexity",
+        "definition": "https://wiki.vnoi.info//algo/basic/computational-complexity.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "sap-xep",
-        "term": "Sắp xếp",
-        "definition": "https://wiki.vnoi.info/algo/basic/sorting-new",
+        "id": "sortingnew",
+        "term": "Sorting new",
+        "definition": "https://wiki.vnoi.info//algo/basic/sorting-new",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tham-lam",
-        "term": "Tham lam",
-        "definition": "https://wiki.vnoi.info/algo/greedy-new",
+        "id": "binarysearch",
+        "term": "Binary search",
+        "definition": "https://wiki.vnoi.info//algo/basic/Binary-Search",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tam-quan-trong-cua-thuat-toan",
-        "term": "Tầm quan trọng của Thuật Toán",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/The-Importance-of-Algorithm",
+        "id": "twopointers",
+        "term": "Two pointers",
+        "definition": "https://wiki.vnoi.info//algo/basic/two-pointers",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "mot-so-tai-lieu-hay-ve-thuat-toan",
-        "term": "Một số tài liệu hay về Thuật Toán",
-        "definition": "https://wiki.vnoi.info/algo/basic/Tai-Lieu-Thuat-Toan",
+        "id": "bitwiseoperators",
+        "term": "Bitwise operators",
+        "definition": "https://wiki.vnoi.info//algo/basic/bitwise-operators.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nghe-thuat-giai-bai",
-        "term": "Nghệ thuật giải bài",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/How-to-Find-a-Solution",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "nhung-cach-tiep-can-bai-toan",
-        "term": "Những cách tiếp cận bài toán",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/Planning-an-Approach-to-a-Topcoder-Problem-Part-1",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "tim-kiem-nhi-phan",
-        "term": "Tìm kiếm nhị phân",
-        "definition": "https://wiki.vnoi.info/algo/basic/Binary-Search",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "hai-con-tro",
-        "term": "Hai con trỏ",
-        "definition": "https://wiki.vnoi.info/algo/basic/two-pointers",
-        "in_roadmap": false,
-        "related_terms": []
-    },
-    {
-        "id": "fun-with-bits",
+        "id": "funwithbits",
         "term": "Fun with bits",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/fun-with-bits",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/fun-with-bits",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "roi-rac-hoa-nen-so",
-        "term": "Rời rạc hoá (nén số)",
-        "definition": "https://wiki.vnoi.info/algo/trick/Roi-rac-hoa-va-ung-dung",
+        "id": "backtracking",
+        "term": "Backtracking",
+        "definition": "https://wiki.vnoi.info//algo/basic/backtracking.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tong-quan-ve-cau-truc-du-lieu",
-        "term": "Tổng quan về cấu trúc dữ liệu",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/data-structures-overview",
+        "id": "meetinthemiddle",
+        "term": "Meet in the middle",
+        "definition": "https://wiki.vnoi.info//algo/basic/meet-in-the-middle.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "mang-va-danh-sach-lien-ket",
-        "term": "Mảng và danh sách liên kết",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/array-vs-linked-lists",
+        "id": "roirachoavaungdung",
+        "term": "Roi rac hoa va ung dung",
+        "definition": "https://wiki.vnoi.info//algo/trick/Roi-rac-hoa-va-ung-dung",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ngan-xep-stack",
-        "term": "Ngăn xếp (stack)",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/Stack",
+        "id": "datastructuresoverview",
+        "term": "Data structures overview",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/data-structures-overview",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "deque-va-tim-min-max-tren-oan-tinh-tien",
-        "term": "Deque và tìm min max trên đoạn tịnh tiến",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/deque-min-max",
+        "id": "arrayvslinkedlists",
+        "term": "Array vs linked lists",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/array-vs-linked-lists",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "binary-heap",
-        "term": "Binary Heap",
-        "definition": "https://wiki.vnoi.info/translate/wcipeg/Binary-Heap",
+        "id": "stack",
+        "term": "Stack",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/Stack",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bang-bam-hash-table",
-        "term": "Bảng băm (Hash table)",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/hash-table",
+        "id": "prefixsumanddifferencearray",
+        "term": "Prefix sum and difference array",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/prefix-sum-and-difference-array.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "sparse-table-va-bai-toan-rmq",
-        "term": "Sparse Table và bài toán RMQ",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/rmq",
+        "id": "dequeminmax",
+        "term": "Deque min max",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/deque-min-max",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "persistent-data-structures",
-        "term": "Persistent Data Structures",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/persistent-data-structures",
+        "id": "binaryheap",
+        "term": "Binary heap",
+        "definition": "https://wiki.vnoi.info//translate/wcipeg/Binary-Heap",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "persistent-data-structures-2",
-        "term": "Persistent Data Structures",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/persistent-data-structures-2",
+        "id": "hashtable",
+        "term": "Hash table",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/hash-table",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "skip-list",
-        "term": "Skip List",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/Skip-Lists",
+        "id": "rmq",
+        "term": "Rmq",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/rmq",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhay-nhi-phan-voi-bo-nho-o-n-mathcal-on-o-n-",
-        "term": "\"Nhảy nhị phân\" với bộ nhớ O ( n ) \\mathcal O(n) O ( n )",
-        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/binary-lifting",
+        "id": "persistentdatastructures",
+        "term": "Persistent data structures",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/persistent-data-structures",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cay-phan-oan-segment-tree-part-2",
-        "term": "Cây Phân Đoạn - Segment Tree - Part 2",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/segment-tree-extend",
+        "id": "persistentdatastructures2",
+        "term": "Persistent data structures 2",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/persistent-data-structures-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "fenwick-tree-binary-indexed-tree",
-        "term": "Fenwick Tree (Binary Indexed Tree)",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/fenwick",
+        "id": "skiplists",
+        "term": "Skip lists",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/Skip-Lists",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "fenwick-tree-binary-indexed-tree-2d",
-        "term": "Fenwick Tree (Binary Indexed Tree) 2D",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/fenwick-2d",
+        "id": "binarylifting",
+        "term": "Binary lifting",
+        "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/binary-lifting",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "interval-tree-tren-tap-oan-thang",
-        "term": "Interval Tree trên tập đoạn thẳng",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/interval-tree-tap-doan-thang",
+        "id": "segmenttreebasic",
+        "term": "Segment tree basic",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/segment-tree-basic.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "li-chao-tree-cay-phan-oan-tren-tap-uong-thang",
-        "term": "Li-chao Tree (Cây phân đoạn trên tập đường thẳng)",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/lichao-tree",
+        "id": "segmenttreeextend",
+        "term": "Segment tree extend",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/segment-tree-extend",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-can-part-1",
-        "term": "Chia căn - Part 1",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition",
+        "id": "fenwick",
+        "term": "Fenwick",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/fenwick",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-can-part-2",
-        "term": "Chia căn - Part 2",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/mo-algorithm",
+        "id": "efficientandeasysegmenttrees",
+        "term": "Efficient and easy segment trees",
+        "definition": "https://wiki.vnoi.info//translate/codeforces/Efficient-and-easy-segment-trees.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-can-phan-i",
-        "term": "Chia căn - - Phần I",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition-I-new",
+        "id": "fenwick2d",
+        "term": "Fenwick 2d",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/fenwick-2d",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-can-phan-ii",
-        "term": "Chia căn - - Phần II",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/sqrt-decomposition-II-new",
+        "id": "intervaltreetapdoanthang",
+        "term": "Interval tree tap doan thang",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/interval-tree-tap-doan-thang",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tong-quan",
-        "term": "Tổng quan",
-        "definition": "https://wiki.vnoi.info/algo/string/basic",
+        "id": "lichaotree",
+        "term": "Lichao tree",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/lichao-tree",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sqrtdecomposition",
+        "term": "Sqrt decomposition",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/sqrt-decomposition",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "moalgorithm",
+        "term": "Mo algorithm",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/mo-algorithm",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sqrtdecompositioninew",
+        "term": "Sqrt decomposition i new",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/sqrt-decomposition-I-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sqrtdecompositioniinew",
+        "term": "Sqrt decomposition ii new",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/sqrt-decomposition-II-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "basic",
+        "term": "Basic",
+        "definition": "https://wiki.vnoi.info//algo/string/basic",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "kmp",
-        "term": "KMP",
-        "definition": "https://wiki.vnoi.info/algo/string/kmp",
+        "term": "Kmp",
+        "definition": "https://wiki.vnoi.info//algo/string/kmp",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "trie",
         "term": "Trie",
-        "definition": "https://wiki.vnoi.info/algo/string/trie",
+        "definition": "https://wiki.vnoi.info//algo/string/trie",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "hash",
         "term": "Hash",
-        "definition": "https://wiki.vnoi.info/algo/string/hash",
+        "definition": "https://wiki.vnoi.info//algo/string/hash",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "manacher",
         "term": "Manacher",
-        "definition": "https://wiki.vnoi.info/algo/string/manacher",
+        "definition": "https://wiki.vnoi.info//algo/string/manacher",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "z-function",
-        "term": "Z-function",
-        "definition": "https://wiki.vnoi.info/algo/string/z-algo",
+        "id": "zalgo",
+        "term": "Z algo",
+        "definition": "https://wiki.vnoi.info//algo/string/z-algo",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "aho-corasick",
-        "term": "Aho-Corasick",
-        "definition": "https://wiki.vnoi.info/algo/string/aho-corasick",
+        "id": "ahocorasick",
+        "term": "Aho corasick",
+        "definition": "https://wiki.vnoi.info//algo/string/aho-corasick",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "suffix-array",
-        "term": "Suffix Array",
-        "definition": "https://wiki.vnoi.info/algo/string/suffix-array",
+        "id": "suffixarray",
+        "term": "Suffix array",
+        "definition": "https://wiki.vnoi.info//algo/string/suffix-array",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "suffix-automaton",
-        "term": "Suffix Automaton",
-        "definition": "https://wiki.vnoi.info/algo/string/suffix-automaton",
+        "id": "suffixautomaton",
+        "term": "Suffix automaton",
+        "definition": "https://wiki.vnoi.info//algo/string/suffix-automaton",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "palindrome-tree",
-        "term": "Palindrome Tree",
-        "definition": "https://wiki.vnoi.info/translate/codeforces/palindrome-tree",
+        "id": "palindrometree",
+        "term": "Palindrome tree",
+        "definition": "https://wiki.vnoi.info//translate/codeforces/palindrome-tree",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhap-mon-quy-hoach-ong",
-        "term": "Nhập môn Quy hoạch động",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/dynamic-programming",
+        "id": "dynamicprogramming",
+        "term": "Dynamic programming",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/dynamic-programming",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-cai-tui-dp-knapsack-phan-1",
-        "term": "Quy hoạch động cái túi (DP Knapsack), phần 1",
-        "definition": "https://wiki.vnoi.info/algo/dp/dp-knapsack-1",
+        "id": "basicdynamicprogramming1",
+        "term": "Basic dynamic programming 1",
+        "definition": "https://wiki.vnoi.info//algo/dp/basic-dynamic-programming-1.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-cai-tui-dp-knapsack-phan-2",
-        "term": "Quy hoạch động cái túi (DP Knapsack), phần 2",
-        "definition": "https://wiki.vnoi.info/algo/dp/dp-knapsack-2",
+        "id": "basicdynamicprogramming2",
+        "term": "Basic dynamic programming 2",
+        "definition": "https://wiki.vnoi.info//algo/dp/basic-dynamic-programming-2.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "mot-vai-bai-tap-ve-palindrome",
-        "term": "Một vài bài tập về Palindrome",
-        "definition": "https://wiki.vnoi.info/algo/dp/palindrome-problems",
+        "id": "dpknapsack1",
+        "term": "DP knapsack 1",
+        "definition": "https://wiki.vnoi.info//algo/dp/dp-knapsack-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "mot-so-bai-toan-qh-ien-hinh",
-        "term": "Một số bài toán QHĐ điển hình",
-        "definition": "https://wiki.vnoi.info/algo/dp/basic-problems",
+        "id": "dpknapsack2",
+        "term": "DP knapsack 2",
+        "definition": "https://wiki.vnoi.info//algo/dp/dp-knapsack-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phan-tich-ve-qh-thay-le-minh-hoang",
-        "term": "Phân tích về QHĐ - Thầy Lê Minh Hoàng",
-        "definition": "https://wiki.vnoi.info/algo/dp/thac-mac-ve-qhd",
+        "id": "dppalindromeproblems",
+        "term": "DP palindrome problems",
+        "definition": "https://wiki.vnoi.info//algo/dp/palindrome-problems",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-bitmask",
-        "term": "Quy hoạch động Bitmask",
-        "definition": "https://wiki.vnoi.info/algo/dp/dp-bitmask",
+        "id": "dpbitmask",
+        "term": "DP bitmask",
+        "definition": "https://wiki.vnoi.info//algo/dp/dp-bitmask",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-chu-so",
-        "term": "Quy hoạch động chữ số",
-        "definition": "https://wiki.vnoi.info/algo/dp/digit-dp",
+        "id": "digitdp",
+        "term": "Digit DP",
+        "definition": "https://wiki.vnoi.info//algo/dp/digit-dp",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-tren-dag",
-        "term": "Quy hoạch động trên DAG",
-        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/shortest-path-dag",
+        "id": "shortestpathdag",
+        "term": "Shortest path DAG",
+        "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/shortest-path-dag",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-chia-e-tri",
-        "term": "Quy hoạch động Chia để trị",
-        "definition": "https://wiki.vnoi.info/algo/dp/dpdnc",
+        "id": "dpdnc",
+        "term": "Dpdnc",
+        "definition": "https://wiki.vnoi.info//algo/dp/dpdnc",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "mot-so-ki-thuat-toi-uu-hoa-qh",
-        "term": "Một số kĩ thuật tối ưu hoá QHĐ",
-        "definition": "https://wiki.vnoi.info/algo/dp/Mot-so-ky-thuat-toi-uu-hoa-thuat-toan-Quy-Hoach-Dong",
+        "id": "motsokythuattoiuuhoathuattoanquyhoachdong",
+        "term": "Mot so ky thuat toi uu hoa thuat toan quy hoach dong",
+        "definition": "https://wiki.vnoi.info//algo/dp/Mot-so-ky-thuat-toi-uu-hoa-thuat-toan-Quy-Hoach-Dong",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "toi-uu-quy-hoach-ong-1-chieu-1d1d",
-        "term": "Tối ưu quy hoạch động 1 chiều (1D1D)",
-        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/1d1d-dp-optimization",
+        "id": "1d1ddpoptimization",
+        "term": "1d1d dp optimization",
+        "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/1d1d-dp-optimization",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ki-thuat-bao-loi-trong-qh",
-        "term": "Kĩ thuật Bao lồi trong QHĐ",
-        "definition": "https://wiki.vnoi.info/algo/dp/cht",
+        "id": "cht",
+        "term": "CHT",
+        "definition": "https://wiki.vnoi.info//algo/dp/cht",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-tren-cay",
-        "term": "Quy hoạch động trên cây",
-        "definition": "https://wiki.vnoi.info/algo/dp/treedp",
+        "id": "treedp",
+        "term": "Tree DP",
+        "definition": "https://wiki.vnoi.info//algo/dp/treedp",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-sos-phan-1",
-        "term": "Quy hoạch động SOS - Phần 1",
-        "definition": "https://wiki.vnoi.info/algo/dp/dp-sos-1",
+        "id": "dpsos1",
+        "term": "Dp SOS 1",
+        "definition": "https://wiki.vnoi.info//algo/dp/dp-sos-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "quy-hoach-ong-sos-phan-2",
-        "term": "Quy hoạch động SOS - Phần 2",
-        "definition": "https://wiki.vnoi.info/algo/dp/dp-sos-2",
+        "id": "dpsos2",
+        "term": "Dp SOS 2",
+        "definition": "https://wiki.vnoi.info//algo/dp/dp-sos-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tong-quan-ve-ly-thuyet-o-thi",
-        "term": "Tổng quan về lý thuyết đồ thị",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/graph",
+        "id": "graph",
+        "term": "Graph",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/graph",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cac-chu-e-co-ban-ve-o-thi",
-        "term": "Các chủ đề cơ bản về đồ thị",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/everything",
+        "id": "everythingaboutgraph",
+        "term": "Everything about graph",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/everything",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "disjoint-set-union-dsu",
-        "term": "Disjoint Set Union (DSU)",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/disjoint-set-union",
+        "id": "disjointsetunion",
+        "term": "Disjoint set union",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/disjoint-set-union",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "thuat-toan-bfs-0-1",
-        "term": "Thuật toán BFS 0-1",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/bfs-01",
+        "id": "breadthfirstsearch",
+        "term": "Breadth first search",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/breadth-first-search.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phan-1-dfs-tren-dag-thuat-toan-dijkstra",
-        "term": "Phần 1: DFS trên DAG; thuật toán Dijkstra",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/shortest-path",
+        "id": "bfs01",
+        "term": "Bfs 01",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/bfs-01",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phan-2-xu-ly-chu-trinh-am",
-        "term": "Phần 2: Xử lý chu trình âm",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/shortest-path-2",
+        "id": "depthfirstsearchtree",
+        "term": "Depth first search tree",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/Depth-First-Search-Tree.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phan-3-thuat-toan-spfa",
-        "term": "Phần 3: Thuật toán SPFA",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/spfa",
+        "id": "topologicalsort",
+        "term": "Topological sort",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/topological-sort.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "disjoint-set-union-dsu-rollback",
-        "term": "Disjoint Set Union (DSU) Rollback",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/dsu-rollback",
+        "id": "eulercycle",
+        "term": "Euler cycle",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/euler-cycle.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bai-toan-2-sat",
-        "term": "Bài toán 2-SAT",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/2-SAT",
+        "id": "shortestpath",
+        "term": "Shortest path",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/shortest-path",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bai-toan-luong-cuc-ai-tren-mang",
-        "term": "Bài toán Luồng cực đại trên mạng",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/flow",
+        "id": "shortestpath2",
+        "term": "Shortest path 2",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/shortest-path-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bai-toan-luong-cuc-ai-wcipeg",
-        "term": "Bài toán luồng cực đại - WCIPEG",
-        "definition": "https://wiki.vnoi.info/translate/wcipeg/Flows",
+        "id": "spfa",
+        "term": "Spfa",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/spfa",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "luong-voi-chi-phi-cuc-tieu",
-        "term": "Luồng với chi phí cực tiểu",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/min-cost-flow",
+        "id": "shortestpath",
+        "term": "Shortest path",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/shortest-path",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cap-ghep-cuc-ai",
-        "term": "Cặp ghép cực đại",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/max-matching",
+        "id": "shortestpath2",
+        "term": "Shortest path 2",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/shortest-path-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bai-toan-rmq-bai-toan-lca-dich",
-        "term": "Bài toán RMQ & Bài toán LCA (Dịch)",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor",
+        "id": "spfa",
+        "term": "Spfa",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/spfa",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bai-toan-lubenica-rmq-tren-cay",
-        "term": "Bài toán Lubenica - RMQ trên cây",
-        "definition": "https://wiki.vnoi.info/algo/graph-theory/lubenica-vnoj",
+        "id": "minimumspanningtree",
+        "term": "Minimum spanning tree",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/minimum-spanning-tree.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "heavy-light-decomposition",
-        "term": "Heavy Light Decomposition",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/heavy-light-decomposition",
+        "id": "dsurollback",
+        "term": "Dsu rollback",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/dsu-rollback",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cac-phuong-phap-giai-bai-toan-lca",
-        "term": "Các phương pháp giải bài toán LCA",
-        "definition": "https://wiki.vnoi.info/algo/data-structures/lca",
+        "id": "2sat",
+        "term": "2 sat",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/2-SAT",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flow",
+        "term": "Flow",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "maxflow1luongcucdaitrenmang1",
+        "term": "Max flow 1 luong cuc dai tren mang 1",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/max-flow-1-luong-cuc-dai-tren-mang-1.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flows",
+        "term": "Flows",
+        "definition": "https://wiki.vnoi.info//translate/wcipeg/Flows",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mincostflow",
+        "term": "Min cost flow",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/min-cost-flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "maxmatching",
+        "term": "Max matching",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/max-matching",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flowapplication",
+        "term": "Flow application",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/flow-application",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flow",
+        "term": "Flow",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "maxflow1luongcucdaitrenmang1",
+        "term": "Max flow 1 luong cuc dai tren mang 1",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/max-flow-1-luong-cuc-dai-tren-mang-1.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flows",
+        "term": "Flows",
+        "definition": "https://wiki.vnoi.info//translate/wcipeg/Flows",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "mincostflow",
+        "term": "Min cost flow",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/min-cost-flow",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "maxmatching",
+        "term": "Max matching",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/max-matching",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "flowapplication",
+        "term": "Flow application",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/flow-application",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "eulertourontree",
+        "term": "Euler tour on tree",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/euler-tour-on-tree.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "lcabinlift",
+        "term": "Lca binlift",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/lca-binlift.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "rangeminimumqueryandlowestcommonancestor",
+        "term": "Range minimum query and lowest common ancestor",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "lubenicavnoj",
+        "term": "Lubenica vnoj",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/lubenica-vnoj",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "heavylightdecomposition",
+        "term": "Heavy light decomposition",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/heavy-light-decomposition",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "lca",
+        "term": "Lca",
+        "definition": "https://wiki.vnoi.info//algo/data-structures/lca",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "centroiddecomposition",
+        "term": "Centroid decomposition",
+        "definition": "https://wiki.vnoi.info//algo/graph-theory/centroid-decomposition.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "greedynew",
+        "term": "Greedy new",
+        "definition": "https://wiki.vnoi.info//algo/greedy-new",
         "in_roadmap": false,
         "related_terms": []
     },
     {
         "id": "matroid",
         "term": "Matroid",
-        "definition": "https://wiki.vnoi.info/algo/math/matroid",
+        "definition": "https://wiki.vnoi.info//algo/math/matroid",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "modulo-co-ban",
-        "term": "Modulo cơ bản",
-        "definition": "https://wiki.vnoi.info/algo/math/modulo",
+        "id": "modulo",
+        "term": "Modulo",
+        "definition": "https://wiki.vnoi.info//algo/math/modulo",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "uoc-chung-lon-nhat-thuat-toan-euclid",
-        "term": "Ước chung lớn nhất & Thuật toán Euclid",
-        "definition": "https://wiki.vnoi.info/algo/algebra/euclid",
+        "id": "euclid",
+        "term": "Euclid",
+        "definition": "https://wiki.vnoi.info//algo/algebra/euclid",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nghich-ao-modulo",
-        "term": "Nghịch đảo modulo",
-        "definition": "https://wiki.vnoi.info/algo/math/modular-inverse",
+        "id": "binary_exponentation",
+        "term": "Binary_exponentation",
+        "definition": "https://wiki.vnoi.info//algo/algebra/binary_exponentation.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phan-tich-thua-so-nguyen-to",
-        "term": "Phân tích thừa số nguyên tố",
-        "definition": "https://wiki.vnoi.info/algo/math/integer-factorization",
+        "id": "prime_sieve",
+        "term": "Prime_sieve",
+        "definition": "https://wiki.vnoi.info//algo/algebra/prime_sieve.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "inh-ly-wilson",
-        "term": "Định lý Wilson",
-        "definition": "https://wiki.vnoi.info/translate/he/Wilsons-theorem",
+        "id": "modularinverse",
+        "term": "Modular inverse",
+        "definition": "https://wiki.vnoi.info//algo/math/modular-inverse",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "inh-ly-lucas",
-        "term": "Định lý Lucas",
-        "definition": "https://wiki.vnoi.info/translate/he/Lucas-theorem",
+        "id": "primality_check",
+        "term": "Primality_check",
+        "definition": "https://wiki.vnoi.info//algo/algebra/primality_check.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "inh-ly-thang-du-trung-hoa-crt",
-        "term": "Định lý Thặng dư Trung Hoa (CRT)",
-        "definition": "https://wiki.vnoi.info/algo/math/crt",
+        "id": "integerfactorization",
+        "term": "Integer factorization",
+        "definition": "https://wiki.vnoi.info//algo/math/integer-factorization",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "so-cac-uoc-va-tong-cac-uoc",
-        "term": "Số các ước và Tổng các ước",
-        "definition": "https://wiki.vnoi.info/algo/math/divisors",
+        "id": "modulo",
+        "term": "Modulo",
+        "definition": "https://wiki.vnoi.info//algo/math/modulo",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phi-ham-euler",
-        "term": "Phi hàm Euler",
-        "definition": "https://wiki.vnoi.info/algo/algebra/phi-ham-euler",
+        "id": "euclid",
+        "term": "Euclid",
+        "definition": "https://wiki.vnoi.info//algo/algebra/euclid",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ham-nhan-tinh-multiplicative-function",
-        "term": "Hàm nhân tính (Multiplicative Function)",
-        "definition": "https://wiki.vnoi.info/algo/math/multiplicative-function",
+        "id": "binary_exponentation",
+        "term": "Binary_exponentation",
+        "definition": "https://wiki.vnoi.info//algo/algebra/binary_exponentation.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tinh-to-hop-nck",
-        "term": "Tính tổ hợp nCk",
-        "definition": "https://wiki.vnoi.info/algo/algebra/nCk",
+        "id": "prime_sieve",
+        "term": "Prime_sieve",
+        "definition": "https://wiki.vnoi.info//algo/algebra/prime_sieve.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "giai-thua-modulo-nguyen-to",
-        "term": "Giai thừa modulo nguyên tố",
-        "definition": "https://wiki.vnoi.info/algo/math/factorial-modulo-prime",
+        "id": "modularinverse",
+        "term": "Modular inverse",
+        "definition": "https://wiki.vnoi.info//algo/math/modular-inverse",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "can-bac-hai-modulo",
-        "term": "Căn bậc hai modulo",
-        "definition": "https://wiki.vnoi.info/algo/math/sqrt-mod-p",
+        "id": "primality_check",
+        "term": "Primality_check",
+        "definition": "https://wiki.vnoi.info//algo/algebra/primality_check.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "logarit-roi-rac",
-        "term": "Logarit rời rạc",
-        "definition": "https://wiki.vnoi.info/algo/math/discrete-log",
+        "id": "integerfactorization",
+        "term": "Integer factorization",
+        "definition": "https://wiki.vnoi.info//algo/math/integer-factorization",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "cac-kien-thuc-co-ban-ve-to-hop-combinatorics",
-        "term": "Các kiến thức cơ bản về Tổ hợp (Combinatorics)",
-        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-5",
+        "id": "wilsonstheorem",
+        "term": "Wilsons theorem",
+        "definition": "https://wiki.vnoi.info//translate/he/Wilsons-theorem",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "xac-suat",
-        "term": "Xác suất",
-        "definition": "https://wiki.vnoi.info/translate/topcoder/Hieu-ve-xac-suat",
+        "id": "lucastheorem",
+        "term": "Lucas theorem",
+        "definition": "https://wiki.vnoi.info//translate/he/Lucas-theorem",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "xac-suat-probabilities",
-        "term": "Xác suất (Probabilities)",
-        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-6",
+        "id": "crt",
+        "term": "Crt",
+        "definition": "https://wiki.vnoi.info//algo/math/crt",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "hinh-hoc-tinh-toan-phan-1-khai-niem",
-        "term": "Hình học tính toán phần 1: Khái niệm",
-        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-1",
+        "id": "wilsonstheorem",
+        "term": "Wilsons theorem",
+        "definition": "https://wiki.vnoi.info//translate/he/Wilsons-theorem",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "hinh-hoc-tinh-toan-phan-2-giao-iem",
-        "term": "Hình học tính toán phần 2: Giao điểm",
-        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-2",
+        "id": "lucastheorem",
+        "term": "Lucas theorem",
+        "definition": "https://wiki.vnoi.info//translate/he/Lucas-theorem",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "hinh-hoc-tinh-toan-phan-3-a-giac",
-        "term": "Hình học tính toán phần 3: Đa giác",
-        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-3",
+        "id": "crt",
+        "term": "Crt",
+        "definition": "https://wiki.vnoi.info//algo/math/crt",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "bao-loi",
-        "term": "Bao lồi",
-        "definition": "https://wiki.vnoi.info/translate/wcipeg/Convex-Hull",
+        "id": "divisors",
+        "term": "Divisors",
+        "definition": "https://wiki.vnoi.info//algo/math/divisors",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "sum-constrained-convex-optimization",
-        "term": "Sum-constrained convex optimization",
-        "definition": "https://wiki.vnoi.info/algo/trick/convex_greedy",
+        "id": "phihameuler",
+        "term": "Phi ham euler",
+        "definition": "https://wiki.vnoi.info//algo/algebra/phi-ham-euler",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tong-minkowski",
-        "term": "Tổng Minkowski",
-        "definition": "https://wiki.vnoi.info/algo/trick/minkowski-sum",
+        "id": "mobiusfunction",
+        "term": "Mobius function",
+        "definition": "https://wiki.vnoi.info//translate/quora/mobius-function.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhan-ma-tran",
-        "term": "Nhân ma trận",
-        "definition": "https://wiki.vnoi.info/algo/trick/matrix-multiplication",
+        "id": "multiplicativefunction",
+        "term": "Multiplicative function",
+        "definition": "https://wiki.vnoi.info//algo/math/multiplicative-function",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "khu-nhan-ma-tran",
-        "term": "Khử nhân ma trận",
-        "definition": "https://wiki.vnoi.info/algo/trick/counting-without-matrix-multiplication",
+        "id": "divisors",
+        "term": "Divisors",
+        "definition": "https://wiki.vnoi.info//algo/math/divisors",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "ap-dung-bat-ngo-cua-ao-ham",
-        "term": "Áp dụng bất ngờ của đạo hàm",
-        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/derivative-application",
+        "id": "phihameuler",
+        "term": "Phi ham euler",
+        "definition": "https://wiki.vnoi.info//algo/algebra/phi-ham-euler",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhan-nhanh-a-thuc-fft",
-        "term": "Nhân nhanh đa thức - FFT",
-        "definition": "https://wiki.vnoi.info/algo/trick/FFT",
+        "id": "mobiusfunction",
+        "term": "Mobius function",
+        "definition": "https://wiki.vnoi.info//translate/quora/mobius-function.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "giai-thuat-cat-tia-alpha-beta",
-        "term": "Giải thuật cắt tỉa Alpha-Beta",
-        "definition": "https://wiki.vnoi.info/algo/games/Giai-Thuat-Cat-Tia-Alpha-beta",
+        "id": "multiplicativefunction",
+        "term": "Multiplicative function",
+        "definition": "https://wiki.vnoi.info//algo/math/multiplicative-function",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-e-tri",
-        "term": "Chia để trị",
-        "definition": "https://wiki.vnoi.info/algo/basic/divide-and-conquer",
+        "id": "nck",
+        "term": "Nck",
+        "definition": "https://wiki.vnoi.info//algo/algebra/nCk",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chia-e-tri-chen-danqi",
-        "term": "Chia để trị Chen Danqi",
-        "definition": "https://wiki.vnoi.info/algo/basic/chen-danqi-dnc",
+        "id": "factorialmoduloprime",
+        "term": "Factorial modulo prime",
+        "definition": "https://wiki.vnoi.info//algo/math/factorial-modulo-prime",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "chat-nhi-phan-song-song",
-        "term": "Chặt nhị phân song song",
-        "definition": "https://wiki.vnoi.info/algo/search/parallel-binary-search",
+        "id": "sqrtmodp",
+        "term": "Sqrt mod p",
+        "definition": "https://wiki.vnoi.info//algo/math/sqrt-mod-p",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tim-kiem-tam-phan-ternary-search",
-        "term": "Tìm kiếm tam phân - Ternary Search",
-        "definition": "https://wiki.vnoi.info/translate/emaxx/Tim-kiem-tam-phan-Ternary-Search",
+        "id": "discretelog",
+        "term": "Discrete log",
+        "definition": "https://wiki.vnoi.info//algo/math/discrete-log",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "local-search",
-        "term": "Local Search",
-        "definition": "https://wiki.vnoi.info/algo/search/Local-Search",
+        "id": "nck",
+        "term": "Nck",
+        "definition": "https://wiki.vnoi.info//algo/algebra/nCk",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "toi-a-hoc-tin-nhu-the-nao-phan-1",
-        "term": "Tôi đã học Tin như thế nào - phần 1",
-        "definition": "https://wiki.vnoi.info/algo/basic/hoc-tin-the-nao-1",
+        "id": "factorialmoduloprime",
+        "term": "Factorial modulo prime",
+        "definition": "https://wiki.vnoi.info//algo/math/factorial-modulo-prime",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "toi-a-hoc-tin-nhu-the-nao-phan-2",
-        "term": "Tôi đã học Tin như thế nào - phần 2",
-        "definition": "https://wiki.vnoi.info/algo/basic/hoc-tin-the-nao-2",
+        "id": "sqrtmodp",
+        "term": "Sqrt mod p",
+        "definition": "https://wiki.vnoi.info//algo/math/sqrt-mod-p",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "viet-trinh-cham",
-        "term": "Viết trình chấm",
-        "definition": "https://wiki.vnoi.info/algo/skill/viet-trinh-cham",
+        "id": "discretelog",
+        "term": "Discrete log",
+        "definition": "https://wiki.vnoi.info//algo/math/discrete-log",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "tong-hop-loi-khuyen-cho-cac-ky-thi",
-        "term": "Tổng hợp lời khuyên cho các kỳ thi",
-        "definition": "https://wiki.vnoi.info/algo/skill/Ki-nang-thi-cu",
+        "id": "numbertheory5",
+        "term": "Number theory 5",
+        "definition": "https://wiki.vnoi.info//translate/he/Number-Theory-5",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "kinh-nghiem-thi-voi",
-        "term": "Kinh nghiệm thi VOI",
-        "definition": "https://wiki.vnoi.info/algo/skill/Kinh-nghiem-thi-VOI",
+        "id": "hieuvexacsuat",
+        "term": "Hieu ve xac suat",
+        "definition": "https://wiki.vnoi.info//translate/topcoder/Hieu-ve-xac-suat",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhung-kinh-nghiem-chung-khi-phong-van",
-        "term": "Những kinh nghiệm chung khi phỏng vấn",
-        "definition": "https://wiki.vnoi.info/interview/general-experience",
+        "id": "numbertheory6",
+        "term": "Number theory 6",
+        "definition": "https://wiki.vnoi.info//translate/he/Number-Theory-6",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "kinh-nghiem-phong-van-goc-nhin-tu-nguoi-phong-van",
-        "term": "Kinh nghiệm phỏng vấn - Góc nhìn từ người phỏng vấn",
-        "definition": "https://wiki.vnoi.info/interview/experience-from-interviewer",
+        "id": "pie",
+        "term": "Pie",
+        "definition": "https://wiki.vnoi.info//algo/algebra/pie",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "nhung-lan-phong-van-va-nhung-kinh-nghiem-rut-ra",
-        "term": "Những lần phỏng vấn và những kinh nghiệm rút ra",
-        "definition": "https://wiki.vnoi.info/interview/Nhung-lan-phong-van-trong-thuc-te-va-bai-hoc-rut-ra",
+        "id": "basicgeometry1",
+        "term": "Basic geometry 1",
+        "definition": "https://wiki.vnoi.info//algo/geometry/basic-geometry-1",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phong-van-le-yen-thanh",
-        "term": "Phỏng vấn Lê Yên Thanh",
-        "definition": "https://wiki.vnoi.info/vnoi-interview/yen-thanh",
+        "id": "basicgeometry2",
+        "term": "Basic geometry 2",
+        "definition": "https://wiki.vnoi.info//algo/geometry/basic-geometry-2",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phong-van-nguyen-xuan-khanh",
-        "term": "Phỏng vấn Nguyễn Xuân Khánh",
-        "definition": "https://wiki.vnoi.info/vnoi-interview/xuan-khanh",
+        "id": "basicgeometry3",
+        "term": "Basic geometry 3",
+        "definition": "https://wiki.vnoi.info//algo/geometry/basic-geometry-3",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phong-van-team-ioi-viet-nam-2017",
-        "term": "Phỏng vấn Team IOI Việt Nam 2017",
-        "definition": "https://wiki.vnoi.info/vnoi-interview/Phong-van-team-IOI-VN-2017",
+        "id": "sweepline",
+        "term": "Sweep line",
+        "definition": "https://wiki.vnoi.info//algo/geometry/Sweep-Line.md",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "phong-van-team-ioi-viet-nam-2018",
-        "term": "Phỏng vấn Team IOI Việt Nam 2018",
-        "definition": "https://wiki.vnoi.info/vnoi-interview/Phong-van-team-IOI-Viet-Nam-2018",
+        "id": "convexhull",
+        "term": "Convex hull",
+        "definition": "https://wiki.vnoi.info//translate/wcipeg/Convex-Hull",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "hoai-niem-ve-pascal-thay-le-minh-hoang",
-        "term": "Hoài niệm về Pascal - thầy Lê Minh Hoàng",
-        "definition": "https://wiki.vnoi.info/others/Pascal-Vi-sao",
+        "id": "convex_greedy",
+        "term": "Convex_greedy",
+        "definition": "https://wiki.vnoi.info//algo/trick/convex_greedy",
         "in_roadmap": false,
         "related_terms": []
     },
     {
-        "id": "viet-nam-tai-acm-icpc-world-final",
-        "term": "Việt Nam tại ACM ICPC World Final",
-        "definition": "https://wiki.vnoi.info/Cac-doi-Viet-Nam-tai-ACM-ICPC-World-Final",
+        "id": "minkowskisum",
+        "term": "Minkowski sum",
+        "definition": "https://wiki.vnoi.info//algo/trick/minkowski-sum",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "matrixmultiplication",
+        "term": "Matrix multiplication",
+        "definition": "https://wiki.vnoi.info//algo/trick/matrix-multiplication",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "countingwithoutmatrixmultiplication",
+        "term": "Counting without matrix multiplication",
+        "definition": "https://wiki.vnoi.info//algo/trick/counting-without-matrix-multiplication",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "derivativeapplication",
+        "term": "Derivative application",
+        "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/derivative-application",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "fft",
+        "term": "Fft",
+        "definition": "https://wiki.vnoi.info//algo/trick/FFT",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "gametheory",
+        "term": "Game theory",
+        "definition": "https://wiki.vnoi.info//algo/math/game-theory.md",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "giaithuatcattiaalphabeta",
+        "term": "Giai thuat cat tia alpha beta",
+        "definition": "https://wiki.vnoi.info//algo/games/Giai-Thuat-Cat-Tia-Alpha-beta",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "divideandconquer",
+        "term": "Divide and conquer",
+        "definition": "https://wiki.vnoi.info//algo/basic/divide-and-conquer",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "chendanqidnc",
+        "term": "Chen danqi dnc",
+        "definition": "https://wiki.vnoi.info//algo/basic/chen-danqi-dnc",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "parallelbinarysearch",
+        "term": "Parallel binary search",
+        "definition": "https://wiki.vnoi.info//algo/search/parallel-binary-search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "timkiemtamphanternarysearch",
+        "term": "Tim kiem tam phan ternary search",
+        "definition": "https://wiki.vnoi.info//translate/emaxx/Tim-kiem-tam-phan-Ternary-Search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "localsearch",
+        "term": "Local search",
+        "definition": "https://wiki.vnoi.info//algo/search/Local-Search",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "sinhtestnew",
+        "term": "Sinh test new",
+        "definition": "https://wiki.vnoi.info//algo/skill/sinh-test-new",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "viettrinhcham",
+        "term": "Viet trinh cham",
+        "definition": "https://wiki.vnoi.info//algo/skill/viet-trinh-cham",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "kinangthicu",
+        "term": "Ki nang thi cu",
+        "definition": "https://wiki.vnoi.info//algo/skill/Ki-nang-thi-cu",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "kinhnghiemthivoi",
+        "term": "Kinh nghiem thi VOI",
+        "definition": "https://wiki.vnoi.info//algo/skill/Kinh-nghiem-thi-VOI",
+        "in_roadmap": false,
+        "related_terms": []
+    },
+    {
+        "id": "generalexperience",
+        "term": "General experience",
+        "definition": "https://wiki.vnoi.info//interview/general-experience",
         "in_roadmap": false,
         "related_terms": []
     }
-
 ]

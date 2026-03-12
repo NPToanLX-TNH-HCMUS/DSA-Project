@@ -1,5 +1,5 @@
 [{
-        "id": "back-end",
+        "id": "backend",
         "term": "Back end",
         "next_nodes": ["internet"],
         "Details": []
@@ -8,7 +8,9 @@
         "id": "internet",
         "term": "Internet",
         "next_nodes": [
-            "frontend-basics"
+            "frontendbasics",
+            "operatingsystem",
+            "versioncontrolsystems"
         ],
         "Details": [
             "How does the internet work?",
@@ -20,11 +22,9 @@
         ]
     },
     {
-        "id": "frontend-basics",
+        "id": "frontendbasics",
         "term": "Frontend Basics",
-        "next_nodes": [
-            "vcs"
-        ],
+        "next_nodes": ["backendprogramminglanguage"],
         "Details": [
             "HTML",
             "CSS",
@@ -32,11 +32,9 @@
         ]
     },
     {
-        "id": "vcs",
+        "id": "versioncontrolsystems",
         "term": "Version Control Systems",
-        "next_nodes": [
-            "os-general-knowledge"
-        ],
+        "next_nodes": ["cicd"],
         "Details": [
             "Git",
             "GitHub",
@@ -45,10 +43,11 @@
         ]
     },
     {
-        "id": "operating-system",
+        "id": "operatingsystem",
         "term": "operating system",
         "next_nodes": [
-            "backend-language"
+            "backendprogramminglanguage",
+            "webservers"
         ],
         "Details": [
             "Basic Operations Skills",
@@ -56,197 +55,30 @@
         ]
     },
     {
-        "id": "backend-programming-language",
+        "id": "backendprogramminglanguage",
         "term": "Backend Programming Language",
         "next_nodes": [
-            "relational-databases"
-        ],
-        "Details": [
-            "Python",
-            "Java",
-            "Ruby",
-            "PHP",
-            "C#",
-            "Go",
-            "Rust",
-            "JavaScript (Node.js)"
-        ]
-    },
-    {
-        "id": "relational-databases",
-        "term": "Relational Databases",
-        "next_nodes": [
-            "more-about-databases"
-        ],
-        "Details": [
-            "PostgreSQL",
-            "MySQL",
-            "MariaDB",
-            "MS SQL",
-            "Oracle",
-            "SQLite"
-        ]
-    },
-    {
-        "id": "more-about-databases",
-        "term": "More about Databases",
-        "next_nodes": [
-            "api-styles"
-        ],
-        "Details": [
-            "ORMs",
-            "ACID",
-            "Transactions",
-            "N+1 Problem",
-            "Database Indexes",
-            "Data Replication",
-            "Sharding Strategies",
-            "CAP Theorem",
-            "Normalization",
-            "Failure Modes",
-            "Profiling Performance"
-        ]
-    },
-    {
-        "id": "api-styles",
-        "term": "API Styles",
-        "next_nodes": [
-            "caching"
-        ],
-        "Details": [
-            "REST",
-            "JSON APIs",
-            "SOAP",
-            "gRPC",
-            "GraphQL"
-        ]
-    },
-    {
-        "id": "caching",
-        "term": "Caching",
-        "next_nodes": [
-            "web-security"
-        ],
-        "Details": [
-            "HTTP Caching",
-            "Redis",
-            "Memcached"
-        ]
-    },
-    {
-        "id": "web-security",
-        "term": "Web Security",
-        "next_nodes": [
-            "authentication"
-        ],
-        "Details": [
-            "Hashing Algorithms (MD5, SHA, scrypt, bcrypt)",
-            "HTTPS",
-            "SSL/TLS",
-            "CORS",
-            "CSP",
-            "OWASP Risks",
-            "Server Security",
-            "API Security Best Practices"
-        ]
-    },
-    {
-        "id": "authentication",
-        "term": "Authentication",
-        "next_nodes": [
+            "relationaldatabases",
+            "nosqldatabases",
+            "apistyles",
             "testing"
         ],
         "Details": [
-            "JWT",
-            "Basic Authentication",
-            "Token Authentication",
-            "OAuth",
-            "Cookie Based Auth",
-            "OpenID",
-            "SAML"
+            "Python", "Java", "Ruby", "PHP", "C#", "Go", "Rust", "JavaScript (Node.js)"
         ]
     },
     {
-        "id": "testing",
-        "term": "Testing",
-        "next_nodes": [
-            "ci-cd"
-        ],
+        "id": "relationaldatabases",
+        "term": "Relational Databases",
+        "next_nodes": ["moreaboutdatabases"],
         "Details": [
-            "Integration Testing",
-            "Functional Testing",
-            "Unit Testing"
+            "PostgreSQL", "MySQL", "MariaDB", "MS SQL", "Oracle", "SQLite"
         ]
     },
     {
-        "id": "cicd",
-        "term": "CI / CD",
-        "next_nodes": [
-            "design-and-architecture"
-        ],
-        "Details": [
-            "Continuous Integration",
-            "Continuous Delivery / Deployment"
-        ]
-    },
-    {
-        "id": "design-and-architecture",
-        "term": "Design & Architecture",
-        "next_nodes": [
-            "message-brokers"
-        ],
-        "Details": [
-            "Architectural Patterns",
-            "Monolith",
-            "Microservices",
-            "SOA",
-            "Serverless",
-            "Service Mesh",
-            "Twelve Factor Apps"
-        ]
-    },
-    {
-        "id": "message-brokers",
-        "term": "Message Brokers",
-        "next_nodes": [
-            "web-servers"
-        ],
-        "Details": [
-            "RabbitMQ",
-            "Kafka"
-        ]
-    },
-    {
-        "id": "web-servers",
-        "term": "Web Servers",
-        "next_nodes": [
-            "real-time-data"
-        ],
-        "Details": [
-            "Nginx",
-            "Apache",
-            "Caddy",
-            "MS IIS"
-        ]
-    },
-    {
-        "id": "real-time-data",
-        "term": "Real-Time Data",
-        "next_nodes": [
-            "nosql-databases"
-        ],
-        "Details": [
-            "WebSockets",
-            "Server Sent Events",
-            "Long / Short Polling"
-        ]
-    },
-    {
-        "id": "nosql-databases",
+        "id": "nosqldatabases",
         "term": "NoSQL Databases",
-        "next_nodes": [
-            "search-engines"
-        ],
+        "next_nodes": ["moreaboutdatabases"],
         "Details": [
             "Document DBs (MongoDB, CouchDB)",
             "Graph DBs (Neo4j)",
@@ -256,50 +88,133 @@
         ]
     },
     {
-        "id": "search-engines",
-        "term": "Search Engines",
+        "id": "moreaboutdatabases",
+        "term": "More about Databases",
         "next_nodes": [
-            "containerization"
+            "caching",
+            "searchengines"
         ],
         "Details": [
-            "Elasticsearch",
-            "Solr"
+            "ORMs", "ACID", "Transactions", "N+1 Problem", "Database Indexes", "Data Replication", "Sharding Strategies", "CAP Theorem", "Normalization", "Failure Modes", "Profiling Performance"
+        ]
+    },
+    {
+        "id": "apistyles",
+        "term": "API Styles",
+        "next_nodes": [
+            "websecurity",
+            "realtimedata",
+            "designarchitecture"
+        ],
+        "Details": [
+            "REST", "JSON APIs", "SOAP", "gRPC", "GraphQL"
+        ]
+    },
+    {
+        "id": "websecurity",
+        "term": "Web Security",
+        "next_nodes": ["authentication"],
+        "Details": [
+            "Hashing Algorithms (MD5, SHA, scrypt, bcrypt)", "HTTPS", "SSL/TLS", "CORS", "CSP", "OWASP Risks", "Server Security", "API Security Best Practices"
+        ]
+    },
+    {
+        "id": "authentication",
+        "term": "Authentication",
+        "next_nodes": ["designarchitecture"],
+        "Details": [
+            "JWT", "Basic Authentication", "Token Authentication", "OAuth", "Cookie Based Auth", "OpenID", "SAML"
+        ]
+    },
+    {
+        "id": "testing",
+        "term": "Testing",
+        "next_nodes": ["cicd"],
+        "Details": [
+            "Integration Testing", "Functional Testing", "Unit Testing"
+        ]
+    },
+    {
+        "id": "cicd",
+        "term": "CI / CD",
+        "next_nodes": ["containerization"],
+        "Details": [
+            "Continuous Integration", "Continuous Delivery / Deployment"
         ]
     },
     {
         "id": "containerization",
         "term": "Containerization",
-        "next_nodes": [
-            "container-orchestration"
-        ],
+        "next_nodes": ["containerorchestration"],
         "Details": [
-            "Docker",
-            "LXC"
+            "Docker", "LXC"
         ]
     },
     {
-        "id": "container-orchestration",
+        "id": "containerorchestration",
         "term": "Container Orchestration",
-        "next_nodes": [
-            "building-for-scale"
-        ],
+        "next_nodes": ["buildingforscale"],
         "Details": [
             "Kubernetes"
         ]
     },
     {
-        "id": "building-for-scale",
-        "term": "Building For Scale",
+        "id": "webservers",
+        "term": "Web Servers",
+        "next_nodes": ["buildingforscale"],
+        "Details": [
+            "Nginx", "Apache", "Caddy", "MS IIS"
+        ]
+    },
+    {
+        "id": "caching",
+        "term": "Caching",
+        "next_nodes": ["buildingforscale"],
+        "Details": [
+            "HTTP Caching", "Redis", "Memcached"
+        ]
+    },
+    {
+        "id": "designarchitecture",
+        "term": "Design & Architecture",
         "next_nodes": [
-            "observability"
+            "messagebrokers",
+            "buildingforscale"
         ],
         "Details": [
-            "Mitigation Strategies",
-            "Graceful Degradation",
-            "Throttling",
-            "Backpressure",
-            "Loadshifting",
-            "Circuit Breaker"
+            "Architectural Patterns", "Monolith", "Microservices", "SOA", "Serverless", "Service Mesh", "Twelve Factor Apps"
+        ]
+    },
+    {
+        "id": "messagebrokers",
+        "term": "Message Brokers",
+        "next_nodes": ["observability"],
+        "Details": [
+            "RabbitMQ", "Kafka"
+        ]
+    },
+    {
+        "id": "realtimedata",
+        "term": "Real-Time Data",
+        "next_nodes": ["observability"],
+        "Details": [
+            "WebSockets", "Server Sent Events", "Long / Short Polling"
+        ]
+    },
+    {
+        "id": "searchengines",
+        "term": "Search Engines",
+        "next_nodes": ["observability"],
+        "Details": [
+            "Elasticsearch", "Solr"
+        ]
+    },
+    {
+        "id": "buildingforscale",
+        "term": "Building For Scale",
+        "next_nodes": ["observability"],
+        "Details": [
+            "Mitigation Strategies", "Graceful Degradation", "Throttling", "Backpressure", "Loadshifting", "Circuit Breaker"
         ]
     },
     {
@@ -307,9 +222,7 @@
         "term": "Observability",
         "next_nodes": [],
         "Details": [
-            "Monitoring",
-            "Telemetry",
-            "Instrumentation"
+            "Monitoring", "Telemetry", "Instrumentation"
         ]
     }
 ]

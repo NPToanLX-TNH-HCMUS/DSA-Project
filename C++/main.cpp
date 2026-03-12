@@ -194,6 +194,19 @@ int main()
         int choice;
         cin >> choice;
         cin.ignore();
+        int choice;
+        while (true)
+        {
+            cout << "Would you like a short or a long roadmap ? [1 for short || 2 for long]: ";
+            if (cin >> choice && (choice == 1 || choice == 2))
+            {
+                cin.ignore();
+                break;
+            }
+            cout << "I HATE YOU! Enter 1 or 2: ";
+            cin.clear();
+            cin.ignore(1000, '\n');
+        }
         if (choice == 1)
         {
             vector<string> roadmap_print = roadmap.RoadMap_from_start_point(slugify(knowledge));
@@ -223,11 +236,11 @@ int main()
                 {
                     cout << v;
                 }
-                if (i != roadmap_print.size() - 1) 
+                if (i != roadmap_print.size() - 1)
                 {
                     cout << " -> ";
                 }
-                else 
+                else
                 {
                     cout << "\n";
                 }

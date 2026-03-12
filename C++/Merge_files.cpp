@@ -22,8 +22,8 @@ using json = nlohmann::json;
 // COLORS:
 const string RESET = "\033[0m";
 const string GREEN = "\033[1;32m"; // Highlight selected node
-const string RED = "\033[1;32m";
-const string PINK = "\033[1;32m";
+const string RED  = "\033[1;31m";  
+const string PINK = "\033[1;35m"; 
 // COLORS
 json dt;
 
@@ -357,7 +357,7 @@ int main()
             break;
         }
         search_dictionary.Search(prefix);
-        string search_key = lower(prefix);
+        string search_key = slugify(prefix);
         if (search_dictionary.dict.count(search_key) > 0 && search_dictionary.dict[search_key].in_roadmap)
         {
             cout << "\n"

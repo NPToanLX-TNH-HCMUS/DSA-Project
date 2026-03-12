@@ -172,7 +172,7 @@ int main()
     cin.tie(0)->sync_with_stdio(false);
 
     // Load dictionary:
-    search_dictionary.load_dictionary("C:\\Users\\lenovo\\.vscode\\NPToan\\InClass\\DSA's Project\\Main\\DSA-Project\\Dataset\\Dataset_JSONfiles\\dictionary_Eng_Vie.json");
+    search_dictionary.load_dictionary("C:\\Users\\lenovo\\.vscode\\NPToan\\InClass\\DSA's Project\\Main\\DSA-Project\\Dataset\\Dataset_JSONfiles\\dictionary.json");
     // Search:
     string prefix;
     cin >> prefix;

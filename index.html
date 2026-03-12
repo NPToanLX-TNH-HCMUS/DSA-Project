@@ -1,53 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Trie Dictionary</title>
-    <style>
-        body {
-            font-family: Arial;
-            padding: 40px;
-            background: #f4f4f4;
-        }
-        input {
-            padding: 8px;
-            width: 250px;
-        }
-        button {
-            padding: 8px 15px;
-            cursor: pointer;
-        }
-        pre {
-            background: white;
-            padding: 20px;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-    </style>
+<meta charset="UTF-8">
+<title>Trie Dictionary</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    padding:40px;
+    background:#f4f4f4;
+}
+
+input{
+    padding:8px;
+    width:250px;
+}
+
+pre{
+    background:white;
+    padding:20px;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+</style>
+
 </head>
+
 <body>
 
-<h2>Dictionary Search (C++ Backend)</h2>
+<h2>Dictionary Search</h2>
 
-<input id="prefix" placeholder="Enter word..." />
-<button onclick="search()">Search</button>
+<input id="prefix" placeholder="Enter word..." autocomplete="off"/>
 
 <pre id="result">Result will appear here...</pre>
 
 <script>
-async function search() {
-    const prefix = document.getElementById("prefix").value;
 
-    const response = await fetch("/search", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ input: prefix })
+const box = document.getElementById("prefix");
+const result = document.getElementById("result");
+
+let timer;
+
+box.addEventListener("input", () => {
+
+    clearTimeout(timer);
+    timer = setTimeout(search,200);
+
+});
+
+async function search(){
+
+    const prefix = box.value;
+
+    if(prefix.length === 0){
+        result.textContent="";
+        return;
+    }
+
+    const response = await fetch("/search",{
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify({input:prefix})
     });
 
     const data = await response.json();
 
-    document.getElementById("result").textContent = data.result;
+    result.textContent = data.result;
+
 }
+
 </script>
 
 </body>

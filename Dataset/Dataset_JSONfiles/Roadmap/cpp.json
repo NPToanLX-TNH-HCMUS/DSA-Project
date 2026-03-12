@@ -2,7 +2,7 @@
         "id": "cpp",
         "term": "CPP",
         "next_nodes": [
-            "environment"
+            "settingupyourenvironment"
         ],
         "Details": [
             "What is C++?",
@@ -11,10 +11,11 @@
         ]
     },
     {
-        "id": "environment",
+        "id": "settingupyourenvironment",
         "term": "Setting up your Environment",
         "next_nodes": [
-            "basic-operations"
+            "basicoperations",
+            "languagetools"
         ],
         "Details": [
             "Installing C++",
@@ -23,10 +24,12 @@
         ]
     },
     {
-        "id": "basic-operations",
+        "id": "basicoperations",
         "term": "Basic Operations",
         "next_nodes": [
-            "functions"
+            "datatypes",
+            "functions",
+            "structuringcodebase"
         ],
         "Details": [
             "Arithmetic Operators",
@@ -36,23 +39,10 @@
         ]
     },
     {
-        "id": "functions",
-        "term": "Functions",
-        "next_nodes": [
-            "data-types"
-        ],
-        "Details": [
-            "Static Polymorphism",
-            "Function Overloading",
-            "Operator Overloading",
-            "Lambdas"
-        ]
-    },
-    {
-        "id": "data-types",
+        "id": "datatypes",
         "term": "Data Types",
         "next_nodes": [
-            "memory-model"
+            "memorymodel"
         ],
         "Details": [
             "Static Typing",
@@ -62,24 +52,24 @@
         ]
     },
     {
-        "id": "memory-model",
-        "term": "Memory Model",
+        "id": "functions",
+        "term": "Functions",
         "next_nodes": [
-            "structuring-codebase"
+            "memorymodel",
+            "templates"
         ],
         "Details": [
-            "Lifetime of Objects",
-            "Smart Pointers (weak_ptr, shared_ptr, unique_ptr)",
-            "Raw Pointers",
-            "New / Delete Operators",
-            "Memory Leakage"
+            "Static Polymorphism",
+            "Function Overloading",
+            "Operator Overloading",
+            "Lambdas"
         ]
     },
     {
-        "id": "structuring-codebase",
+        "id": "structuringcodebase",
         "term": "Structuring Codebase",
         "next_nodes": [
-            "object-oriented-programming"
+            "objectorientedprogramming"
         ],
         "Details": [
             "Scope",
@@ -90,10 +80,26 @@
         ]
     },
     {
-        "id": "object-oriented-programming",
+        "id": "memorymodel",
+        "term": "Memory Model",
+        "next_nodes": [
+            "objectorientedprogramming",
+            "languageconcepts"
+        ],
+        "Details": [
+            "Lifetime of Objects",
+            "Smart Pointers (weak_ptr, shared_ptr, unique_ptr)",
+            "Raw Pointers",
+            "New / Delete Operators",
+            "Memory Leakage"
+        ]
+    },
+    {
+        "id": "objectorientedprogramming",
         "term": "Object Oriented Programming",
         "next_nodes": [
-            "exception-handling"
+            "exceptionhandling",
+            "idioms"
         ],
         "Details": [
             "Multiple Inheritance",
@@ -104,22 +110,11 @@
         ]
     },
     {
-        "id": "exception-handling",
-        "term": "Exception Handling",
-        "next_nodes": [
-            "language-concepts"
-        ],
-        "Details": [
-            "Exit Codes",
-            "Exceptions",
-            "Access Violations"
-        ]
-    },
-    {
-        "id": "language-concepts",
+        "id": "languageconcepts",
         "term": "Language Concepts",
         "next_nodes": [
-            "standard-library"
+            "standardlibrarystl",
+            "templates"
         ],
         "Details": [
             "auto (Automatic Type Deduction)",
@@ -132,10 +127,37 @@
         ]
     },
     {
-        "id": "standard-library",
+        "id": "exceptionhandling",
+        "term": "Exception Handling",
+        "next_nodes": [
+            "standardlibrarystl"
+        ],
+        "Details": [
+            "Exit Codes",
+            "Exceptions",
+            "Access Violations"
+        ]
+    },
+    {
+        "id": "templates",
+        "term": "Templates",
+        "next_nodes": [
+            "idioms",
+            "standards"
+        ],
+        "Details": [
+            "Variadic Templates",
+            "Template Specialization (Full, Partial)",
+            "Type Traits",
+            "SFINAE"
+        ]
+    },
+    {
+        "id": "standardlibrarystl",
         "term": "Standard Library + STL",
         "next_nodes": [
-            "templates"
+            "idioms",
+            "standards"
         ],
         "Details": [
             "Iterators",
@@ -147,23 +169,10 @@
         ]
     },
     {
-        "id": "templates",
-        "term": "Templates",
-        "next_nodes": [
-            "idioms"
-        ],
-        "Details": [
-            "Variadic Templates",
-            "Template Specialization (Full, Partial)",
-            "Type Traits",
-            "SFINAE"
-        ]
-    },
-    {
         "id": "idioms",
         "term": "Idioms",
         "next_nodes": [
-            "standards"
+            "librariesandframeworks"
         ],
         "Details": [
             "Non-Copyable / Non-Moveable",
@@ -179,7 +188,7 @@
         "id": "standards",
         "term": "Standards",
         "next_nodes": [
-            "language-tools"
+            "librariesandframeworks"
         ],
         "Details": [
             "C++ 11 / 14",
@@ -190,10 +199,10 @@
         ]
     },
     {
-        "id": "language-tools",
+        "id": "languagetools",
         "term": "Language Tools",
         "next_nodes": [
-            "build-systems"
+            "buildsystems"
         ],
         "Details": [
             "Debuggers (Understanding Messages, Symbols, WinDBg, GDB)",
@@ -201,10 +210,10 @@
         ]
     },
     {
-        "id": "build-systems",
+        "id": "buildsystems",
         "term": "Build Systems",
         "next_nodes": [
-            "package-managers"
+            "packagemanagers"
         ],
         "Details": [
             "CMAKE",
@@ -213,10 +222,10 @@
         ]
     },
     {
-        "id": "package-managers",
+        "id": "packagemanagers",
         "term": "Package Managers",
         "next_nodes": [
-            "libraries"
+            "librariesandframeworks"
         ],
         "Details": [
             "vcpkg",
@@ -226,7 +235,7 @@
         ]
     },
     {
-        "id": "libraries",
+        "id": "librariesandframeworks",
         "term": "Libraries and Frameworks",
         "next_nodes": [],
         "Details": [

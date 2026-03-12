@@ -1,14 +1,16 @@
 [{
         "id": "blockchain",
         "term": "Blockchain",
-        "next_nodes": ["blockchain-introduction"],
+        "next_nodes": ["blockchainintroduction"],
         "Details": []
     },
     {
-        "id": "blockchain-introduction",
+        "id": "blockchainintroduction",
         "term": "Blockchain Introduction",
         "next_nodes": [
-            "blockchain-networks"
+            "blockchainnetworks",
+            "supportinglanguages",
+            "versioncontrol"
         ],
         "Details": [
             "What is Blockchain",
@@ -22,10 +24,11 @@
         ]
     },
     {
-        "id": "blockchain-networks",
+        "id": "blockchainnetworks",
         "term": "Blockchain Networks",
         "next_nodes": [
-            "smart-contracts"
+            "smartcontracts",
+            "clientnodes"
         ],
         "Details": [
             "UTXO-Based (Bitcoin, Cardano)",
@@ -36,11 +39,34 @@
         ]
     },
     {
-        "id": "smart-contracts",
-        "term": "Smart Contracts",
+        "id": "supportinglanguages",
+        "term": "Supporting Languages",
         "next_nodes": [
-            "smart-contract-frameworks"
+            "smartcontracts",
+            "frontendframeworks"
         ],
+        "Details": [
+            "JavaScript",
+            "Python",
+            "Go"
+        ]
+    },
+    {
+        "id": "versioncontrol",
+        "term": "Version Control",
+        "next_nodes": [
+            "smartcontractframeworks",
+            "frontendframeworks"
+        ],
+        "Details": [
+            "Git",
+            "Repo Hosting Services (GitHub, GitLab, Bitbucket)"
+        ]
+    },
+    {
+        "id": "smartcontracts",
+        "term": "Smart Contracts",
+        "next_nodes": ["smartcontractframeworks"],
         "Details": [
             "Programming Languages (Solidity, Vyper, Rust)",
             "IDEs (Remix, VS Code)",
@@ -49,11 +75,9 @@
         ]
     },
     {
-        "id": "smart-contract-frameworks",
+        "id": "smartcontractframeworks",
         "term": "Smart Contract Frameworks",
-        "next_nodes": [
-            "management-platform"
-        ],
+        "next_nodes": ["testing"],
         "Details": [
             "Hardhat",
             "Brownie",
@@ -62,25 +86,9 @@
         ]
     },
     {
-        "id": "management-platform",
-        "term": "Management Platform",
-        "next_nodes": [
-            "testing"
-        ],
-        "Details": [
-            "Deployment",
-            "Monitoring",
-            "Upgrades",
-            "ERC Tokens",
-            "Crypto Faucets"
-        ]
-    },
-    {
         "id": "testing",
         "term": "Testing",
-        "next_nodes": [
-            "smart-contract-security"
-        ],
+        "next_nodes": ["security"],
         "Details": [
             "Unit Tests",
             "Integration Tests",
@@ -88,11 +96,9 @@
         ]
     },
     {
-        "id": "smart-contract-security",
+        "id": "security",
         "term": "Security",
-        "next_nodes": [
-            "vcs"
-        ],
+        "next_nodes": ["managementplatform"],
         "Details": [
             "Security Practices",
             "Fuzz Testing & Static Analysis",
@@ -102,58 +108,21 @@
         ]
     },
     {
-        "id": "vcs",
-        "term": "Version Control",
-        "next_nodes": [
-            "decentralized-applications"
-        ],
+        "id": "managementplatform",
+        "term": "Management Platform",
+        "next_nodes": ["decentralizedapplications"],
         "Details": [
-            "Git",
-            "Repo Hosting Services (GitHub, GitLab, Bitbucket)"
+            "Deployment",
+            "Monitoring",
+            "Upgrades",
+            "ERC Tokens",
+            "Crypto Faucets"
         ]
     },
     {
-        "id": "decentralized-applications",
-        "term": "Decentralized Applications",
-        "next_nodes": [
-            "node-as-a-service"
-        ],
-        "Details": [
-            "Applicability (Defi, DAOs, NFTs, Payments, Insurance)",
-            "Architecture"
-        ]
-    },
-    {
-        "id": "node-as-a-service",
-        "term": "Node as a Service",
-        "next_nodes": [
-            "programming-language"
-        ],
-        "Details": [
-            "Alchemy",
-            "Infura",
-            "Pokt Network",
-            "Quicknode"
-        ]
-    },
-    {
-        "id": "programming-language",
-        "term": "Supporting Languages",
-        "next_nodes": [
-            "frontend-frameworks"
-        ],
-        "Details": [
-            "JavaScript",
-            "Python",
-            "Go"
-        ]
-    },
-    {
-        "id": "frontend-frameworks",
+        "id": "frontendframeworks",
         "term": "Frontend Frameworks",
-        "next_nodes": [
-            "client-libraries"
-        ],
+        "next_nodes": ["clientlibraries"],
         "Details": [
             "React",
             "Angular",
@@ -161,11 +130,9 @@
         ]
     },
     {
-        "id": "client-libraries",
+        "id": "clientlibraries",
         "term": "Client Libraries",
-        "next_nodes": [
-            "client-nodes"
-        ],
+        "next_nodes": ["decentralizedapplications"],
         "Details": [
             "ethers.js",
             "web3.js",
@@ -173,11 +140,21 @@
         ]
     },
     {
-        "id": "client-nodes",
-        "term": "Client Nodes",
+        "id": "decentralizedapplications",
+        "term": "Decentralized Applications",
         "next_nodes": [
-            "decentralized-storage"
+            "decentralizedstorage",
+            "nodeasaservice"
         ],
+        "Details": [
+            "Applicability (Defi, DAOs, NFTs, Payments, Insurance)",
+            "Architecture"
+        ]
+    },
+    {
+        "id": "clientnodes",
+        "term": "Client Nodes",
+        "next_nodes": ["buildingforscale"],
         "Details": [
             "Geth",
             "Besu",
@@ -186,17 +163,26 @@
         ]
     },
     {
-        "id": "decentralized-storage",
+        "id": "decentralizedstorage",
         "term": "Decentralized Storage",
-        "next_nodes": [
-            "building-for-scale"
-        ],
+        "next_nodes": ["buildingforscale"],
         "Details": [
             "Storage Solutions"
         ]
     },
     {
-        "id": "building-for-scale",
+        "id": "nodeasaservice",
+        "term": "Node as a Service",
+        "next_nodes": ["buildingforscale"],
+        "Details": [
+            "Alchemy",
+            "Infura",
+            "Pokt Network",
+            "Quicknode"
+        ]
+    },
+    {
+        "id": "buildingforscale",
         "term": "Building for Scale",
         "next_nodes": [],
         "Details": [

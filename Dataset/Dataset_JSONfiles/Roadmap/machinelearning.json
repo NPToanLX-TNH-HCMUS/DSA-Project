@@ -2,7 +2,8 @@
         "id": "introduction",
         "term": "Introduction",
         "next_nodes": [
-            "mathematical-foundations"
+            "mathematicalfoundations",
+            "python"
         ],
         "Details": [
             "What is an ML Engineer?",
@@ -11,10 +12,10 @@
         ]
     },
     {
-        "id": "mathematical-foundations",
+        "id": "mathematicalfoundations",
         "term": "Mathematical Foundations",
         "next_nodes": [
-            "python"
+            "machinelearning"
         ],
         "Details": [
             "Linear Algebra",
@@ -29,7 +30,7 @@
         "id": "python",
         "term": "Python",
         "next_nodes": [
-            "data-collection"
+            "datacollection"
         ],
         "Details": [
             "Basic Syntax & Data Structures",
@@ -38,10 +39,10 @@
         ]
     },
     {
-        "id": "data-collection",
+        "id": "datacollection",
         "term": "Data Collection",
         "next_nodes": [
-            "data-cleaning"
+            "datacleaning"
         ],
         "Details": [
             "Data Sources",
@@ -52,10 +53,10 @@
         ]
     },
     {
-        "id": "data-cleaning",
+        "id": "datacleaning",
         "term": "Data Cleaning",
         "next_nodes": [
-            "data-preparation"
+            "datapreparation"
         ],
         "Details": [
             "Preprocessing Techniques",
@@ -66,10 +67,10 @@
         ]
     },
     {
-        "id": "data-preparation",
+        "id": "datapreparation",
         "term": "Data Preparation",
         "next_nodes": [
-            "machine-learning"
+            "machinelearning"
         ],
         "Details": [
             "Train - Test Data",
@@ -80,10 +81,12 @@
         ]
     },
     {
-        "id": "machine-learning",
+        "id": "machinelearning",
         "term": "Machine Learning",
         "next_nodes": [
-            "supervised-learning"
+            "supervisedlearning",
+            "unsupervisedlearning",
+            "reinforcementlearning"
         ],
         "Details": [
             "What is Machine Learning?",
@@ -93,10 +96,10 @@
         ]
     },
     {
-        "id": "supervised-learning",
+        "id": "supervisedlearning",
         "term": "Supervised Learning",
         "next_nodes": [
-            "unsupervised-learning"
+            "modelevaluation"
         ],
         "Details": [
             "Classification",
@@ -108,10 +111,10 @@
         ]
     },
     {
-        "id": "unsupervised-learning",
+        "id": "unsupervisedlearning",
         "term": "Unsupervised Learning",
         "next_nodes": [
-            "reinforcement-learning"
+            "modelevaluation"
         ],
         "Details": [
             "Clustering (Overlapping, Hierarchical, Exclusive)",
@@ -121,10 +124,10 @@
         ]
     },
     {
-        "id": "reinforcement-learning",
+        "id": "reinforcementlearning",
         "term": "Reinforcement Learning",
         "next_nodes": [
-            "model-evaluation"
+            "modelevaluation"
         ],
         "Details": [
             "What is Reinforcement Learning?",
@@ -135,10 +138,10 @@
         ]
     },
     {
-        "id": "model-evaluation",
+        "id": "modelevaluation",
         "term": "Model Evaluation",
         "next_nodes": [
-            "deep-learning"
+            "deeplearning"
         ],
         "Details": [
             "Metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC, Log Loss)",
@@ -148,10 +151,10 @@
         ]
     },
     {
-        "id": "deep-learning",
+        "id": "deeplearning",
         "term": "Deep Learning",
         "next_nodes": [
-            "deep-learning-architectures"
+            "deeplearningarchitectures"
         ],
         "Details": [
             "Forward propagation & Back Propagation",
@@ -162,10 +165,10 @@
         ]
     },
     {
-        "id": "deep-learning-architectures",
+        "id": "deeplearningarchitectures",
         "term": "Deep Learning Architectures",
         "next_nodes": [
-            "ml-libraries"
+            "deeplearninglibraries"
         ],
         "Details": [
             "Convolutional Neural Network (CNN) & Applications",
@@ -176,10 +179,10 @@
         ]
     },
     {
-        "id": "ml-libraries",
+        "id": "deeplearninglibraries",
         "term": "Deep Learning Libraries",
         "next_nodes": [
-            "natural-language-processing"
+            "naturallanguageprocessing"
         ],
         "Details": [
             "TensorFlow",
@@ -189,7 +192,7 @@
         ]
     },
     {
-        "id": "natural-language-processing",
+        "id": "naturallanguageprocessing",
         "term": "Natural Language Processing",
         "next_nodes": [],
         "Details": [

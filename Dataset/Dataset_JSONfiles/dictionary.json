@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "1d1ddpoptimization",
         "term": "1d1d dp optimization",
         "definition": "https://wiki.vnoi.info//vnoi-magazine/2023/1d1d-dp-optimization",
@@ -187,10 +186,29 @@
         "id": "authentication",
         "term": "authentication",
         "definition": "Authentication is the process of verifying identity e.g. a user’s identity. It might involve validating personal identity documents, verifying the authenticity of a website with a digital certificate, determining the age of an artifact by carbon dating, or ensuring that a product or document is not counterfeit. It is the mechanism of associating an incoming request with a set of identifying credentials.",
-        "in_roadmap": false,
+        "in_roadmap": true,
+        "roadmap": ["backend"],
         "related_terms": [],
         "definition_vi": "Xác thực là quá trình xác minh danh tính, ví dụ: danh tính của người dùng. Nó có thể liên quan đến việc xác thực tài liệu nhận dạng cá nhân, xác minh tính xác thực của trang web bằng chứng chỉ kỹ thuật số, xác định tuổi của hiện vật bằng cách xác định niên đại bằng carbon hoặc đảm bảo rằng sản phẩm hoặc tài liệu không phải là hàng giả. Đó là cơ chế liên kết một yêu cầu đến với một bộ thông tin xác thực."
     },
+    {
+        "id": "websecurity",
+        "term": "Web Security",
+        "definition": "Web security refers to the set of practices, technologies, and policies used to protect websites, web applications, and web services from cyber threats such as unauthorized access, data breaches, and malicious attacks.",
+        "in_roadmap": true,
+        "related_terms": [
+            "cybersecurity",
+            "https",
+            "authentication",
+            "authorization",
+            "crosssitescripting",
+            "sqlinjection",
+            "webapplicationfirewall"
+        ],
+        "definition_vi": "Bảo mật web là tập hợp các phương pháp, công nghệ và chính sách được sử dụng để bảo vệ website, ứng dụng web và dịch vụ web khỏi các mối đe dọa an ninh mạng như truy cập trái phép, rò rỉ dữ liệu và các cuộc tấn công độc hại.",
+        "roadmap": ["backend", "frontend"]
+    },
+
     {
         "id": "authorization",
         "term": "authorization",
@@ -201,7 +219,7 @@
     },
     {
         "id": "backend",
-        "term": "back end",
+        "term": "Back end",
         "definition": "All of the behind-the-scenes digital operations that it takes to keep the front end of a website running, such as the coding, style, and plugins.",
         "in_roadmap": true,
         "roadmap": [
@@ -372,7 +390,7 @@
     },
     {
         "id": "bluetooth",
-        "term": "Bluetooth ",
+        "term": "Bluetooth",
         "definition": "Radio Technology through which electronic devices which is used as a facility without connecting any wire so this is a wireless connectivity.",
         "in_roadmap": false,
         "related_terms": [],
@@ -542,6 +560,22 @@
         "definition_vi": "CI và CD tượng trưng cho sự tích hợp liên tục và phân phối liên tục/triển khai liên tục. CI/CD thu hẹp khoảng cách giữa các hoạt động và nhóm phát triển và vận hành bằng cách thực thi tự động hóa trong việc xây dựng, thử nghiệm và triển khai ứng dụng."
     },
     {
+        "id": "containerization",
+        "term": "Containerization",
+        "definition": "Containerization is a software deployment method that packages an application and its dependencies into a lightweight, portable container that can run consistently across different computing environments.",
+        "in_roadmap": true,
+        "related_terms": [
+            "docker",
+            "kubernetes",
+            "virtualization",
+            "microservices",
+            "devops",
+            "container"
+        ],
+        "definition_vi": "Containerization là phương pháp triển khai phần mềm trong đó một ứng dụng cùng với các phụ thuộc của nó được đóng gói vào một container nhẹ và có tính di động, cho phép chạy nhất quán trên nhiều môi trường tính toán khác nhau.",
+        "roadmap": ["backend"]
+    },
+    {
         "id": "class",
         "term": "class",
         "definition": "a defined structure to create an object in an object-oriented programming language.",
@@ -662,6 +696,72 @@
         "definition_vi": "một đơn vị phần mềm tiêu chuẩn đóng gói mã và tất cả các phần phụ thuộc của nó để ứng dụng chạy nhanh chóng và đáng tin cậy từ môi trường điện toán này sang môi trường điện toán khác."
     },
     {
+        "id": "docker",
+        "term": "Docker",
+        "definition": "Docker is an open-source platform that enables developers to build, package, and run applications in containers, ensuring that software runs consistently across different environments.",
+        "in_roadmap": true,
+        "related_terms": [
+            "containerization",
+            "container",
+            "dockerimage",
+            "dockercontainer",
+            "kubernetes",
+            "devops"
+        ],
+        "definition_vi": "Docker là một nền tảng mã nguồn mở cho phép các lập trình viên xây dựng, đóng gói và chạy ứng dụng trong các container, giúp phần mềm hoạt động nhất quán trên nhiều môi trường khác nhau.",
+        "roadmap": ["backend"]
+    },
+    {
+        "id": "containerorchestration",
+        "term": "Container Orchestration",
+        "definition": "Container orchestration is the automated management, deployment, scaling, and networking of containerized applications across clusters of machines.",
+        "in_roadmap": true,
+        "related_terms": [
+            "containerization",
+            "docker",
+            "kubernetes",
+            "containers",
+            "microservices",
+            "devops",
+            "cluster"
+        ],
+        "definition_vi": "Container orchestration là quá trình tự động quản lý, triển khai, mở rộng và kết nối mạng cho các ứng dụng được đóng gói trong container trên nhiều máy chủ trong một cụm.",
+        "roadmap": ["backend"]
+    },
+    {
+        "id": "webservers",
+        "term": "Web Servers",
+        "definition": "Web servers are software or hardware systems that handle HTTP or HTTPS requests from clients and deliver web content such as HTML pages, images, and other resources to users over the internet.",
+        "in_roadmap": true,
+        "related_terms": [
+            "http",
+            "https",
+            "nginx",
+            "apachehttpserver",
+            "clientserverarchitecture",
+            "webapplication",
+            "loadbalancing"
+        ],
+        "definition_vi": "Web server là hệ thống phần mềm hoặc phần cứng xử lý các yêu cầu HTTP hoặc HTTPS từ client và cung cấp nội dung web như trang HTML, hình ảnh và các tài nguyên khác cho người dùng qua internet.",
+        "roadmap": ["backend"]
+    },
+    {
+        "id": "searchengines",
+        "term": "Search Engines",
+        "definition": "Search engines are software systems that index and retrieve information from the web, allowing users to search for relevant documents, webpages, or other resources using keywords or queries.",
+        "in_roadmap": true,
+        "related_terms": [
+            "webcrawler",
+            "indexing",
+            "informationretrieval",
+            "rankingalgorithm",
+            "seo",
+            "websearch"
+        ],
+        "definition_vi": "Search engine là hệ thống phần mềm lập chỉ mục và truy xuất thông tin trên web, cho phép người dùng tìm kiếm các tài liệu, trang web hoặc tài nguyên liên quan bằng từ khóa hoặc truy vấn.",
+        "roadmap": ["backend"]
+    },
+    {
         "id": "controlflow",
         "term": "control flow",
         "definition": "the order in which individual statements, instructions, or function calls of an imperative program are executed.",
@@ -742,10 +842,11 @@
         "definition_vi": ""
     },
     {
-        "id": "css",
+        "id": "csscascadingstylesheets",
         "term": "CSS (Cascading Style Sheets)",
         "definition": "CSS is the code that tells the browser how to display the content of a web page for the end user by formatting fonts, colors, backgrounds, and other visual elements.",
-        "in_roadmap": false,
+        "in_roadmap": true,
+        "roadmap": ["backend", "frontend"],
         "related_terms": [],
         "definition_vi": "CSS là mã cho trình duyệt biết cách hiển thị nội dung trang web cho người dùng cuối bằng cách định dạng phông chữ, màu sắc, hình nền và các yếu tố hình ảnh khác."
     },
@@ -1465,7 +1566,8 @@
         "id": "frontend",
         "term": "front end",
         "definition": "The part of the website or app that the user sees. If the back end of your website is everything behind-the-scenes, this is what happens onstage.",
-        "in_roadmap": false,
+        "in_roadmap": true,
+        "roadmap": ["frontend"],
         "related_terms": [],
         "definition_vi": "Phần của trang web hoặc ứng dụng mà người dùng nhìn thấy. Nếu phần sau trang web của bạn là mọi thứ ở hậu trường thì đây chính là điều xảy ra trên sân khấu."
     },
@@ -1654,43 +1756,13 @@
         "definition_vi": "một hàm lấy một hàm làm đối số và trả về một hàm."
     },
     {
-        "id": "html",
-        "term": "HTML ",
-        "definition": "Hypertext Markup Language which is used for structural and formatting tags which is used for creating a web page.",
-        "in_roadmap": true,
-        "related_terms": [
-            "css"
-        ],
-        "definition_vi": "Ngôn ngữ đánh dấu siêu văn bản được sử dụng cho các thẻ cấu trúc và định dạng được sử dụng để tạo một trang web."
-    },
-    {
         "id": "htmlhypertextmarkuplanguage",
         "term": "HTML (Hyper Text Markup Language)",
         "definition": "standard markup language used to create Web pages.",
         "in_roadmap": false,
+        "roadmap": ["frontend", "backend"],
         "related_terms": [],
         "definition_vi": "ngôn ngữ đánh dấu tiêu chuẩn được sử dụng để tạo các trang Web."
-    },
-    {
-        "id": "http",
-        "term": "HTTP",
-        "definition": "HyperText Transfer Protocol. An application-layer protocol used for transferring web pages and resources between a client (browser) and a server.",
-        "in_roadmap": false,
-        "related_terms": [
-            "internet",
-            "https",
-            "web-server",
-            "browser"
-        ],
-        "definition_vi": "HyperText Transfer Protocol. Giao thức tầng ứng dụng dùng để truyền tải trang web và tài nguyên giữa client (trình duyệt) và server."
-    },
-    {
-        "id": "http",
-        "term": "HTTP ",
-        "definition": "Hypertext transfer protocol which is used in World Wide Web server.",
-        "in_roadmap": false,
-        "related_terms": [],
-        "definition_vi": "Giao thức truyền siêu văn bản được sử dụng trong máy chủ World Wide Web."
     },
     {
         "id": "httphypertexttransferprotocol",
@@ -1762,7 +1834,7 @@
         "definition_vi": "xu hướng của một lớp để rút ra các đặc tính và đặc điểm từ các lớp khác."
     },
     {
-        "id": "integer",
+        "id": "integerint",
         "term": "integer (int)",
         "definition": "a data type that represents some range of mathematical integers.",
         "in_roadmap": false,
@@ -1887,6 +1959,7 @@
         "term": "JavaScript",
         "definition": "A high-level programming language primarily used to create interactive and dynamic behavior in web pages.",
         "in_roadmap": true,
+        "roadmap": ["frontend", "backend"],
         "related_terms": [
             "frontend",
             "nodejs",
@@ -2498,6 +2571,23 @@
         "definition_vi": "Cơ sở dữ liệu NoSQL (hay còn gọi là \"không chỉ SQL\") không ở dạng bảng và lưu trữ dữ liệu khác với các bảng quan hệ. Cơ sở dữ liệu NoSQL cung cấp cơ chế lưu trữ và truy xuất dữ liệu được mô hình hóa theo các phương tiện khác với các mối quan hệ dạng bảng được sử dụng trong cơ sở dữ liệu quan hệ. Cơ sở dữ liệu NoSQL có nhiều loại khác nhau dựa trên mô hình dữ liệu của chúng. Các loại chính là tài liệu, khóa-giá trị, cột rộng và biểu đồ."
     },
     {
+        "id": "apiarchitecturalstyles",
+        "term": "API architectural styles",
+        "definition": "API architectural styles are design patterns that define how APIs are structured, how components interact, and how requests and responses are handled between clients and servers.",
+        "in_roadmap": true,
+        "related_terms": [
+            "api",
+            "rest",
+            "graphql",
+            "soap",
+            "rpc",
+            "microservices",
+            "clientserverarchitecture"
+        ],
+        "definition_vi": "Các kiểu kiến trúc API là những mẫu thiết kế xác định cách API được tổ chức, cách các thành phần tương tác và cách các yêu cầu cùng phản hồi được xử lý giữa client và server.",
+        "roadmap": ["backend"]
+    },
+    {
         "id": "null",
         "term": "null",
         "definition": "a special data type which can have only one value: NULL.",
@@ -2609,6 +2699,7 @@
         "term": "Package Managers",
         "definition": "Tools that automate installing, updating, and managing external libraries or dependencies in a project.",
         "in_roadmap": true,
+        "roadmap": ["frontend"],
         "related_terms": [
             "npm",
             "yarn",
@@ -2616,6 +2707,22 @@
             "dependencies"
         ],
         "definition_vi": "Công cụ giúp cài đặt, cập nhật và quản lý các thư viện hoặc dependency bên ngoài trong một dự án."
+    },
+    {
+        "id": "typecheckers",
+        "term": "Type Checkers",
+        "definition": "Type checkers are tools or components of programming languages that analyze code to ensure that variables and expressions are used with compatible data types, helping detect type-related errors before program execution.",
+        "in_roadmap": true,
+        "related_terms": [
+            "typechecking",
+            "statictyping",
+            "dynamictyping",
+            "compiler",
+            "typesystem",
+            "programminglanguage"
+        ],
+        "definition_vi": "Type checker là các công cụ hoặc thành phần của ngôn ngữ lập trình dùng để phân tích mã nguồn nhằm đảm bảo rằng các biến và biểu thức được sử dụng với kiểu dữ liệu phù hợp, giúp phát hiện lỗi liên quan đến kiểu dữ liệu trước khi chương trình được thực thi.",
+        "roadmap": ["frontend"]
     },
     {
         "id": "pagetemplate",
@@ -2675,7 +2782,7 @@
     },
     {
         "id": "peripheral",
-        "term": "Peripheral ",
+        "term": "Peripheral",
         "definition": "Any external device that is connected to a computer like printer, driver display, monitor, keyboard, mouse etc.",
         "in_roadmap": false,
         "related_terms": [],
@@ -2731,7 +2838,7 @@
     },
     {
         "id": "pie",
-        "term": "Pie",
+        "term": "PIE",
         "definition": "https://wiki.vnoi.info//algo/algebra/pie",
         "in_roadmap": false,
         "related_terms": [],
@@ -2747,7 +2854,7 @@
     },
     {
         "id": "pixel",
-        "term": "Pixel ",
+        "term": "Pixel",
         "definition": "This is picture element in graphic monitor the picture is seen in a thousand and lacks of digits that is a division of a pixel in reality of pixel is a point through which a complete image is formed.",
         "in_roadmap": false,
         "related_terms": [],
@@ -2914,7 +3021,7 @@
         "definition_vi": "mô tả chi tiết các bước trong chương trình hoặc thuật toán máy tính, nhằm mục đích đọc cho con người chứ không phải cho máy đọc. Nó thường sử dụng các quy ước cấu trúc của ngôn ngữ lập trình."
     },
     {
-        "id": "pwa",
+        "id": "progressivewebappspwas",
         "term": "Progressive Web Apps (PWAs)",
         "definition": "Web applications that use modern web capabilities to provide an app-like experience, including offline support, installability, and push notifications.",
         "in_roadmap": true,
@@ -3278,6 +3385,22 @@
         "definition_vi": "Kiến trúc phần mềm đề cập đến các cấu trúc cơ bản của hệ thống phần mềm và nguyên tắc tạo ra các cấu trúc và hệ thống đó. Mỗi cấu trúc bao gồm các phần tử phần mềm, các mối quan hệ giữa chúng và các thuộc tính của cả phần tử và các mối quan hệ."
     },
     {
+        "id": "apachesolr",
+        "term": "Apache Solr",
+        "definition": "Apache Solr is an open-source enterprise search platform built on Apache Lucene that provides advanced full-text search, indexing, faceted search, and real-time data retrieval for large-scale applications.",
+        "in_roadmap": true,
+        "related_terms": [
+            "solr",
+            "apachelucene",
+            "searchengine",
+            "fulltextsearch",
+            "indexing",
+            "informationretrieval"
+        ],
+        "definition_vi": "Apache Solr là một nền tảng tìm kiếm cấp doanh nghiệp mã nguồn mở được xây dựng trên Apache Lucene, cung cấp các tính năng tìm kiếm toàn văn nâng cao, lập chỉ mục, tìm kiếm phân lớp và truy xuất dữ liệu thời gian thực cho các ứng dụng quy mô lớn.",
+        "roadmap": ["backend"]
+    },
+    {
         "id": "softwareengineering",
         "term": "Software Engineering",
         "definition": "is the process of analyzing user needs and designing, constructing, and testing end-user applications that will satisfy these needs through the use of software programming languages.",
@@ -3326,7 +3449,7 @@
         "definition_vi": ""
     },
     {
-        "id": "sql",
+        "id": "sqlstructuredquerylanguage",
         "term": "SQL (Structured Query Language)",
         "definition": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. According to ANSI (American National Standards Institute), it is the standard language for relational database management systems.",
         "in_roadmap": false,
@@ -3382,7 +3505,7 @@
         "definition_vi": "Kỹ thuật độ tin cậy của trang web là một chuyên ngành đang phát triển nhằm lấp đầy khoảng trống giữa Dev & Ops."
     },
     {
-        "id": "ssg",
+        "id": "modernssg",
         "term": "Modern SSG",
         "definition": "Static Site Generation. A method where pages are generated as static HTML files at build time instead of on each request.",
         "in_roadmap": true,
@@ -3403,10 +3526,11 @@
         "definition_vi": "SSL là viết tắt của Lớp cổng bảo mật. Đó là một giao thức bảo mật tiêu chuẩn để đảm bảo rằng tất cả dữ liệu được truyền giữa máy chủ web và trình duyệt vẫn được mã hóa—và do đó không thể đọc được bằng mắt thường. Bạn có thể biết liệu một trang web có chứng chỉ SSL hay không bằng cách xem địa chỉ web: nếu URL bắt đầu bằng “https” thì trang web đó an toàn. Bạn cũng sẽ thấy biểu tượng ổ khóa trên thanh trình duyệt."
     },
     {
-        "id": "ssr",
+        "id": "serversiderenderingssr",
         "term": "Server Side Rendering (SSR)",
         "definition": "A technique where web pages are rendered on the server and sent to the browser as fully generated HTML.",
         "in_roadmap": true,
+        "roadmap": ["frontend"],
         "related_terms": [
             "ssg",
             "nextjs",
@@ -3747,16 +3871,16 @@
         "definition_vi": "được sử dụng để lưu trữ thông tin được tham chiếu và thao tác trong chương trình máy tính. Mục đích của nó là dán nhãn và lưu trữ dữ liệu trong bộ nhớ để người dùng có thể sử dụng trong suốt chương trình nếu cần."
     },
     {
-        "id": "vcs",
+        "id": "versioncontrolsystemvcs",
         "term": "Version Control System (VCS)",
-        "definition": "a system that records changes to a file or set of files over time so that you can recall specific versions later.",
+        "definition": "A system that records changes to a file or set of files over time so that you can recall specific versions later.",
         "in_roadmap": true,
         "related_terms": [],
         "roadmap": [
             "backend",
             "frontend"
         ],
-        "definition_vi": "một hệ thống ghi lại các thay đổi đối với một tệp hoặc bộ tệp theo thời gian để bạn có thể nhớ lại các phiên bản cụ thể sau này."
+        "definition_vi": "Một hệ thống ghi lại các thay đổi đối với một tệp hoặc bộ tệp theo thời gian để bạn có thể nhớ lại các phiên bản cụ thể sau này."
     },
     {
         "id": "viettrinhcham",

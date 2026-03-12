@@ -2,11 +2,11 @@
 ***
 **Teacher** - Lê Trung Hoàng
 
-**25127522** - Ngô Phước Toàn
+**25127522** - *KING* - Ngô Phước Toàn
 
-**25127134** - Nguyễn Thành Tài
+**25127134** - *SLAVE 1* - Nguyễn Thành Tày
 
-**25127203** - Bùi Đăng Khôi
+**25127203** - *SLAVE 2* - Pùi Đăng Khôi
 ***
 ## 🌟 Features:
 
@@ -17,4 +17,8 @@
 ## 🎊 Problems to be solve:
 
 ***
+## 😁 Grades (For Mr. Hoang):
+.../10
+***
+*12/3/2025*
 

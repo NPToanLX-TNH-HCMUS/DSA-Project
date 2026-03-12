@@ -1,14 +1,19 @@
 [{
-        "id": "game-developer",
+        "id": "gamedeveloper",
         "term": "Game Developer",
-        "next_nodes": ["programming-language"],
+        "next_nodes": [
+            "programminglanguages",
+            "gamemathematics"
+        ],
         "Details": []
     },
     {
-        "id": "programming-language",
+        "id": "programminglanguages",
         "term": "Programming Languages",
         "next_nodes": [
-            "game-engine"
+            "gameengine",
+            "graphicsapi",
+            "gameai"
         ],
         "Details": [
             "C/C++",
@@ -19,23 +24,12 @@
         ]
     },
     {
-        "id": "game-engine",
-        "term": "Game Engine",
-        "next_nodes": [
-            "game-mathematics"
-        ],
-        "Details": [
-            "Godot",
-            "Unreal Engine",
-            "Unity 3D",
-            "Native"
-        ]
-    },
-    {
-        "id": "game-mathematics",
+        "id": "gamemathematics",
         "term": "Game Mathematics",
         "next_nodes": [
-            "game-physics"
+            "gamephysics",
+            "computergraphics",
+            "gameai"
         ],
         "Details": [
             "Linear Algebra (Vector, Matrix, Geometry)",
@@ -45,10 +39,10 @@
         ]
     },
     {
-        "id": "game-physics",
+        "id": "gamephysics",
         "term": "Game Physics",
         "next_nodes": [
-            "computer-graphics"
+            "gameengine"
         ],
         "Details": [
             "Dynamics (Center of Mass, Moment of Inertia, Force, Restitution, Velocity, Friction, Buoyancy)",
@@ -60,10 +54,12 @@
         ]
     },
     {
-        "id": "computer-graphics",
+        "id": "computergraphics",
         "term": "Computer Graphics",
         "next_nodes": [
-            "color"
+            "color",
+            "visibilityandocclusion",
+            "lightingandshadow"
         ],
         "Details": [
             "Ray Tracing",
@@ -77,10 +73,23 @@
         ]
     },
     {
+        "id": "gameengine",
+        "term": "Game Engine",
+        "next_nodes": [
+            "computeranimation"
+        ],
+        "Details": [
+            "Godot",
+            "Unreal Engine",
+            "Unity 3D",
+            "Native"
+        ]
+    },
+    {
         "id": "color",
         "term": "Color",
         "next_nodes": [
-            "computer-animation"
+            "advancedrendering"
         ],
         "Details": [
             "Visual Perception",
@@ -88,20 +97,10 @@
         ]
     },
     {
-        "id": "computer-animation",
-        "term": "Computer Animation",
-        "next_nodes": [
-            "visibility-and-occlusion"
-        ],
-        "Details": [
-            "Animation Techniques"
-        ]
-    },
-    {
-        "id": "visibility-and-occlusion",
+        "id": "visibilityandocclusion",
         "term": "Visibility and Occlusion",
         "next_nodes": [
-            "lighting-and-shadow"
+            "advancedrendering"
         ],
         "Details": [
             "Occluder",
@@ -114,10 +113,10 @@
         ]
     },
     {
-        "id": "lighting-and-shadow",
+        "id": "lightingandshadow",
         "term": "Lighting and Shadow",
         "next_nodes": [
-            "graphics-api"
+            "advancedrendering"
         ],
         "Details": [
             "Shadow Map (2D, Cube, Cascaded)",
@@ -125,10 +124,10 @@
         ]
     },
     {
-        "id": "graphics-api",
+        "id": "graphicsapi",
         "term": "Graphics API",
         "next_nodes": [
-            "game-ai"
+            "advancedrendering"
         ],
         "Details": [
             "DirectX",
@@ -141,10 +140,10 @@
         ]
     },
     {
-        "id": "game-ai",
+        "id": "gameai",
         "term": "Game AI",
         "next_nodes": [
-            "decision-learning"
+            "decisionlearning"
         ],
         "Details": [
             "Decision Making (Decision Tree, State Machine, Behavior Tree, Fuzzy Logic, Markov System, Goal Oriented Behavior)",
@@ -153,11 +152,9 @@
         ]
     },
     {
-        "id": "decision-learning",
+        "id": "decisionlearning",
         "term": "Decision Learning",
-        "next_nodes": [
-            "advanced-rendering"
-        ],
+        "next_nodes": [],
         "Details": [
             "Naive Bayes Classifier",
             "Decision Tree Learning",
@@ -167,7 +164,15 @@
         ]
     },
     {
-        "id": "advanced-rendering",
+        "id": "computeranimation",
+        "term": "Computer Animation",
+        "next_nodes": [],
+        "Details": [
+            "Animation Techniques"
+        ]
+    },
+    {
+        "id": "advancedrendering",
         "term": "Advanced Rendering",
         "next_nodes": [],
         "Details": [

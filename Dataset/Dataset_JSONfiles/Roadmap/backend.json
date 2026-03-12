@@ -10,7 +10,7 @@
         "next_nodes": [
             "frontendbasics",
             "operatingsystem",
-            "versioncontrolsystems"
+            "versioncontrolsystemsvcs"
         ],
         "Details": [
             "How does the internet work?",
@@ -32,8 +32,8 @@
         ]
     },
     {
-        "id": "versioncontrolsystems",
-        "term": "Version Control Systems",
+        "id": "versioncontrolsystemsvcs",
+        "term": "Version Control Systems (VCS)",
         "next_nodes": ["cicd"],
         "Details": [
             "Git",
@@ -60,7 +60,7 @@
         "next_nodes": [
             "relationaldatabases",
             "nosqldatabases",
-            "apistyles",
+            "apiarchitecturalstyles",
             "testing"
         ],
         "Details": [
@@ -99,8 +99,8 @@
         ]
     },
     {
-        "id": "apistyles",
-        "term": "API Styles",
+        "id": "apiarchitecturalstyles",
+        "term": "API architectural styles",
         "next_nodes": [
             "websecurity",
             "realtimedata",

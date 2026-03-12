@@ -1,14 +1,18 @@
 [{
         "id": "devops",
         "term": "Devops",
-        "next_nodes": ["programming-language"],
+        "next_nodes": [
+            "learnaprogramminglanguage",
+            "operatingsystem",
+            "networkingprotocols"
+        ],
         "Details": []
     },
     {
-        "id": "programming-language",
+        "id": "learnaprogramminglanguage",
         "term": "Learn a Programming Language",
         "next_nodes": [
-            "operating-system"
+            "cicdtools"
         ],
         "Details": [
             "Python",
@@ -19,10 +23,10 @@
         ]
     },
     {
-        "id": "operating-system",
+        "id": "operatingsystem",
         "term": "Operating System",
         "next_nodes": [
-            "terminal-knowledge"
+            "terminalknowledge"
         ],
         "Details": [
             "Linux (Ubuntu / Debian, RHEL / Derivatives, SUSE Linux)",
@@ -31,10 +35,11 @@
         ]
     },
     {
-        "id": "terminal-knowledge",
+        "id": "terminalknowledge",
         "term": "Terminal Knowledge",
         "next_nodes": [
-            "vcs"
+            "versioncontrolsystems",
+            "containers"
         ],
         "Details": [
             "Process Monitoring",
@@ -46,10 +51,11 @@
         ]
     },
     {
-        "id": "vcs",
+        "id": "versioncontrolsystems",
         "term": "Version Control Systems",
         "next_nodes": [
-            "networking-and-protocols"
+            "cicdtools",
+            "cloudproviders"
         ],
         "Details": [
             "Git",
@@ -57,10 +63,10 @@
         ]
     },
     {
-        "id": "networking-and-protocols",
+        "id": "networkingprotocols",
         "term": "Networking & Protocols",
         "next_nodes": [
-            "web-servers"
+            "webserver"
         ],
         "Details": [
             "OSI Model",
@@ -73,7 +79,7 @@
         ]
     },
     {
-        "id": "web-servers",
+        "id": "webserver",
         "term": "Web Server",
         "next_nodes": [
             "containers"
@@ -96,7 +102,8 @@
         "id": "containers",
         "term": "Containers",
         "next_nodes": [
-            "cloud-providers"
+            "cloudproviders",
+            "containerorchestration"
         ],
         "Details": [
             "Docker",
@@ -104,10 +111,11 @@
         ]
     },
     {
-        "id": "cloud-providers",
+        "id": "cloudproviders",
         "term": "Cloud Providers",
         "next_nodes": [
-            "serverless"
+            "serverless",
+            "infrastructureprovisioning"
         ],
         "Details": [
             "AWS",
@@ -124,7 +132,7 @@
         "id": "serverless",
         "term": "Serverless",
         "next_nodes": [
-            "provisioning"
+            "clouddesignpatterns"
         ],
         "Details": [
             "AWS Lambda",
@@ -136,10 +144,11 @@
         ]
     },
     {
-        "id": "provisioning",
+        "id": "infrastructureprovisioning",
         "term": "Infrastructure Provisioning",
         "next_nodes": [
-            "configuration-management"
+            "configurationmanagement",
+            "secretmanagement"
         ],
         "Details": [
             "Terraform",
@@ -149,10 +158,10 @@
         ]
     },
     {
-        "id": "configuration-management",
+        "id": "configurationmanagement",
         "term": "Configuration Management",
         "next_nodes": [
-            "ci-cd"
+            "observability"
         ],
         "Details": [
             "Ansible",
@@ -162,10 +171,11 @@
         ]
     },
     {
-        "id": "ci-cd",
+        "id": "cicdtools",
         "term": "CI / CD Tools",
         "next_nodes": [
-            "secret-management"
+            "artifactmanagement",
+            "gitops"
         ],
         "Details": [
             "GitHub Actions",
@@ -177,10 +187,11 @@
         ]
     },
     {
-        "id": "secret-management",
+        "id": "secretmanagement",
         "term": "Secret Management",
         "next_nodes": [
-            "container-orchestration"
+            "gitops",
+            "observability"
         ],
         "Details": [
             "Vault",
@@ -191,10 +202,11 @@
         ]
     },
     {
-        "id": "container-orchestration",
+        "id": "containerorchestration",
         "term": "Container Orchestration",
         "next_nodes": [
-            "artifact-management"
+            "servicemesh",
+            "gitops"
         ],
         "Details": [
             "Kubernetes",
@@ -205,7 +217,7 @@
         ]
     },
     {
-        "id": "artifact-management",
+        "id": "artifactmanagement",
         "term": "Artifact Management",
         "next_nodes": [
             "observability"
@@ -217,22 +229,10 @@
         ]
     },
     {
-        "id": "observability",
-        "term": "Observability",
-        "next_nodes": [
-            "gitops"
-        ],
-        "Details": [
-            "Infrastructure Monitoring (Prometheus, Datadog, Zabbix, Grafana)",
-            "Logs Management (Elastic Stack, Graylog, Splunk, Papertrail, Loki)",
-            "Application Monitoring (Jaeger, New Relic, OpenTelemetry, Dynatrace)"
-        ]
-    },
-    {
         "id": "gitops",
         "term": "GitOps",
         "next_nodes": [
-            "service-mesh"
+            "observability"
         ],
         "Details": [
             "ArgoCD",
@@ -240,10 +240,10 @@
         ]
     },
     {
-        "id": "service-mesh",
+        "id": "servicemesh",
         "term": "Service Mesh",
         "next_nodes": [
-            "cloud-design-patterns"
+            "observability"
         ],
         "Details": [
             "Istio",
@@ -253,7 +253,19 @@
         ]
     },
     {
-        "id": "cloud-design-patterns",
+        "id": "observability",
+        "term": "Observability",
+        "next_nodes": [
+            "clouddesignpatterns"
+        ],
+        "Details": [
+            "Infrastructure Monitoring (Prometheus, Datadog, Zabbix, Grafana)",
+            "Logs Management (Elastic Stack, Graylog, Splunk, Papertrail, Loki)",
+            "Application Monitoring (Jaeger, New Relic, OpenTelemetry, Dynatrace)"
+        ]
+    },
+    {
+        "id": "clouddesignpatterns",
         "term": "Cloud Design Patterns",
         "next_nodes": [],
         "Details": [

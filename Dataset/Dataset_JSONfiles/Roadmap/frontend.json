@@ -1,14 +1,16 @@
 [{
-        "id": "front-end",
-        "term": "Frond end",
-        "next_nodes": ["internet"],
+        "id": "frontend",
+        "term": "Front end",
+        "next_nodes": [
+            "internet"
+        ],
         "Details": []
     },
     {
         "id": "internet",
         "term": "Internet",
         "next_nodes": [
-            "html"
+            "htmlhypertextmarkuplanguage"
         ],
         "Details": [
             "How does the internet work?",
@@ -20,10 +22,10 @@
         ]
     },
     {
-        "id": "html",
-        "term": "HTML",
+        "id": "htmlhypertextmarkuplanguage",
+        "term": "HTML (Hyper Text Markup Language)",
         "next_nodes": [
-            "css"
+            "csscascadingstylesheets"
         ],
         "Details": [
             "Learn the basics",
@@ -35,8 +37,8 @@
         ]
     },
     {
-        "id": "css",
-        "term": "CSS",
+        "id": "csscascadingstylesheets",
+        "term": "CSS (Cascading Style Sheets)",
         "next_nodes": [
             "javascript"
         ],
@@ -52,7 +54,9 @@
         "id": "javascript",
         "term": "JavaScript",
         "next_nodes": [
-            "vcs"
+            "versioncontrolsystems",
+            "packagemanagers",
+            "websecurity"
         ],
         "Details": [
             "Syntax and Basic Constructs",
@@ -63,10 +67,10 @@
         ]
     },
     {
-        "id": "vcs",
-        "term": "Version Control Systems",
+        "id": "versioncontrolsystemsvcs",
+        "term": "Version Control System (VCS)",
         "next_nodes": [
-            "package-managers"
+            "frontendframeworks"
         ],
         "Details": [
             "Basic Terminal Usage",
@@ -76,10 +80,12 @@
         ]
     },
     {
-        "id": "package-managers",
+        "id": "packagemanagers",
         "term": "Package Managers",
         "next_nodes": [
-            "frontend-frameworks"
+            "cssframeworks",
+            "buildtools",
+            "typecheckers"
         ],
         "Details": [
             "npm",
@@ -88,10 +94,45 @@
         ]
     },
     {
-        "id": "frontend-frameworks",
+        "id": "cssframeworks",
+        "term": "CSS Frameworks",
+        "next_nodes": [
+            "frontendframeworks"
+        ],
+        "Details": [
+            "Tailwind CSS"
+        ]
+    },
+    {
+        "id": "buildtools",
+        "term": "Build Tools",
+        "next_nodes": [
+            "frontendframeworks"
+        ],
+        "Details": [
+            "Linters & Formatters (Prettier, ESLint, Biome)",
+            "Module Bundlers (Vite, esbuild, Rollup, Parcel)"
+        ]
+    },
+    {
+        "id": "typecheckers",
+        "term": "Type Checkers",
+        "next_nodes": [
+            "frontendframeworks"
+        ],
+        "Details": [
+            "TypeScript"
+        ]
+    },
+    {
+        "id": "frontendframeworks",
         "term": "Frontend Frameworks",
         "next_nodes": [
-            "css-frameworks"
+            "testing",
+            "serversiderenderingssr",
+            "modernssg",
+            "mobileapps",
+            "desktopapps"
         ],
         "Details": [
             "React",
@@ -102,44 +143,10 @@
         ]
     },
     {
-        "id": "css-frameworks",
-        "term": "CSS Frameworks",
-        "next_nodes": [
-            "build-tools"
-        ],
-        "Details": [
-            "Tailwind CSS"
-        ]
-    },
-    {
-        "id": "build-tools",
-        "term": "Build Tools",
-        "next_nodes": [
-            "testing"
-        ],
-        "Details": [
-            "Linters & Formatters (Prettier, ESLint, Biome)",
-            "Module Bundlers (Vite, esbuild, Rollup, Parcel)"
-        ]
-    },
-    {
-        "id": "testing",
-        "term": "Testing",
-        "next_nodes": [
-            "web-security"
-        ],
-        "Details": [
-            "Vitest",
-            "Jest",
-            "Playwright",
-            "Cypress"
-        ]
-    },
-    {
-        "id": "web-security",
+        "id": "websecurity",
         "term": "Web Security",
         "next_nodes": [
-            "type-checkers"
+            "progressivewebappspwas"
         ],
         "Details": [
             "CORS",
@@ -149,20 +156,23 @@
         ]
     },
     {
-        "id": "type-checkers",
-        "term": "Type Checkers",
+        "id": "testing",
+        "term": "Testing",
         "next_nodes": [
-            "ssr"
+            "progressivewebappspwas"
         ],
         "Details": [
-            "TypeScript"
+            "Vitest",
+            "Jest",
+            "Playwright",
+            "Cypress"
         ]
     },
     {
-        "id": "ssr",
+        "id": "serversiderenderingssr",
         "term": "Server Side Rendering (SSR)",
         "next_nodes": [
-            "ssg"
+            "progressivewebappspwas"
         ],
         "Details": [
             "Next.js",
@@ -173,10 +183,10 @@
         ]
     },
     {
-        "id": "ssg",
+        "id": "modernssg",
         "term": "Modern SSG",
         "next_nodes": [
-            "pwa"
+            "progressivewebappspwas"
         ],
         "Details": [
             "Next.js",
@@ -186,11 +196,9 @@
         ]
     },
     {
-        "id": "pwa",
+        "id": "progressivewebappspwas",
         "term": "Progressive Web Apps (PWAs)",
-        "next_nodes": [
-            "mobile-apps"
-        ],
+        "next_nodes": [],
         "Details": [
             "Service Workers",
             "Storage",
@@ -199,11 +207,9 @@
         ]
     },
     {
-        "id": "mobile-apps",
+        "id": "mobileapps",
         "term": "Mobile Apps",
-        "next_nodes": [
-            "desktop-apps"
-        ],
+        "next_nodes": [],
         "Details": [
             "React Native",
             "Flutter",
@@ -211,7 +217,7 @@
         ]
     },
     {
-        "id": "desktop-apps",
+        "id": "desktopapps",
         "term": "Desktop Apps",
         "next_nodes": [],
         "Details": [

@@ -1,8 +1,9 @@
 [{
-        "id": "cpp",
-        "term": "CPP",
+        "id": "c++",
+        "term": "C++",
         "next_nodes": [
-            "settingupyourenvironment"
+            "languagetools",
+            "standards"
         ],
         "Details": [
             "What is C++?",
@@ -11,16 +12,66 @@
         ]
     },
     {
+        "id": "languagetools",
+        "term": "Language Tools",
+        "next_nodes": [
+            "settingupyourenvironment"
+        ],
+        "Details": [
+            "Debuggers (Understanding Messages, Symbols, WinDBg, GDB)",
+            "Compilers (Compiler Stages, C/lang++ / LLVM, Intel C++, MSVS C++, GCC, MinGW)"
+        ]
+    },
+    {
+        "id": "standards",
+        "term": "Standards",
+        "next_nodes": [
+            "settingupyourenvironment"
+        ],
+        "Details": [
+            "C++ 11 / 14",
+            "C++ 17",
+            "C++ 20",
+            "C++ 23",
+            "C++ 0x"
+        ]
+    },
+    {
         "id": "settingupyourenvironment",
         "term": "Setting up your Environment",
         "next_nodes": [
             "basicoperations",
-            "languagetools"
+            "buildsystems"
         ],
         "Details": [
             "Installing C++",
             "Code Editors / IDEs",
             "Running your First Program"
+        ]
+    },
+    {
+        "id": "buildsystems",
+        "term": "Build Systems",
+        "next_nodes": [
+            "packagemanagers"
+        ],
+        "Details": [
+            "CMAKE",
+            "Makefile",
+            "Ninja"
+        ]
+    },
+    {
+        "id": "packagemanagers",
+        "term": "Package Managers",
+        "next_nodes": [
+            "librariesandframeworks"
+        ],
+        "Details": [
+            "vcpkg",
+            "NuGet",
+            "Conan",
+            "Spack"
         ]
     },
     {
@@ -55,8 +106,7 @@
         "id": "functions",
         "term": "Functions",
         "next_nodes": [
-            "memorymodel",
-            "templates"
+            "memorymodel"
         ],
         "Details": [
             "Static Polymorphism",
@@ -113,7 +163,6 @@
         "id": "languageconcepts",
         "term": "Language Concepts",
         "next_nodes": [
-            "standardlibrarystl",
             "templates"
         ],
         "Details": [
@@ -124,6 +173,19 @@
             "Name Mangling",
             "Macros",
             "Forward Declaration"
+        ]
+    },
+    {
+        "id": "templates",
+        "term": "Templates",
+        "next_nodes": [
+            "standardlibrarystl"
+        ],
+        "Details": [
+            "Variadic Templates",
+            "Template Specialization (Full, Partial)",
+            "Type Traits",
+            "SFINAE"
         ]
     },
     {
@@ -139,25 +201,10 @@
         ]
     },
     {
-        "id": "templates",
-        "term": "Templates",
-        "next_nodes": [
-            "idioms",
-            "standards"
-        ],
-        "Details": [
-            "Variadic Templates",
-            "Template Specialization (Full, Partial)",
-            "Type Traits",
-            "SFINAE"
-        ]
-    },
-    {
         "id": "standardlibrarystl",
         "term": "Standard Library + STL",
         "next_nodes": [
-            "idioms",
-            "standards"
+            "idioms"
         ],
         "Details": [
             "Iterators",
@@ -185,56 +232,6 @@
         ]
     },
     {
-        "id": "standards",
-        "term": "Standards",
-        "next_nodes": [
-            "librariesandframeworks"
-        ],
-        "Details": [
-            "C++ 11 / 14",
-            "C++ 17",
-            "C++ 20",
-            "C++ 23",
-            "C++ 0x"
-        ]
-    },
-    {
-        "id": "languagetools",
-        "term": "Language Tools",
-        "next_nodes": [
-            "buildsystems"
-        ],
-        "Details": [
-            "Debuggers (Understanding Messages, Symbols, WinDBg, GDB)",
-            "Compilers (Compiler Stages, C/lang++ / LLVM, Intel C++, MSVS C++, GCC, MinGW)"
-        ]
-    },
-    {
-        "id": "buildsystems",
-        "term": "Build Systems",
-        "next_nodes": [
-            "packagemanagers"
-        ],
-        "Details": [
-            "CMAKE",
-            "Makefile",
-            "Ninja"
-        ]
-    },
-    {
-        "id": "packagemanagers",
-        "term": "Package Managers",
-        "next_nodes": [
-            "librariesandframeworks"
-        ],
-        "Details": [
-            "vcpkg",
-            "NuGet",
-            "Conan",
-            "Spack"
-        ]
-    },
-    {
         "id": "librariesandframeworks",
         "term": "Libraries and Frameworks",
         "next_nodes": [],
@@ -245,7 +242,6 @@
             "POCO",
             "protobuf",
             "gRPC",
-            "Tensorflow / PyTorch / pybind11",
             "spdlog / fmt / ranges_v3",
             "Testing (gtest / gmock, Catch2)",
             "Qt",

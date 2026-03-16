@@ -1,153 +1,135 @@
 [{
-        "id": "introduction",
-        "term": "Introduction",
-        "next_nodes": [
-            "mathematicalfoundations",
-            "python"
-        ],
-        "Details": [
-            "What is an ML Engineer?",
-            "ML Engineer vs AI Engineer",
-            "Skills and Responsibilities"
-        ]
-    },
-    {
-        "id": "mathematicalfoundations",
-        "term": "Mathematical Foundations",
-        "next_nodes": [
-            "machinelearning"
-        ],
-        "Details": [
-            "Linear Algebra",
-            "Calculus (Derivatives, Partial Derivatives, Chain rule)",
-            "Matrix & Matrix Operations (Scalars, Vectors, Tensors)",
-            "Statistics (Descriptive, Inferential)",
-            "Probability (Bayes Theorem, PDFs)",
-            "Discrete Mathematics"
-        ]
-    },
-    {
-        "id": "python",
-        "term": "Python",
-        "next_nodes": [
-            "datacollection"
-        ],
-        "Details": [
-            "Basic Syntax & Data Structures",
-            "Object Oriented Programming",
-            "Essential libraries (Numpy, Pandas, Matplotlib, Seaborn)"
-        ]
-    },
-    {
-        "id": "datacollection",
-        "term": "Data Collection",
-        "next_nodes": [
-            "datacleaning"
-        ],
-        "Details": [
-            "Data Sources",
-            "Databases (SQL, No-SQL)",
-            "Internet APIs",
-            "IoT",
-            "Data Formats (JSON, Parquet, CSV, Excel)"
-        ]
-    },
-    {
-        "id": "datacleaning",
-        "term": "Data Cleaning",
-        "next_nodes": [
-            "datapreparation"
-        ],
-        "Details": [
-            "Preprocessing Techniques",
-            "Dimensionality Reduction",
-            "Feature Engineering",
-            "Feature Selection",
-            "Feature Scaling & Normalization"
-        ]
-    },
-    {
-        "id": "datapreparation",
-        "term": "Data Preparation",
-        "next_nodes": [
-            "machinelearning"
-        ],
-        "Details": [
-            "Train - Test Data",
-            "Data Loading",
-            "Tuning",
-            "Prediction",
-            "Model Selection"
-        ]
-    },
-    {
         "id": "machinelearning",
         "term": "Machine Learning",
+        "next_nodes": [
+            "mathematicsforai",
+            "programmingforml"
+        ],
+        "Details": [
+            "Role of an ML Engineer",
+            "ML Engineer vs Data Scientist vs Data Engineer",
+            "Machine Learning Project Lifecycle"
+        ]
+    },
+    {
+        "id": "mathematicsforai",
+        "term": "Mathematics for AI",
+        "next_nodes": [
+            "coremachinelearning"
+        ],
+        "Details": [
+            "Linear Algebra (Vectors, Matrices, Eigenvalues)",
+            "Calculus (Gradients, Partial Derivatives, Chain Rule)",
+            "Statistics (Descriptive, Inferential, Hypothesis Testing)",
+            "Probability (Bayes Theorem, Distributions)"
+        ]
+    },
+    {
+        "id": "programmingforml",
+        "term": "Programming for ML",
+        "next_nodes": [
+            "dataengineeringbasics"
+        ],
+        "Details": [
+            "Python (Advanced OOP, Functional Programming)",
+            "Data Structures & Algorithms",
+            "Version Control (Git & GitHub)",
+            "Basic Bash/Linux Commands"
+        ]
+    },
+    {
+        "id": "dataengineeringbasics",
+        "term": "Data Engineering Basics",
+        "next_nodes": [
+            "edapreprocessing"
+        ],
+        "Details": [
+            "Relational Databases & SQL",
+            "NoSQL Databases (MongoDB, Cassandra)",
+            "Data Formats (JSON, Parquet, Avro)",
+            "Data Pipelines & ETL basics"
+        ]
+    },
+    {
+        "id": "edapreprocessing",
+        "term": "EDA & Preprocessing",
+        "next_nodes": [
+            "coremachinelearning"
+        ],
+        "Details": [
+            "Exploratory Data Analysis (Pandas, Numpy)",
+            "Data Visualization (Matplotlib, Seaborn, Plotly)",
+            "Handling Missing Values & Outliers",
+            "Feature Engineering & Selection",
+            "Data Scaling, Encoding & Normalization"
+        ]
+    },
+    {
+        "id": "coremachinelearning",
+        "term": "Core Machine Learning",
         "next_nodes": [
             "supervisedlearning",
             "unsupervisedlearning",
             "reinforcementlearning"
         ],
         "Details": [
-            "What is Machine Learning?",
-            "Types of Machine Learning",
-            "Self-supervised Learning",
-            "Semi-supervised Learning"
+            "Bias-Variance Tradeoff",
+            "Overfitting vs Underfitting",
+            "Cross-Validation",
+            "Scikit-learn Framework"
         ]
     },
     {
         "id": "supervisedlearning",
         "term": "Supervised Learning",
         "next_nodes": [
-            "modelevaluation"
+            "evaluationoptimization"
         ],
         "Details": [
-            "Classification",
-            "Logistic Regression",
+            "Linear & Logistic Regression",
             "Support Vector Machines (SVM)",
             "K-Nearest Neighbors (KNN)",
-            "Decision Trees, Random Forest",
-            "Regression (Linear, Polynomial)"
+            "Tree-based Models (Decision Trees, Random Forest)",
+            "Ensemble Methods (XGBoost, LightGBM, CatBoost)"
         ]
     },
     {
         "id": "unsupervisedlearning",
         "term": "Unsupervised Learning",
         "next_nodes": [
-            "modelevaluation"
+            "evaluationoptimization"
         ],
         "Details": [
-            "Clustering (Overlapping, Hierarchical, Exclusive)",
-            "Dimensionality Reduction",
-            "Autoencoders",
-            "Principal Component Analysis (PCA)"
+            "Clustering (K-Means, DBSCAN, Hierarchical)",
+            "Dimensionality Reduction (PCA, t-SNE, UMAP)",
+            "Anomaly Detection",
+            "Association Rules"
         ]
     },
     {
         "id": "reinforcementlearning",
         "term": "Reinforcement Learning",
         "next_nodes": [
-            "modelevaluation"
+            "evaluationoptimization"
         ],
         "Details": [
-            "What is Reinforcement Learning?",
-            "Policy Gradient",
-            "Actor-Critic Methods",
-            "Deep-Q Networks",
-            "Q-Learning"
+            "Markov Decision Processes (MDP)",
+            "Q-Learning & SARSA",
+            "Deep Q-Networks (DQN)",
+            "Policy Gradients"
         ]
     },
     {
-        "id": "modelevaluation",
-        "term": "Model Evaluation",
+        "id": "evaluationoptimization",
+        "term": "Evaluation & Optimization",
         "next_nodes": [
-            "deeplearning"
+            "deeplearningfundamentals"
         ],
         "Details": [
-            "Metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC, Log Loss)",
-            "Confusion Matrix",
-            "Validation Techniques (K-Fold Cross Validation, LOOCV)",
-            "Regularization (Ridge, Lasso, ElasticNet)"
+            "Classification Metrics (Precision, Recall, F1, ROC-AUC)",
+            "Regression Metrics (RMSE, MAE, R-Squared)",
+            "Hyperparameter Tuning (GridSearch, RandomSearch, Optuna)",
+            "Model Regularization (L1, L2)"
         ]
     },
     {
@@ -157,50 +139,75 @@
             "deeplearningarchitectures"
         ],
         "Details": [
-            "Forward propagation & Back Propagation",
-            "Perceptron, Multi-layer Perceptrons",
-            "Activation Functions",
-            "Neural Network (NN) Basics",
-            "Loss Functions"
+            "Artificial Neural Networks (ANN)",
+            "Forward & Backpropagation",
+            "Activation Functions (ReLU, Sigmoid, Softmax)",
+            "Loss Functions & Optimizers (Adam, SGD)"
         ]
     },
     {
         "id": "deeplearningarchitectures",
         "term": "Deep Learning Architectures",
         "next_nodes": [
-            "deeplearninglibraries"
+            "dlframeworksecosystem"
         ],
         "Details": [
-            "Convolutional Neural Network (CNN) & Applications",
-            "Recurrent Neural Networks (RNN, GRU, LSTM)",
-            "Attention Mechanisms",
-            "Transformers (Multi-head Attention, Self-Attention)",
-            "Generative Adversarial Networks (GANs)"
+            "Convolutional Neural Networks (CNNs)",
+            "Recurrent Neural Networks (RNN, LSTM, GRU)",
+            "Autoencoders & GANs",
+            "Attention Mechanisms & Transformers"
         ]
     },
     {
-        "id": "deeplearninglibraries",
-        "term": "Deep Learning Libraries",
+        "id": "dlframeworksecosystem",
+        "term": "DL Frameworks & Ecosystem",
         "next_nodes": [
+            "computervision",
             "naturallanguageprocessing"
         ],
         "Details": [
-            "TensorFlow",
-            "Keras",
+            "TensorFlow & Keras",
             "PyTorch",
-            "Scikit-learn"
+            "Hugging Face (Transformers, Datasets)",
+            "Hardware Accelerators (CUDA, CuDNN)"
+        ]
+    },
+    {
+        "id": "computervision",
+        "term": "Computer Vision",
+        "next_nodes": [
+            "mlopsdeployment"
+        ],
+        "Details": [
+            "Image Processing basics (OpenCV)",
+            "Image Classification",
+            "Object Detection (YOLO, Faster R-CNN)",
+            "Image Segmentation (U-Net)"
         ]
     },
     {
         "id": "naturallanguageprocessing",
         "term": "Natural Language Processing",
+        "next_nodes": [
+            "mlopsdeployment"
+        ],
+        "Details": [
+            "Text Preprocessing (Tokenization, Lemmatization)",
+            "Word Embeddings (Word2Vec, GloVe)",
+            "Sequence-to-Sequence Models",
+            "Large Language Models (LLMs) & Prompt Engineering"
+        ]
+    },
+    {
+        "id": "mlopsdeployment",
+        "term": "MLOps & Deployment",
         "next_nodes": [],
         "Details": [
-            "Tokenization",
-            "Lemmatization",
-            "Stemming",
-            "Embeddings",
-            "Attention Models"
+            "Model Serving (FastAPI, Flask, TorchServe)",
+            "Containerization (Docker, Kubernetes)",
+            "Experiment Tracking & Model Registry (MLflow, Weights & Biases)",
+            "CI/CD for Machine Learning",
+            "Cloud AI Platforms (AWS SageMaker, GCP Vertex AI)"
         ]
     }
 ]

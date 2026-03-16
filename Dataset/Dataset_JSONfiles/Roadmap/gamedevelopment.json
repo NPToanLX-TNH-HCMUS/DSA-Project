@@ -1,6 +1,6 @@
 [{
-        "id": "gamedeveloper",
-        "term": "Game Developer",
+        "id": "gamedevelopmennt",
+        "term": "Game Development",
         "next_nodes": [
             "programminglanguages",
             "gamemathematics"
@@ -172,8 +172,8 @@
         ]
     },
     {
-        "id": "advancedrendering",
-        "term": "Advanced Rendering",
+        "id": "rendering",
+        "term": "Rendering",
         "next_nodes": [],
         "Details": [
             "Real-time Ray Tracing (DirectX Ray Tracing, Vulkan Ray Tracing, OptiX)",

@@ -32,8 +32,8 @@
         ]
     },
     {
-        "id": "versioncontrolsystemsvcs",
-        "term": "Version Control Systems (VCS)",
+        "id": "versioncontrolsystems",
+        "term": "Version Control Systems",
         "next_nodes": ["cicd"],
         "Details": [
             "Git",
@@ -44,7 +44,7 @@
     },
     {
         "id": "operatingsystem",
-        "term": "operating system",
+        "term": "Operating system",
         "next_nodes": [
             "backendprogramminglanguage",
             "webservers"

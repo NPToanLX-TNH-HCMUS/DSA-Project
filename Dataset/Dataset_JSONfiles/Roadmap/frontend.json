@@ -10,7 +10,7 @@
         "id": "internet",
         "term": "Internet",
         "next_nodes": [
-            "htmlhypertextmarkuplanguage"
+            "html"
         ],
         "Details": [
             "How does the internet work?",
@@ -22,10 +22,10 @@
         ]
     },
     {
-        "id": "htmlhypertextmarkuplanguage",
+        "id": "html",
         "term": "HTML (Hyper Text Markup Language)",
         "next_nodes": [
-            "csscascadingstylesheets"
+            "css"
         ],
         "Details": [
             "Learn the basics",
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "id": "csscascadingstylesheets",
+        "id": "css",
         "term": "CSS (Cascading Style Sheets)",
         "next_nodes": [
             "javascript"
@@ -67,8 +67,8 @@
         ]
     },
     {
-        "id": "versioncontrolsystemsvcs",
-        "term": "Version Control System (VCS)",
+        "id": "versioncontrolsystems",
+        "term": "Version Control Systems",
         "next_nodes": [
             "frontendframeworks"
         ],

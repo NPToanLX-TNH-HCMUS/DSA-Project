@@ -1,9 +1,8 @@
 [{
-        "id": "dataanalyst",
-        "term": "Data Analyst",
+        "id": "dataanalysis",
+        "term": "Data Analysis",
         "next_nodes": [
             "analysisreportingwithexcel",
-            "learnaprogramminglang",
             "learnsql"
         ],
         "Details": [
@@ -20,7 +19,7 @@
         "id": "analysisreportingwithexcel",
         "term": "Analysis / Reporting with Excel",
         "next_nodes": [
-            "datacollection"
+            "datavisualisation"
         ],
         "Details": [
             "Learn Common Functions (IF, DATEDIF, VLOOKUP / HLOOKUP, CONCAT, TRIM, etc.)",
@@ -29,25 +28,26 @@
         ]
     },
     {
-        "id": "learnaprogramminglang",
-        "term": "Learn a Programming Lang.",
+        "id": "sql",
+        "term": "SQL",
         "next_nodes": [
-            "datacollection",
-            "datacleanup"
+            "learnaprogramminglang",
+            "datacollection"
         ],
         "Details": [
-            "Python",
-            "R"
+            "Data Storage Solutions",
+            "Querying Databases"
         ]
     },
     {
-        "id": "learnsql",
-        "term": "Learn SQL",
+        "id": "programminglanguage",
+        "term": "Learn a Programming Language.",
         "next_nodes": [
             "datacollection"
         ],
         "Details": [
-            "Data Storage Solutions"
+            "Python",
+            "R"
         ]
     },
     {
@@ -81,8 +81,8 @@
         "id": "dataanalysistechniques",
         "term": "Data Analysis Techniques",
         "next_nodes": [
-            "datavisualisation",
-            "statisticalanalysis"
+            "statisticalanalysis",
+            "datavisualisation"
         ],
         "Details": [
             "Descriptive Analysis",
@@ -144,7 +144,7 @@
         ]
     },
     {
-        "id": "deeplearningoptional",
+        "id": "deeplearning",
         "term": "Deep Learning (Optional)",
         "next_nodes": [],
         "Details": [

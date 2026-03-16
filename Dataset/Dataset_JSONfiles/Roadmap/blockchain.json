@@ -1,7 +1,9 @@
 [{
         "id": "blockchain",
         "term": "Blockchain",
-        "next_nodes": ["blockchainintroduction"],
+        "next_nodes": [
+            "blockchainintroduction"
+        ],
         "Details": []
     },
     {
@@ -52,8 +54,8 @@
         ]
     },
     {
-        "id": "versioncontrol",
-        "term": "Version Control",
+        "id": "versioncontrolsystems",
+        "term": "Version Control Systems",
         "next_nodes": [
             "smartcontractframeworks",
             "frontendframeworks"
@@ -66,7 +68,9 @@
     {
         "id": "smartcontracts",
         "term": "Smart Contracts",
-        "next_nodes": ["smartcontractframeworks"],
+        "next_nodes": [
+            "smartcontractframeworks"
+        ],
         "Details": [
             "Programming Languages (Solidity, Vyper, Rust)",
             "IDEs (Remix, VS Code)",
@@ -77,7 +81,9 @@
     {
         "id": "smartcontractframeworks",
         "term": "Smart Contract Frameworks",
-        "next_nodes": ["testing"],
+        "next_nodes": [
+            "testing"
+        ],
         "Details": [
             "Hardhat",
             "Brownie",
@@ -88,7 +94,9 @@
     {
         "id": "testing",
         "term": "Testing",
-        "next_nodes": ["security"],
+        "next_nodes": [
+            "security"
+        ],
         "Details": [
             "Unit Tests",
             "Integration Tests",
@@ -98,7 +106,9 @@
     {
         "id": "security",
         "term": "Security",
-        "next_nodes": ["managementplatform"],
+        "next_nodes": [
+            "managementplatform"
+        ],
         "Details": [
             "Security Practices",
             "Fuzz Testing & Static Analysis",
@@ -110,7 +120,9 @@
     {
         "id": "managementplatform",
         "term": "Management Platform",
-        "next_nodes": ["decentralizedapplications"],
+        "next_nodes": [
+            "decentralizedapplications"
+        ],
         "Details": [
             "Deployment",
             "Monitoring",
@@ -122,7 +134,9 @@
     {
         "id": "frontendframeworks",
         "term": "Frontend Frameworks",
-        "next_nodes": ["clientlibraries"],
+        "next_nodes": [
+            "clientlibraries"
+        ],
         "Details": [
             "React",
             "Angular",
@@ -132,7 +146,9 @@
     {
         "id": "clientlibraries",
         "term": "Client Libraries",
-        "next_nodes": ["decentralizedapplications"],
+        "next_nodes": [
+            "decentralizedapplications"
+        ],
         "Details": [
             "ethers.js",
             "web3.js",
@@ -154,7 +170,9 @@
     {
         "id": "clientnodes",
         "term": "Client Nodes",
-        "next_nodes": ["buildingforscale"],
+        "next_nodes": [
+            "buildingforscale"
+        ],
         "Details": [
             "Geth",
             "Besu",
@@ -165,7 +183,9 @@
     {
         "id": "decentralizedstorage",
         "term": "Decentralized Storage",
-        "next_nodes": ["buildingforscale"],
+        "next_nodes": [
+            "buildingforscale"
+        ],
         "Details": [
             "Storage Solutions"
         ]
@@ -173,7 +193,9 @@
     {
         "id": "nodeasaservice",
         "term": "Node as a Service",
-        "next_nodes": ["buildingforscale"],
+        "next_nodes": [
+            "buildingforscale"
+        ],
         "Details": [
             "Alchemy",
             "Infura",

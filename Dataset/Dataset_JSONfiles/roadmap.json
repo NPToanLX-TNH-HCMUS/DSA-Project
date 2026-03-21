@@ -1,8 +1,8 @@
 [{
         "id": "competitveprogramming",
         "term": "Competitve Programming ?",
-        "definition": "",
-        "definition_vi": "",
+        "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
+        "definition_vi": "Lập trình thi đấu là một môn thể thao trí tuệ, nơi người tham gia giải quyết các vấn đề thuật toán và toán học phức tạp trong một thời gian giới hạn nghiêm ngặt. Có thể coi đó như là thể thao điện tử dành cho các nhà toán học và kỹ sư phần mềm.",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -15,7 +15,7 @@
         "id": "basicknowledgeforcp",
         "term": "Basic Knowledge for CP",
         "definition": "Some of fundamental knowledge you have to acquire before aiming to further goal in this field....",
-        "definition_vi": "",
+        "definition_vi": "Một số kiến ​​thức cơ bản bạn cần nắm vững trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -27,9 +27,9 @@
         ]
     },
     {
-        "id": "httpswikivnoiinfoalgobasiccomputationalcomplexitymd",
-        "term": "https://wiki.vnoi.info/algo/basic/computational-complexity.md",
-        "definition": "",
+        "id": "timecomplexity",
+        "term": "Time Complexity",
+        "definition": "https://wiki.vnoi.info/algo/basic/computational-complexity.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -56,11 +56,10 @@
             "basicknowledgeforcp"
         ]
     },
-    // begin Toàn
     {
         "id": "recursion",
         "term": "Recursion",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/backtracking.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -75,7 +74,7 @@
     {
         "id": "sorting",
         "term": "Sorting",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/sorting-new",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -90,7 +89,7 @@
     {
         "id": "binarysearch",
         "term": "Binary search",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/Binary-Search",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -105,7 +104,7 @@
     {
         "id": "bitwise",
         "term": "Bitwise",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/bitwise-operators.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -120,7 +119,7 @@
     {
         "id": "twopointer",
         "term": "Two pointer",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/two-pointers",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -135,7 +134,7 @@
     {
         "id": "backtracking",
         "term": "Backtracking",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/basic/backtracking.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -150,7 +149,7 @@
     {
         "id": "memorizingrecursion",
         "term": "Memorizing Recursion",
-        "definition": "",
+        "definition": "https://www.geeksforgeeks.org/dsa/what-is-memoization-a-complete-tutorial/",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -165,7 +164,7 @@
     {
         "id": "dynamicprogramming",
         "term": "Dynamic Programming",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/dynamic-programming",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -180,7 +179,7 @@
     {
         "id": "dpontree",
         "term": "DP on Tree",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/dp/treedp",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -196,7 +195,7 @@
     {
         "id": "dpbasic",
         "term": "DP Basic",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/dp/basic-dynamic-programming-1.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -211,7 +210,7 @@
     {
         "id": "dpbitmask",
         "term": "DP Bitmask",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-bitmask",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -227,7 +226,7 @@
     {
         "id": "dpdigit",
         "term": "DP Digit",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/dp/digit-dp",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -243,7 +242,7 @@
     {
         "id": "dpknapsack",
         "term": "DP Knapsack",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/dp/dp-knapsack-1",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -258,8 +257,8 @@
     {
         "id": "basicdatastructure",
         "term": "Basic Data Structure",
-        "definition": "",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "definition": "Some of fundamental data structure you have to acquire before aiming to further goal in this field...",
+        "definition_vi": "",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -273,7 +272,7 @@
     {
         "id": "stringhandle",
         "term": "String Handle",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/string/basic",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -288,7 +287,7 @@
     {
         "id": "hash",
         "term": "Hash",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/string/hash",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -303,7 +302,7 @@
     {
         "id": "trie",
         "term": "Trie",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/string/trie",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -319,7 +318,7 @@
     {
         "id": "kmp",
         "term": "KMP",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/string/kmp",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -334,7 +333,7 @@
     {
         "id": "palindromtree",
         "term": "Palindrom Tree",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/translate/codeforces/palindrome-tree",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -349,7 +348,7 @@
     {
         "id": "priorityqueue",
         "term": "Priority Queue",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/heap.md",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Binary-Heap",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -365,7 +364,7 @@
     {
         "id": "hashtable",
         "term": "Hash Table",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/hash-table.md",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/hash-table",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -380,7 +379,7 @@
     {
         "id": "sparsetable",
         "term": "Sparse Table",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/sparse-table.md",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/rmq",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -395,7 +394,7 @@
     {
         "id": "dsu",
         "term": "DSU",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/disjoint-set-union.md",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/disjoint-set-union",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -410,7 +409,7 @@
     {
         "id": "pointer",
         "term": "Pointer",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/languages/cpp/pointers",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -425,7 +424,7 @@
     {
         "id": "arrayvector",
         "term": "Array/Vector",
-        "definition": "https://vnoi.info/wiki/languages/cpp/vector.md",
+        "definition": "https://blog.28tech.com.vn/stl-vector-trong-c",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -440,7 +439,7 @@
     {
         "id": "stack",
         "term": "Stack",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/stack.md",
+        "definition": "https://viblo.asia/p/ngan-xep-va-hang-doi-stack-queue-yMnKM6MQZ7P",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -455,7 +454,7 @@
     {
         "id": "queue",
         "term": "Queue",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/queue.md",
+        "definition": "https://viblo.asia/p/ngan-xep-va-hang-doi-stack-queue-yMnKM6MQZ7P",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -470,7 +469,7 @@
     {
         "id": "deque",
         "term": "Deque",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/deque-min-max",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -485,7 +484,7 @@
     {
         "id": "binarylifting",
         "term": "Binary Lifting",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/vnoi-magazine/2023/binary-lifting",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -500,7 +499,7 @@
     {
         "id": "rmq",
         "term": "RMQ",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -515,7 +514,7 @@
     {
         "id": "spanningtree",
         "term": "Spanning Tree",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/translate/topcoder/Range-Minimum-Query-and-Lowest-Common-Ancestor",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -531,7 +530,7 @@
     {
         "id": "prefixsuffixsum",
         "term": "Prefix/Suffix Sum",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/prefix-sum-and-difference-array.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -543,7 +542,6 @@
             "arrayvector"
         ]
     },
-    // end Toàn
     // begin Khôi
     {
         "id": "graphtheory",

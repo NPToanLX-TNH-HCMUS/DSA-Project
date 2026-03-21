@@ -1,0 +1,1019 @@
+[{
+        "id": "competitveprogramming",
+        "term": "Competitve Programming ?",
+        "definition": "",
+        "definition_vi": "",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Header",
+        "link": []
+    },
+    {
+        "id": "basicknowledgeforcp",
+        "term": "Basic Knowledge for CP",
+        "definition": "Some of fundamental knowledge you have to acquire before aiming to further goal in this field....",
+        "definition_vi": "",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "competiveprogramming"
+        ]
+    },
+    {
+        "id": "httpswikivnoiinfoalgobasiccomputationalcomplexitymd",
+        "term": "https://wiki.vnoi.info/algo/basic/computational-complexity.md",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "greedy",
+        "term": "Greedy",
+        "definition": "https://wiki.vnoi.info/algo/greedy-new",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    // begin Toàn
+    {
+        "id": "recursion",
+        "term": "Recursion",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "sorting",
+        "term": "Sorting",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "binarysearch",
+        "term": "Binary search",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "bitwise",
+        "term": "Bitwise",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "twopointer",
+        "term": "Two pointer",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "backtracking",
+        "term": "Backtracking",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "recursion"
+        ]
+    },
+    {
+        "id": "memorizingrecursion",
+        "term": "Memorizing Recursion",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "backtracking"
+        ]
+    },
+    {
+        "id": "dynamicprogramming",
+        "term": "Dynamic Programming",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "arrayvector"
+        ]
+    },
+    {
+        "id": "dpontree",
+        "term": "DP on Tree",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "dynamicprogramming",
+        "link": [
+            "dynamicprogramming",
+            "treedatastructure"
+        ]
+    },
+    {
+        "id": "dpbasic",
+        "term": "DP Basic",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "dynamicprogramming",
+        "link": [
+            "dynamicprogramming"
+        ]
+    },
+    {
+        "id": "dpbitmask",
+        "term": "DP Bitmask",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "dynamicprogramming",
+        "link": [
+            "dynamicprogramming",
+            "bitwise"
+        ]
+    },
+    {
+        "id": "dpdigit",
+        "term": "DP Digit",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "dynamicprogramming",
+        "link": [
+            "dynamicprogramming",
+            "memorizingrecursion"
+        ]
+    },
+    {
+        "id": "dpknapsack",
+        "term": "DP Knapsack",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "dynamicprogramming",
+        "link": [
+            "dynamicprogramming"
+        ]
+    },
+    {
+        "id": "basicdatastructure",
+        "term": "Basic Data Structure",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "stringhandle",
+        "term": "String Handle",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "hash",
+        "term": "Hash",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "stringhandle",
+        "link": [
+            "stringhandle"
+        ]
+    },
+    {
+        "id": "trie",
+        "term": "Trie",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "stringhandle",
+        "link": [
+            "stringhandle",
+            "pointer"
+        ]
+    },
+    {
+        "id": "kmp",
+        "term": "KMP",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "stringhandle",
+        "link": [
+            "stringhandle"
+        ]
+    },
+    {
+        "id": "palindromtree",
+        "term": "Palindrom Tree",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "stringhandle",
+        "link": [
+            "stringhandle"
+        ]
+    },
+    {
+        "id": "priorityqueue",
+        "term": "Priority Queue",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/heap.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure",
+            "heap"
+        ]
+    },
+    {
+        "id": "hashtable",
+        "term": "Hash Table",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/hash-table.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "sparsetable",
+        "term": "Sparse Table",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/sparse-table.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "dsu",
+        "term": "DSU",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/disjoint-set-union.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "pointer",
+        "term": "Pointer",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "arrayvector",
+        "term": "Array/Vector",
+        "definition": "https://vnoi.info/wiki/languages/cpp/vector.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "stack",
+        "term": "Stack",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/stack.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "queue",
+        "term": "Queue",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/queue.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "deque",
+        "term": "Deque",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "binarylifting",
+        "term": "Binary Lifting",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "basicdatastructure"
+        ]
+    },
+    {
+        "id": "rmq",
+        "term": "RMQ",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "sparsetable"
+        ]
+    },
+    {
+        "id": "spanningtree",
+        "term": "Spanning Tree",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "graph",
+            "dsu"
+        ]
+    },
+    {
+        "id": "prefixsuffixsum",
+        "term": "Prefix/Suffix Sum",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicdatastructure",
+        "link": [
+            "arrayvector"
+        ]
+    },
+    // end Toàn
+    // begin Khôi
+    {
+        "id": "graphtheory",
+        "term": "Graph Theory",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "arrayvector"
+        ]
+    },
+    {
+        "id": "maxflow",
+        "term": "Max Flow",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/max-flow",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory"
+        ]
+    },
+    {
+        "id": "bfs",
+        "term": "BFS",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/bfs",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory",
+            "queue"
+        ]
+    },
+    {
+        "id": "dfs",
+        "term": "DFS",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/dfs",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory",
+            "stack"
+        ]
+    },
+    {
+        "id": "lca",
+        "term": "LCA",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/lca",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory"
+        ]
+    },
+    {
+        "id": "dijkstra",
+        "term": "Dijkstra",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/shortest-path",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory",
+            "priorityqueue"
+        ]
+    },
+    {
+        "id": "topologicalsort",
+        "term": "Topological Sort",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/topological-sort",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "graphtheory"
+        ]
+    },
+    {
+        "id": "treedatastructure",
+        "term": "Tree Data Structure",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "fenwicktree",
+        "term": "Fenwick Tree",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "treedatastructure",
+        "link": [
+            "treedatastructure"
+        ]
+    },
+    {
+        "id": "heap",
+        "term": "Heap",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "treedatastructure",
+        "link": [
+            "treedatastructure"
+        ]
+    },
+    {
+        "id": "segmenttree",
+        "term": "Segment Tree",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "treedatastructure",
+        "link": [
+            "treedatastructure"
+        ]
+    },
+    {
+        "id": "lichaotree",
+        "term": "Li-chao Tree",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "treedatastructure",
+        "link": [
+            "segmenttree"
+        ]
+    },
+    {
+        "id": "mathforcp",
+        "term": "Math For CP",
+        "definition": "https://vnoi.info/wiki/algo/math/overview",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "numbertheory",
+        "term": "Number Theory",
+        "definition": "https://vnoi.info/wiki/algo/math/basic-number-theory",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "mathforcp"
+        ]
+    },
+    {
+        "id": "binaryexponentiation",
+        "term": "Binary exponentiation",
+        "definition": "https://vnoi.info/wiki/algo/math/binary-exponentiation",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "numbertheory"
+        ]
+    },
+    {
+        "id": "gcdeuclid",
+        "term": "GCD & Euclid",
+        "definition": "https://vnoi.info/wiki/algo/math/extended-euclidean-algorithm",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "numbertheory"
+        ]
+    },
+    // end Khôi
+    // begin Tài
+    {
+        "id": "modulo",
+        "term": "Modulo",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "numbertheory"
+        ]
+    },
+    {
+        "id": "inversionmodulo",
+        "term": "Inversion Modulo",
+        "definition": "https://vnoi.info/wiki/algo/math/modular-inverse",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "modulo"
+        ]
+    },
+    {
+        "id": "primesieve",
+        "term": "Prime Sieve",
+        "definition": "https://vnoi.info/wiki/algo/math/prime-sieve",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "numbertheory"
+        ]
+    },
+    {
+        "id": "primefactorization",
+        "term": "Prime Factorization",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "primesieve"
+        ]
+    },
+    {
+        "id": "eulerstotientfunction",
+        "term": "Euler's Totient Function",
+        "definition": "https://vnoi.info/wiki/algo/math/euler-totient",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "numbertheory"
+        ]
+    },
+    {
+        "id": "geometrytheory",
+        "term": "Geometry Theory",
+        "definition": "https://vnoi.info/wiki/algo/geometry/overview",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "mathforcp"
+        ]
+    },
+    {
+        "id": "polygon",
+        "term": "Polygon",
+        "definition": "https://vnoi.info/wiki/algo/geometry/polygon",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "geometrytheory"
+        ]
+    },
+    {
+        "id": "basicgeometry",
+        "term": "Basic Geometry",
+        "definition": "https://vnoi.info/wiki/algo/geometry/basic-geometry",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "geometrytheory"
+        ]
+    },
+    {
+        "id": "convexhull",
+        "term": "Convex Hull",
+        "definition": "https://vnoi.info/wiki/algo/geometry/convex-hull",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "basicgeometry"
+        ]
+    },
+    {
+        "id": "intersaction",
+        "term": "Intersaction",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "geometrytheory"
+        ]
+    },
+    {
+        "id": "sweepline",
+        "term": "Sweep Line",
+        "definition": "https://vnoi.info/wiki/algo/geometry/sweep-line",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "geometrytheory"
+        ]
+    },
+    {
+        "id": "combinatorics",
+        "term": "Combinatorics",
+        "definition": "https://vnoi.info/wiki/algo/math/combinatorics",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "mathforcp"
+        ]
+    },
+    {
+        "id": "basiccombinatorics",
+        "term": "Basic Combinatorics",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "combinatorics"
+        ]
+    },
+    {
+        "id": "probabilities",
+        "term": "Probabilities",
+        "definition": "",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "combinatorics"
+        ]
+    },
+    {
+        "id": "principleofinclusionandexclusion",
+        "term": "Principle of Inclusion and Exclusion",
+        "definition": "https://vnoi.info/wiki/algo/math/inclusion-exclusion-principle",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "mathforcp",
+        "link": [
+            "combinatorics"
+        ]
+    }
+    // end Tài
+]

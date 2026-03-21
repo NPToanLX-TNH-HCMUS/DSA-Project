@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "competitveprogramming",
         "term": "Competitve Programming ?",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
@@ -24,6 +25,21 @@
         "classify": "Label",
         "link": [
             "competiveprogramming"
+        ]
+    },
+    {
+        "id": "advanceddatastructure",
+        "term": "Advanced Data Structure",
+        "definition": "",
+        "definition_vi": "",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "Label",
+        "link": [
+            "basicdatastructure"
         ]
     },
     {
@@ -355,9 +371,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure",
+            "advanceddatastructure",
             "heap"
         ]
     },
@@ -371,9 +387,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -386,9 +402,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -401,9 +417,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -416,9 +432,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -476,9 +492,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -491,9 +507,9 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
-            "basicdatastructure"
+            "advanceddatastructure"
         ]
     },
     {
@@ -602,7 +618,8 @@
         "classify": "graphtheory",
         "link": [
             "graphtheory",
-            "stack"
+            "stack",
+            "recursion"
         ]
     },
     {
@@ -617,7 +634,8 @@
         "related_terms": [],
         "classify": "graphtheory",
         "link": [
-            "graphtheory"
+            "graphtheory",
+            "binarylifting"
         ]
     },
     {
@@ -663,13 +681,13 @@
         "related_terms": [],
         "classify": "Label",
         "link": [
-            "basicknowledgeforcp"
+            "basicdatastructure"
         ]
     },
     {
         "id": "fenwicktree",
         "term": "Fenwick Tree",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/fenwick",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -699,7 +717,7 @@
     {
         "id": "segmenttree",
         "term": "Segment Tree",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/segment-tree-basic.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -714,7 +732,7 @@
     {
         "id": "lichaotree",
         "term": "Li-chao Tree",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/data-structures/lichao-tree",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -738,7 +756,7 @@
         "related_terms": [],
         "classify": "Label",
         "link": [
-            "basicknowledgeforcp"
+            "basicdatastructure"
         ]
     },
     {
@@ -768,7 +786,8 @@
         "related_terms": [],
         "classify": "mathforcp",
         "link": [
-            "numbertheory"
+            "numbertheory",
+            "recursion"
         ]
     },
     {

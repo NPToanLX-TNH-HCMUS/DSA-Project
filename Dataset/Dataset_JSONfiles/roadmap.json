@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "competitveprogramming",
         "term": "Competitve Programming ?",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
@@ -15,8 +14,8 @@
     {
         "id": "basicknowledgeforcp",
         "term": "Basic Knowledge for CP",
-        "definition": "Some of fundamental knowledge you have to acquire before aiming to further goal in this field....",
-        "definition_vi": "Một số kiến ​​thức cơ bản bạn cần nắm vững trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
+        "definition": "Some of fundamental knowledge you have to acquire all before aiming to further goal in this field....",
+        "definition_vi": "Một số kiến ​​thức cơ bản bạn cần nắm vững tất cả trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -522,7 +521,7 @@
             "competiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "advanceddatastructure",
         "link": [
             "sparsetable"
         ]
@@ -558,11 +557,10 @@
             "arrayvector"
         ]
     },
-    // begin Khôi
     {
         "id": "graphtheory",
         "term": "Graph Theory",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/deque.md",
+        "definition": "https://wiki.vnoi.info/algo/graph-theory/graph",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -672,7 +670,7 @@
     {
         "id": "treedatastructure",
         "term": "Tree Data Structure",
-        "definition": "",
+        "definition": "https://www.geeksforgeeks.org/dsa/introduction-to-tree-data-structure/",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -702,7 +700,7 @@
     {
         "id": "heap",
         "term": "Heap",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Binary-Heap",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -747,8 +745,8 @@
     {
         "id": "mathforcp",
         "term": "Math For CP",
-        "definition": "https://vnoi.info/wiki/algo/math/overview",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "definition": "Some of fundamental/advanced mathematic knowledge you have to acquire before aiming to further goal in this field...",
+        "definition_vi": "Một số kiến ​​thức toán học từ cơ bản đến nâng cao bạn cần nắm vững tất cả trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -762,8 +760,8 @@
     {
         "id": "numbertheory",
         "term": "Number Theory",
-        "definition": "https://vnoi.info/wiki/algo/math/basic-number-theory",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "definition": "Number theory is a branch of pure mathematics focused on the properties and relationships of integers.",
+        "definition_vi": "Lý thuyết số (số học) là một nhánh của toán học tập trung nghiên cứu về tính chất và quan hệ giữa các số nguyên.",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -777,7 +775,7 @@
     {
         "id": "binaryexponentiation",
         "term": "Binary exponentiation",
-        "definition": "https://vnoi.info/wiki/algo/math/binary-exponentiation",
+        "definition": "https://wiki.vnoi.info/algo/algebra/binary_exponentation.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -793,7 +791,7 @@
     {
         "id": "gcdeuclid",
         "term": "GCD & Euclid",
-        "definition": "https://vnoi.info/wiki/algo/math/extended-euclidean-algorithm",
+        "definition": "https://wiki.vnoi.info/algo/algebra/euclid",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -805,12 +803,10 @@
             "numbertheory"
         ]
     },
-    // end Khôi
-    // begin Tài
     {
         "id": "modulo",
         "term": "Modulo",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/math/modulo",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -825,7 +821,7 @@
     {
         "id": "inversionmodulo",
         "term": "Inversion Modulo",
-        "definition": "https://vnoi.info/wiki/algo/math/modular-inverse",
+        "definition": "https://wiki.vnoi.info/algo/math/modular-inverse",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -840,7 +836,7 @@
     {
         "id": "primesieve",
         "term": "Prime Sieve",
-        "definition": "https://vnoi.info/wiki/algo/math/prime-sieve",
+        "definition": "https://wiki.vnoi.info/algo/algebra/prime_sieve.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -855,7 +851,7 @@
     {
         "id": "primefactorization",
         "term": "Prime Factorization",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/math/integer-factorization",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -870,7 +866,7 @@
     {
         "id": "eulerstotientfunction",
         "term": "Euler's Totient Function",
-        "definition": "https://vnoi.info/wiki/algo/math/euler-totient",
+        "definition": "https://wiki.vnoi.info/algo/algebra/phi-ham-euler",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -885,8 +881,8 @@
     {
         "id": "geometrytheory",
         "term": "Geometry Theory",
-        "definition": "https://vnoi.info/wiki/algo/geometry/overview",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "definition": "Geometry is a branch of mathematics focused on points, lines, segments, angles, and shapes, and how to compute or verify their properties efficiently using algorithms (instead of drawing them).",
+        "definition_vi": "Hình học (Geometry) là nhánh toán học tập trung vào các điểm, đường thẳng, đoạn thẳng, góc, đa giác… trên mặt phẳng (hoặc không gian), và cách tính toán hoặc kiểm tra các tính chất hình học một cách chính xác và hiệu quả bằng code.",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -900,7 +896,7 @@
     {
         "id": "polygon",
         "term": "Polygon",
-        "definition": "https://vnoi.info/wiki/algo/geometry/polygon",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-3",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -915,7 +911,7 @@
     {
         "id": "basicgeometry",
         "term": "Basic Geometry",
-        "definition": "https://vnoi.info/wiki/algo/geometry/basic-geometry",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-1",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -930,7 +926,7 @@
     {
         "id": "convexhull",
         "term": "Convex Hull",
-        "definition": "https://vnoi.info/wiki/algo/geometry/convex-hull",
+        "definition": "https://wiki.vnoi.info/translate/wcipeg/Convex-Hull",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -945,7 +941,7 @@
     {
         "id": "intersaction",
         "term": "Intersaction",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/algo/geometry/basic-geometry-2",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -960,7 +956,7 @@
     {
         "id": "sweepline",
         "term": "Sweep Line",
-        "definition": "https://vnoi.info/wiki/algo/geometry/sweep-line",
+        "definition": "https://wiki.vnoi.info/algo/geometry/Sweep-Line.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -975,8 +971,8 @@
     {
         "id": "combinatorics",
         "term": "Combinatorics",
-        "definition": "https://vnoi.info/wiki/algo/math/combinatorics",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "definition": "Combinatorics is a branch of mathematics focused on counting, arranging, and selecting objects efficiently—usually without actually generating all possibilities.",
+        "definition_vi": "Tổ hợp (Combinatorics) là một nhánh của toán học tập trung vào việc đếm, sắp xếp và chọn các đối tượng một cách hiệu quả — thường không cần liệt kê tất cả các khả năng.",
         "in_roadmap": true,
         "roadmap": [
             "competiveprogramming"
@@ -990,7 +986,7 @@
     {
         "id": "basiccombinatorics",
         "term": "Basic Combinatorics",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-5",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -1005,7 +1001,7 @@
     {
         "id": "probabilities",
         "term": "Probabilities",
-        "definition": "",
+        "definition": "https://wiki.vnoi.info/translate/he/Number-Theory-6",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -1020,7 +1016,7 @@
     {
         "id": "principleofinclusionandexclusion",
         "term": "Principle of Inclusion and Exclusion",
-        "definition": "https://vnoi.info/wiki/algo/math/inclusion-exclusion-principle",
+        "definition": "https://wiki.vnoi.info/algo/algebra/pie",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -1032,5 +1028,4 @@
             "combinatorics"
         ]
     }
-    // end Tài
 ]

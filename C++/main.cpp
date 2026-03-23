@@ -1,6 +1,6 @@
 /* CSC1004 - DSA PROJECT - TEAM 7 - DICTIONARY FOR DEVELOPERS
     NGÔ PHƯỚC TOÀN
-    NGUYÊN THÀNH TÀY
+    NGUYỄN THÀNH TÀY
     BÙI ĐĂNG KHÔI
 */
 // --------------------------------------------------------------- LIBRARY/NAMESPACE DECLARATION -------------------------------------------------------
@@ -461,7 +461,7 @@ int main()
 2. FIND DEF ENG - VIE
 3. ROADMAP:
     3.1. FULL MAP --> TOPO SORT.
-    3.2. SHORT MAP --> BFD/DFS.
+    3.2. SHORT MAP --> BFS/DFS.
 
 
 */

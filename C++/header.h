@@ -8,6 +8,7 @@
 #include <queue>
 #include <stack>
 #include <unordered_map>
+#include <windows.h>
 #include "json.hpp"
 #include "normalize.cpp"
 

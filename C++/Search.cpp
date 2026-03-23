@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <unordered_map>
 #include "json.hpp"
+#include "normalize.cpp"
 
 using namespace std;
 using json = nlohmann::json;

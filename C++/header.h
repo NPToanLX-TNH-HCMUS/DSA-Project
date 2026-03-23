@@ -5,6 +5,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
+#include <queue>
+#include <stack>
 #include <unordered_map>
 #include "json.hpp"
 #include "normalize.cpp"

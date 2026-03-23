@@ -1,16 +1,5 @@
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <string>
-#include <algorithm>
-#include <unordered_map>
-#include "json.hpp"
-#include "normalize.cpp"
+#include "header.h"
 
-using namespace std;
-using json = nlohmann::json;
-
-#define maxn 200007
 json dt;
 
 struct WordData

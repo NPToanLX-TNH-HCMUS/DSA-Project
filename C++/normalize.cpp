@@ -1,4 +1,5 @@
-#include<string>
+#include <string>
+
 using namespace std;
 
 string lower(string s)

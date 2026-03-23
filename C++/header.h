@@ -1,0 +1,18 @@
+#ifndef HEADER_FUNCTION
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <unordered_map>
+#include "json.hpp"
+#include "normalize.cpp"
+
+using json = nlohmann::json;
+
+using namespace std;
+
+#define maxn 200007
+
+#endif HEADER_FUNCTION

@@ -3,6 +3,7 @@
 class ROADMAP_CREATOR
 {
 private:
+    // Node for knowledge and label
     struct Node
     {
         string id;
@@ -11,6 +12,7 @@ private:
         vector<string> parent_nodes;
     };
 
+    // Declaration
     map<string, vector<string>> nodes;
     map<string, string> ids;
     map<string, string> terms;
@@ -20,6 +22,7 @@ private:
     vector<string> Label_list;
     map<std::string, int> indegree;
 
+    // Create graph
     void build_graph(Node new_node)
     {
         for (auto v : new_node.parent_nodes)
@@ -28,10 +31,10 @@ private:
             indegree[v] += 1;
         }
     }
-    void load_data(string roadmap, string knowledge)
+    void load_roadmap(json &dt, string filepath, string knowledge)
     {
         // Open file
-        string file_input = roadmap;
+        string file_input = filepath;
         ifstream file(file_input);
         if (!file.is_open())
         {
@@ -39,10 +42,9 @@ private:
             abort();
         }
         // Read file
-        json j_data;
-        file >> j_data;
+        file >> dt;
         // Create graph
-        for (auto &item : j_data)
+        for (auto &item : dt)
         {
             Node n;
             n.id = item["id"];
@@ -67,16 +69,8 @@ private:
         file.close();
     }
 
-    // add node to graph
-    void add_node(Node new_node)
-    {
-        for (auto v : new_node.parent_nodes)
-        {
-            parents[new_node.id].push_back(v);
-        }
-    }
-
 public:
+    // Create Roadmap when user enter a knowledge
     vector<string> get_RoadMap_Knowledge(string knowledge)
     {
         map<string, bool> visited;
@@ -108,7 +102,7 @@ public:
         reverse(RoadMap.begin(), RoadMap.end());
         return RoadMap;
     }
-
+    // Create Roadmap when user enter a Label
     vector<string> get_RoadMap_Label(string Label)
     {
         map<string, bool> visited;

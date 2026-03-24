@@ -1,8 +1,8 @@
 #include <string>
 
-using namespace std;
-
-string lower(string s)
+#ifndef NORMALIZE
+#define NORMALIZE
+inline string lower(string s)
 {
     for (char &c : s)
     {
@@ -12,7 +12,7 @@ string lower(string s)
     return s;
 }
 
-string upper(string s)
+inline string upper(string s)
 {
     for (char &c : s)
     {
@@ -22,7 +22,7 @@ string upper(string s)
     return s;
 }
 
-string slugify(string s)
+inline string slugify(string s)
 {
     int i = 0;
     for (char &c : s)
@@ -44,3 +44,5 @@ string slugify(string s)
     s = s.substr(0, i);
     return s;
 }
+
+#endif 

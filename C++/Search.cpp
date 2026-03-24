@@ -1,4 +1,5 @@
 #include "header.h"
+#include "normalize.h"
 
 struct WordData
 {

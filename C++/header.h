@@ -1,4 +1,5 @@
 #ifndef HEADER_FUNCTION
+#define HEADER_FUNCTION
 
 #include <iostream>
 #include <fstream>
@@ -7,10 +8,11 @@
 #include <algorithm>
 #include <queue>
 #include <stack>
+#include <map>
 #include <unordered_map>
 #include <windows.h>
 #include "json.hpp"
-#include "normalize.cpp"
+
 
 using json = nlohmann::json;
 
@@ -18,4 +20,4 @@ using namespace std;
 
 #define maxn 200007
 
-#endif HEADER_FUNCTION
+#endif

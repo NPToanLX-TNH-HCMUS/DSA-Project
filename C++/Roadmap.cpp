@@ -1,4 +1,5 @@
 #include "header.h"
+#include "normalize.h"
 
 class ROADMAP_CREATOR
 {
@@ -18,7 +19,7 @@ private:
     map<string, string> terms;
     map<string, vector<string>> parents;
     vector<Node> node_list;
-    bool check_label = false;
+    
     vector<string> Label_list;
     map<std::string, int> indegree;
 
@@ -31,6 +32,10 @@ private:
             indegree[v] += 1;
         }
     }
+
+public:
+bool check_label = false;
+    // Load roadmap
     void load_roadmap(json &dt, string filepath, string knowledge)
     {
         // Open file
@@ -68,11 +73,10 @@ private:
         }
         file.close();
     }
-
-public:
     // Create Roadmap when user enter a knowledge
     vector<string> get_RoadMap_Knowledge(string knowledge)
     {
+        knowledge=lower(knowledge);
         map<string, bool> visited;
         for (Node v : node_list)
         {

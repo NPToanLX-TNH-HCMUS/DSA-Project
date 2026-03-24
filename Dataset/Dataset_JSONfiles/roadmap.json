@@ -1,4 +1,5 @@
-[{
+[
+    {
         "id": "competitveprogramming",
         "term": "Competitve Programming ?",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
@@ -42,54 +43,9 @@
         ]
     },
     {
-        "id": "timecomplexity",
-        "term": "Time Complexity",
-        "definition": "https://wiki.vnoi.info/algo/basic/computational-complexity.md",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
-        "in_roadmap": true,
-        "roadmap": [
-            "competiveprogramming"
-        ],
-        "related_terms": [],
-        "classify": "basicknowledgeforcp",
-        "link": [
-            "basicknowledgeforcp"
-        ]
-    },
-    {
-        "id": "greedy",
-        "term": "Greedy",
-        "definition": "https://wiki.vnoi.info/algo/greedy-new",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
-        "in_roadmap": true,
-        "roadmap": [
-            "competiveprogramming"
-        ],
-        "related_terms": [],
-        "classify": "basicknowledgeforcp",
-        "link": [
-            "basicknowledgeforcp"
-        ]
-    },
-    {
-        "id": "recursion",
-        "term": "Recursion",
-        "definition": "https://wiki.vnoi.info/algo/basic/backtracking.md",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
-        "in_roadmap": true,
-        "roadmap": [
-            "competiveprogramming"
-        ],
-        "related_terms": [],
-        "classify": "basicknowledgeforcp",
-        "link": [
-            "basicknowledgeforcp"
-        ]
-    },
-    {
-        "id": "sorting",
-        "term": "Sorting",
-        "definition": "https://wiki.vnoi.info/algo/basic/sorting-new",
+        "id": "bitwise",
+        "term": "Bitwise",
+        "definition": "https://wiki.vnoi.info/algo/basic/bitwise-operators.md",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -117,9 +73,9 @@
         ]
     },
     {
-        "id": "bitwise",
-        "term": "Bitwise",
-        "definition": "https://wiki.vnoi.info/algo/basic/bitwise-operators.md",
+        "id": "sorting",
+        "term": "Sorting",
+        "definition": "https://wiki.vnoi.info/algo/basic/sorting-new",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
@@ -135,6 +91,81 @@
         "id": "twopointer",
         "term": "Two pointer",
         "definition": "https://wiki.vnoi.info/algo/basic/two-pointers",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "recursion",
+        "term": "Recursion",
+        "definition": "https://wiki.vnoi.info/algo/basic/backtracking.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "greedy",
+        "term": "Greedy",
+        "definition": "https://wiki.vnoi.info/algo/greedy-new",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "timecomplexity",
+        "term": "Time Complexity",
+        "definition": "https://wiki.vnoi.info/algo/basic/computational-complexity.md",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "conditionstatement",
+        "term": "Condition Statement",
+        "definition": "https://viblo.asia/p/bai-3-cau-truc-re-nhanh-1VgZvAgmKAw",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "basicknowledgeforcp",
+        "link": [
+            "basicknowledgeforcp"
+        ]
+    },
+    {
+        "id": "loop",
+        "term": "Loop",
+        "definition": "https://quantrimang.com/hoc/vong-lap-trong-cplusplus-156189",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [

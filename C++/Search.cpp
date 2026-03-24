@@ -103,7 +103,7 @@ public:
     void Search(string prefix)
     {
         word.clear();
-        prefix = lower(prefix);
+        prefix = slugify(prefix);
         Node *p = root;
         for (char c : prefix)
         {

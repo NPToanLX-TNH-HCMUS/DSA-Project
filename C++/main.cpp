@@ -55,7 +55,7 @@ int main()
             // End:
             if (slugify(prefix) == "end")
             {
-                cout << PINK << "========== THANKS FOR USING OUR SERVICE - SEE YOU AGAIN - LOVE <3 <3 =============" << RESET << "\n";
+                cout << PINK << "============ THANKS FOR USING OUR SERVICE - SEE YOU AGAIN - LOVE <3 <3 =============" << RESET << "\n";
                 break;
             }
             // Search:
@@ -78,6 +78,7 @@ int main()
                 } while (choice != "Y" && choice != "N" && choice != "n" && choice != "y");
                 if (choice == "y" || choice == "Y")
                 {
+                    break;
                 }
                 cin.ignore(1000, '\n');
             }
@@ -90,6 +91,7 @@ int main()
         getline(cin, knowledge);
         rc. load_roadmap(dt_Roadmap, "../Dataset/Dataset_JSONfiles/roadmap.json", knowledge);
         if (rc.check_label){
+            // cout << "1 \n" ;
             vector<string> roadmap = rc.get_RoadMap_Label(knowledge);
             for (auto node : roadmap){
                 cout << node << " ";
@@ -97,6 +99,7 @@ int main()
             cout << "\n";
         }
         else{
+            // cout << "2 \n" ;
             vector<string> roadmap = rc.get_RoadMap_Knowledge(knowledge);
             for (auto node : roadmap){
                 cout << node << " ";
@@ -107,13 +110,3 @@ int main()
     }
     return 0;
 }
-
-/* SUGGESTED TABLE OF FEATURES:
-1. ADDING NEW TERMS
-2. FIND DEF ENG - VIE
-3. ROADMAP:
-    3.1. FULL MAP --> TOPO SORT.
-    3.2. SHORT MAP --> BFS/DFS.
-
-
-*/

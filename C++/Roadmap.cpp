@@ -76,7 +76,7 @@ bool check_label = false;
     // Create Roadmap when user enter a knowledge
     vector<string> get_RoadMap_Knowledge(string knowledge)
     {
-        knowledge=lower(knowledge);
+        knowledge=slugify(knowledge);
         map<string, bool> visited;
         for (Node v : node_list)
         {

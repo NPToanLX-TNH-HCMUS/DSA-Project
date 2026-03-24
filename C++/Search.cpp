@@ -1,7 +1,5 @@
 #include "header.h"
 
-json dt;
-
 struct WordData
 {
     string definition;
@@ -69,7 +67,7 @@ private:
 
 public:
     unordered_map<string, WordData> dict;
-    void load_dictionary(string filename)
+    void load_dictionary(json &dt, string filename)
     {
         ifstream f(filename);
         if (!f.is_open())

@@ -1673,7 +1673,7 @@
     },
     {
         "id": "logfile",
-        "term": "log file",
+        "term": "Log file",
         "definition": "In computing, a log file is a file that records either events that occur in an operating system or other software runs, or messages between different users of a communication software. Logging is the act of keeping a log. In the simplest case, messages are written to a single log file.",
         "in_roadmap": false,
         "related_terms": [],
@@ -1681,7 +1681,7 @@
     },
     {
         "id": "logicalerror",
-        "term": "logical error",
+        "term": "Logical error",
         "definition": "a logic error is a bug in a program that causes it to operate incorrectly, but not to terminate abnormally (or crash).",
         "in_roadmap": false,
         "related_terms": [],
@@ -1689,7 +1689,7 @@
     },
     {
         "id": "loop",
-        "term": "loop",
+        "term": "Loop",
         "definition": "a programming structure that repeats a sequence of instructions until a specific condition is met.",
         "in_roadmap": false,
         "related_terms": [],
@@ -1873,7 +1873,7 @@
     },
     {
         "id": "naturallanguageunderstanding",
-        "term": "natural language understanding",
+        "term": "Natural Language Understanding",
         "definition": "determining a user's intentions based on what the user typed or said. For example, a search engine uses natural language understanding to determine what the user is searching for based on what the user typed or said.",
         "in_roadmap": false,
         "related_terms": [],
@@ -1881,7 +1881,7 @@
     },
     {
         "id": "navigation",
-        "term": "navigation",
+        "term": "Navigation",
         "definition": "Links on a homepage that break down the other pages of a website. This can be both in the menu at the top of a site or in a footer (preferably both).",
         "in_roadmap": false,
         "related_terms": [],

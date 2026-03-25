@@ -1,0 +1,21 @@
+{
+  "name": "dsa-project",
+  "version": "1.0.0",
+  "description": "> An advanced technical dictionary and roadmap visualizer designed for Software Engineering students. This project leverages optimized Data Structures and Algorithms to provide instant lookups and career guidance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NPToanLX-TNH-HCMUS/DSA-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/NPToanLX-TNH-HCMUS/DSA-Project/issues"
+  },
+  "homepage": "https://github.com/NPToanLX-TNH-HCMUS/DSA-Project#readme"
+}

@@ -1,22 +1,24 @@
 #ifndef HEADER_FUNCTION
 #define HEADER_FUNCTION
 
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <string>
+#include "json.hpp"
 #include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <map>
 #include <queue>
 #include <stack>
-#include <map>
+#include <string>
 #include <unordered_map>
-#include <windows.h>
-#include "json.hpp"
-
+#include <vector>
 
 using json = nlohmann::json;
 
 using namespace std;
+
+#ifdef _WIN32
+#include <windows.h>
+#endif
 
 #define maxn 200007
 

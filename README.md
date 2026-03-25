@@ -9,8 +9,8 @@
 
 | Student ID | Name | Role |
 | --- | --- | --- |
-| **25127522** | Ngô Phước Toàn | Leader - Data Specialist - Frontend|
-| **25127134** | Nguyễn Thành Tài | Searching Feature using Trie - Backend|
+| **25127522** | Ngô Phước Toàn | Leader - Data Specialist|
+| **25127134** | Nguyễn Thành Tài | Searching Feature using Trie|
 | **25127203** | Bùi Đăng Khôi | Graph Creating Feature using Graph Algorithms |
 
 ---

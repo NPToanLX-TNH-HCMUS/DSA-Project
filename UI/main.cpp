@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
   // Lưu ý: Đường dẫn này phải tính từ vị trí file server.js đang đứng
   // Ở đây mình giả sử file JSON nằm cùng thư mục hoặc đúng theo cấu trúc bạn
   // gửi
-  string path_to_json = "../C++/dictionary.json";
+  string path_to_json = "../UI/dictionary.json";
 
   try {
     search_dictionary.load_dictionary(dt_Search, path_to_json);

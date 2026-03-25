@@ -16,10 +16,6 @@ using json = nlohmann::json;
 
 using namespace std;
 
-#ifdef _WIN32
-#include <windows.h>
-#endif
-
 #define maxn 200007
 
 #endif

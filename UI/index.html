@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary for Developers | Team 7</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1><i class="fa-solid fa-code"></i> DevDict <span class="team-tag">Team 7</span></h1>
+            <p>High-performance DSA Dictionary powered by Trie & C++</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="wordInput" placeholder="Type a keyword (e.g. trie, binary_search)..." autofocus>
+            <button onclick="handleSearch()">
+                <i class="fa-solid fa-magnifying-glass"></i> Search
+            </button>
+        </div>
+
+        <div id="resultArea" class="result-card hidden">
+            <h2 id="resKeyword"></h2>
+            <hr>
+            <p id="resDefinition"></p>
+            <div class="meta">
+                <span><i class="fa-solid fa-bolt"></i> O(L) Complexity</span>
+            </div>
+        </div>
+
+        <div id="loader" class="loader hidden"></div>
+    </div>
+
+    <script>
+        async function handleSearch() {
+            const input = document.getElementById('wordInput');
+            const resultArea = document.getElementById('resultArea');
+            const loader = document.getElementById('loader');
+            const word = input.value.trim();
+
+            if (!word) return;
+
+            // Hiệu ứng loading
+            loader.classList.remove('hidden');
+            resultArea.classList.add('hidden');
+
+            try {
+                // Gọi API từ server NodeJS
+                const response = await fetch(`/search?word=${word}`);
+                const data = await response.json();
+
+                if (data.error) {
+                    alert("Error: " + data.error);
+                } else {
+                    document.getElementById('resKeyword').innerText = data.keyword;
+                    document.getElementById('resDefinition').innerText = data.definition;
+                    resultArea.classList.remove('hidden');
+                }
+            } catch (err) {
+                console.error("Fetch error:", err);
+                alert("Cannot connect to server!");
+            } finally {
+                loader.classList.add('hidden');
+            }
+        }
+
+        // Hỗ trợ nhấn Enter để search
+        document.getElementById('wordInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') handleSearch();
+        });
+    </script>
+</body>
+
+</html>

@@ -30,6 +30,14 @@ private:
             parents[new_node.id].push_back(v);
         }
     }
+    bool check_advanced_label(string s)
+    {
+        if (s == "dynamicprogramming" || s == "advanceddatastructure" || s == "graphtheory" || s == "stringhandle" || s == "treedatastructure" || s == "mathforcp")
+        {
+            return true;
+        }
+        return false;
+    }
 
 public:
     bool check_label = false;
@@ -93,7 +101,8 @@ public:
                 //  if this knowledge already in RoadMap -> skip
                 if (visited[v])
                     continue;
-                RoadMap.push_back(terms[v]);
+                if (!check_advanced_label(v))
+                    RoadMap.push_back(terms[v]);
                 q.push(v);
                 visited[v] = true;
             }
@@ -158,7 +167,8 @@ public:
         {
             string u = listSource.front();
             listSource.pop();
-            res.push_back(terms[u]);
+            if (!check_advanced_label(u))
+                res.push_back(terms[u]);
             for (auto child : nodes[u])
             {
                 if (subgraph[child])

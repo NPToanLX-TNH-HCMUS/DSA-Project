@@ -19,27 +19,24 @@ private:
     map<string, string> terms;
     map<string, vector<string>> parents;
     vector<Node> node_list;
-    
     vector<string> Label_list;
-    map<std::string, int> indegree;
 
     // Create graph
     void build_graph(Node new_node)
     {
         for (auto v : new_node.parent_nodes)
         {
+            nodes[v].push_back(new_node.id);
             parents[new_node.id].push_back(v);
-            indegree[v] += 1;
         }
     }
 
 public:
-bool check_label = false;
-    // Load roadmap
-    void load_roadmap(json &dt, string filepath, string knowledge)
+    bool check_label = false;
+    void load_roadmap(json &dt, string roadmap, string knowledge)
     {
         // Open file
-        string file_input = filepath;
+        string file_input = roadmap;
         ifstream file(file_input);
         if (!file.is_open())
         {
@@ -76,7 +73,7 @@ bool check_label = false;
     // Create Roadmap when user enter a knowledge
     vector<string> get_RoadMap_Knowledge(string knowledge)
     {
-        knowledge=slugify(knowledge);
+        knowledge = slugify(knowledge);
         map<string, bool> visited;
         for (Node v : node_list)
         {
@@ -101,14 +98,14 @@ bool check_label = false;
                 visited[v] = true;
             }
         }
-        RoadMap.pop_back();
-        RoadMap.push_back("Competitive Programming");
         reverse(RoadMap.begin(), RoadMap.end());
         return RoadMap;
     }
-    // Create Roadmap when user enter a Label
+
     vector<string> get_RoadMap_Label(string Label)
     {
+        Label = slugify(Label);
+        map<string, bool> subgraph;
         map<string, bool> visited;
         queue<string> q;
         map<string, int> inDegree;
@@ -116,10 +113,13 @@ bool check_label = false;
         for (Node i : node_list)
         {
             visited[i.id] = false;
+            subgraph[i.id] = false;
         }
         for (string i : Label_list)
         {
             q.push(i);
+            subgraph[i] = true;
+            visited[i] = true;
             inDegree[i] = 0;
         }
         while (!q.empty())
@@ -127,6 +127,7 @@ bool check_label = false;
             string u = q.front();
             q.pop();
             topo_list.push_back(u);
+            subgraph[u] = true;
             for (string v : parents[u])
             {
                 if (visited[v])
@@ -134,7 +135,7 @@ bool check_label = false;
                     continue;
                 }
                 visited[v] = true;
-                inDegree[v] = 0;
+                inDegree[u] = 0;
                 q.push(v);
             }
         }
@@ -142,7 +143,7 @@ bool check_label = false;
         {
             for (string v : parents[u])
             {
-                inDegree[v]++;
+                inDegree[u]++;
             }
         }
         queue<string> listSource;
@@ -158,16 +159,16 @@ bool check_label = false;
             string u = listSource.front();
             listSource.pop();
             res.push_back(terms[u]);
-            for (auto child : parents[u])
+            for (auto child : nodes[u])
             {
-                temp_indegree[child]--;
-                if (!temp_indegree[child])
-                    listSource.push(child);
+                if (subgraph[child])
+                {
+                    temp_indegree[child]--;
+                    if (!temp_indegree[child])
+                        listSource.push(child);
+                }
             }
         }
-        res.pop_back();
-        res.push_back("Competitive Programming");
-        reverse(res.begin(), res.end());
         return res;
     }
 };

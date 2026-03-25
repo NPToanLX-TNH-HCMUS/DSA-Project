@@ -9,9 +9,9 @@ An advanced technical dictionary and roadmap visualizer designed for Software En
 
 | Student ID | Name | Role |
 | --- | --- | --- |
-| **25127522** | Ngô Phước Toàn | Lead Developer |
-| **25127134** | Nguyễn Thành Tài | Data Specialist |
-| **25127203** | Bùi Đăng Khôi | Algorithm Researcher |
+| **25127522** | Ngô Phước Toàn | Lead Developer - Data Specialist|
+| **25127134** | Nguyễn Thành Tài | Searching Feature using Trie |
+| **25127203** | Bùi Đăng Khôi | Graph Feature using Graph Algorithm |
 
 ---
 
@@ -38,7 +38,7 @@ The heart of this project lies in the efficient implementation of specialized da
   - **Topological Sort:** (Optional/Planned) To determine the optimal order of learning technologies.
 
 ### 3. File I/O & Data Parsing
-- Optimized loading mechanisms for handling large datasets stored in `.txt` or `.csv` formats.
+- Optimized loading mechanisms for handling large datasets stored in `.txt` and `.json` formats.
 
 ---
 
@@ -52,8 +52,7 @@ The dataset is curated by crawling professional career paths from **roadmap.sh**
 ## 🚀 Getting Started
 
 ### Prerequisites
-- C++ Compiler (GCC 7.0 or higher recommended)
-- Make or CMake (optional)
+- C++ Compiler
 
 ### Installation
 1. Clone the repository:

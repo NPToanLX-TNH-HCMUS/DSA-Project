@@ -78,47 +78,84 @@ public:
         }
         file.close();
     }
-    // Create Roadmap when user enter a knowledge
+    // Create a Roadmap when user enter a knowledge
     vector<string> get_RoadMap_Knowledge(string knowledge)
     {
+        // Declaration
         knowledge = slugify(knowledge);
         map<string, bool> visited;
+        map<string, bool> subgraph;
+        map<string, int> inDegree;
+        vector<string> prerequisite_list;
+        vector<string> RoadMap;
         for (Node v : node_list)
         {
             visited[v.id] = false;
+            subgraph[v.id] = false;
+            inDegree[v.id] = 0;
         }
-        vector<string> RoadMap;
-        RoadMap.push_back(terms[knowledge]);
         queue<string> q;
         q.push(knowledge);
+        // Create prerequisite list
         while (!q.empty())
         {
             string u = q.front();
             q.pop();
-            // go to it parent
+            prerequisite_list.push_back(u);
+            subgraph[u] = true;
             for (string v : parents[u])
             {
-                //  if this knowledge already in RoadMap -> skip
                 if (visited[v])
                     continue;
-                if (!check_advanced_label(v))
-                    RoadMap.push_back(terms[v]);
                 q.push(v);
                 visited[v] = true;
             }
         }
-        reverse(RoadMap.begin(), RoadMap.end());
+        // Topo Sort
+        for (string u : prerequisite_list)
+        {
+            for (string v : parents[u])
+            {
+                inDegree[u]++;
+            }
+        }
+        queue<string> topo_list;
+        for (string u : prerequisite_list)
+        {
+            if (!inDegree[u])
+            {
+                topo_list.push(u);
+            }
+        }
+        while (!topo_list.empty())
+        {
+            string u = topo_list.front();
+            topo_list.pop();
+            if (!check_advanced_label(u))
+                RoadMap.push_back(terms[u]);
+            for (string v : nodes[u])
+            {
+                if (subgraph[v])
+                {
+                    inDegree[v]--;
+                    if (!inDegree[v])
+                        topo_list.push(v);
+                }
+            }
+        }
         return RoadMap;
     }
 
+    // Create a Roadmap when user enter a label
     vector<string> get_RoadMap_Label(string Label)
     {
-        Label = slugify(Label);
+        // Declaration
         map<string, bool> subgraph;
         map<string, bool> visited;
-        queue<string> q;
         map<string, int> inDegree;
-        vector<string> topo_list;
+        vector<string> prerequisite_list;
+        vector<string> RoadMap;
+        queue<string> q;
         for (Node i : node_list)
         {
             visited[i.id] = false;
@@ -131,11 +168,12 @@ public:
             visited[i] = true;
             inDegree[i] = 0;
         }
+        // Create prerequisite list
         while (!q.empty())
         {
             string u = q.front();
             q.pop();
-            topo_list.push_back(u);
+            prerequisite_list.push_back(u);
             subgraph[u] = true;
             for (string v : parents[u])
             {
@@ -148,37 +186,36 @@ public:
                 q.push(v);
             }
         }
-        for (string u : topo_list)
+        for (string u : prerequisite_list)
         {
             for (string v : parents[u])
             {
                 inDegree[u]++;
             }
         }
-        queue<string> listSource;
-        vector<string> res;
-        map<string, int> temp_indegree = inDegree;
-        for (auto node : topo_list)
+        // Topo Sort
+        queue<string> topo_list;
+        for (string u : prerequisite_list)
         {
-            if (!temp_indegree[node])
-                listSource.push(node);
+            if (!inDegree[u])
+                topo_list.push(u);
         }
-        while (!listSource.empty())
+        while (!topo_list.empty())
         {
-            string u = listSource.front();
-            listSource.pop();
+            string u = topo_list.front();
+            topo_list.pop();
             if (!check_advanced_label(u))
-                res.push_back(terms[u]);
-            for (auto child : nodes[u])
+                RoadMap.push_back(terms[u]);
+            for (string v : nodes[u])
             {
-                if (subgraph[child])
+                if (subgraph[v])
                 {
-                    temp_indegree[child]--;
-                    if (!temp_indegree[child])
-                        listSource.push(child);
+                    inDegree[v]--;
+                    if (!inDegree[v])
+                        topo_list.push(v);
                 }
             }
         }
-        return res;
+        return RoadMap;
     }
 };

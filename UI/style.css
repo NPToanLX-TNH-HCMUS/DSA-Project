@@ -1,0 +1,131 @@
+:root {
+    --bg-color: #0f172a;
+    --card-bg: #1e293b;
+    --text-color: #f8fafc;
+    --accent-color: #38bdf8;
+    --border-color: #334155;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+}
+
+.team-tag {
+    font-size: 0.9rem;
+    background: #0ea5e9;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+input {
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--accent-color);
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+.result-card {
+    margin-top: 30px;
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid var(--border-color);
+    animation: fadeIn 0.5s ease;
+}
+
+.result-card h2 {
+    margin-top: 0;
+    color: var(--accent-color);
+    text-transform: capitalize;
+}
+
+.meta {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #94a3b8;
+}
+
+.hidden {
+    display: none;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--accent-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

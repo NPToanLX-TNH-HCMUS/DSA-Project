@@ -1,12 +1,12 @@
 [
     {
-        "id": "competitveprogramming",
-        "term": "Competitve Programming ?",
+        "id": "competitiveprogramming",
+        "term": "Competitive Programming",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
         "definition_vi": "Lập trình thi đấu là một môn thể thao trí tuệ, nơi người tham gia giải quyết các vấn đề thuật toán và toán học phức tạp trong một thời gian giới hạn nghiêm ngặt. Có thể coi đó như là thể thao điện tử dành cho các nhà toán học và kỹ sư phần mềm.",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Header",
@@ -19,12 +19,12 @@
         "definition_vi": "Một số kiến ​​thức cơ bản bạn cần nắm vững tất cả trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
         "link": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ]
     },
     {
@@ -34,7 +34,7 @@
         "definition_vi": "",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -49,12 +49,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "greedy"
         ]
     },
     {
@@ -64,12 +64,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "twopointer"
         ]
     },
     {
@@ -79,12 +79,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "twopointer"
         ]
     },
     {
@@ -94,12 +94,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "greedy"
         ]
     },
     {
@@ -109,12 +109,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "greedy"
         ]
     },
     {
@@ -124,12 +124,13 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
         "link": [
-            "basicknowledgeforcp"
+            "loop",
+            "conditionstatement"
         ]
     },
     {
@@ -139,7 +140,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
@@ -154,7 +155,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
@@ -169,7 +170,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
@@ -184,7 +185,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
@@ -199,7 +200,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicknowledgeforcp",
@@ -214,7 +215,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -229,7 +230,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "dynamicprogramming",
@@ -245,7 +246,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "dynamicprogramming",
@@ -260,7 +261,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "dynamicprogramming",
@@ -276,7 +277,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "dynamicprogramming",
@@ -292,7 +293,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "dynamicprogramming",
@@ -307,7 +308,7 @@
         "definition_vi": "",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -322,7 +323,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -337,7 +338,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "stringhandle",
@@ -352,7 +353,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "stringhandle",
@@ -368,7 +369,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "stringhandle",
@@ -383,7 +384,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "stringhandle",
@@ -398,7 +399,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -414,7 +415,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -429,7 +430,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -444,7 +445,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -459,7 +460,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -474,7 +475,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicdatastructure",
@@ -489,7 +490,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicdatastructure",
@@ -504,7 +505,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicdatastructure",
@@ -519,7 +520,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -534,7 +535,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -549,7 +550,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "advanceddatastructure",
@@ -564,10 +565,10 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
-        "classify": "basicdatastructure",
+        "classify": "graphtheory",
         "link": [
             "graph",
             "dsu"
@@ -580,7 +581,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "basicdatastructure",
@@ -595,27 +596,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
         "link": [
             "arrayvector"
-        ]
-    },
-    {
-        "id": "maxflow",
-        "term": "Max Flow",
-        "definition": "https://vnoi.info/wiki/algo/graph-theory/max-flow",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
-        "in_roadmap": true,
-        "roadmap": [
-            "competiveprogramming"
-        ],
-        "related_terms": [],
-        "classify": "graphtheory",
-        "link": [
-            "graphtheory"
         ]
     },
     {
@@ -625,7 +611,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "graphtheory",
@@ -641,7 +627,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "graphtheory",
@@ -652,35 +638,35 @@
         ]
     },
     {
-        "id": "lca",
-        "term": "LCA",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/lca",
-        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
-        "in_roadmap": true,
-        "roadmap": [
-            "competiveprogramming"
-        ],
-        "related_terms": [],
-        "classify": "graphtheory",
-        "link": [
-            "graphtheory",
-            "binarylifting"
-        ]
-    },
-    {
         "id": "dijkstra",
         "term": "Dijkstra",
         "definition": "https://vnoi.info/wiki/algo/graph-theory/shortest-path",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "graphtheory",
         "link": [
-            "graphtheory",
+            "bfs",
             "priorityqueue"
+        ]
+    },
+    {
+        "id": "lca",
+        "term": "LCA",
+        "definition": "https://vnoi.info/wiki/algo/data-structures/lca",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competitiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "dfs",
+            "binarylifting"
         ]
     },
     {
@@ -690,12 +676,27 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "graphtheory",
         "link": [
-            "graphtheory"
+            "bfs"
+        ]
+    },
+    {
+        "id": "maxflow",
+        "term": "Max Flow",
+        "definition": "https://vnoi.info/wiki/algo/graph-theory/max-flow",
+        "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
+        "in_roadmap": true,
+        "roadmap": [
+            "competitiveprogramming"
+        ],
+        "related_terms": [],
+        "classify": "graphtheory",
+        "link": [
+            "bfs"
         ]
     },
     {
@@ -705,7 +706,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -720,7 +721,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "treedatastructure",
@@ -735,7 +736,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "treedatastructure",
@@ -750,7 +751,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "treedatastructure",
@@ -765,7 +766,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "treedatastructure",
@@ -775,12 +776,12 @@
     },
     {
         "id": "mathforcp",
-        "term": "Math For CP",
+        "term": "Math for CP",
         "definition": "Some of fundamental/advanced mathematic knowledge you have to acquire before aiming to further goal in this field...",
         "definition_vi": "Một số kiến ​​thức toán học từ cơ bản đến nâng cao bạn cần nắm vững tất cả trước khi hướng đến những mục tiêu cao hơn trong lĩnh vực này...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "Label",
@@ -795,7 +796,7 @@
         "definition_vi": "Lý thuyết số (số học) là một nhánh của toán học tập trung nghiên cứu về tính chất và quan hệ giữa các số nguyên.",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -810,7 +811,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -826,7 +827,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -841,7 +842,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -856,7 +857,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -871,7 +872,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -886,7 +887,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -901,7 +902,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -916,7 +917,7 @@
         "definition_vi": "Hình học (Geometry) là nhánh toán học tập trung vào các điểm, đường thẳng, đoạn thẳng, góc, đa giác… trên mặt phẳng (hoặc không gian), và cách tính toán hoặc kiểm tra các tính chất hình học một cách chính xác và hiệu quả bằng code.",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -931,7 +932,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -946,7 +947,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -961,7 +962,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -976,12 +977,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
         "link": [
-            "geometrytheory"
+            "basicgeometry"
         ]
     },
     {
@@ -991,12 +992,12 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
         "link": [
-            "geometrytheory"
+            "basicgeometry"
         ]
     },
     {
@@ -1006,7 +1007,7 @@
         "definition_vi": "Tổ hợp (Combinatorics) là một nhánh của toán học tập trung vào việc đếm, sắp xếp và chọn các đối tượng một cách hiệu quả — thường không cần liệt kê tất cả các khả năng.",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -1021,7 +1022,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -1036,7 +1037,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",
@@ -1051,7 +1052,7 @@
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [
-            "competiveprogramming"
+            "competitiveprogramming"
         ],
         "related_terms": [],
         "classify": "mathforcp",

@@ -24,7 +24,7 @@ int main()
 #endif
     // cin.tie(0)->sync_with_stdio(false);
     // Load dictionary:
-    search_dictionary.load_dictionary(dt_Search,"../Dataset/Dataset_JSONfiles/dictionary.json");
+    search_dictionary.load_dictionary(dt_Search, "../Dataset/Dataset_JSONfiles/dictionary.json");
     // Openning question:
     cout << "=========================================================" << "\n";
     cout << RED << "WELCOME TO TEAM 7 PROJECT - DICTIONARY FOR DEVELOPERS" << RESET << "\n";
@@ -33,18 +33,24 @@ int main()
     cout << "2. Search Roadmap for your carrer ?" << "\n";
     // Opening choice --> User_Prompting:
     int user_fchoice;
-    while (true) {
-        if (cin >> user_fchoice) {
-            cin.ignore(1000, '\n'); 
-            if (user_fchoice == 1 || user_fchoice == 2) break;
+    while (true)
+    {
+        if (cin >> user_fchoice)
+        {
+            cin.ignore(1000, '\n');
+            if (user_fchoice == 1 || user_fchoice == 2)
+                break;
             cout << RED << "Please choose 1 or 2: " << RESET << "\n";
-        } else {
+        }
+        else
+        {
             cout << RED << "Invalid input! Please enter a number (1 or 2): " << RESET << "\n";
-            cin.clear(); 
-            cin.ignore(1000, '\n'); 
+            cin.clear();
+            cin.ignore(1000, '\n');
         }
     }
-    if (user_fchoice == 1){
+    if (user_fchoice == 1)
+    {
         while (true)
         {
             // Searching  --> User_Prompting:
@@ -65,7 +71,7 @@ int main()
             {
                 // Roadmap Creating --> User_Prompting:
                 cout << "\n"
-                    << GREEN << "This is actually a nodes in a roadmap. Are you curious about it? [Y/N]: " << RESET;
+                     << GREEN << "This is actually a nodes in a roadmap. Are you curious about it? [Y/N]: " << RESET;
                 string choice;
                 do
                 {
@@ -84,29 +90,33 @@ int main()
             }
         }
     }
-    else{
+    else
+    {
         ROADMAP_CREATOR rc;
         string knowledge;
         cout << "What do you want to learn ?" << "\n";
         getline(cin, knowledge);
-        rc. load_roadmap(dt_Roadmap, "../Dataset/Dataset_JSONfiles/roadmap.json", knowledge);
-        if (rc.check_label){
+        rc.load_roadmap(dt_Roadmap, "../Dataset/Dataset_JSONfiles/roadmap.json", knowledge);
+        if (rc.check_label)
+        {
             // cout << "1 \n" ;
             vector<string> roadmap = rc.get_RoadMap_Label(knowledge);
-            for (auto node : roadmap){
+            for (auto node : roadmap)
+            {
                 cout << node << " ";
             }
             cout << "\n";
         }
-        else{
+        else
+        {
             // cout << "2 \n" ;
             vector<string> roadmap = rc.get_RoadMap_Knowledge(knowledge);
-            for (auto node : roadmap){
+            for (auto node : roadmap)
+            {
                 cout << node << " ";
             }
             cout << "\n";
         }
-
     }
     return 0;
 }

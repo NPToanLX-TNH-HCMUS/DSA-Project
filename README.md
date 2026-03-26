@@ -1,10 +1,10 @@
-# 📚 DictforDev
+# 📚 DictforDevs - Team 7 - 25C09
 
-> An advanced technical dictionary and roadmap visualizer designed for Software Engineering students. This project leverages optimized Data Structures and Algorithms to provide instant lookups and career guidance.
+> An advanced technical dictionary and roadmap visualizer designed for students who are major in Information Technology. This project leverages optimized Data Structures and Algorithms to provide instant lookups and career guidance.
 
 ---
 
-## 👥 Team 7 - 25C09
+## 🧑‍💻 Team Members:
 **Instructor:** Mr. Lê Trung Hoàng (University of Science - VNU-HCM)
 
 | Student ID | Name | Role |
@@ -52,6 +52,8 @@ The dataset is curated by crawling professional career paths from **roadmap.sh**
 
 ### Prerequisites
 - C++ Compiler
+- JavaScript Interpreter
+- NodeJS v25.8.2
 
 ### Installation
 1. Clone the repository:
@@ -84,4 +86,4 @@ The dataset is curated by crawling professional career paths from **roadmap.sh**
 - **Cloud Sync:** Saving user progress across devices.
 
 ---
-Created with ❤️ by Team 7 - 2026
+*Created with ❤️ by **Team 7**, March, 2026*

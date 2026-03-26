@@ -8,12 +8,13 @@ struct WordData
     bool in_roadmap;
     vector<string> roadmap;
     string term;
+    string classify;
 };
 
 class SEARCH_DICTIONARY
 {
 private:
-    vector<string> word;
+    unordered_map<string, WordData> word;
     struct Node
     {
         Node *child[256];
@@ -36,18 +37,18 @@ private:
         return &node[cur++];
     }
 
-    void dfs(Node *p, string &cur)
+    void dfs(Node *p, string &cur, vector<WordData> &keyword)
     {
         if (p->exist)
         {
-            word.push_back(cur);
+            keyword.push_back(word[cur]);
         }
         for (int i = 0; i < 256; i++)
         {
             if (p->child[i])
             {
                 cur.push_back(char(i));
-                dfs(p->child[i], cur);
+                dfs(p->child[i], cur, keyword);
                 cur.pop_back();
             }
         }
@@ -67,7 +68,6 @@ private:
     }
 
 public:
-    unordered_map<string, WordData> dict;
     void load_dictionary(json &dt, string filename)
     {
         ifstream f(filename);
@@ -81,68 +81,40 @@ public:
         for (auto &item : dt)
         {
             // Temp vars
-            string id = lower(item["id"].get<string>());
+            string id = slugify(item["id"].get<string>());
             string def = item["definition"].get<string>();
             string def_vie = item["definition_vi"].get<string>();
             bool in_rmap = item["in_roadmap"].get<bool>();
             string term_val = item["term"].get<string>();
-            // Save to dict:
+            string classify_val = item["classify"].get<string>();
+            // Save to word:
             if (in_rmap && item["roadmap"].is_array())
             {
                 vector<string> rmap = item["roadmap"].get<vector<string>>();
-                dict[id].roadmap = rmap;
+                word[id].roadmap = rmap;
             }
-            dict[id].definition = def;
-            dict[id].definition_vi = def_vie;
-            dict[id].in_roadmap = in_rmap;
-            dict[id].term = term_val;
+            word[id].definition = def;
+            word[id].definition_vi = def_vie;
+            word[id].in_roadmap = in_rmap;
+            word[id].term = term_val;
+            word[id].classify = classify_val;
             add(id);
         }
     }
 
-    void Search(string prefix)
+    vector<WordData> Search(string prefix)
     {
-        word.clear();
+        vector<WordData> keyword;
         prefix = slugify(prefix);
         Node *p = root;
         for (char c : prefix)
         {
             if (p->child[c] == nullptr)
-                return;
+                return keyword;
             p = p->child[c];
         }
-        if (p->exist)
-        {
-            string W = prefix;
-            cout << "=====DEFINITION_ENG=====\n";
-            cout << dict[W].definition << '\n';
-            cout << "=====DEFINITION_VIE=====\n";
-            cout << dict[W].definition_vi << '\n';
-            dfs(p, prefix);
-            if (word.size() == 1)
-                return;
-            cout << "=====OTHER WORDS=====\n";
-            for (string s : word)
-                if (s != W)
-                    cout << dict[slugify(s)].term << '\n';
-            return;
-        }
-        dfs(p, prefix);
-        if (word.size() == 0)
-            cout << "NOT FOUND!!!";
-        else
-        {
-            for (string s : word)
-                cout << dict[slugify(s)].term << '\n';
-        }
-        if (word.size() == 1)
-        {
-            string W = word[0];
-            cout << "=====DEFINITION_ENG=====\n";
-            cout << dict[W].definition << '\n';
-            cout << "=====DEFINITION_VIE=====\n";
-            cout << dict[W].definition_vi << '\n';
-        }
+        dfs(p, prefix, keyword);
+        return keyword;
     }
     SEARCH_DICTIONARY()
     {

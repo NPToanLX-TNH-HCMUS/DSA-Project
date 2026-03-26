@@ -7,13 +7,14 @@
     <title>DictforDev | Team 7</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 </head>
 
 <body>
 
     <div class="container">
         <header>
-            <h1><i class="fa-solid fa-code"></i> DevforDict <span class="team-tag">Team 7</span></h1>
+            <h1><i class="fa-solid fa-code"></i> DicForDev <span class="team-tag">Team 7</span></h1>
         </header>
 
         <div class="search-box">
@@ -30,6 +31,16 @@
             <div class="meta">
                 <span><i class="fa-solid fa-bolt"></i> O(L) Complexity</span>
             </div>
+        </div>
+
+        <div id="roadmapArea" class="result-card hidden">
+            <h2>Roadmap</h2>
+            <ul id="roadmapList"></ul>
+        </div>
+
+        <div id="graphArea" class="result-card hidden">
+            <h2>Roadmap Graph</h2>
+            <div id="network" style="height: 300px;"></div>
         </div>
 
         <div id="loader" class="loader hidden"></div>
@@ -66,6 +77,75 @@
             } finally {
                 loader.classList.add('hidden');
             }
+            loadRoadmap(word);
+        }
+
+        async function loadRoadmap(word) {
+            const roadmapArea = document.getElementById('roadmapArea');
+            const list = document.getElementById('roadmapList');
+
+            try {
+                const res = await fetch(`/roadmap?word=${word}`);
+                const data = await res.json();
+
+                list.innerHTML = "";
+
+                data.forEach(item => {
+                    const li = document.createElement("li");
+                    li.innerText = item;
+                    list.appendChild(li);
+                });
+
+                drawGraph(data);
+
+                roadmapArea.classList.remove('hidden');
+            } catch (err) {
+                console.error("Roadmap error:", err);
+            }
+        }
+
+        function drawGraph(data) {
+            const container = document.getElementById('network');
+
+            const nodes = data.map((item, index) => ({
+                id: index,
+                label: item
+            }));
+
+            const edges = [];
+            for (let i = 0; i < data.length - 1; i++) {
+                edges.push({
+                    from: i,
+                    to: i + 1,
+                    arrows: 'to'
+                });
+            }
+
+            const networkData = {
+                nodes: new vis.DataSet(nodes),
+                edges: new vis.DataSet(edges)
+            };
+
+            const options = {
+                nodes: {
+                    shape: 'box',
+                    color: '#38bdf8',
+                    font: { color: 'white' }
+                },
+                edges: {
+                    color: 'white',
+                    arrows: { to: { enabled: true } }
+                },
+                layout: {
+                    hierarchical: {
+                        direction: "LR"
+                    }
+                }
+            };
+
+            new vis.Network(container, networkData, options);
+
+            document.getElementById('graphArea').classList.remove('hidden');
         }
 
         // auto enter
@@ -78,6 +158,7 @@
                 handleSearch();
             }, 100);
         });
+
     </script>
 </body>
 

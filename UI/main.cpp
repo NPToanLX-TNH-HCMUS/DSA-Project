@@ -1,38 +1,77 @@
-#include "Search.cpp" // Class SEARCH_DICTIONARY của bạn nằm ở đây
 #include "header.h"
+#include "Search.cpp"
+#include "Roadmap.cpp"
+#include "json.hpp"
 
-// Khởi tạo các biến toàn cục cần thiết
+using json = nlohmann::json;
+
 json dt_Search;
 SEARCH_DICTIONARY search_dictionary;
 
+json dt_Roadmap;
+ROADMAP_CREATOR roadmap_creator;
+
 int main(int argc, char *argv[]) {
 
-  // 2. Kiểm tra tham số đầu vào
-  // Nếu gọi: ./engine.exe "trie", thì argc = 2 và argv[1] = "trie"
-  if (argc < 2) {
-    // Nếu không truyền từ khóa, không in gì cả hoặc in thông báo lỗi ngắn
-    return 0;
+  // ===== CHECK INPUT =====
+  if (argc < 2) return 0;
+
+  // 👉 MẶC ĐỊNH: SEARCH (giữ nguyên behavior cũ)
+  string mode = "search";
+  string query;
+
+  if (argc == 2) {
+    query = argv[1]; // kiểu cũ: ./main trie
+  } else {
+    mode = argv[1];  // kiểu mới: ./main roadmap trie
+    query = argv[2];
   }
 
-  // 3. Load dữ liệu từ file JSON
-  // Lưu ý: Đường dẫn này phải tính từ vị trí file server.js đang đứng
-  // Ở đây mình giả sử file JSON nằm cùng thư mục hoặc đúng theo cấu trúc bạn
-  // gửi
+  // ===== LOAD DICTIONARY (CŨ) =====
   string path_to_json = "../UI/dictionary.json";
 
   try {
     search_dictionary.load_dictionary(dt_Search, path_to_json);
   } catch (...) {
-    cout << "ERROR: Could not load dictionary file at " << path_to_json;
+    cout << "ERROR: Could not load dictionary file";
     return 1;
   }
 
-  // 4. Lấy từ khóa từ tham số dòng lệnh
-  string query = argv[1];
+  // ==================================================
+  // ================== SEARCH (CŨ) ====================
+  // ==================================================
+  if (mode == "search") {
+    search_dictionary.Search(query);
+    return 0;
+  }
 
-  // 5. Thực hiện tìm kiếm
-  // Hàm Search của bạn sẽ tự động cout ra Definition và Other words
-  search_dictionary.Search(query);
+  // ==================================================
+  // ================= ROADMAP (MỚI) ===================
+  // ==================================================
+  if (mode == "roadmap") {
+
+    string roadmap_path = "../UI/roadmap.json";
+
+    try {
+      roadmap_creator.load_roadmap(dt_Roadmap, roadmap_path, query);
+    } catch (...) {
+      cout << "[]"; // trả JSON rỗng cho JS
+      return 0;
+    }
+
+    vector<string> roadmap;
+
+    if (roadmap_creator.check_label)
+      roadmap = roadmap_creator.get_RoadMap_Label(query);
+    else
+      roadmap = roadmap_creator.get_RoadMap_Knowledge(query);
+
+    // 👉 Xuất JSON cho frontend
+    json out = roadmap;
+    cout << out.dump();
+
+    return 0;
+  }
 
   return 0;
 }

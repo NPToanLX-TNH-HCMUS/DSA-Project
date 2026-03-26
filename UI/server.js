@@ -34,6 +34,28 @@ app.get('/search', (req, res) => {
   });
 });
 
+app.get('/roadmap', (req, res) => {
+  console.log("ROADMAP API HIT");
+  const word = req.query.word;
+  if (!word) return res.status(400).json({ error: 'No word provided' });
+
+  const exePath = path.join(__dirname, 'main');
+
+  execFile(exePath, ["roadmap", word], { cwd: __dirname }, (error, stdout, stderr) => {
+    if (error) {
+      console.error('Roadmap error:', stderr);
+      return res.status(500).json({ error: 'C++ Roadmap Error' });
+    }
+
+    try {
+      const data = JSON.parse(stdout);
+      res.json(data);
+    } catch (e) {
+      res.status(500).json({ error: 'Invalid JSON from C++' });
+    }
+  });
+});
+
 // Chạy server
 app.listen(PORT, () => {
   console.log(`Server đang chạy tại: http://localhost:${PORT}`);

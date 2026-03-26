@@ -68,9 +68,15 @@
             }
         }
 
-        // Hỗ trợ nhấn Enter để search
-        document.getElementById('wordInput').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') handleSearch();
+        // auto enter
+        let debounceTimer;
+
+        document.getElementById('wordInput').addEventListener('input', () => {
+            clearTimeout(debounceTimer);
+
+            debounceTimer = setTimeout(() => {
+                handleSearch();
+            }, 100);
         });
     </script>
 </body>

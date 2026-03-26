@@ -15,6 +15,7 @@
     <div class="container">
         <header>
             <h1><i class="fa-solid fa-code"></i> DicForDev <span class="team-tag">Team 7</span></h1>
+            <button id="themeToggle" class="theme-btn">🌙</button>
         </header>
 
         <div class="search-box">
@@ -33,6 +34,11 @@
             </div>
         </div>
 
+        <div id="embedArea" class="result-card hidden">
+            <h2>Reference</h2>
+            <iframe id="embedFrame" style="width:100%; height:600px; border:none;"></iframe>
+        </div>
+
         <div id="roadmapArea" class="result-card hidden">
             <h2>Roadmap</h2>
             <ul id="roadmapList"></ul>
@@ -40,7 +46,7 @@
 
         <div id="graphArea" class="result-card hidden">
             <h2>Roadmap Graph</h2>
-            <div id="network" style="height: 300px;"></div>
+            <div id="network" style="height: 600px;"></div>
         </div>
 
         <div id="loader" class="loader hidden"></div>
@@ -51,32 +57,58 @@
             const input = document.getElementById('wordInput');
             const resultArea = document.getElementById('resultArea');
             const loader = document.getElementById('loader');
-            const word = input.value.trim();
+            const resKeyword = document.getElementById('resKeyword');
+            const resDefinition = document.getElementById('resDefinition');
 
+            const word = input.value.trim();
             if (!word) return;
 
-            // Hiệu ứng loading
             loader.classList.remove('hidden');
             resultArea.classList.add('hidden');
 
             try {
-                // Gọi API từ server NodeJS
                 const response = await fetch(`/search?word=${word}`);
                 const data = await response.json();
 
                 if (data.error) {
                     alert("Error: " + data.error);
-                } else {
-                    document.getElementById('resKeyword').innerText = "Search";
-                    document.getElementById('resDefinition').innerText = data.definition;
-                    resultArea.classList.remove('hidden');
+                    return;
                 }
+
+                resKeyword.innerText = "Search";
+
+                const def = data.definition || "";
+
+                if (def.startsWith("http")) {
+                    try {
+                        const domain = new URL(def).hostname;
+
+                        resDefinition.innerHTML = `
+                            <a href="${def}" target="_blank" class="ref-btn">
+                                📘 Open on ${domain}
+                            </a>
+                        `;
+                    } catch {
+                        resDefinition.innerHTML = `
+                            <a href="${def}" target="_blank" class="ref-btn">
+                                📘 Open Reference
+                            </a>
+                        `;
+                    }
+                } else {
+
+                    resDefinition.innerText = def;
+                }
+
+                resultArea.classList.remove('hidden');
+
             } catch (err) {
                 console.error("Fetch error:", err);
                 alert("Cannot connect to server!");
             } finally {
                 loader.classList.add('hidden');
             }
+
             loadRoadmap(word);
         }
 
@@ -93,6 +125,13 @@
                 data.forEach(item => {
                     const li = document.createElement("li");
                     li.innerText = item;
+
+                    li.style.cursor = "pointer";
+                    li.onclick = () => {
+                        document.getElementById('wordInput').value = item;
+                        handleSearch();
+                    };
+
                     list.appendChild(li);
                 });
 
@@ -130,10 +169,14 @@
                 nodes: {
                     shape: 'box',
                     color: '#38bdf8',
-                    font: { color: 'white' }
+                    font: { 
+                        color: 'white',
+                        size: 18
+                    },
+                    margin: 12
                 },
                 edges: {
-                    color: 'white',
+                    color: 'black',
                     arrows: { to: { enabled: true } }
                 },
                 layout: {
@@ -146,9 +189,38 @@
             new vis.Network(container, networkData, options);
 
             document.getElementById('graphArea').classList.remove('hidden');
+            const network = new vis.Network(container, networkData, options);
+
+            network.on("click", function (params) {
+                if (params.nodes.length > 0) {
+                    const nodeId = params.nodes[0];
+                    const word = data[nodeId];
+
+                    document.getElementById('wordInput').value = word;
+                    handleSearch();
+                }
+            });
         }
 
-        // auto enter
+        const toggleBtn = document.getElementById('themeToggle');
+
+        if (localStorage.getItem("theme") === "dark") {
+            document.body.classList.add("dark-mode");
+            toggleBtn.innerText = "☀️";
+        }
+
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark-mode");
+
+            if (document.body.classList.contains("dark-mode")) {
+                localStorage.setItem("theme", "dark");
+                toggleBtn.innerText = "☀️";
+            } else {
+                localStorage.setItem("theme", "light");
+                toggleBtn.innerText = "🌙";
+            }
+        });
+
         let debounceTimer;
 
         document.getElementById('wordInput').addEventListener('input', () => {

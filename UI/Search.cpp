@@ -114,10 +114,16 @@ public:
         if (p->exist)
         {
             string W = prefix;
-            cout << "=====DEFINITION_ENG=====\n";
-            cout << dict[W].definition << '\n';
-            cout << "=====DEFINITION_VIE=====\n";
-            cout << dict[W].definition_vi << '\n';
+            string def = dict[W].definition;
+
+            if (def.rfind("http", 0) == 0) {
+                cout << def << '\n';
+            } else {
+                cout << "=====DEFINITION_ENG=====\n";
+                cout << def << '\n';
+                cout << "=====DEFINITION_VIE=====\n";
+                cout << dict[W].definition_vi << '\n';
+            }
             dfs(p, prefix);
             if (word.size() == 1)
                 return;
@@ -138,10 +144,16 @@ public:
         if (word.size() == 1)
         {
             string W = word[0];
-            cout << "=====DEFINITION_ENG=====\n";
-            cout << dict[W].definition << '\n';
-            cout << "=====DEFINITION_VIE=====\n";
-            cout << dict[W].definition_vi << '\n';
+            string def = dict[W].definition;
+
+            if (def.rfind("http", 0) == 0) {
+                cout << def << '\n';
+            } else {
+                cout << "=====DEFINITION_ENG=====\n";
+                cout << def << '\n';
+                cout << "=====DEFINITION_VIE=====\n";
+                cout << dict[W].definition_vi << '\n';
+            }
         }
     }
     SEARCH_DICTIONARY()

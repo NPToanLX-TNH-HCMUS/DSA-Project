@@ -13,21 +13,18 @@ ROADMAP_CREATOR roadmap_creator;
 
 int main(int argc, char *argv[]) {
 
-  // ===== CHECK INPUT =====
   if (argc < 2) return 0;
 
-  // 👉 MẶC ĐỊNH: SEARCH (giữ nguyên behavior cũ)
   string mode = "search";
   string query;
 
   if (argc == 2) {
-    query = argv[1]; // kiểu cũ: ./main trie
+    query = argv[1]; 
   } else {
-    mode = argv[1];  // kiểu mới: ./main roadmap trie
+    mode = argv[1];
     query = argv[2];
   }
 
-  // ===== LOAD DICTIONARY (CŨ) =====
   string path_to_json = "../UI/dictionary.json";
 
   try {
@@ -37,17 +34,11 @@ int main(int argc, char *argv[]) {
     return 1;
   }
 
-  // ==================================================
-  // ================== SEARCH (CŨ) ====================
-  // ==================================================
   if (mode == "search") {
     search_dictionary.Search(query);
     return 0;
   }
 
-  // ==================================================
-  // ================= ROADMAP (MỚI) ===================
-  // ==================================================
   if (mode == "roadmap") {
 
     string roadmap_path = "../UI/roadmap.json";
@@ -55,7 +46,7 @@ int main(int argc, char *argv[]) {
     try {
       roadmap_creator.load_roadmap(dt_Roadmap, roadmap_path, query);
     } catch (...) {
-      cout << "[]"; // trả JSON rỗng cho JS
+      cout << "[]";
       return 0;
     }
 
@@ -66,7 +57,6 @@ int main(int argc, char *argv[]) {
     else
       roadmap = roadmap_creator.get_RoadMap_Knowledge(query);
 
-    // 👉 Xuất JSON cho frontend
     json out = roadmap;
     cout << out.dump();
 

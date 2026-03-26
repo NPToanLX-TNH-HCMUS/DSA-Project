@@ -3,8 +3,8 @@
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) [![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Status](https://img.shields.io/badge/Status-In--Development-orange)]()
 
-![Logo](../DSA-Project/Image/Logo.png)
-![Logo2](../DSA-Project/Image/Logo2.png)
+![Logo](../Image/Logo.png)
+![Logo2](../Image/Logo2.png)
 
 > **DictForDevs** is a specialized technical dictionary and learning path visualizer tailored for Information Technology students. By leveraging optimized Data Structures and Algorithms (DSA), the platform provides near-instant terminology lookups and structured career guidance.
 

@@ -1,13 +1,16 @@
 # 📚 DictForDevs (Team 7 - 25C09)
 ### *Advanced Technical Dictionary & Roadmap Visualizer for IT Students*
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) [![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Status](https://img.shields.io/badge/Status-In--Development-orange)]()
+[![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) [![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Status](https://img.shields.io/badge/Status-In--Development-orange)]()
+
+![Logo](../DSA-Project/Image/Logo.png)
+![Logo2](../DSA-Project/Image/Logo2.png)
 
 > **DictForDevs** is a specialized technical dictionary and learning path visualizer tailored for Information Technology students. By leveraging optimized Data Structures and Algorithms (DSA), the platform provides near-instant terminology lookups and structured career guidance.
 
 ---
 
-**Project's URL:**
+**Project's URL:** **https://dsa-project-1-b7gd.onrender.com/**
 
 ---
 
@@ -80,7 +83,7 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
     * **BFS/DFS Traversal:** Used to dynamically render learning paths and identify related topics.
     * **Topological Sorting:** To provide a strictly ordered learning sequence for complex curriculum structures.
 
-### 3. Optimized File I/O & Memory Management
+### 3. I/O Files Handle:
 * **Data Parsing:** High-speed loading mechanisms to parse `.json` and `.txt` datasets into memory-resident structures at runtime by using ``json.hpp`` library.
 * **C++ Integration:** Utilizing efficient memory allocation in C++ to handle 600+ nodes and their associated definitions.
 
@@ -90,16 +93,12 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 ## 🚀 Getting Started
 
-
+> Main program is ``C++/main.cpp`` file, which is manually completed by our team members, and be used for GUI (Website) backend. Following below instructions to run our core C++ file 
 
 ### Prerequisites
 
 - C++ Compiler
-
-- JavaScript Interpreter
-
-- NodeJS v25.8.2
-
+- Any IDE
 
 
 ### Installation
@@ -153,6 +152,8 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 
 
+
 ---
 
-*Created with ❤️ by **Team 7 with so much help from ChatGPT**, March, 2026*
+*Created with ❤️ by **Team 7 with so much help from ChatGPT**, March, 2026*.
+*Please give us some stars for fun 🌟🌟😁😁 !!*

@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DicforDev | Team 7</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DicforDev | Team 7</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <script
+            src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    </head>
 
-<body>
+    <body>
 
-    <div class="container">
-        <header>
-            <h1><i class="fa-solid fa-code"></i> DicForDev <span class="team-tag">Team 7</span></h1>
-            <button id="themeToggle" class="theme-btn">🌙</button>
-        </header>
+        <div class="container">
+            <header>
+                <h1><i class="fa-solid fa-code"></i> DicForDev <span
+                        class="team-tag">Team 7</span></h1>
+                <button id="themeToggle" class="theme-btn">🌙</button>
+            </header>
 
-        <div class="search-box">
-            <input type="text" id="wordInput" placeholder="Type a keyword (e.g. trie, binary_search)..." autofocus>
-            <button onclick="handleSearch()">
-                <i class="fa-solid fa-magnifying-glass"></i> Search
-            </button>
-        </div>
-
-        <div id="resultArea" class="result-card hidden">
-            <h2 id="resKeyword"></h2>
-            <hr>
-            <p id="resDefinition"></p>
-            <div class="meta">
-                <span><i class="fa-solid fa-bolt"></i> O(L) Complexity</span>
+            <div class="search-box">
+                <input type="text" id="wordInput"
+                    placeholder="Type a keyword (e.g. trie, binary_search)..."
+                    autofocus>
+                <button onclick="handleSearch()">
+                    <i class="fa-solid fa-magnifying-glass"></i> Search
+                </button>
             </div>
+
+            <div id="resultArea" class="result-card hidden">
+                <h2 id="resKeyword"></h2>
+                <hr>
+                <p id="resDefinition"></p>
+                <div class="meta">
+                    <span><i class="fa-solid fa-bolt"></i> O(L)
+                        Complexity</span>
+                </div>
+            </div>
+
+            <div id="embedArea" class="result-card hidden">
+                <h2>Reference</h2>
+                <iframe id="embedFrame"
+                    style="width:100%; height:600px; border:none;"></iframe>
+            </div>
+
+            <div id="roadmapArea" class="result-card hidden">
+                <h2>Roadmap</h2>
+                <ul id="roadmapList"></ul>
+            </div>
+
+            <div id="graphArea" class="result-card hidden">
+                <h2>Roadmap Graph</h2>
+                <div id="network" style="height: 600px;"></div>
+            </div>
+
+            <div id="loader" class="loader hidden"></div>
         </div>
 
-        <div id="embedArea" class="result-card hidden">
-            <h2>Reference</h2>
-            <iframe id="embedFrame" style="width:100%; height:600px; border:none;"></iframe>
-        </div>
-
-        <div id="roadmapArea" class="result-card hidden">
-            <h2>Roadmap</h2>
-            <ul id="roadmapList"></ul>
-        </div>
-
-        <div id="graphArea" class="result-card hidden">
-            <h2>Roadmap Graph</h2>
-            <div id="network" style="height: 600px;"></div>
-        </div>
-
-        <div id="loader" class="loader hidden"></div>
-    </div>
-
-    <script>
+        <script>
         async function handleSearch() {
             const input = document.getElementById('wordInput');
             const resultArea = document.getElementById('resultArea');
@@ -169,7 +176,7 @@
                 nodes: {
                     shape: 'box',
                     color: '#38bdf8',
-                    font: { 
+                    font: {
                         color: 'white',
                         size: 18
                     },
@@ -177,7 +184,11 @@
                 },
                 edges: {
                     color: 'black',
-                    arrows: { to: { enabled: true } }
+                    arrows: {
+                        to: {
+                            enabled: true
+                        }
+                    }
                 },
                 layout: {
                     hierarchical: {
@@ -191,7 +202,7 @@
             document.getElementById('graphArea').classList.remove('hidden');
             const network = new vis.Network(container, networkData, options);
 
-            network.on("click", function (params) {
+            network.on("click", function(params) {
                 if (params.nodes.length > 0) {
                     const nodeId = params.nodes[0];
                     const word = data[nodeId];
@@ -230,8 +241,7 @@
                 handleSearch();
             }, 100);
         });
-
     </script>
-</body>
+    </body>
 
 </html>

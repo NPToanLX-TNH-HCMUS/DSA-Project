@@ -85,7 +85,6 @@ public:
         return;
       p = p->child[c];
     }
-    // ... (Giữ nguyên logic in kết quả bên dưới của bạn) ...
     if (p->exist) {
       string W = prefix;
       string def = dict[W].definition;

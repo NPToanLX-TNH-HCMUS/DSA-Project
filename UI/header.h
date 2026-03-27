@@ -16,6 +16,6 @@ using json = nlohmann::json;
 
 using namespace std;
 
-#define maxn 200007
+#define maxn 50000
 
 #endif

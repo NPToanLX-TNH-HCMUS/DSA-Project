@@ -3735,7 +3735,7 @@
     {
         "id": "lca",
         "term": "LCA",
-        "definition": "https://vnoi.info/wiki/algo/data-structures/lca",
+        "definition": "https://wiki.vnoi.info/vi/algo/data-structures/lca",
         "definition_vi": "Truy cập liên kết đi kèm để có thêm thông tin ...",
         "in_roadmap": true,
         "roadmap": [

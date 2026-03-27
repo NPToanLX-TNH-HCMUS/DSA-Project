@@ -3,9 +3,9 @@ const {execFile} = require('child_process');
 const path = require('path');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
-const ENGINE_PATH = path.join(__dirname, '../main.exe');
+const exePath = path.join(__dirname, 'main');
 
 app.use(express.static(__dirname));
 
@@ -16,9 +16,6 @@ app.get('/', (req, res) => {
 app.get('/search', (req, res) => {
   const word = req.query.word;
   if (!word) return res.status(400).json({error: 'No word provided'});
-
-  const exePath = path.join(__dirname, 'main');
-
   execFile(exePath, [word], {cwd: __dirname}, (error, stdout, stderr) => {
     if (error) {
       console.error('Chi tiết lỗi C++:', stderr);
@@ -32,8 +29,6 @@ app.get('/roadmap', (req, res) => {
   console.log('ROADMAP API HIT');
   const word = req.query.word;
   if (!word) return res.status(400).json({error: 'No word provided'});
-
-  const exePath = path.join(__dirname, 'main');
 
   execFile(
       exePath, ['roadmap', word], {cwd: __dirname}, (error, stdout, stderr) => {
@@ -50,7 +45,6 @@ app.get('/roadmap', (req, res) => {
         }
       });
 });
-
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server is running at: http://localhost:${PORT}`);
+  console.log(`Server is running on port: ${PORT}`);
 });

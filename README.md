@@ -107,7 +107,7 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
   ```
 
-  git clone [https://github.com/NPToanLX-TNH-HCMUS/DSA-Project.git](https://github.com/NPToanLX-TNH-HCMUS/DSA-Project.git)
+  git clone https://github.com/NPToanLX-TNH-HCMUS/DSA-Project.git
 
   ```
 
@@ -155,5 +155,9 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 ---
 
+## 🤖 AI Usage
+
+--- 
+
 *Created with ❤️ by **Team 7 with so much help from ChatGPT**, March, 2026*.
-*Please give us some stars for fun 🌟🌟😁😁 !!*
+

@@ -1,10 +1,12 @@
 #include "header.h"
 #include "normalize.h"
 
-class ROADMAP_CREATOR {
+class ROADMAP_CREATOR
+{
 private:
   // Node for knowledge and label
-  struct Node {
+  struct Node
+  {
     string id;
     string term;
     string classify;
@@ -20,16 +22,20 @@ private:
   vector<string> Label_list;
 
   // Create graph
-  void build_graph(Node new_node) {
-    for (auto v : new_node.parent_nodes) {
+  void build_graph(Node new_node)
+  {
+    for (auto v : new_node.parent_nodes)
+    {
       nodes[v].push_back(new_node.id);
       parents[new_node.id].push_back(v);
     }
   }
-  bool check_advanced_label(string s) {
+  bool check_advanced_label(string s)
+  {
     if (s == "dynamicprogramming" || s == "advanceddatastructure" ||
         s == "graphtheory" || s == "stringhandle" || s == "treedatastructure" ||
-        s == "mathforcp") {
+        s == "mathforcp")
+    {
       return true;
     }
     return false;
@@ -37,25 +43,30 @@ private:
 
 public:
   bool check_label = false;
-  void load_roadmap(json &dt, string roadmap, string knowledge) {
+  void load_roadmap(json &dt, string roadmap, string knowledge)
+  {
     // Open file
     string file_input = roadmap;
     ifstream file(file_input);
-    if (!file.is_open()) {
+    if (!file.is_open())
+    {
       cout << "Cannot open roadmap files" << "\n";
       abort();
     }
     // Read file
     file >> dt;
     // Create graph
-    for (auto &item : dt) {
+    for (auto &item : dt)
+    {
       Node n;
       n.id = item["id"];
       n.term = item["term"];
       n.classify = item["classify"];
-      if (n.classify == "Label") {
+      if (n.classify == "Label")
+      {
         // cout << n.term << " " << knowledge << endl;
-        if (knowledge == n.term) {
+        if (slugify(knowledge) == n.id)
+        {
           check_label = true;
         }
       }
@@ -64,13 +75,14 @@ public:
       ids[n.term] = n.id;
       terms[n.id] = n.term;
       node_list.push_back(n);
-      if (n.classify == ids[knowledge])
+      if (n.classify == slugify(knowledge))
         Label_list.push_back(n.id);
     }
     file.close();
   }
   // Create a Roadmap when user enter a knowledge
-  vector<string> get_RoadMap_Knowledge(string knowledge) {
+  vector<string> get_RoadMap_Knowledge(string knowledge)
+  {
     // Declaration
     knowledge = slugify(knowledge);
     map<string, bool> visited;
@@ -78,7 +90,8 @@ public:
     map<string, int> inDegree;
     vector<string> prerequisite_list;
     vector<string> RoadMap;
-    for (Node v : node_list) {
+    for (Node v : node_list)
+    {
       visited[v.id] = false;
       subgraph[v.id] = false;
       inDegree[v.id] = 0;
@@ -86,12 +99,14 @@ public:
     queue<string> q;
     q.push(knowledge);
     // Create prerequisite list
-    while (!q.empty()) {
+    while (!q.empty())
+    {
       string u = q.front();
       q.pop();
       prerequisite_list.push_back(u);
       subgraph[u] = true;
-      for (string v : parents[u]) {
+      for (string v : parents[u])
+      {
         if (visited[v])
           continue;
         q.push(v);
@@ -99,24 +114,31 @@ public:
       }
     }
     // Topo Sort
-    for (string u : prerequisite_list) {
-      for (string v : parents[u]) {
+    for (string u : prerequisite_list)
+    {
+      for (string v : parents[u])
+      {
         inDegree[u]++;
       }
     }
     queue<string> topo_list;
-    for (string u : prerequisite_list) {
-      if (!inDegree[u]) {
+    for (string u : prerequisite_list)
+    {
+      if (!inDegree[u])
+      {
         topo_list.push(u);
       }
     }
-    while (!topo_list.empty()) {
+    while (!topo_list.empty())
+    {
       string u = topo_list.front();
       topo_list.pop();
       if (!check_advanced_label(u))
         RoadMap.push_back(terms[u]);
-      for (string v : nodes[u]) {
-        if (subgraph[v]) {
+      for (string v : nodes[u])
+      {
+        if (subgraph[v])
+        {
           inDegree[v]--;
           if (!inDegree[v])
             topo_list.push(v);
@@ -127,7 +149,8 @@ public:
   }
 
   // Create a Roadmap when user enter a label
-  vector<string> get_RoadMap_Label(string Label) {
+  vector<string> get_RoadMap_Label(string Label)
+  {
     // Declaration
     map<string, bool> subgraph;
     map<string, bool> visited;
@@ -135,24 +158,29 @@ public:
     vector<string> prerequisite_list;
     vector<string> RoadMap;
     queue<string> q;
-    for (Node i : node_list) {
+    for (Node i : node_list)
+    {
       visited[i.id] = false;
       subgraph[i.id] = false;
     }
-    for (string i : Label_list) {
+    for (string i : Label_list)
+    {
       q.push(i);
       subgraph[i] = true;
       visited[i] = true;
       inDegree[i] = 0;
     }
     // Create prerequisite list
-    while (!q.empty()) {
+    while (!q.empty())
+    {
       string u = q.front();
       q.pop();
       prerequisite_list.push_back(u);
       subgraph[u] = true;
-      for (string v : parents[u]) {
-        if (visited[v]) {
+      for (string v : parents[u])
+      {
+        if (visited[v])
+        {
           continue;
         }
         visited[v] = true;
@@ -160,24 +188,30 @@ public:
         q.push(v);
       }
     }
-    for (string u : prerequisite_list) {
-      for (string v : parents[u]) {
+    for (string u : prerequisite_list)
+    {
+      for (string v : parents[u])
+      {
         inDegree[u]++;
       }
     }
     // Topo Sort
     queue<string> topo_list;
-    for (string u : prerequisite_list) {
+    for (string u : prerequisite_list)
+    {
       if (!inDegree[u])
         topo_list.push(u);
     }
-    while (!topo_list.empty()) {
+    while (!topo_list.empty())
+    {
       string u = topo_list.front();
       topo_list.pop();
       if (!check_advanced_label(u))
         RoadMap.push_back(terms[u]);
-      for (string v : nodes[u]) {
-        if (subgraph[v]) {
+      for (string v : nodes[u])
+      {
+        if (subgraph[v])
+        {
           inDegree[v]--;
           if (!inDegree[v])
             topo_list.push(v);

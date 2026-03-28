@@ -6,13 +6,10 @@
 #include <string>
 #include <unordered_map>
 #include <vector>
-
-// In this order:
 #include <windows.h>
 #include <psapi.h>
 
 #define maxn 100000
-
 
 using namespace std;
 using namespace std::chrono;
@@ -28,7 +25,8 @@ const string BLUE = "\033[0;34m";
 const string MAGENTA = "\033[0;35m";
 const string CYAN = "\033[0;36m";
 
-struct WordData {
+struct WordData
+{
   string definition;
   string definition_vi;
   bool in_roadmap;
@@ -37,13 +35,15 @@ struct WordData {
   string classify;
 };
 
-string lower(string s) {
+string lower(string s)
+{
   transform(s.begin(), s.end(), s.begin(), ::tolower);
   return s;
 }
 
 // Evaluate Space Usage:
-double getMemoryUsage() {
+double getMemoryUsage()
+{
   PROCESS_MEMORY_COUNTERS_EX pmc;
   GetProcessMemoryInfo(GetCurrentProcess(), (PROCESS_MEMORY_COUNTERS *)&pmc,
                        sizeof(pmc));
@@ -53,27 +53,32 @@ double getMemoryUsage() {
 // ==========================================
 // Version 1: Trie using pointer (ARRAY)
 // ==========================================
-struct NodeArray {
+struct NodeArray
+{
   NodeArray *child[256];
   int cnt;
   int exist;
-  NodeArray() {
+  NodeArray()
+  {
     for (int i = 0; i < 256; i++)
       child[i] = nullptr;
     cnt = 0;
     exist = 0;
   }
 };
-NodeArray node[maxn];  // maxn = 100000
+NodeArray node[maxn]; // maxn = 100000
 NodeArray *root;
 int cur = 0;
 NodeArray *newNode() { return &node[cur++]; }
-class TrieArrayVersion {
+class TrieArrayVersion
+{
   NodeArray *root;
-  void clearMemory(NodeArray *node) {
+  void clearMemory(NodeArray *node)
+  {
     if (!node)
       return;
-    for (int i = 0; i < 256; i++) {
+    for (int i = 0; i < 256; i++)
+    {
       if (node->child[i])
         clearMemory(node->child[i]);
     }
@@ -83,9 +88,11 @@ class TrieArrayVersion {
 public:
   TrieArrayVersion() { root = new NodeArray(); }
   ~TrieArrayVersion() { clearMemory(root); } // Destructor
-  void insert(const string &s) {
+  void insert(const string &s)
+  {
     NodeArray *p = root;
-    for (char c : s) {
+    for (char c : s)
+    {
       int index = (unsigned char)c;
       if (p->child[index] == nullptr)
         p->child[index] = new NodeArray();
@@ -98,27 +105,34 @@ public:
 // ==========================================
 // Version 2: Trie using Map
 // ==========================================
-struct NodeMap {
+struct NodeMap
+{
   unordered_map<char, NodeMap *> child;
   int exist;
   NodeMap() { exist = 0; }
 };
-class TrieMapVersion {
+class TrieMapVersion
+{
   NodeMap *root;
-  void clearMemory(NodeMap *node) {
+  void clearMemory(NodeMap *node)
+  {
     if (!node)
       return;
-    for (auto const &[key, childNode] : node->child) {
+    for (auto const &[key, childNode] : node->child)
+    {
       clearMemory(childNode);
     }
     delete node;
   }
+
 public:
   TrieMapVersion() { root = new NodeMap(); }
   ~TrieMapVersion() { clearMemory(root); } // Destructor
-  void insert(const string &s) {
+  void insert(const string &s)
+  {
     NodeMap *p = root;
-    for (char c : s) {
+    for (char c : s)
+    {
       if (p->child.find(c) == p->child.end())
         p->child[c] = new NodeMap();
       p = p->child[c];
@@ -127,10 +141,12 @@ public:
   }
 };
 
-int main() {
+int main()
+{
   string path_to_json = "../Experiment/dictionary.json";
   ifstream f(path_to_json);
-  if (!f.is_open()) {
+  if (!f.is_open())
+  {
     cerr << "Error: Can't open file dictionary.json" << endl;
     return 1;
   }
@@ -138,7 +154,8 @@ int main() {
   f >> dt;
   unordered_map<string, WordData> global_dict;
   vector<string> keys;
-  for (auto &item : dt) {
+  for (auto &item : dt)
+  {
     string id = lower(item["id"].get<string>());
     WordData wd;
     wd.definition = item.value("definition", "");
@@ -159,7 +176,8 @@ int main() {
   auto startArray = high_resolution_clock::now();
 
   TrieArrayVersion *trie1 = new TrieArrayVersion();
-  for (const string &word : keys) {
+  for (const string &word : keys)
+  {
     trie1->insert(word);
   }
 
@@ -181,7 +199,8 @@ int main() {
   auto startMap = high_resolution_clock::now();
 
   TrieMapVersion *trie2 = new TrieMapVersion();
-  for (const string &word : keys) {
+  for (const string &word : keys)
+  {
     trie2->insert(word);
   }
 

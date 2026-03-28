@@ -89,6 +89,29 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 ---
 
+## 🌲 File Tree
+DSA-Project/
+├── C++/
+│   ├── header.h: *Including libraries used for the project*
+│   ├── json.hpp: *Json/nlohmann library - Get from Github*
+│   ├── main.cpp: *File main*
+│   ├── normalize.h: *Including some helper functions which handle string/input*
+│   ├── Roadmap.cpp: *Including class for the roadmap_creator function*
+│   └── Search.cpp: *Including class for the searching (Trie) function*
+│
+├── Dataset/
+│   ├── Dataset_JSONfiles/
+|       ├── dictionary.json: *Dataset to manage all the term in the project and used for the searching function*
+|       ├── roadmap.json: *Dataset for the roadmap_creator function, represent a directed graph*
+│   └── Dataset_Pythonfiles/: *Including all the file for the data crawling proccess*
+│
+├── Image/
+├── UI/: *Including all the file for the GUI creating proccess*
+├── .gitignore
+├── README.md
+
+---
+
 
 
 ## 🚀 Getting Started

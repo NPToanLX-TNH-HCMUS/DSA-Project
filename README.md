@@ -90,25 +90,30 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 ---
 
 ## 🌲 File Tree
+
+```bash
 DSA-Project/
 ├── C++/
-│   ├── header.h: *Including libraries used for the project*
-│   ├── json.hpp: *Json/nlohmann library - Get from Github*
-│   ├── main.cpp: *File main*
-│   ├── normalize.h: *Including some helper functions which handle string/input*
-│   ├── Roadmap.cpp: *Including class for the roadmap_creator function*
-│   └── Search.cpp: *Including class for the searching (Trie) function*
+│   ├── header.h           # Including libraries used for the project
+│   ├── json.hpp           # nlohmann JSON library (from GitHub)
+│   ├── main.cpp           # Main entry file
+│   ├── normalize.h        # Helper functions for string/input processing
+│   ├── Roadmap.cpp        # Class for roadmap_creator function
+│   └── Search.cpp         # Class for searching (Trie)
 │
 ├── Dataset/
 │   ├── Dataset_JSONfiles/
-|       ├── dictionary.json: *Dataset to manage all the term in the project and used for the searching function*
-|       ├── roadmap.json: *Dataset for the roadmap_creator function, represent a directed graph*
-│   └── Dataset_Pythonfiles/: *Including all the file for the data crawling proccess*
+│   │   ├── dictionary.json  # Dataset for managing terms (used in search)
+│   │   └── roadmap.json     # Dataset for roadmap_creator (directed graph)
+│   │
+│   └── Dataset_Pythonfiles/ # Scripts for data crawling process
 │
 ├── Image/
-├── UI/: *Including all the file for the GUI creating proccess*
+├── UI/                      # Files for GUI creation
+│
 ├── .gitignore
-├── README.md
+└── README.md
+```
 
 ---
 

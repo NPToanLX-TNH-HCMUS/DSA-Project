@@ -139,7 +139,7 @@ public:
       subgraph[i.id] = false;
     }
     for (string i : Label_list) {
-      q.push(i);
+      q.push(slugify(i));
       subgraph[i] = true;
       visited[i] = true;
       inDegree[i] = 0;
@@ -189,14 +189,10 @@ public:
     json result;
 
     vector<string> roadmap;
-
-    // dùng lại logic cũ
     if (check_label)
       roadmap = get_RoadMap_Label(input);
     else
       roadmap = get_RoadMap_Knowledge(input);
-
-    // convert sang JSON array
     for (auto &item : roadmap) {
       result.push_back(item);
     }

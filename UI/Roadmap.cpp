@@ -1,6 +1,9 @@
 #include "header.h"
 #include "normalize.h"
 
+#include "header.h"
+#include "normalize.h"
+
 class ROADMAP_CREATOR {
 private:
   // Node for knowledge and label
@@ -26,6 +29,7 @@ private:
       parents[new_node.id].push_back(v);
     }
   }
+  // Check Label with keyword "Advanced"
   bool check_advanced_label(string s) {
     if (s == "dynamicprogramming" || s == "advanceddatastructure" ||
         s == "graphtheory" || s == "stringhandle" || s == "treedatastructure" ||
@@ -42,7 +46,8 @@ public:
     string file_input = roadmap;
     ifstream file(file_input);
     if (!file.is_open()) {
-      return;
+      cout << "Cannot open roadmap files" << "\n";
+      abort();
     }
     // Read file
     file >> dt;
@@ -53,8 +58,7 @@ public:
       n.term = item["term"];
       n.classify = item["classify"];
       if (n.classify == "Label") {
-        // cout << n.term << " " << knowledge << endl;
-        if (knowledge == n.term) {
+        if (slugify(knowledge) == n.id) {
           check_label = true;
         }
       }
@@ -63,12 +67,13 @@ public:
       ids[n.term] = n.id;
       terms[n.id] = n.term;
       node_list.push_back(n);
-      if (n.classify == ids[knowledge])
+      if (n.classify == slugify(knowledge))
         Label_list.push_back(n.id);
     }
     file.close();
   }
-  // Create a Roadmap when user enter a knowledge
+  // --------------------------------- Create a Roadmap when user enter a normal
+  // knowledge ----------------------------
   vector<string> get_RoadMap_Knowledge(string knowledge) {
     // Declaration
     knowledge = slugify(knowledge);
@@ -125,7 +130,8 @@ public:
     return RoadMap;
   }
 
-  // Create a Roadmap when user enter a label
+  // --------------------- Create a Roadmap when user enter a Label (Set of
+  // Knowledge) ------------------------------
   vector<string> get_RoadMap_Label(string Label) {
     // Declaration
     map<string, bool> subgraph;
@@ -134,12 +140,13 @@ public:
     vector<string> prerequisite_list;
     vector<string> RoadMap;
     queue<string> q;
+    // Initialize maps:
     for (Node i : node_list) {
       visited[i.id] = false;
       subgraph[i.id] = false;
     }
     for (string i : Label_list) {
-      q.push(slugify(i));
+      q.push(i);
       subgraph[i] = true;
       visited[i] = true;
       inDegree[i] = 0;
@@ -155,18 +162,13 @@ public:
           continue;
         }
         visited[v] = true;
-        inDegree[u] = 0;
         q.push(v);
       }
     }
-    for (string u : prerequisite_list) {
-      for (string v : parents[u]) {
-        inDegree[u]++;
-      }
-    }
-    // Topo Sort
+    // Topo Sort (Kahn's Algorithm):
     queue<string> topo_list;
     for (string u : prerequisite_list) {
+      inDegree[u] = parents[u].size();
       if (!inDegree[u])
         topo_list.push(u);
     }

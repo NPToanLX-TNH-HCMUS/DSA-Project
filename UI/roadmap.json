@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "competitiveprogramming",
         "term": "Competitive Programming",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
@@ -570,7 +569,7 @@
         "related_terms": [],
         "classify": "graphtheory",
         "link": [
-            "graph",
+            "graphtheory",
             "dsu"
         ]
     },

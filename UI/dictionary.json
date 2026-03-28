@@ -3104,7 +3104,7 @@
     },
     {
         "id": "competitveprogramming",
-        "term": "Competitve Programming ?",
+        "term": "Competitve Programming",
         "definition": "Competitive programming is a mental sport where participants solve complex algorithmic and mathematical problems within a strict time limit. Think of it as eSports for mathematicians and software engineers.",
         "definition_vi": "Lập trình thi đấu là một môn thể thao trí tuệ, nơi người tham gia giải quyết các vấn đề thuật toán và toán học phức tạp trong một thời gian giới hạn nghiêm ngặt. Có thể coi đó như là thể thao điện tử dành cho các nhà toán học và kỹ sư phần mềm.",
         "in_roadmap": true,

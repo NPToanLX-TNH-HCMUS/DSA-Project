@@ -155,8 +155,8 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 ---
 
-## 🤖 AI Usage
-
+## 🤖 AI Usage Declaration
+> During the completion of this project, our team sought assistance from Gemini 3.1 Pro and GPT-5.3 to develop the frontend *(HTML,CSS,JS)* and backend *(NodeJS, ExpressJS)* code of the website, thereby enabling us to deliver a functional demo to prove the applicability of our project.
 --- 
 
 *Created with ❤️ by **Team 7 with help from ChatGPT**, March, 2026*.

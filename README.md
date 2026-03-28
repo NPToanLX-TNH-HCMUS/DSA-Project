@@ -1,4 +1,4 @@
-# 📚 DicForDevs (Team 7 - 25C09)
+# 📚 DicForDev (Team 7 - 25C09)
 ### *Advanced Technical Dictionary & Roadmap Visualizer for IT Students*
 
 [![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)](https://isocpp.org/) [![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)](https://nodejs.org/) [![Status](https://img.shields.io/badge/Status-In--Development-orange)]()

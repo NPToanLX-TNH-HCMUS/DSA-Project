@@ -23,14 +23,7 @@ int main(int argc, char *argv[]) {
     json dt_Search;
     SEARCH_DICTIONARY search_dictionary;
     string path_to_json = "../UI/dictionary.json";
-
-    try {
-      search_dictionary.load_dictionary(dt_Search, path_to_json);
-    } catch (...) {
-      cout << "ERROR: Could not load dictionary file";
-      return 1;
-    }
-
+    search_dictionary.load_dictionary(dt_Search, path_to_json);
     search_dictionary.Search(query);
     return 0;
   }

@@ -93,7 +93,7 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 ## 🚀 Getting Started
 
-> Main program is ``C++/main.cpp`` file, which is manually completed by our team members, and be used for GUI (Website) backend. Follow below instructions to run our core C++ file 
+> The main program of this project is ``C++/main.cpp`` file, which is manually completed by our team members, and be used for GUI (Website) backend. Follow below instructions to run our core C++ file. 
 
 ### Prerequisites
 
@@ -159,5 +159,5 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 
 --- 
 
-*Created with ❤️ by **Team 7 with so much help from ChatGPT**, March, 2026*.
+*Created with ❤️ by **Team 7 with help from ChatGPT**, March, 2026*.
 

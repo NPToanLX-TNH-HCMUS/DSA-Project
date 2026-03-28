@@ -17,7 +17,7 @@ const string RED = "\033[1;31m";
 const string PINK = "\033[1;35m";
 const string YELLOW = "\033[0;33m";
 const string BLUE = "\033[0;34m";
-const string MAGENTA = "\033[0;35m"; 
+const string MAGENTA = "\033[0;35m";
 const string CYAN = "\033[0;36m";
 // COLORS
 
@@ -75,29 +75,45 @@ int main() {
       if (result.size() == 0) {
         cout << RED << "NO WORD FOUND" << RESET << "\n";
       } else if (result.size()) {
-        cout << YELLOW
-             << "----------------------- DEFINITION_ENG ---------------------"
-             << RESET << "\n";
-        cout << CYAN << result[0].definition << RESET << "\n";
-        cout << YELLOW
-             << "------------------------------------------------------------"
-             << RESET << "\n";
-        cout << YELLOW
-             << "----------------------- DEFINITION_VIE ---------------------"
-             << RESET << "\n";
-        cout << CYAN << result[0].definition_vi << RESET << "\n";
-        cout << YELLOW
-             << "------------------------------------------------------------"
-             << RESET << "\n";
-        cout << "============================================================="
-             << "\n";
+        if (slugify(result[0].term) == prefix) {
+          cout << YELLOW
+               << "----------------------- DEFINITION_ENG ---------------------"
+               << RESET << "\n";
+          cout << CYAN << result[0].definition << RESET << "\n";
+          cout << YELLOW
+               << "------------------------------------------------------------"
+               << RESET << "\n";
+          cout << YELLOW
+               << "----------------------- DEFINITION_VIE ---------------------"
+               << RESET << "\n";
+          cout << CYAN << result[0].definition_vi << RESET << "\n";
+          cout << YELLOW
+               << "------------------------------------------------------------"
+               << RESET << "\n";
+          cout << YELLOW
+               << "------------------------- OTHER_WORDS ----------------------"
+               << RESET << "\n";
+          for (int i = 1; i < result.size(); i++) {
+            cout << CYAN << result[i].term << RESET << "\n";
+          }
+          cout << "=========================================================="
+                  "==="
+               << "\n";
+        } else {
+          cout << YELLOW
+               << "----------------------- SUGGESTIONS ---------------------"
+               << RESET << "\n";
+          for (int i = 0; i < result.size(); i++) {
+            cout << CYAN << result[i].term << RESET << "\n";
+          }
+        }
       }
     }
   } else {
     while (true) {
       ROADMAP_CREATOR rc;
       string knowledge;
-      cout << GREEN << "What do you want to learn ?" << RESET << "\n"; 
+      cout << GREEN << "What do you want to learn ?" << RESET << "\n";
       getline(cin, knowledge);
       if (lower(knowledge) == "end") {
         cout << PINK
@@ -114,9 +130,9 @@ int main() {
       if (rc.check_label) {
         vector<string> roadmap = rc.get_RoadMap_Label(knowledge);
         for (auto node : roadmap) {
-          if (search_dictionary.word[node].classify == "Label") {
+          if (search_dictionary.dict[node].classify == "Label") {
             cout << BLUE << node << RESET;
-          } else if (search_dictionary.word[node].classify == "header") {
+          } else if (search_dictionary.dict[node].classify == "header") {
             cout << MAGENTA << node << RESET;
           } else {
             cout << node;
@@ -129,9 +145,9 @@ int main() {
       } else {
         vector<string> roadmap = rc.get_RoadMap_Knowledge(knowledge);
         for (auto node : roadmap) {
-          if (search_dictionary.word[node].classify == "Label") {
+          if (search_dictionary.dict[node].classify == "Label") {
             cout << BLUE << node << RESET;
-          } else if (search_dictionary.word[node].classify == "header") {
+          } else if (search_dictionary.dict[node].classify == "header") {
             cout << MAGENTA << node << RESET;
           } else {
             cout << node;

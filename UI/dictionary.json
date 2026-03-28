@@ -2051,14 +2051,6 @@
         "definition_vi": "một không gian tên tổ chức một tập hợp các lớp và giao diện có liên quan."
     },
     {
-        "id": "packagemanager",
-        "term": "package manager",
-        "definition": "a programming language's tool to create project environments and easily import external dependencies.",
-        "in_roadmap": false,
-        "related_terms": [],
-        "definition_vi": "công cụ của ngôn ngữ lập trình để tạo môi trường dự án và dễ dàng nhập các phần phụ thuộc bên ngoài."
-    },
-    {
         "id": "packagemanagers",
         "term": "Package Managers",
         "definition": "Tools that automate installing, updating, and managing external libraries or dependencies in a project.",

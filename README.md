@@ -54,7 +54,7 @@ We accumulated technical vocabularies industry-standard references:
 
 ### 2. Data Crawling:
 We developed custom ``.py`` files located in the `Dataset_Pythonfiles` folder to automate data crawling from sources
-* **Libraries:** `Requests` for HTTP handling and `BeautifulSoup` for HTML DOM objects parsing.
+* **Libraries:** `Requests` for HTTP handling and `BeautifulSoup` for DOM objects parsing.
 * **Process:** The scripts navigate through technical indices, extract definitions, and filter out irrelevant metadata.
 
 ### 3. Process:
@@ -73,19 +73,22 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
 ### 1. Trie (Prefix Tree) — The Search Engine:
 * **Purpose:** To power the **Instant Search** and **Smart Autocomplete** features.
 * **Implementation Details:** 
-    * Each node represents a character, allowing the system to traverse the tree as the user types.
-    * **Asymptotic Complexity:** $O(L)$ for `Search`, `Insert`, and `Delete` operations (where $L$ is the length of the query string), making it independent of the dataset size ($N$).
-* **Benefits:** By using a Trie, we achieve **zero-latency** suggestions, outperforming standard Hash Tables which would require $O(N)$ for prefix matching.
+    * Each node represents a character, allowing the system to traverse the Trie tree as the user types so that instantly suggest terms with the similar prefix.
+    * **Complexity:** For `Search`, `Insert` operations: (Let $L$ is the length of the query string, $N$ is the size of the dataset, $K_{input}$ is the number of nodes in all of subtrees with root = *(the last letter of the input)'s child)*
+      - *Average Case:* $O(L + K_{input})$  
+      - *Worst case:* $O(L + N)$ $\rightarrow$ When user's input is really short and dataset have a lot of words sharing similar prefixes. However, this case is really uncommon, and for our dataset, it actually don't happen.
+      - *Best case:* $O(L)$ $\rightarrow$  $K_{input}$ decreases rapidly as ``input.size()`` grows, so in real case (when user actually types $\approx$ 50% of the word they want to search), $O(L + K_{input})$ reduces to $O(L)$
+* **Benefits:** By using a Trie, we achieve precise and **zero-latency** prefix-based suggestions for users's input, greatly improving their experience compared to Hash map, which take $O(N*L)$ times.
 
 ### 2. Directed Graphs — Roadmap Arrangement and Visualization:
 * **Purpose:** To model the hierarchical dependencies of IT knowledge and the **Competitive Programming Journey**.
 * **Key Algorithms:**
-    * **BFS/DFS Traversal:** Used to dynamically render learning paths and identify related topics.
+    * **BFS Traversal:** Used to dynamically render learning paths and identify related topics.
     * **Topological Sorting:** To provide a strictly ordered learning sequence for complex curriculum structures.
 
 ### 3. I/O Files Handle:
-* **Data Parsing:** High-speed loading mechanisms to parse `.json` and `.txt` datasets into memory-resident structures at runtime by using the ``nlohmann/json`` library.
-* **C++ Integration:** Utilizing efficient memory allocation in C++ to handle 600+ nodes and their associated definitions.
+* **Data Parsing:** High-speed loading mechanisms to parse `.json` dataset into memory-resident structures at runtime by using the ``nlohmann/json`` library.
+* **C++ Integration:** Utilizing efficient memory allocation in C++ to handle 600+ terms and their associated definitions.
 
 ---
 

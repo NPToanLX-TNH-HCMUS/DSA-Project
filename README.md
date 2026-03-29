@@ -36,14 +36,14 @@
 
 * **Core Logic:** `C++` (Algorithm implementation and high-performance processing).
 * **Backend:** `Node.js` & `Express.js` (Bridging the C++ engine with the web interface).
-* **Data Crawling:** `Python` (`BeautifulSoup`, `Requests`) for automated data accumulating.
+* **Data Crawling:** `Python` (`BeautifulSoup`, `Requests`) for automated data collection.
 * **Deployment:** [Render](https://render.com/) Cloud Platform.
 
 ---
 
 ## 📊 Complete Dataset and Data Crawling Methodology 
 
-We ensure a high-quality, comprehensive dataset to meet the specific needs of IT students. The data crawling proccess involves automated collection, cleaning, and restructured.
+We ensure a high-quality, comprehensive dataset to meet the specific needs of IT students. The data crawling process involves automated collection, cleaning, and restructured.
 
 ### 1. Data Sources:
 We accumulated technical vocabularies industry-standard references:
@@ -84,7 +84,7 @@ At the heart of **DictForDevs** is the manual implementation of specialized data
     * **Topological Sorting:** To provide a strictly ordered learning sequence for complex curriculum structures.
 
 ### 3. I/O Files Handle:
-* **Data Parsing:** High-speed loading mechanisms to parse `.json` and `.txt` datasets into memory-resident structures at runtime by using ``json.hpp`` library.
+* **Data Parsing:** High-speed loading mechanisms to parse `.json` and `.txt` datasets into memory-resident structures at runtime by using the ``nlohmann/json`` library.
 * **C++ Integration:** Utilizing efficient memory allocation in C++ to handle 600+ nodes and their associated definitions.
 
 ---
